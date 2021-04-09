@@ -1,17 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T16:24:07.352Z" agent="5.0 (Macintosh)" etag="hMStG8-prRMRetk3SuhK" version="14.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T16:27:52.786Z" agent="5.0 (Macintosh)" etag="Q2u73Q1FtrBs3CQ7E8m8" version="14.5.0" type="github">
   <diagram id="Q6E1DNBksB6A1EtsWQso" name="Page-1">
-    <mxGraphModel dx="1495" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="997" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T1SzNSe_s7wtdCuMpO71-15" value="2. Webhook call" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.1;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.06" relative="1" as="geometry">
+            <mxPoint x="219.5" y="321" as="sourcePoint" />
+            <mxPoint x="354" y="321" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4_w-XYMNNoLixTnXmscD-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="200" width="20" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="4_w-XYMNNoLixTnXmscD-6" value="Lifeline2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="610" y="140" width="100" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="4_w-XYMNNoLixTnXmscD-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" parent="4_w-XYMNNoLixTnXmscD-6" vertex="1">
-          <mxGeometry x="45" y="90" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4_w-XYMNNoLixTnXmscD-8" value="Jira" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="170" y="200" width="100" height="300" as="geometry" />
@@ -24,11 +25,23 @@
             <mxPoint x="310" y="646" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T1SzNSe_s7wtdCuMpO71-12" value="1. Create/Update Something" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+        <mxCell id="T1SzNSe_s7wtdCuMpO71-12" value="1. Create/Update Something" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4_w-XYMNNoLixTnXmscD-9">
           <mxGeometry x="-0.06" relative="1" as="geometry">
-            <mxPoint x="69.5" y="289.5" as="sourcePoint" />
-            <mxPoint x="219.5" y="289.5" as="targetPoint" />
+            <mxPoint x="69.5" y="294.5" as="sourcePoint" />
+            <mxPoint x="210" y="295" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T1SzNSe_s7wtdCuMpO71-13" value="SNOW API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="T1SzNSe_s7wtdCuMpO71-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="T1SzNSe_s7wtdCuMpO71-13">
+          <mxGeometry x="45" y="90" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="T1SzNSe_s7wtdCuMpO71-16" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="4_w-XYMNNoLixTnXmscD-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="390" as="targetPoint" />
+            <mxPoint x="359.5" y="390" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
