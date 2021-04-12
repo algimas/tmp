@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T10:32:19.566Z" agent="5.0 (Macintosh)" etag="EUqzjReQtZhnPgrTpLyi" version="14.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-12T12:00:04.702Z" agent="5.0 (Macintosh)" etag="-lqIPLyAW692_P1-hjUH" version="14.5.0" type="github" pages="3">
   <diagram id="Q6E1DNBksB6A1EtsWQso" name="Jira2Snow">
     <mxGraphModel dx="1125" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="T1SzNSe_s7wtdCuMpO71-15" value="2. Webhook call" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.2;entryY=0.31;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="T1SzNSe_s7wtdCuMpO71-14">
+        <mxCell id="T1SzNSe_s7wtdCuMpO71-15" value="2. Webhook call" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.2;entryY=0.31;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF3333;" edge="1" parent="1" target="T1SzNSe_s7wtdCuMpO71-14">
           <mxGeometry x="-0.06" relative="1" as="geometry">
             <mxPoint x="218.5" y="321" as="sourcePoint" />
             <mxPoint x="353" y="321" as="targetPoint" />
@@ -97,7 +97,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Snow2Jira" id="6pAvTdqdDWFQQq3zHLvm">
-    <mxGraphModel dx="1125" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1125" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0JPBU8Lxj0JWU3b-ZufK-0" />
         <mxCell id="0JPBU8Lxj0JWU3b-ZufK-1" parent="0JPBU8Lxj0JWU3b-ZufK-0" />
@@ -191,6 +191,86 @@
             <mxPoint x="569.5" y="416.67" as="sourcePoint" />
             <mxPoint x="734" y="416" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Simple" id="N0Z4IKE9n8rX6mLrvlkg">
+    <mxGraphModel dx="1125" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="-hq-wn5TjDZyN-FF41M5-0" />
+        <mxCell id="-hq-wn5TjDZyN-FF41M5-1" parent="-hq-wn5TjDZyN-FF41M5-0" />
+        <mxCell id="-hq-wn5TjDZyN-FF41M5-11" value="Flow Designer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#81B5A1;" vertex="1" parent="-hq-wn5TjDZyN-FF41M5-1">
+          <mxGeometry x="60" y="50" width="170" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="-hq-wn5TjDZyN-FF41M5-12" value="Flow Name" style="html=1;points=[];perimeter=orthogonalPerimeter;horizontal=1;verticalAlign=top;fontSize=10;" vertex="1" parent="-hq-wn5TjDZyN-FF41M5-11">
+          <mxGeometry y="80" width="170" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="-hq-wn5TjDZyN-FF41M5-13" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=8;" vertex="1" parent="-hq-wn5TjDZyN-FF41M5-11">
+          <mxGeometry x="70" y="100" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-hq-wn5TjDZyN-FF41M5-14" value="Jira Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontColor=#000000;strokeColor=#ff0000;fontSize=8;fillColor=#66B2FF;" vertex="1" parent="-hq-wn5TjDZyN-FF41M5-11">
+          <mxGeometry x="50" y="197" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-hq-wn5TjDZyN-FF41M5-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="-hq-wn5TjDZyN-FF41M5-11" source="-hq-wn5TjDZyN-FF41M5-18" target="-hq-wn5TjDZyN-FF41M5-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="83" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-hq-wn5TjDZyN-FF41M5-16" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=8;" vertex="1" parent="-hq-wn5TjDZyN-FF41M5-11">
+          <mxGeometry x="70" y="257" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-hq-wn5TjDZyN-FF41M5-17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-hq-wn5TjDZyN-FF41M5-11" source="-hq-wn5TjDZyN-FF41M5-14" target="-hq-wn5TjDZyN-FF41M5-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-87" y="447" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-hq-wn5TjDZyN-FF41M5-18" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;strokeColor=#ff0000;fontSize=8;fillColor=#81B5A1;" vertex="1" parent="-hq-wn5TjDZyN-FF41M5-11">
+          <mxGeometry x="57.5" y="150" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-hq-wn5TjDZyN-FF41M5-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=8;" edge="1" parent="-hq-wn5TjDZyN-FF41M5-11" source="-hq-wn5TjDZyN-FF41M5-13" target="-hq-wn5TjDZyN-FF41M5-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="542" y="350" as="targetPoint" />
+            <mxPoint x="542" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-hq-wn5TjDZyN-FF41M5-21" value="Jira API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#66B2FF;" vertex="1" parent="-hq-wn5TjDZyN-FF41M5-1">
+          <mxGeometry x="293" y="50" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="-hq-wn5TjDZyN-FF41M5-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="-hq-wn5TjDZyN-FF41M5-21">
+          <mxGeometry x="45" y="90" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="-hq-wn5TjDZyN-FF41M5-23" value="&lt;div&gt;API Call&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="-hq-wn5TjDZyN-FF41M5-1" source="-hq-wn5TjDZyN-FF41M5-14">
+          <mxGeometry x="-0.06" relative="1" as="geometry">
+            <mxPoint x="172.5" y="266.67" as="sourcePoint" />
+            <mxPoint x="337" y="266" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H9mNvklWcaO9ZWxhxDM9-0" value="Webhook call" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.2;entryY=0.31;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF3333;" edge="1" parent="-hq-wn5TjDZyN-FF41M5-1" target="H9mNvklWcaO9ZWxhxDM9-4">
+          <mxGeometry x="-0.06" relative="1" as="geometry">
+            <mxPoint x="649.5" y="171" as="sourcePoint" />
+            <mxPoint x="784" y="171" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H9mNvklWcaO9ZWxhxDM9-1" value="Jira" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#66B2FF;" vertex="1" parent="-hq-wn5TjDZyN-FF41M5-1">
+          <mxGeometry x="600" y="50" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="H9mNvklWcaO9ZWxhxDM9-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H9mNvklWcaO9ZWxhxDM9-1">
+          <mxGeometry x="45" y="90" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H9mNvklWcaO9ZWxhxDM9-3" value="SNOW API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#81b5a1;" vertex="1" parent="-hq-wn5TjDZyN-FF41M5-1">
+          <mxGeometry x="728" y="50" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="H9mNvklWcaO9ZWxhxDM9-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H9mNvklWcaO9ZWxhxDM9-3">
+          <mxGeometry x="45" y="90" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H9mNvklWcaO9ZWxhxDM9-5" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.167;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="-hq-wn5TjDZyN-FF41M5-1" source="H9mNvklWcaO9ZWxhxDM9-4" target="H9mNvklWcaO9ZWxhxDM9-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="240" as="targetPoint" />
+            <mxPoint x="789.5" y="240" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
