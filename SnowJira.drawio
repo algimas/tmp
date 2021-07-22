@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T09:04:26.911Z" agent="5.0 (Macintosh)" etag="iT4wpEQMfJJr9Kv4R5U6" version="14.7.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-07-22T09:08:06.968Z" agent="5.0 (Macintosh)" etag="SLQy7nB_3dGZhkV4L7L6" version="14.7.6" type="github" pages="5">
   <diagram id="Q6E1DNBksB6A1EtsWQso" name="Jira2Snow">
     <mxGraphModel dx="1341" dy="933" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -378,14 +378,14 @@
       <root>
         <mxCell id="1PPakA8v67BioQWMnlsf-0" />
         <mxCell id="1PPakA8v67BioQWMnlsf-1" parent="1PPakA8v67BioQWMnlsf-0" />
-        <mxCell id="1PPakA8v67BioQWMnlsf-4" value="Jira" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;verticalAlign=top;" vertex="1" parent="1PPakA8v67BioQWMnlsf-1">
+        <mxCell id="1PPakA8v67BioQWMnlsf-4" value="Jira" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;verticalAlign=top;strokeColor=#d79b00;" vertex="1" parent="1PPakA8v67BioQWMnlsf-1">
           <mxGeometry x="29" y="61" width="381" height="401" as="geometry" />
         </mxCell>
         <mxCell id="1PPakA8v67BioQWMnlsf-3" value="&lt;div&gt;Jira Event &lt;br&gt;&lt;/div&gt;&lt;div&gt;(On selected Projects)&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=event;archiType=rounded" vertex="1" parent="1PPakA8v67BioQWMnlsf-1">
-          <mxGeometry x="82" y="101.25" width="110" height="75" as="geometry" />
+          <mxGeometry x="66" y="110" width="110" height="56" as="geometry" />
         </mxCell>
         <mxCell id="1PPakA8v67BioQWMnlsf-5" value="Notify (Jira Webhook)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;verticalAlign=middle;" vertex="1" parent="1PPakA8v67BioQWMnlsf-1">
-          <mxGeometry x="222" y="114.5" width="150" height="48.5" as="geometry" />
+          <mxGeometry x="227" y="100" width="150" height="77" as="geometry" />
         </mxCell>
         <mxCell id="1PPakA8v67BioQWMnlsf-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1PPakA8v67BioQWMnlsf-1" source="1PPakA8v67BioQWMnlsf-3" target="1PPakA8v67BioQWMnlsf-5">
           <mxGeometry relative="1" as="geometry" />
@@ -419,7 +419,7 @@
         <mxCell id="1PPakA8v67BioQWMnlsf-20" value="Business Rule (Post Process Jira Notification)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#e1d5e7;shape=mxgraph.archimate3.application;appType=comp;archiType=square;verticalAlign=middle;strokeColor=#9673a6;" vertex="1" parent="1PPakA8v67BioQWMnlsf-1">
           <mxGeometry x="710.5" y="131.75" width="200" height="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="1PPakA8v67BioQWMnlsf-31" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;" edge="1" parent="1PPakA8v67BioQWMnlsf-1" source="1PPakA8v67BioQWMnlsf-22" target="1PPakA8v67BioQWMnlsf-28">
+        <mxCell id="1PPakA8v67BioQWMnlsf-31" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1PPakA8v67BioQWMnlsf-1" source="C_6WqelyCCCqPYrbiWNe-0" target="1PPakA8v67BioQWMnlsf-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1PPakA8v67BioQWMnlsf-22" value="Change Request" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;verticalAlign=middle;" vertex="1" parent="1PPakA8v67BioQWMnlsf-1">
@@ -432,7 +432,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1PPakA8v67BioQWMnlsf-28" value="Approve Jira Ticket" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#e1d5e7;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;verticalAlign=middle;strokeColor=#9673a6;" vertex="1" parent="1PPakA8v67BioQWMnlsf-1">
-          <mxGeometry x="960" y="317" width="150" height="75" as="geometry" />
+          <mxGeometry x="960" y="311" width="150" height="75" as="geometry" />
         </mxCell>
         <mxCell id="1PPakA8v67BioQWMnlsf-34" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;" edge="1" parent="1PPakA8v67BioQWMnlsf-1" source="1PPakA8v67BioQWMnlsf-29" target="1PPakA8v67BioQWMnlsf-33">
           <mxGeometry relative="1" as="geometry" />
@@ -441,7 +441,7 @@
           <mxGeometry x="227" y="314" width="150" height="75" as="geometry" />
         </mxCell>
         <mxCell id="1PPakA8v67BioQWMnlsf-30" value="Jira Ticket" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;verticalAlign=middle;" vertex="1" parent="1PPakA8v67BioQWMnlsf-1">
-          <mxGeometry x="40" y="235.75" width="150" height="50" as="geometry" />
+          <mxGeometry x="40" y="218" width="150" height="67.75" as="geometry" />
         </mxCell>
         <mxCell id="1PPakA8v67BioQWMnlsf-35" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;" edge="1" parent="1PPakA8v67BioQWMnlsf-1" source="1PPakA8v67BioQWMnlsf-33" target="1PPakA8v67BioQWMnlsf-30">
           <mxGeometry relative="1" as="geometry" />
@@ -454,6 +454,9 @@
         </mxCell>
         <mxCell id="1PPakA8v67BioQWMnlsf-36" value="SNOW API" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=interface;archiType=square;verticalAlign=middle;" vertex="1" parent="1PPakA8v67BioQWMnlsf-1">
           <mxGeometry x="480.5" y="112" width="151" height="53.25" as="geometry" />
+        </mxCell>
+        <mxCell id="C_6WqelyCCCqPYrbiWNe-0" value="Change has been approved" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=event;archiType=rounded;verticalAlign=middle;" vertex="1" parent="1PPakA8v67BioQWMnlsf-1">
+          <mxGeometry x="988" y="226.25" width="94" height="59.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
