@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T12:44:20.779Z" agent="5.0 (Macintosh)" etag="b-76twxwYKdaKSa5TCx2" version="15.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-25T09:50:33.268Z" agent="5.0 (Macintosh)" etag="IX6x_pHjsK99T6B9SKhn" version="15.7.3" type="github" pages="2">
   <diagram name="REF" id="vbu6TH7m2WkHi3ztyL9r">
-    <mxGraphModel dx="1351" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1884" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="MOJMczlmOLI-DbLUkqZC-0" />
         <mxCell id="MOJMczlmOLI-DbLUkqZC-1" parent="MOJMczlmOLI-DbLUkqZC-0" />
         <mxCell id="MOJMczlmOLI-DbLUkqZC-2" value="Change Task (change_task)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#A9C4EB;" parent="MOJMczlmOLI-DbLUkqZC-1" vertex="1">
-          <mxGeometry x="438" y="297" width="381.75" height="360" as="geometry">
+          <mxGeometry x="438" y="297" width="381.75" height="390" as="geometry">
             <mxRectangle x="140" y="410" width="190" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -121,7 +121,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MOJMczlmOLI-DbLUkqZC-41" value="u_cd_number (read only from SolMan - reuse/new?:correlation)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#D5E8D4;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="MOJMczlmOLI-DbLUkqZC-39" vertex="1">
+        <mxCell id="MOJMczlmOLI-DbLUkqZC-41" value="u_cd_number (read only from SolMan)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#D5E8D4;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="MOJMczlmOLI-DbLUkqZC-39" vertex="1">
           <mxGeometry x="30" width="351.75" height="30" as="geometry">
             <mxRectangle width="351.75" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -148,6 +148,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MOJMczlmOLI-DbLUkqZC-35" value="*u_it_service - REF" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#D5E8D4;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="MOJMczlmOLI-DbLUkqZC-33" vertex="1">
+          <mxGeometry x="30" width="351.75" height="30" as="geometry">
+            <mxRectangle width="351.75" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFlXtugdBAEgUxgyjpbF-0" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="MOJMczlmOLI-DbLUkqZC-2">
+          <mxGeometry y="360" width="381.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lFlXtugdBAEgUxgyjpbF-1" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="lFlXtugdBAEgUxgyjpbF-0">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFlXtugdBAEgUxgyjpbF-2" value="u_cd_transport_request - String" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#D5E8D4;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="lFlXtugdBAEgUxgyjpbF-0">
           <mxGeometry x="30" width="351.75" height="30" as="geometry">
             <mxRectangle width="351.75" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -313,7 +326,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TwjGwYmGREkL8a1qZLIq" name="Intg">
-    <mxGraphModel dx="1315" dy="777" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1256" dy="777" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="81XK1yoCQP8enkCrRyyv-0" />
         <mxCell id="81XK1yoCQP8enkCrRyyv-1" parent="81XK1yoCQP8enkCrRyyv-0" />
