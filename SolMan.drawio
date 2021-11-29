@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T10:55:53.695Z" agent="5.0 (Macintosh)" etag="X04DOrQVeq8DW_Uqopg3" version="15.8.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-29T13:58:00.628Z" agent="5.0 (Macintosh)" etag="j7D8YBp1np70fNT5CX6-" version="15.8.6" type="github" pages="6">
   <diagram name="REF" id="vbu6TH7m2WkHi3ztyL9r">
-    <mxGraphModel dx="2017" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2255" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="MOJMczlmOLI-DbLUkqZC-0" />
         <mxCell id="MOJMczlmOLI-DbLUkqZC-1" parent="MOJMczlmOLI-DbLUkqZC-0" />
@@ -591,7 +591,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Es9zLFIct9h4q5suIyXP" name="direction">
-    <mxGraphModel dx="2017" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2255" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="hcAIFXGyqqj6c06YMCRU-0" />
         <mxCell id="hcAIFXGyqqj6c06YMCRU-1" parent="hcAIFXGyqqj6c06YMCRU-0" />
@@ -624,6 +624,75 @@
         </mxCell>
         <mxCell id="C5LXjXIqDCgt_mLczdVw-1" value="...&#xa;...&#xa;Short description&#xa;Description&#xa;TR number&#xa;CD Status&#xa;...&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="C5LXjXIqDCgt_mLczdVw-0">
           <mxGeometry y="30" width="160" height="196" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="approve" id="n5rB9NL5ckhb5u0accLg">
+    <mxGraphModel dx="2255" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="BhiyB_4ENsqk3eglsOhP-0" />
+        <mxCell id="BhiyB_4ENsqk3eglsOhP-1" parent="BhiyB_4ENsqk3eglsOhP-0" />
+        <mxCell id="BhiyB_4ENsqk3eglsOhP-2" value="ServiceNow" style="swimlane;" vertex="1" parent="BhiyB_4ENsqk3eglsOhP-1">
+          <mxGeometry x="148" y="138" width="470" height="441" as="geometry" />
+        </mxCell>
+        <mxCell id="BhiyB_4ENsqk3eglsOhP-3" value="Parent" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="BhiyB_4ENsqk3eglsOhP-2">
+          <mxGeometry x="151" y="48" width="160" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="BhiyB_4ENsqk3eglsOhP-4" value="...&#xa;State: Authorize&#xa;...&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BhiyB_4ENsqk3eglsOhP-3">
+          <mxGeometry y="30" width="160" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="BhiyB_4ENsqk3eglsOhP-5" value="Child" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="BhiyB_4ENsqk3eglsOhP-2">
+          <mxGeometry x="34" y="236" width="182" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="BhiyB_4ENsqk3eglsOhP-6" value="...&#xa;CD Status: Requested for CAB&#xa;...&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BhiyB_4ENsqk3eglsOhP-5">
+          <mxGeometry y="30" width="182" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="BhiyB_4ENsqk3eglsOhP-7" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="BhiyB_4ENsqk3eglsOhP-2" source="BhiyB_4ENsqk3eglsOhP-5" target="BhiyB_4ENsqk3eglsOhP-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="286" y="371" as="sourcePoint" />
+            <mxPoint x="199.33333333333348" y="281" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BhiyB_4ENsqk3eglsOhP-13" value="Child" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="BhiyB_4ENsqk3eglsOhP-2">
+          <mxGeometry x="249" y="236" width="182" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="BhiyB_4ENsqk3eglsOhP-14" value="...&#xa;CD Status: Requested for CAB&#xa;...&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BhiyB_4ENsqk3eglsOhP-13">
+          <mxGeometry y="30" width="182" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="BhiyB_4ENsqk3eglsOhP-15" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="BhiyB_4ENsqk3eglsOhP-2" source="BhiyB_4ENsqk3eglsOhP-13" target="BhiyB_4ENsqk3eglsOhP-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="246" as="sourcePoint" />
+            <mxPoint x="241" y="187" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BhiyB_4ENsqk3eglsOhP-8" value="SolMan" style="swimlane;" vertex="1" parent="BhiyB_4ENsqk3eglsOhP-1">
+          <mxGeometry x="713" y="138" width="225" height="441" as="geometry">
+            <mxRectangle x="713" y="138" width="70" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BhiyB_4ENsqk3eglsOhP-9" value="Change Document" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="BhiyB_4ENsqk3eglsOhP-8">
+          <mxGeometry x="23" y="54" width="174" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="BhiyB_4ENsqk3eglsOhP-10" value="...&#xa;...&#xa;CD Status: Requested for CAB&#xa;...&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BhiyB_4ENsqk3eglsOhP-9">
+          <mxGeometry y="30" width="174" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="BhiyB_4ENsqk3eglsOhP-11" value="Change Document" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="BhiyB_4ENsqk3eglsOhP-8">
+          <mxGeometry x="25.5" y="230" width="174" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="BhiyB_4ENsqk3eglsOhP-12" value="...&#xa;...&#xa;CD Status: Requested for CAB&#xa;...&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BhiyB_4ENsqk3eglsOhP-11">
+          <mxGeometry y="30" width="174" height="81" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="84sPZsBCN0UUCTaLXuf7" name="Page-5">
+    <mxGraphModel dx="2255" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="fcdSXZhxXeS-ZbBCDY63-0" />
+        <mxCell id="fcdSXZhxXeS-ZbBCDY63-1" parent="fcdSXZhxXeS-ZbBCDY63-0" />
+        <mxCell id="fcdSXZhxXeS-ZbBCDY63-2" value="&lt;div&gt;Hierarhy-hard to control&lt;br&gt;&lt;/div&gt;&lt;div&gt;Reports&lt;/div&gt;&lt;div&gt;Same value in many places&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fcdSXZhxXeS-ZbBCDY63-1">
+          <mxGeometry x="161" y="108" width="157" height="46" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
