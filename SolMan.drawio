@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-05T13:44:45.153Z" agent="5.0 (Macintosh)" etag="Ja1wLAyyuGFJoMTLH6JS" version="15.8.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-12-05T13:51:28.850Z" agent="5.0 (Macintosh)" etag="O6sScy8M74Mp-Ec_M5Gm" version="15.8.6" type="github" pages="11">
   <diagram id="TwjGwYmGREkL8a1qZLIq" name="Snow2SolMan">
     <mxGraphModel dx="1534" dy="933" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -264,6 +264,62 @@
         </mxCell>
         <mxCell id="4qdwmX86_M7CGa4xZyRM-10" value="SolMan - DB" style="swimlane;" vertex="1" parent="4qdwmX86_M7CGa4xZyRM-1">
           <mxGeometry x="756" y="126" width="200" height="458" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Attributes3" id="bcINoRVl4e5D0JjF28d6">
+    <mxGraphModel dx="1917" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="QKH5KoQbEXHJ9Njh1TEH-0" />
+        <mxCell id="QKH5KoQbEXHJ9Njh1TEH-1" parent="QKH5KoQbEXHJ9Njh1TEH-0" />
+        <mxCell id="QKH5KoQbEXHJ9Njh1TEH-4" value="Child / Detail - 2" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="QKH5KoQbEXHJ9Njh1TEH-1">
+          <mxGeometry x="392" y="365" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QKH5KoQbEXHJ9Njh1TEH-5" value="Change (sub) Type&#xa;Application&#xa;Scope&#xa;IT Service&#xa;Short description&#xa;Description&#xa;CD TR number&#xa;CD Status" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="QKH5KoQbEXHJ9Njh1TEH-4">
+          <mxGeometry y="30" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QKH5KoQbEXHJ9Njh1TEH-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="QKH5KoQbEXHJ9Njh1TEH-1" source="QKH5KoQbEXHJ9Njh1TEH-4" target="QKH5KoQbEXHJ9Njh1TEH-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="303" as="sourcePoint" />
+            <mxPoint x="273.3333333333335" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKH5KoQbEXHJ9Njh1TEH-9" value="ServiceNow - DB" style="swimlane;" vertex="1" parent="QKH5KoQbEXHJ9Njh1TEH-1">
+          <mxGeometry x="160" y="126" width="441" height="426" as="geometry" />
+        </mxCell>
+        <mxCell id="YBD1NZY-6qFsB9EnVgLE-0" value="Child / Detail - 1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="QKH5KoQbEXHJ9Njh1TEH-9">
+          <mxGeometry x="50" y="239" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YBD1NZY-6qFsB9EnVgLE-1" value="Change (sub) Type&#xa;Application&#xa;Scope&#xa;IT Service&#xa;Short description&#xa;Description&#xa;CD TR number&#xa;CD Status" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="YBD1NZY-6qFsB9EnVgLE-0">
+          <mxGeometry y="30" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QKH5KoQbEXHJ9Njh1TEH-2" value="Change Request" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="QKH5KoQbEXHJ9Njh1TEH-9">
+          <mxGeometry x="140.5" y="56" width="160" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="QKH5KoQbEXHJ9Njh1TEH-3" value="Change Coordinator&#xa;Demand&#xa;Incident&#xa;Priority&#xa;Release&#xa;State&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="QKH5KoQbEXHJ9Njh1TEH-2">
+          <mxGeometry y="30" width="160" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="YBD1NZY-6qFsB9EnVgLE-2" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="QKH5KoQbEXHJ9Njh1TEH-9" source="YBD1NZY-6qFsB9EnVgLE-0" target="QKH5KoQbEXHJ9Njh1TEH-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="322" y="249" as="sourcePoint" />
+            <mxPoint x="322" y="192" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKH5KoQbEXHJ9Njh1TEH-10" value="SolMan - DB" style="swimlane;" vertex="1" parent="QKH5KoQbEXHJ9Njh1TEH-1">
+          <mxGeometry x="639" y="126" width="383" height="426" as="geometry" />
+        </mxCell>
+        <mxCell id="YBD1NZY-6qFsB9EnVgLE-3" value="Change Document - A" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="QKH5KoQbEXHJ9Njh1TEH-10">
+          <mxGeometry x="24" y="89" width="160" height="253" as="geometry" />
+        </mxCell>
+        <mxCell id="YBD1NZY-6qFsB9EnVgLE-4" value="Change Coordinator&#xa;Demand&#xa;Incident&#xa;Priority&#xa;Release&#xa;State&#xa;Change (sub) Type&#xa;Application&#xa;Scope&#xa;IT Service&#xa;Short description&#xa;Description&#xa;CD TR number&#xa;CD Status" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="YBD1NZY-6qFsB9EnVgLE-3">
+          <mxGeometry y="30" width="160" height="223" as="geometry" />
+        </mxCell>
+        <mxCell id="QKH5KoQbEXHJ9Njh1TEH-7" value="Change Document - B" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="QKH5KoQbEXHJ9Njh1TEH-10">
+          <mxGeometry x="204" y="89" width="160" height="253" as="geometry" />
+        </mxCell>
+        <mxCell id="QKH5KoQbEXHJ9Njh1TEH-8" value="Change Coordinator&#xa;Demand&#xa;Incident&#xa;Priority&#xa;Release&#xa;State&#xa;Change (sub) Type&#xa;Application&#xa;Scope&#xa;IT Service&#xa;Short description&#xa;Description&#xa;CD TR number&#xa;CD Status" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="QKH5KoQbEXHJ9Njh1TEH-7">
+          <mxGeometry y="30" width="160" height="223" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
