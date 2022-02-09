@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T09:12:09.832Z" agent="5.0 (Macintosh)" etag="s2aFtO4bkiCOv6M0I6WT" version="16.5.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-09T09:22:58.782Z" agent="5.0 (Macintosh)" etag="M4kA8rYcbUECWA2-C3vZ" version="16.5.4" type="github" pages="3">
   <diagram id="TwjGwYmGREkL8a1qZLIq" name="Snow2Spryker">
     <mxGraphModel dx="1484" dy="777" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="81XK1yoCQP8enkCrRyyv-0" />
         <mxCell id="81XK1yoCQP8enkCrRyyv-1" parent="81XK1yoCQP8enkCrRyyv-0" />
         <mxCell id="MqtlnmOGcYz5GBzI8yuI-0" value="Salesforce" style="swimlane;" parent="81XK1yoCQP8enkCrRyyv-1" vertex="1">
-          <mxGeometry x="760" y="188" width="303" height="368" as="geometry" />
+          <mxGeometry x="817" y="185" width="303" height="368" as="geometry" />
         </mxCell>
         <mxCell id="81XK1yoCQP8enkCrRyyv-10" value="Spryker" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;" parent="MqtlnmOGcYz5GBzI8yuI-0" vertex="1">
           <mxGeometry x="139" y="110" width="150" height="75" as="geometry" />
@@ -94,11 +94,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jWsT2XQ5yUzfdX3nsJ4X-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#80b6a1;" parent="81XK1yoCQP8enkCrRyyv-1" source="h9Nvad7lfALyBZjj1p7K-0" target="jWsT2XQ5yUzfdX3nsJ4X-24" edge="1">
+        <mxCell id="jWsT2XQ5yUzfdX3nsJ4X-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#80b6a1;" parent="81XK1yoCQP8enkCrRyyv-1" source="h9Nvad7lfALyBZjj1p7K-0" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="685.5" y="419.5" as="sourcePoint" />
-            <mxPoint x="798" y="463" as="targetPoint" />
+            <mxPoint x="742.5" y="416.5" as="sourcePoint" />
+            <mxPoint x="840" y="450" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="P_x2Zv0Kf5enXigNYaTY-0" value="&lt;div&gt;Synchronous: &lt;br&gt;&lt;/div&gt;&lt;div&gt;CREATE / UPDATE&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="81XK1yoCQP8enkCrRyyv-1">
+          <mxGeometry x="656" y="286" width="116" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -184,14 +187,14 @@
         <mxCell id="F9APMmuDTnzzyMu7kRmX-38" value="OAuth 2.0 over TLS 1.2&lt;div&gt;JSON: Spryker2SNow&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.representation;fontSize=14;align=center;strokeColor=#d6b656;" parent="F9APMmuDTnzzyMu7kRmX-1" vertex="1">
           <mxGeometry x="477" y="434.5" width="176" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="OvcLZ8BvfG_R8_BHLmNy-0" value="UPDATE one Incident by SysId" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="F9APMmuDTnzzyMu7kRmX-1">
-          <mxGeometry x="479" y="304" width="176" height="18" as="geometry" />
+        <mxCell id="OvcLZ8BvfG_R8_BHLmNy-0" value="&lt;div&gt;Synchronous: &lt;br&gt;&lt;/div&gt;&lt;div&gt;UPDATE one Incident by SysId&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="F9APMmuDTnzzyMu7kRmX-1">
+          <mxGeometry x="469" y="300" width="176" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Spryker2EMSnow" id="edLygDLy2X1rE-dExKHX">
-    <mxGraphModel dx="1781" dy="933" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1484" dy="777" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="HBuPqRyQjGNJ8mL40j0b-0" />
         <mxCell id="HBuPqRyQjGNJ8mL40j0b-1" parent="HBuPqRyQjGNJ8mL40j0b-0" />
@@ -307,8 +310,8 @@
         <mxCell id="HBuPqRyQjGNJ8mL40j0b-18" value="OAuth 2.0 over TLS 1.2&lt;div&gt;JSON: Spryker2EMSNow&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.representation;fontSize=14;align=center;strokeColor=#d6b656;" vertex="1" parent="HBuPqRyQjGNJ8mL40j0b-1">
           <mxGeometry x="547" y="433.5" width="176" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="HBuPqRyQjGNJ8mL40j0b-19" value="CREATE Incident" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HBuPqRyQjGNJ8mL40j0b-1">
-          <mxGeometry x="574" y="322" width="103" height="18" as="geometry" />
+        <mxCell id="HBuPqRyQjGNJ8mL40j0b-19" value="&lt;div&gt;Asynchronous: &lt;br&gt;&lt;/div&gt;&lt;div&gt;CREATE Incident&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HBuPqRyQjGNJ8mL40j0b-1">
+          <mxGeometry x="567" y="309" width="103" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
