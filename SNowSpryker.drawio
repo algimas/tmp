@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T07:44:19.214Z" agent="5.0 (Macintosh)" etag="2NBW7HTjCyMdYlXfbTZl" version="16.5.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-09T07:48:59.038Z" agent="5.0 (Macintosh)" etag="zu-BLGDlj4YuhjBv_6Vd" version="16.5.4" type="github" pages="2">
   <diagram id="TwjGwYmGREkL8a1qZLIq" name="Snow2SolMan">
     <mxGraphModel dx="893" dy="626" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -85,8 +85,8 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jWsT2XQ5yUzfdX3nsJ4X-24" value="OAut2.0 over TLS 1.2&lt;br&gt;&lt;div&gt;JSON: Snow2Spryker&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.representation;fontSize=14;align=left;" parent="81XK1yoCQP8enkCrRyyv-1" vertex="1">
-          <mxGeometry x="624" y="424" width="143" height="62" as="geometry" />
+        <mxCell id="jWsT2XQ5yUzfdX3nsJ4X-24" value="OAuth 2.0 over TLS 1.2&lt;br&gt;&lt;div&gt;JSON: Snow2Spryker&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.representation;fontSize=14;align=left;" parent="81XK1yoCQP8enkCrRyyv-1" vertex="1">
+          <mxGeometry x="616" y="422" width="167" height="62" as="geometry" />
         </mxCell>
         <mxCell id="jWsT2XQ5yUzfdX3nsJ4X-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#80b6a1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="81XK1yoCQP8enkCrRyyv-1" source="81XK1yoCQP8enkCrRyyv-7" target="jWsT2XQ5yUzfdX3nsJ4X-24" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -104,11 +104,11 @@
     </mxGraphModel>
   </diagram>
   <diagram name="SolMan2Snow" id="dzXLgFu5kCELv6eDoe2H">
-    <mxGraphModel dx="888" dy="626" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="893" dy="626" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="F9APMmuDTnzzyMu7kRmX-0" />
         <mxCell id="F9APMmuDTnzzyMu7kRmX-1" parent="F9APMmuDTnzzyMu7kRmX-0" />
-        <mxCell id="qsrvD96HAVr1Hq4GsfjR-0" value="SolMan" style="swimlane;" parent="F9APMmuDTnzzyMu7kRmX-1" vertex="1">
+        <mxCell id="qsrvD96HAVr1Hq4GsfjR-0" value="Salesforce" style="swimlane;" parent="F9APMmuDTnzzyMu7kRmX-1" vertex="1">
           <mxGeometry x="677" y="199" width="393" height="368" as="geometry" />
         </mxCell>
         <mxCell id="ruSx7ASNIpoHtBBjnpcI-0" value="ServiceNow" style="swimlane;" parent="F9APMmuDTnzzyMu7kRmX-1" vertex="1">
@@ -117,17 +117,14 @@
         <mxCell id="U7hU7KtPK79yw-BazNi6-0" value="Considered alternative to &quot;Scripted REST API&quot; were:&lt;div align=&quot;left&quot;&gt;1) Destination Table REST API&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2) Import table REST API&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ruSx7ASNIpoHtBBjnpcI-0" vertex="1">
           <mxGeometry x="75" y="62" width="290" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="F9APMmuDTnzzyMu7kRmX-18" value="Data Changes" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#EAFFE9;shape=mxgraph.archimate3.event;direction=west;" parent="F9APMmuDTnzzyMu7kRmX-1" vertex="1">
+        <mxCell id="F9APMmuDTnzzyMu7kRmX-18" value="Data Changes" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.event;direction=west;strokeColor=#6c8ebf;" parent="F9APMmuDTnzzyMu7kRmX-1" vertex="1">
           <mxGeometry x="927" y="334.5" width="130" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="F9APMmuDTnzzyMu7kRmX-19" value="DB: Change Document" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#EAFFE9;shape=mxgraph.archimate3.businessObject;overflow=fill" parent="F9APMmuDTnzzyMu7kRmX-1" vertex="1">
+        <mxCell id="F9APMmuDTnzzyMu7kRmX-19" value="DB: Case" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="F9APMmuDTnzzyMu7kRmX-1" vertex="1">
           <mxGeometry x="823" y="434.5" width="150" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="F9APMmuDTnzzyMu7kRmX-20" value="SolMan" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#EAFFE9;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" parent="F9APMmuDTnzzyMu7kRmX-1" vertex="1">
+        <mxCell id="F9APMmuDTnzzyMu7kRmX-20" value="Spryker" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;" parent="F9APMmuDTnzzyMu7kRmX-1" vertex="1">
           <mxGeometry x="703" y="319.5" width="150" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="F9APMmuDTnzzyMu7kRmX-21" value="Conigma" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#EAFFE9;shape=mxgraph.archimate3.application;appType=collab;archiType=square;" parent="F9APMmuDTnzzyMu7kRmX-1" vertex="1">
-          <mxGeometry x="479" y="318.25" width="150" height="75" as="geometry" />
         </mxCell>
         <mxCell id="F9APMmuDTnzzyMu7kRmX-22" value="ServiceNow: Scripted REST API" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#80b6a1;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" parent="F9APMmuDTnzzyMu7kRmX-1" vertex="1">
           <mxGeometry x="222" y="317" width="180" height="77.5" as="geometry" />
@@ -164,10 +161,10 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F9APMmuDTnzzyMu7kRmX-29" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#80b6a1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="F9APMmuDTnzzyMu7kRmX-1" source="F9APMmuDTnzzyMu7kRmX-20" target="F9APMmuDTnzzyMu7kRmX-21" edge="1">
+        <mxCell id="F9APMmuDTnzzyMu7kRmX-29" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#80b6a1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="F9APMmuDTnzzyMu7kRmX-1" source="F9APMmuDTnzzyMu7kRmX-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="674" y="435.75" as="sourcePoint" />
-            <mxPoint x="544" y="434.5" as="targetPoint" />
+            <mxPoint x="629" y="356.37919463087246" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="F9APMmuDTnzzyMu7kRmX-30" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;B&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#80b6a1;" parent="F9APMmuDTnzzyMu7kRmX-29" vertex="1" connectable="0">
@@ -175,9 +172,9 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F9APMmuDTnzzyMu7kRmX-31" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#80b6a1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="F9APMmuDTnzzyMu7kRmX-1" source="F9APMmuDTnzzyMu7kRmX-21" target="F9APMmuDTnzzyMu7kRmX-22" edge="1">
+        <mxCell id="F9APMmuDTnzzyMu7kRmX-31" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#80b6a1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="F9APMmuDTnzzyMu7kRmX-1" target="F9APMmuDTnzzyMu7kRmX-22" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="553" y="455.75" as="sourcePoint" />
+            <mxPoint x="479" y="355.75" as="sourcePoint" />
             <mxPoint x="423" y="454.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -186,7 +183,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F9APMmuDTnzzyMu7kRmX-36" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#80b6a1;" parent="F9APMmuDTnzzyMu7kRmX-1" source="F9APMmuDTnzzyMu7kRmX-21" target="F9APMmuDTnzzyMu7kRmX-38" edge="1">
+        <mxCell id="F9APMmuDTnzzyMu7kRmX-36" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#80b6a1;" parent="F9APMmuDTnzzyMu7kRmX-1" source="F9APMmuDTnzzyMu7kRmX-20" target="F9APMmuDTnzzyMu7kRmX-38" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="361" y="-23" as="sourcePoint" />
             <mxPoint x="320" y="34.5" as="targetPoint" />
@@ -199,7 +196,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="F9APMmuDTnzzyMu7kRmX-38" value="JSON: SolMan2Snow" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.representation;fontSize=14;align=left;" parent="F9APMmuDTnzzyMu7kRmX-1" vertex="1">
-          <mxGeometry x="392" y="434.5" width="143" height="62" as="geometry" />
+          <mxGeometry x="495" y="452" width="143" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
