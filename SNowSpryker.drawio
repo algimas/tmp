@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T16:02:49.534Z" agent="5.0 (Macintosh)" etag="is-w33SZyrjIpvDVx6Of" version="16.5.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-02-27T16:21:17.788Z" agent="5.0 (Macintosh)" etag="ie9qlzcekaKLQY26AOuB" version="16.5.6" type="github" pages="8">
   <diagram id="TwjGwYmGREkL8a1qZLIq" name="Snow2Spryker">
     <mxGraphModel dx="1721" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -914,22 +914,31 @@
           <mxGeometry x="213" y="64" width="98" height="45" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-5" value="ServiceNow" style="swimlane;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-1">
-          <mxGeometry x="55" y="70" width="552" height="314" as="geometry" />
+          <mxGeometry x="55" y="70" width="552" height="640" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-6" value="&lt;div&gt;Scripted REST API&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=interface;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-5">
-          <mxGeometry x="28" y="39" width="413" height="96" as="geometry" />
+          <mxGeometry x="21" y="329" width="413" height="96" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-7" value="&lt;div&gt;Data &lt;br&gt;&lt;/div&gt;&lt;div&gt;transformation&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#82b366;verticalAlign=middle;align=center;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-5">
-          <mxGeometry x="174" y="69" width="125" height="53" as="geometry" />
+          <mxGeometry x="167" y="359" width="125" height="53" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-8" value="&lt;div&gt;Async Flow registration&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#82b366;verticalAlign=middle;align=center;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-5">
-          <mxGeometry x="40" y="69" width="125" height="53" as="geometry" />
+          <mxGeometry x="33" y="359" width="125" height="53" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-9" value="Pre-Validation" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#82b366;verticalAlign=middle;align=center;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-5">
-          <mxGeometry x="308" y="69" width="125" height="53" as="geometry" />
+          <mxGeometry x="301" y="359" width="125" height="53" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-10" value="&lt;span id=&quot;hs_cos_wrapper_post_body&quot; class=&quot;hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_rich_text&quot;&gt;Process Automation&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;verticalAlign=top;strokeColor=#82b366;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-5">
-          <mxGeometry x="28" y="175" width="186" height="123" as="geometry" />
+          <mxGeometry x="21" y="465" width="186" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="RvUQp98ntliPEG7AJHw2-28" value="&lt;div&gt;&lt;span class=&quot;ng-scope&quot;&gt;&lt;span class=&quot;ng-scope&quot;&gt;&lt;span id=&quot;section_tab.d582dcb0c3310200b0449f2974d3aebd&quot;&gt;&lt;span id=&quot;section-d582dcb0c3310200b0449f2974d3aebd&quot;&gt;ADCv2 &lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;ng-scope&quot;&gt;&lt;span class=&quot;ng-scope&quot;&gt;&lt;span id=&quot;section_tab.d582dcb0c3310200b0449f2974d3aebd&quot;&gt;&lt;span id=&quot;section-d582dcb0c3310200b0449f2974d3aebd&quot;&gt;load balancer&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;(SSL termination)&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.tech;techType=device;fontSize=12;strokeColor=#82b366;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-5">
+          <mxGeometry x="402" y="49" width="136" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="RvUQp98ntliPEG7AJHw2-29" value="&lt;span class=&quot;ph cmd&quot;&gt;&lt;span class=&quot;ph menucascade&quot;&gt;&lt;span class=&quot;ph uicontrol&quot;&gt;Certificate Based Authentication&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#82b366;verticalAlign=top;align=center;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-5">
+          <mxGeometry x="21" y="49" width="229" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="RvUQp98ntliPEG7AJHw2-30" value="&lt;span class=&quot;ph cmd&quot;&gt;&lt;span class=&quot;ph menucascade&quot;&gt;&lt;span class=&quot;ph uicontrol&quot;&gt;CA Certificate Chain&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-5">
+          <mxGeometry x="130" y="82" width="101" height="47" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-11" value="Spryker" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-1">
           <mxGeometry x="810" y="119" width="163" height="75" as="geometry" />
@@ -951,7 +960,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RvUQp98ntliPEG7AJHw2-15" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#80b6a1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="RvUQp98ntliPEG7AJHw2-1" source="RvUQp98ntliPEG7AJHw2-11" target="RvUQp98ntliPEG7AJHw2-6">
+        <mxCell id="RvUQp98ntliPEG7AJHw2-15" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#80b6a1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RvUQp98ntliPEG7AJHw2-1" source="RvUQp98ntliPEG7AJHw2-11" target="RvUQp98ntliPEG7AJHw2-28">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="728" y="235.25" as="sourcePoint" />
             <mxPoint x="683" y="155.87919463087246" as="targetPoint" />
@@ -975,36 +984,36 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-19" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;XML: Outbound Message&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.representation;fontSize=12;align=center;strokeColor=#d6b656;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-1">
-          <mxGeometry x="626" y="205" width="153" height="69.5" as="geometry" />
+          <mxGeometry x="628" y="296" width="153" height="69.5" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-20" value="&lt;div&gt;&lt;b&gt;Asynchronous&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(mTLS)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-1">
-          <mxGeometry x="685" y="119" width="94" height="32" as="geometry" />
+          <mxGeometry x="650" y="114.5" width="94" height="32" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-21" value="Salesforce Outbound Messaging" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-1">
           <mxGeometry x="816" y="146.5" width="148.5" height="41" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-22" value="Flow Designer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-1">
-          <mxGeometry x="103" y="280" width="148" height="81" as="geometry" />
+          <mxGeometry x="96" y="570" width="148" height="81" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-23" value="Flow Action" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-1">
-          <mxGeometry x="122.5" y="307" width="101" height="47" as="geometry" />
+          <mxGeometry x="115.5" y="597" width="101" height="47" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-24" value="DB: Incident" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-1">
-          <mxGeometry x="298" y="311" width="130" height="58" as="geometry" />
+          <mxGeometry x="291" y="601" width="130" height="58" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#80b6a1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RvUQp98ntliPEG7AJHw2-1" source="RvUQp98ntliPEG7AJHw2-23" target="RvUQp98ntliPEG7AJHw2-24">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="292.75" y="75" as="sourcePoint" />
-            <mxPoint x="435" y="106.5" as="targetPoint" />
+            <mxPoint x="285.75" y="365" as="sourcePoint" />
+            <mxPoint x="428" y="396.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-26" value="&lt;b&gt;C&lt;/b&gt; (Async)" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="RvUQp98ntliPEG7AJHw2-1" source="RvUQp98ntliPEG7AJHw2-8" target="RvUQp98ntliPEG7AJHw2-22">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="170" y="297" as="sourcePoint" />
-            <mxPoint x="177" y="280" as="targetPoint" />
+            <mxPoint x="163" y="587" as="sourcePoint" />
+            <mxPoint x="170" y="570" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="158" y="226" />
-              <mxPoint x="177" y="226" />
+              <mxPoint x="151" y="516" />
+              <mxPoint x="170" y="516" />
             </Array>
           </mxGeometry>
         </mxCell>
