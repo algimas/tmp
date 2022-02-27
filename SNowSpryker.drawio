@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T15:49:25.128Z" agent="5.0 (Macintosh)" etag="wE2bQOmqAnlVsdK29Rpw" version="16.5.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-02-27T15:57:16.436Z" agent="5.0 (Macintosh)" etag="8VgFq7VEoBMUCaxZvxid" version="16.5.6" type="github" pages="7">
   <diagram id="TwjGwYmGREkL8a1qZLIq" name="Snow2Spryker">
     <mxGraphModel dx="1721" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -796,7 +796,10 @@
           <mxGeometry x="732" y="70" width="393" height="316" as="geometry" />
         </mxCell>
         <mxCell id="yvkci60M6Ir9GctmaE1V-21" value="DB: Case" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-2">
-          <mxGeometry x="86" y="176" width="130" height="61" as="geometry" />
+          <mxGeometry x="147" y="175" width="130" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="yvkci60M6Ir9GctmaE1V-20" value="&lt;div&gt;Data &lt;br&gt;&lt;/div&gt;&lt;div&gt;Changes&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.event;direction=west;strokeColor=#6c8ebf;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-2">
+          <mxGeometry x="275" y="64" width="98" height="45" as="geometry" />
         </mxCell>
         <mxCell id="yvkci60M6Ir9GctmaE1V-7" value="ServiceNow" style="swimlane;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-1">
           <mxGeometry x="55" y="70" width="456" height="314" as="geometry" />
@@ -815,9 +818,6 @@
         </mxCell>
         <mxCell id="YmNU4vqFfgKxvdylCsgK-5" value="&lt;span id=&quot;hs_cos_wrapper_post_body&quot; class=&quot;hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_rich_text&quot;&gt;Process Automation&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;verticalAlign=top;strokeColor=#82b366;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-7">
           <mxGeometry x="28" y="175" width="186" height="123" as="geometry" />
-        </mxCell>
-        <mxCell id="yvkci60M6Ir9GctmaE1V-20" value="Data Changes" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.event;direction=west;strokeColor=#6c8ebf;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-1">
-          <mxGeometry x="981" y="134" width="130" height="45" as="geometry" />
         </mxCell>
         <mxCell id="yvkci60M6Ir9GctmaE1V-22" value="Spryker" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-1">
           <mxGeometry x="757" y="119" width="179" height="75" as="geometry" />
@@ -865,8 +865,8 @@
         <mxCell id="yvkci60M6Ir9GctmaE1V-31" value="&lt;div&gt;XML: Outbound Message&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.representation;fontSize=14;align=center;strokeColor=#d6b656;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-1">
           <mxGeometry x="534" y="187.5" width="176" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="yvkci60M6Ir9GctmaE1V-32" value="&lt;div&gt;&lt;b&gt;Asynchronous&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-1">
-          <mxGeometry x="564" y="126" width="94" height="18" as="geometry" />
+        <mxCell id="yvkci60M6Ir9GctmaE1V-32" value="&lt;div&gt;&lt;b&gt;Asynchronous&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(mTLS)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-1">
+          <mxGeometry x="564" y="119" width="94" height="32" as="geometry" />
         </mxCell>
         <mxCell id="yvkci60M6Ir9GctmaE1V-33" value="Salesforce Outbound Messaging" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-1">
           <mxGeometry x="765.5" y="146.5" width="162" height="41" as="geometry" />
