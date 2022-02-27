@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T13:45:50.977Z" agent="5.0 (Macintosh)" etag="4oauuAVk244gJGge3mpU" version="16.5.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-02-27T14:04:53.900Z" agent="5.0 (Macintosh)" etag="xgfqAThmj6wmJ1oCxrQB" version="16.5.6" type="github" pages="7">
   <diagram id="TwjGwYmGREkL8a1qZLIq" name="Snow2Spryker">
     <mxGraphModel dx="1721" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -536,25 +536,11 @@
         <mxCell id="yvkci60M6Ir9GctmaE1V-3" value="Salesforce API" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=interface;archiType=square;strokeColor=#6c8ebf;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-2">
           <mxGeometry x="27" y="318" width="77" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="yvkci60M6Ir9GctmaE1V-4" value="Spryker" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-2">
-          <mxGeometry x="159" y="322.25" width="122" height="53.5" as="geometry" />
-        </mxCell>
-        <mxCell id="yvkci60M6Ir9GctmaE1V-5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#80b6a1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="yvkci60M6Ir9GctmaE1V-2" source="yvkci60M6Ir9GctmaE1V-3" target="yvkci60M6Ir9GctmaE1V-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-480.5" y="362" as="sourcePoint" />
-            <mxPoint x="37" y="359" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yvkci60M6Ir9GctmaE1V-6" value="&lt;b&gt;F&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#80b6a1;" vertex="1" connectable="0" parent="yvkci60M6Ir9GctmaE1V-5">
-          <mxGeometry x="0.1385" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="yvkci60M6Ir9GctmaE1V-7" value="ServiceNow" style="swimlane;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-1">
           <mxGeometry x="54" y="34" width="456" height="722" as="geometry" />
         </mxCell>
-        <mxCell id="yvkci60M6Ir9GctmaE1V-8" value="Scripted REST API" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=interface;archiType=square;strokeColor=#82b366;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-7">
-          <mxGeometry x="305" y="49" width="123" height="75" as="geometry" />
+        <mxCell id="yvkci60M6Ir9GctmaE1V-8" value="&lt;div&gt;Scripted REST API&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=interface;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-7">
+          <mxGeometry x="220" y="27" width="221" height="115" as="geometry" />
         </mxCell>
         <mxCell id="yvkci60M6Ir9GctmaE1V-9" value="DB: Incident" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-7">
           <mxGeometry x="27" y="638" width="175" height="75" as="geometry" />
@@ -564,12 +550,6 @@
         </mxCell>
         <mxCell id="yvkci60M6Ir9GctmaE1V-11" value="&lt;div&gt;DB: Staging Area, e.g.:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;u_aldi_interface_transaction&quot;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-7">
           <mxGeometry x="28" y="415" width="174" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="yvkci60M6Ir9GctmaE1V-12" value="&lt;b&gt;C&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="yvkci60M6Ir9GctmaE1V-7" source="yvkci60M6Ir9GctmaE1V-8" target="yvkci60M6Ir9GctmaE1V-15">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="364" y="-20.5" as="sourcePoint" />
-            <mxPoint x="308" y="-97.5" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="yvkci60M6Ir9GctmaE1V-13" value="&lt;b&gt;H&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="yvkci60M6Ir9GctmaE1V-7" source="yvkci60M6Ir9GctmaE1V-11" target="yvkci60M6Ir9GctmaE1V-10">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -603,6 +583,12 @@
             <mxPoint x="125" y="134" as="sourcePoint" />
             <mxPoint x="126" y="315" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="yvkci60M6Ir9GctmaE1V-38" value="Pre-Validation" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#82b366;verticalAlign=middle;align=center;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-7">
+          <mxGeometry x="334" y="57" width="101" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="yvkci60M6Ir9GctmaE1V-39" value="Trigger Async Flow execution" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#82b366;verticalAlign=middle;align=center;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-7">
+          <mxGeometry x="226" y="57" width="101" height="55" as="geometry" />
         </mxCell>
         <mxCell id="yvkci60M6Ir9GctmaE1V-20" value="Data Changes" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.event;direction=west;strokeColor=#6c8ebf;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-1">
           <mxGeometry x="980" y="98" width="130" height="45" as="geometry" />
@@ -659,8 +645,8 @@
             <mxPoint x="383" y="-192" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yvkci60M6Ir9GctmaE1V-31" value="&lt;div&gt;&lt;b&gt;XML: Spryker2SNow&lt;/b&gt;&lt;/div&gt;&lt;div&gt;One Salesforce Outbound Messaging with One Object that &lt;br&gt;&lt;/div&gt;&lt;div&gt;contains &quot;one ID field&quot; only&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.representation;fontSize=14;align=center;strokeColor=#d6b656;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-1">
-          <mxGeometry x="534" y="143" width="176" height="134" as="geometry" />
+        <mxCell id="yvkci60M6Ir9GctmaE1V-31" value="&lt;div&gt;&lt;b&gt;XML:&lt;/b&gt; &lt;b&gt;Outbound Message&lt;/b&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.representation;fontSize=14;align=center;strokeColor=#d6b656;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-1">
+          <mxGeometry x="534" y="161" width="176" height="79" as="geometry" />
         </mxCell>
         <mxCell id="yvkci60M6Ir9GctmaE1V-32" value="&lt;div&gt;&lt;b&gt;Asynchronous&lt;/b&gt;: &lt;br&gt;&lt;/div&gt;&lt;div&gt;over TLS 1.2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-1">
           <mxGeometry x="565" y="67.5" width="97" height="32" as="geometry" />
@@ -681,12 +667,6 @@
         </mxCell>
         <mxCell id="yvkci60M6Ir9GctmaE1V-36" value="&lt;div&gt;&lt;b&gt;Synchronous&lt;/b&gt;: &lt;br&gt;&lt;/div&gt;&lt;div&gt;Get Data&lt;br&gt;&lt;/div&gt;&lt;div&gt;OAuth 2.0 (+JWT) over TLS 1.2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yvkci60M6Ir9GctmaE1V-1">
           <mxGeometry x="534" y="332.5" width="179" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="yvkci60M6Ir9GctmaE1V-37" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#00b9f2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="yvkci60M6Ir9GctmaE1V-1" source="yvkci60M6Ir9GctmaE1V-4" target="yvkci60M6Ir9GctmaE1V-21">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="855.5" y="168" as="sourcePoint" />
-            <mxPoint x="886" y="245.5" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
