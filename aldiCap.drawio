@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-07T12:43:39.272Z" agent="5.0 (Macintosh)" etag="vJuhFpQfrsdq3esjDKnz" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-07T13:38:48.227Z" agent="5.0 (Macintosh)" etag="0Dn_M8KU-JYSfoPRq5vF" version="17.4.0" type="github">
   <diagram id="wmI7wNSezniwaIVf_9G3" name="Page-1">
-    <mxGraphModel dx="1355" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1590" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,13 +23,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UmdhXk7E8YB4AxPKvRHx-3" value="Configuration" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="400" y="20" width="390" height="280" as="geometry" />
+          <mxGeometry x="400" y="20" width="450" height="300" as="geometry" />
         </mxCell>
         <mxCell id="UmdhXk7E8YB4AxPKvRHx-4" value="&lt;div&gt;MAP: Request Item with Pipeline&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="415" y="50" width="365" height="240" as="geometry" />
+          <mxGeometry x="415" y="50" width="405" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="UmdhXk7E8YB4AxPKvRHx-5" value="&lt;div&gt;Pipeline: Trigger Properties &lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="430" y="80" width="340" height="200" as="geometry" />
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-5" value="&lt;div&gt;Pipeline: Trigger Properties &lt;br&gt;&lt;/div&gt;&lt;div&gt;{ &lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;pipeline_id&quot;:&quot;pipeline_id&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;866&quot;:&quot;866&quot;&lt;/div&gt;&lt;div&gt;// if missing then equal&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="440" y="90" width="340" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-6" target="UmdhXk7E8YB4AxPKvRHx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-6" value="startCapTask(&quot;request_item_id&quot;, &quot;pipeline_id&quot;)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="250" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-7" target="UmdhXk7E8YB4AxPKvRHx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-7" value="&lt;div&gt;startCapTask(&quot;request_item_id&quot;, &quot;null&quot;)&lt;/div&gt;&lt;div&gt;&amp;lt;NULL means: Manual Task without Pipeline&amp;gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="440" width="250" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-8" target="UmdhXk7E8YB4AxPKvRHx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-8" value="startCapTask(&quot;request_item_id&quot;, &quot;866&quot;)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="560" width="250" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-9" value="startCapTask(&quot;request_item_id&quot;, &quot;999&quot;)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="690" width="250" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
