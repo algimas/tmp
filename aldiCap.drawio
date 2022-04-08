@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-08T11:55:23.543Z" agent="5.0 (Macintosh)" etag="sNbK723LnDhfXy5X5Bhr" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-08T11:59:25.897Z" agent="5.0 (Macintosh)" etag="hQiTs5t17j3eKnKNZGxP" version="17.4.0" type="github">
   <diagram id="wmI7wNSezniwaIVf_9G3" name="Page-1">
     <mxGraphModel dx="1485" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="675" y="120" width="405" height="260" as="geometry" />
         </mxCell>
         <mxCell id="UmdhXk7E8YB4AxPKvRHx-5" value="&lt;div&gt;Pipeline: Trigger Properties &lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&quot;project_id&quot;:&quot;123&quot;,&lt;/div&gt;&lt;div&gt;&quot;branch&quot;:&quot;master&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="480" y="470" width="190" height="75" as="geometry" />
+          <mxGeometry x="670" y="470" width="170" height="75" as="geometry" />
         </mxCell>
         <mxCell id="UmdhXk7E8YB4AxPKvRHx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-6" target="UmdhXk7E8YB4AxPKvRHx-7">
           <mxGeometry relative="1" as="geometry" />
@@ -70,10 +70,10 @@
         <mxCell id="UmdhXk7E8YB4AxPKvRHx-17" value="getConfiguration(&quot;cat_item_id_12341234&quot;)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="100" y="350" width="250" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="UmdhXk7E8YB4AxPKvRHx-18" value="GitLab Pipeline" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" vertex="1" parent="1">
-          <mxGeometry x="800" y="470" width="150" height="75" as="geometry" />
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-18" value="GitLab Pipeline" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="920" y="470" width="150" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="UmdhXk7E8YB4AxPKvRHx-19" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-6" target="UmdhXk7E8YB4AxPKvRHx-5">
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-19" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-6" target="UmdhXk7E8YB4AxPKvRHx-34">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="360" y="385.10775862068954" as="sourcePoint" />
             <mxPoint x="590" y="362.3060344827586" as="targetPoint" />
@@ -81,8 +81,8 @@
         </mxCell>
         <mxCell id="UmdhXk7E8YB4AxPKvRHx-20" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-5" target="UmdhXk7E8YB4AxPKvRHx-18">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="370" y="330.10775862068954" as="sourcePoint" />
-            <mxPoint x="600" y="307.3060344827586" as="targetPoint" />
+            <mxPoint x="560" y="330.10775862068954" as="sourcePoint" />
+            <mxPoint x="790" y="307.3060344827586" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UmdhXk7E8YB4AxPKvRHx-21" value="UI Form" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=interface;archiType=square;fontSize=11;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -106,40 +106,67 @@
             <mxPoint x="230" y="186.2301587301588" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UmdhXk7E8YB4AxPKvRHx-26" value="&lt;div&gt;Pipeline: Trigger Properties &lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&quot;project_id&quot;:&quot;123&quot;,&lt;/div&gt;&lt;div&gt;&quot;branch&quot;:&quot;master&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="480" y="710" width="190" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="UmdhXk7E8YB4AxPKvRHx-27" value="GitLab Pipeline" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" vertex="1" parent="1">
-          <mxGeometry x="800" y="710" width="150" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="UmdhXk7E8YB4AxPKvRHx-28" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-26" target="UmdhXk7E8YB4AxPKvRHx-27">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="350" y="570.1077586206895" as="sourcePoint" />
-            <mxPoint x="580" y="547.3060344827586" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UmdhXk7E8YB4AxPKvRHx-29" value="&lt;div&gt;Pipeline: Trigger Properties &lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&quot;project_id&quot;:&quot;123&quot;,&lt;/div&gt;&lt;div&gt;&quot;branch&quot;:&quot;master&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="480" y="840" width="190" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="UmdhXk7E8YB4AxPKvRHx-30" value="GitLab Pipeline" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" vertex="1" parent="1">
-          <mxGeometry x="800" y="840" width="150" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="UmdhXk7E8YB4AxPKvRHx-31" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-29" target="UmdhXk7E8YB4AxPKvRHx-30">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="350" y="700.1077586206895" as="sourcePoint" />
-            <mxPoint x="580" y="677.3060344827586" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UmdhXk7E8YB4AxPKvRHx-32" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-8" target="UmdhXk7E8YB4AxPKvRHx-26">
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-32" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-8" target="UmdhXk7E8YB4AxPKvRHx-39">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="360" y="540.7142857142858" as="sourcePoint" />
-            <mxPoint x="490" y="564.8571428571429" as="targetPoint" />
+            <mxPoint x="480" y="747.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UmdhXk7E8YB4AxPKvRHx-33" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-9" target="UmdhXk7E8YB4AxPKvRHx-29">
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-33" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-9" target="UmdhXk7E8YB4AxPKvRHx-44">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="370" y="550.7142857142858" as="sourcePoint" />
-            <mxPoint x="500" y="574.8571428571429" as="targetPoint" />
+            <mxPoint x="480" y="877.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-34" value="&lt;div&gt;Create: &lt;br&gt;&lt;/div&gt;&lt;div&gt;Catalog Task&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="470" y="470" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-35" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-34" target="UmdhXk7E8YB4AxPKvRHx-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="517.5" as="sourcePoint" />
+            <mxPoint x="480" y="517.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-36" value="&lt;div&gt;Pipeline: Trigger Properties &lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&quot;project_id&quot;:&quot;123&quot;,&lt;/div&gt;&lt;div&gt;&quot;branch&quot;:&quot;master&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="680" y="710" width="160" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-37" value="GitLab Pipeline" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="920" y="710" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-38" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-36" target="UmdhXk7E8YB4AxPKvRHx-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="570" y="570.1077586206895" as="sourcePoint" />
+            <mxPoint x="800" y="547.3060344827586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-39" value="&lt;div&gt;Create: &lt;br&gt;&lt;/div&gt;&lt;div&gt;Catalog Task&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="710" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-40" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-39" target="UmdhXk7E8YB4AxPKvRHx-36">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="757.5" as="sourcePoint" />
+            <mxPoint x="490" y="757.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-41" value="&lt;div&gt;Pipeline: Trigger Properties &lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&quot;project_id&quot;:&quot;123&quot;,&lt;/div&gt;&lt;div&gt;&quot;branch&quot;:&quot;master&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="680" y="840" width="160" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-42" value="GitLab Pipeline" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="920" y="840" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-43" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-41" target="UmdhXk7E8YB4AxPKvRHx-42">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="570" y="700.1077586206895" as="sourcePoint" />
+            <mxPoint x="800" y="677.3060344827586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-44" value="&lt;div&gt;Create: &lt;br&gt;&lt;/div&gt;&lt;div&gt;Catalog Task&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="840" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="UmdhXk7E8YB4AxPKvRHx-45" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;" edge="1" parent="1" source="UmdhXk7E8YB4AxPKvRHx-44" target="UmdhXk7E8YB4AxPKvRHx-41">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="887.5" as="sourcePoint" />
+            <mxPoint x="490" y="887.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
