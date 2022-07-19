@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T13:50:46.318Z" agent="5.0 (Macintosh)" etag="kLQe4WsxNvpUhSRCNsGM" version="20.0.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-19T13:54:29.965Z" agent="5.0 (Macintosh)" etag="qCTfIamEyGXUO6JvZw2T" version="20.0.3" type="github" pages="3">
   <diagram name="CreateCase" id="X3QRcElQ5Iuo-_neAbF0">
     <mxGraphModel dx="1332" dy="933" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -36,7 +36,7 @@
         <mxCell id="YcPQ61z67r9PlWFHKwve-9" value="ServiceNow" style="swimlane;" parent="YcPQ61z67r9PlWFHKwve-1" vertex="1">
           <mxGeometry x="18" y="87" width="673" height="368" as="geometry" />
         </mxCell>
-        <mxCell id="6pyMC9CE3ZSEGEYcUzwO-1" value="&lt;div&gt;+ Case Number:&lt;/div&gt;&lt;div&gt;Additional Information ?&lt;/div&gt;&lt;div&gt;Work Note ?&lt;br&gt; &lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.representation;fontSize=12;align=center;strokeColor=#d6b656;" vertex="1" parent="YcPQ61z67r9PlWFHKwve-9">
+        <mxCell id="6pyMC9CE3ZSEGEYcUzwO-1" value="&lt;div&gt;+ Case Number:&lt;/div&gt;&lt;div&gt;Additional Information ?&lt;/div&gt;&lt;div&gt;Work Note ?&lt;br&gt; &lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate3.representation;fontSize=12;align=center;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="YcPQ61z67r9PlWFHKwve-9">
           <mxGeometry x="308" y="257" width="134" height="73" as="geometry" />
         </mxCell>
         <mxCell id="rpGYdnlyM7rzxQ0NYGCE-1" value="User Requests Item" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="YcPQ61z67r9PlWFHKwve-9">
@@ -344,7 +344,7 @@
         <mxCell id="T3Ntwo333TGOfmnkiFuI-0" value="DB: Incident" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-5">
           <mxGeometry x="332" y="312" width="130" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="RvUQp98ntliPEG7AJHw2-24" value="DB: &amp;lt;sc_task&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="RvUQp98ntliPEG7AJHw2-5" vertex="1">
+        <mxCell id="RvUQp98ntliPEG7AJHw2-24" value="DB: &amp;lt;sc_task&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;" parent="RvUQp98ntliPEG7AJHw2-5" vertex="1">
           <mxGeometry x="332" y="388" width="130" height="58" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-11" value="Spryker" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=top;" parent="RvUQp98ntliPEG7AJHw2-1" vertex="1">
@@ -379,7 +379,7 @@
             <mxPoint x="384" y="-156" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RvUQp98ntliPEG7AJHw2-19" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;XML: Outbound Message&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.representation;fontSize=12;align=center;strokeColor=#d6b656;" parent="RvUQp98ntliPEG7AJHw2-1" vertex="1">
+        <mxCell id="RvUQp98ntliPEG7AJHw2-19" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;XML: Outbound Message&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate3.representation;fontSize=12;align=center;strokeColor=#666666;fontColor=#333333;" parent="RvUQp98ntliPEG7AJHw2-1" vertex="1">
           <mxGeometry x="624" y="284.5" width="153" height="69.5" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-20" value="&lt;div&gt;&lt;b&gt;Asynchronous&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(mTLS)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="RvUQp98ntliPEG7AJHw2-1" vertex="1">
