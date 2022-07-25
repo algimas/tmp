@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T09:06:52.560Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="M403bpJoAzRcT8wZU015" version="20.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-25T09:10:36.611Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="XvWoTAn9zA9eXRisxAEp" version="20.1.2" type="github" pages="3">
   <diagram name="CreateCase" id="X3QRcElQ5Iuo-_neAbF0">
-    <mxGraphModel dx="1182" dy="932" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1249" dy="932" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="YcPQ61z67r9PlWFHKwve-0" />
         <mxCell id="YcPQ61z67r9PlWFHKwve-1" parent="YcPQ61z67r9PlWFHKwve-0" />
@@ -36,7 +36,7 @@
         <mxCell id="YcPQ61z67r9PlWFHKwve-9" value="ServiceNow" style="swimlane;" parent="YcPQ61z67r9PlWFHKwve-1" vertex="1">
           <mxGeometry x="18" y="87" width="673" height="368" as="geometry" />
         </mxCell>
-        <mxCell id="6pyMC9CE3ZSEGEYcUzwO-1" value="&lt;div&gt;+ Case Number:&lt;/div&gt;&lt;div&gt;Additional Information ?&lt;/div&gt;&lt;div&gt;Work Note ?&lt;br&gt; &lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate3.representation;fontSize=12;align=center;strokeColor=#666666;fontColor=#333333;" parent="YcPQ61z67r9PlWFHKwve-9" vertex="1">
+        <mxCell id="6pyMC9CE3ZSEGEYcUzwO-1" value="&lt;div&gt;+ Case Number:&lt;/div&gt;&lt;div&gt;Work Note&lt;br&gt; &lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate3.representation;fontSize=12;align=center;strokeColor=#666666;fontColor=#333333;" parent="YcPQ61z67r9PlWFHKwve-9" vertex="1">
           <mxGeometry x="308" y="257" width="134" height="73" as="geometry" />
         </mxCell>
         <mxCell id="rpGYdnlyM7rzxQ0NYGCE-1" value="User Requests Item" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" parent="YcPQ61z67r9PlWFHKwve-9" vertex="1">
@@ -135,7 +135,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Reopen" id="3RsII8iMVmdc_kVFC70y">
-    <mxGraphModel dx="1127" dy="932" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1249" dy="932" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="ax_tKCLAmBAmgfYwVQRO-0" />
         <mxCell id="ax_tKCLAmBAmgfYwVQRO-1" parent="ax_tKCLAmBAmgfYwVQRO-0" />
@@ -215,9 +215,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ax_tKCLAmBAmgfYwVQRO-23" value="Create Case (+ref to closed)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#d79b00;" parent="ax_tKCLAmBAmgfYwVQRO-9" vertex="1">
-          <mxGeometry x="508" y="115" width="92" height="45" as="geometry" />
-        </mxCell>
         <mxCell id="ax_tKCLAmBAmgfYwVQRO-24" value="Update sc_task" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="ax_tKCLAmBAmgfYwVQRO-9" vertex="1">
           <mxGeometry x="508" y="264" width="92" height="45" as="geometry" />
         </mxCell>
@@ -249,13 +246,16 @@
             <mxPoint x="408.5" y="257" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n5q-M00C1fEDLBnFgQFO-1" value="Update Case" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#d79b00;" parent="ax_tKCLAmBAmgfYwVQRO-9" vertex="1">
-          <mxGeometry x="508" y="160" width="92" height="45" as="geometry" />
+        <mxCell id="n5q-M00C1fEDLBnFgQFO-1" value="Update Case" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="ax_tKCLAmBAmgfYwVQRO-9" vertex="1">
+          <mxGeometry x="508" y="125.5" width="92" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ax_tKCLAmBAmgfYwVQRO-31" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ax_tKCLAmBAmgfYwVQRO-1" source="ax_tKCLAmBAmgfYwVQRO-23" target="ax_tKCLAmBAmgfYwVQRO-4" edge="1">
+        <mxCell id="ax_tKCLAmBAmgfYwVQRO-31" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ax_tKCLAmBAmgfYwVQRO-1" source="n5q-M00C1fEDLBnFgQFO-1" target="ax_tKCLAmBAmgfYwVQRO-4" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="676" y="-28" as="sourcePoint" />
             <mxPoint x="836" y="-28" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="629" y="235" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ax_tKCLAmBAmgfYwVQRO-32" value="&lt;b&gt;2&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="ax_tKCLAmBAmgfYwVQRO-31" vertex="1" connectable="0">
@@ -267,7 +267,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Spryker2SN" id="d-gL0-F1R19KWdihxOas">
-    <mxGraphModel dx="1332" dy="933" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1561" dy="1165" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="RvUQp98ntliPEG7AJHw2-0" />
         <mxCell id="RvUQp98ntliPEG7AJHw2-1" parent="RvUQp98ntliPEG7AJHw2-0" />
@@ -341,7 +341,7 @@
             <mxPoint x="318" y="125.65517241379314" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T3Ntwo333TGOfmnkiFuI-0" value="DB: Incident" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="RvUQp98ntliPEG7AJHw2-5">
+        <mxCell id="T3Ntwo333TGOfmnkiFuI-0" value="DB: Incident" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="RvUQp98ntliPEG7AJHw2-5" vertex="1">
           <mxGeometry x="332" y="312" width="130" height="58" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-24" value="DB: &amp;lt;sc_task&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;" parent="RvUQp98ntliPEG7AJHw2-5" vertex="1">
@@ -429,7 +429,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T3Ntwo333TGOfmnkiFuI-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#80b6a1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RvUQp98ntliPEG7AJHw2-1" source="RvUQp98ntliPEG7AJHw2-23" target="T3Ntwo333TGOfmnkiFuI-0">
+        <mxCell id="T3Ntwo333TGOfmnkiFuI-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#80b6a1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="RvUQp98ntliPEG7AJHw2-1" source="RvUQp98ntliPEG7AJHw2-23" target="T3Ntwo333TGOfmnkiFuI-0" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="294.5" y="488.5" as="sourcePoint" />
             <mxPoint x="401" y="458" as="targetPoint" />
