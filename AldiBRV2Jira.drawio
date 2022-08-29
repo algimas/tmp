@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-08-29T10:48:09.976Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36" etag="ZyVAemRbOKBta495EBPy" version="20.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-29T10:50:18.275Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36" etag="U9fTnvKg5BD9VwIZxAne" version="20.2.4" type="github" pages="3">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="JiraStates">
     <mxGraphModel dx="1351" dy="962" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="iMsY0YMk1mzZe4SdZw98-17" value="ServiceNow" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=16;strokeColor=#82b366;verticalAlign=top;fontStyle=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="92" y="325" width="920" height="285" as="geometry" />
+          <mxGeometry x="92" y="325" width="1040" height="285" as="geometry" />
         </mxCell>
         <mxCell id="iMsY0YMk1mzZe4SdZw98-16" value="Jira" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;gradientColor=#CCE5FF;fontSize=16;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="92" y="172" width="920" height="146" as="geometry" />
+          <mxGeometry x="92" y="172" width="1040" height="146" as="geometry" />
         </mxCell>
         <mxCell id="pSK2qEDxXkrErEkI7SS4-2" value="Generate New BRV" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;verticalAlign=top;align=center;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="119" y="393" width="159" height="184" as="geometry" />
@@ -120,6 +120,26 @@
         </mxCell>
         <mxCell id="EarsJp9c6__o34GdYXSL-1" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;&quot;Auto-BRV&quot; selected&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.event;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="128.25" y="217" width="144" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="EarsJp9c6__o34GdYXSL-2" value="Start SN Release" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;verticalAlign=middle;align=center;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="978" y="351" width="120.5" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EarsJp9c6__o34GdYXSL-3" value="i" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFYF2E0xY7p-tjgN2YZI-8" target="EarsJp9c6__o34GdYXSL-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="696.2" y="273" as="sourcePoint" />
+            <mxPoint x="696.1200000000001" y="361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EarsJp9c6__o34GdYXSL-4" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="EFYF2E0xY7p-tjgN2YZI-4" target="EFYF2E0xY7p-tjgN2YZI-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="743.1351973684209" y="410" as="sourcePoint" />
+            <mxPoint x="794.9148026315788" y="437" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EarsJp9c6__o34GdYXSL-5" value="&lt;b&gt;6&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="EarsJp9c6__o34GdYXSL-4">
+          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
