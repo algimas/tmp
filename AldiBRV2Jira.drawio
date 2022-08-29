@@ -1,32 +1,131 @@
-<mxfile host="app.diagrams.net" modified="2022-08-29T09:02:19.135Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36" etag="3r_MJk3aHvsXrjACJkQG" version="20.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-29T09:16:18.109Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36" etag="1j1kDisP5nYt-MgkIA2c" version="20.2.4" type="github" pages="3">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="JiraStates">
     <mxGraphModel dx="1351" dy="962" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="iMsY0YMk1mzZe4SdZw98-17" value="ServiceNow" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=16;strokeColor=#82b366;verticalAlign=top;fontStyle=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="3" y="263" width="1163" height="366" as="geometry" />
+          <mxGeometry x="3" y="263" width="1163" height="285" as="geometry" />
         </mxCell>
         <mxCell id="iMsY0YMk1mzZe4SdZw98-16" value="Jira" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;gradientColor=#CCE5FF;fontSize=16;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="3" y="110" width="1162" height="146" as="geometry" />
         </mxCell>
-        <mxCell id="pSK2qEDxXkrErEkI7SS4-2" value="Generate New" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;verticalAlign=top;align=center;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="17" y="312" width="233" height="222" as="geometry" />
+        <mxCell id="pSK2qEDxXkrErEkI7SS4-2" value="Generate New BRV" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;verticalAlign=top;align=center;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="30" y="331" width="159" height="184" as="geometry" />
         </mxCell>
-        <mxCell id="iMsY0YMk1mzZe4SdZw98-12" value="&quot;Auto-BRV&quot; selected" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;gradientColor=#7ea6e0;fontSize=9;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="17" y="155" width="80" height="40" as="geometry" />
+        <mxCell id="t7MuCdO1gUGMO8HCq8w8-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFYF2E0xY7p-tjgN2YZI-1" target="EFYF2E0xY7p-tjgN2YZI-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EFYF2E0xY7p-tjgN2YZI-1" value="Get Max Number with # from:&lt;br&gt;&amp;lt;sn_devops_plan_version&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;verticalAlign=middle;align=center;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="38" y="346" width="120.5" height="49" as="geometry" />
+          <mxGeometry x="51" y="365" width="120.5" height="49" as="geometry" />
         </mxCell>
         <mxCell id="EFYF2E0xY7p-tjgN2YZI-2" value="plus 1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;verticalAlign=middle;align=center;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="38" y="419" width="120.5" height="49" as="geometry" />
+          <mxGeometry x="51" y="438" width="120.5" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EFYF2E0xY7p-tjgN2YZI-3" value="Add new BRV to Jira" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;verticalAlign=middle;align=center;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="262" y="365" width="120.5" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EFYF2E0xY7p-tjgN2YZI-4" value="Update Jira Issue with new BRV" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;verticalAlign=middle;align=center;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="682.65" y="365" width="120.5" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="t7MuCdO1gUGMO8HCq8w8-12" value="A" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFYF2E0xY7p-tjgN2YZI-5" target="EFYF2E0xY7p-tjgN2YZI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFYF2E0xY7p-tjgN2YZI-5" value="New BRV added" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;gradientColor=#7ea6e0;fontSize=9;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="277.75" y="155" width="182.25" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="EFYF2E0xY7p-tjgN2YZI-6" value="Call SN on added BRV" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;gradientColor=#7ea6e0;fontSize=9;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="552.65" y="155" width="89" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="EFYF2E0xY7p-tjgN2YZI-7" value="Add BRV record to the table:&lt;br&gt;&amp;lt;sn_devops_plan_version&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;verticalAlign=middle;align=center;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="536.9" y="289" width="120.5" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EFYF2E0xY7p-tjgN2YZI-8" value="Jira issue updated" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;gradientColor=#7ea6e0;fontSize=9;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="698.4" y="155" width="89" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="t7MuCdO1gUGMO8HCq8w8-1" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="EarsJp9c6__o34GdYXSL-1" target="pSK2qEDxXkrErEkI7SS4-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110.5" y="201" as="sourcePoint" />
+            <mxPoint x="879" y="293" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7MuCdO1gUGMO8HCq8w8-2" value="&lt;b&gt;1&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="t7MuCdO1gUGMO8HCq8w8-1">
+          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7MuCdO1gUGMO8HCq8w8-5" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="pSK2qEDxXkrErEkI7SS4-2" target="EFYF2E0xY7p-tjgN2YZI-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120.5" y="211" as="sourcePoint" />
+            <mxPoint x="119.5" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7MuCdO1gUGMO8HCq8w8-6" value="&lt;b&gt;2&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="t7MuCdO1gUGMO8HCq8w8-5">
+          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7MuCdO1gUGMO8HCq8w8-7" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="EFYF2E0xY7p-tjgN2YZI-3" target="EFYF2E0xY7p-tjgN2YZI-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="173.5" y="221" as="sourcePoint" />
+            <mxPoint x="172.5" y="351" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7MuCdO1gUGMO8HCq8w8-8" value="&lt;b&gt;3&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="t7MuCdO1gUGMO8HCq8w8-7">
+          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7MuCdO1gUGMO8HCq8w8-11" value="Get response on newly added BRV with Version ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;verticalAlign=middle;align=center;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="406" y="365" width="120.5" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="t7MuCdO1gUGMO8HCq8w8-13" value="B" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFYF2E0xY7p-tjgN2YZI-6" target="EFYF2E0xY7p-tjgN2YZI-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="188" as="sourcePoint" />
+            <mxPoint x="562.6500000000001" y="188" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7MuCdO1gUGMO8HCq8w8-14" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="EFYF2E0xY7p-tjgN2YZI-5" target="t7MuCdO1gUGMO8HCq8w8-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="337.6510047281324" y="375" as="sourcePoint" />
+            <mxPoint x="373.80466903073284" y="211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7MuCdO1gUGMO8HCq8w8-15" value="&lt;b&gt;4&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="t7MuCdO1gUGMO8HCq8w8-14">
+          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7MuCdO1gUGMO8HCq8w8-16" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="t7MuCdO1gUGMO8HCq8w8-11" target="EFYF2E0xY7p-tjgN2YZI-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="347.6510047281324" y="385" as="sourcePoint" />
+            <mxPoint x="383.80466903073284" y="221" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7MuCdO1gUGMO8HCq8w8-17" value="&lt;b&gt;5&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="t7MuCdO1gUGMO8HCq8w8-16">
+          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7MuCdO1gUGMO8HCq8w8-18" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="EFYF2E0xY7p-tjgN2YZI-4" target="EFYF2E0xY7p-tjgN2YZI-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="357.6510047281324" y="395" as="sourcePoint" />
+            <mxPoint x="393.80466903073284" y="231" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7MuCdO1gUGMO8HCq8w8-19" value="&lt;b&gt;6&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="t7MuCdO1gUGMO8HCq8w8-18">
+          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EarsJp9c6__o34GdYXSL-1" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;&quot;Auto-BRV&quot; selected&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.event;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="39.25" y="155" width="144" height="57" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Demand2Jira" id="8k3vtJ7wZARojMPT9Oh7">
-    <mxGraphModel dx="1401" dy="1202" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1689" dy="1202" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="xSuzaZ8Z5w5o7VYrqbpk-0" />
         <mxCell id="xSuzaZ8Z5w5o7VYrqbpk-1" parent="xSuzaZ8Z5w5o7VYrqbpk-0" />
@@ -151,7 +250,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Jira2Demand" id="iWt_Gfq2palGg2kYie8L">
-    <mxGraphModel dx="1401" dy="1202" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1689" dy="1202" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="QdbxIp1HC7oLeygjYpFO-0" />
         <mxCell id="QdbxIp1HC7oLeygjYpFO-1" parent="QdbxIp1HC7oLeygjYpFO-0" />
