@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T08:33:14.527Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="oJ8g5HICL39h7u3a6HOu" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-01T09:24:47.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4UdMtUtDnbzVF0saTyTi" version="20.5.1" type="github" pages="3">
   <diagram name="SNow" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1173" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -212,6 +212,176 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="560" y="70.5" as="sourcePoint" />
             <mxPoint x="575" y="151.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-37" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="280" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-38" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-37">
+          <mxGeometry width="280" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-39" value="Audit_Id" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-38">
+          <mxGeometry width="93" height="33" as="geometry">
+            <mxRectangle width="93" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-40" value="Audit_Name" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-38">
+          <mxGeometry x="93" width="94" height="33" as="geometry">
+            <mxRectangle width="94" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-41" value="Audit_Auditor" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-38">
+          <mxGeometry x="187" width="93" height="33" as="geometry">
+            <mxRectangle width="93" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-42" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-37">
+          <mxGeometry y="33" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-43" value="audit1" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-42">
+          <mxGeometry width="93" height="32" as="geometry">
+            <mxRectangle width="93" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-44" value="Audit Name 1" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-42">
+          <mxGeometry x="93" width="94" height="32" as="geometry">
+            <mxRectangle width="94" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-45" value="Auditor 1" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-42">
+          <mxGeometry x="187" width="93" height="32" as="geometry">
+            <mxRectangle width="93" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-46" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-37">
+          <mxGeometry y="65" width="280" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-47" value="audit2" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-46">
+          <mxGeometry width="93" height="31" as="geometry">
+            <mxRectangle width="93" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-48" value="Audit Name 2" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-46">
+          <mxGeometry x="93" width="94" height="31" as="geometry">
+            <mxRectangle width="94" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-49" value="Auditor 1" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-46">
+          <mxGeometry x="187" width="93" height="31" as="geometry">
+            <mxRectangle width="93" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-50" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-37">
+          <mxGeometry y="96" width="280" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-51" value="audit3" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-50">
+          <mxGeometry width="93" height="33" as="geometry">
+            <mxRectangle width="93" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-52" value="Audit Name 3" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-50">
+          <mxGeometry x="93" width="94" height="33" as="geometry">
+            <mxRectangle width="94" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-53" value="Auditor 2" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-50">
+          <mxGeometry x="187" width="93" height="33" as="geometry">
+            <mxRectangle width="93" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-58" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="373" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-59" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-58">
+          <mxGeometry width="373" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-60" value="Risk_Id" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-59">
+          <mxGeometry width="93" height="33" as="geometry">
+            <mxRectangle width="93" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-61" value="Risk_Name" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-59">
+          <mxGeometry x="93" width="94" height="33" as="geometry">
+            <mxRectangle width="94" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-62" value="Risk_Approver" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-59">
+          <mxGeometry x="187" width="93" height="33" as="geometry">
+            <mxRectangle width="93" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-75" value="Risk_State" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-59">
+          <mxGeometry x="280" width="93" height="33" as="geometry">
+            <mxRectangle width="93" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-63" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-58">
+          <mxGeometry y="33" width="373" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-64" value="risk1" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-63">
+          <mxGeometry width="93" height="32" as="geometry">
+            <mxRectangle width="93" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-65" value="Risk Name 1" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-63">
+          <mxGeometry x="93" width="94" height="32" as="geometry">
+            <mxRectangle width="94" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-66" value="Approver 1" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-63">
+          <mxGeometry x="187" width="93" height="32" as="geometry">
+            <mxRectangle width="93" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-76" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-63">
+          <mxGeometry x="280" width="93" height="32" as="geometry">
+            <mxRectangle width="93" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-67" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-58">
+          <mxGeometry y="65" width="373" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-68" value="risk2" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-67">
+          <mxGeometry width="93" height="31" as="geometry">
+            <mxRectangle width="93" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-69" value="Risk Name 2" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-67">
+          <mxGeometry x="93" width="94" height="31" as="geometry">
+            <mxRectangle width="94" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-70" value="Approver 1" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-67">
+          <mxGeometry x="187" width="93" height="31" as="geometry">
+            <mxRectangle width="93" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-77" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-67">
+          <mxGeometry x="280" width="93" height="31" as="geometry">
+            <mxRectangle width="93" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-71" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-58">
+          <mxGeometry y="96" width="373" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-72" value="risk3" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-71">
+          <mxGeometry width="93" height="33" as="geometry">
+            <mxRectangle width="93" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-73" value="Risk Name 3" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-71">
+          <mxGeometry x="93" width="94" height="33" as="geometry">
+            <mxRectangle width="94" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-74" value="Approver 2" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-71">
+          <mxGeometry x="187" width="93" height="33" as="geometry">
+            <mxRectangle width="93" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-78" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;" vertex="1" parent="ySIDATTbwoHfAY3Om1h0-71">
+          <mxGeometry x="280" width="93" height="33" as="geometry">
+            <mxRectangle width="93" height="33" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
