@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T07:28:15.996Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="BRlc1-qHAlfvEwppPU_F" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-01T08:33:14.527Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="oJ8g5HICL39h7u3a6HOu" version="20.5.1" type="github" pages="3">
   <diagram name="SNow" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1173" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -171,29 +171,47 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6SYv2I4dSF8v_rV5Lt9R" name="Page-3">
-    <mxGraphModel dx="1458" dy="1164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2285" dy="1164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ySIDATTbwoHfAY3Om1h0-1" value="Risk (child)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="60" width="130" height="61" as="geometry" />
+          <mxGeometry x="420" y="30" width="130" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="ySIDATTbwoHfAY3Om1h0-2" value="Risk (parent)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="860" y="60" width="130" height="61" as="geometry" />
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-2" value="Risk/Audit (parent)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="130" height="61" as="geometry" />
         </mxCell>
         <mxCell id="ySIDATTbwoHfAY3Om1h0-3" value="Risk relationship" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="131" width="130" height="61" as="geometry" />
+          <mxGeometry x="230" y="101" width="130" height="61" as="geometry" />
         </mxCell>
         <mxCell id="ySIDATTbwoHfAY3Om1h0-4" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="ySIDATTbwoHfAY3Om1h0-2" target="ySIDATTbwoHfAY3Om1h0-3">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1070" y="540" as="sourcePoint" />
-            <mxPoint x="1170" y="440" as="targetPoint" />
+            <mxPoint x="250" y="510" as="sourcePoint" />
+            <mxPoint x="350" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ySIDATTbwoHfAY3Om1h0-5" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="ySIDATTbwoHfAY3Om1h0-1" target="ySIDATTbwoHfAY3Om1h0-3">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1000" y="100.5" as="sourcePoint" />
-            <mxPoint x="1060" y="171.5" as="targetPoint" />
+            <mxPoint x="180" y="70.5" as="sourcePoint" />
+            <mxPoint x="240" y="141.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-7" value="Measure" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="800" y="30" width="130" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-8" value="Assigned Measures" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="610" y="101" width="130" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-9" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="ySIDATTbwoHfAY3Om1h0-1" target="ySIDATTbwoHfAY3Om1h0-8">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="180" y="70.5" as="sourcePoint" />
+            <mxPoint x="240" y="141.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySIDATTbwoHfAY3Om1h0-10" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="ySIDATTbwoHfAY3Om1h0-7" target="ySIDATTbwoHfAY3Om1h0-8">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="560" y="70.5" as="sourcePoint" />
+            <mxPoint x="575" y="151.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
