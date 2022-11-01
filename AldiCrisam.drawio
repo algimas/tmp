@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T13:51:46.563Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="pIOaD6MIe2Xd85biEPaC" version="20.5.1" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-11-01T14:33:04.635Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="MbRkDprB27lF2SayW4HL" version="20.5.1" type="github" pages="13">
   <diagram name="Hierarchy1" id="K9JmOt2MnFPWWsac-dhA">
     <mxGraphModel dx="2285" dy="1164" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -3250,6 +3250,41 @@
         </mxCell>
         <mxCell id="GXFlsrdEQt9fWPAfJ1gP-61" value="&lt;span style=&quot;text-align: center;&quot;&gt;audit2&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
           <mxGeometry x="396" y="686.5" width="58" height="61" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AWJMmQdBu76jwdJi-VBo" name="bottom-up-top-down">
+    <mxGraphModel dx="2285" dy="1164" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WeAqyZSYbl9CQPo2ivNF-1" value="Risk (child)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="478" y="339" width="130" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="WeAqyZSYbl9CQPo2ivNF-2" value="Risk/Audit (parent)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="668" y="493" width="130" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="WeAqyZSYbl9CQPo2ivNF-3" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="WeAqyZSYbl9CQPo2ivNF-1" target="WeAqyZSYbl9CQPo2ivNF-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="539.5" y="658" as="sourcePoint" />
+            <mxPoint x="849" y="301" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeAqyZSYbl9CQPo2ivNF-4" value="Measure" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="288" y="189" width="130" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="WeAqyZSYbl9CQPo2ivNF-5" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="WeAqyZSYbl9CQPo2ivNF-4" target="WeAqyZSYbl9CQPo2ivNF-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="551" y="414" as="sourcePoint" />
+            <mxPoint x="899.5" y="279.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WeAqyZSYbl9CQPo2ivNF-6" value="bottom-up (to find impacted Measures)" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#CCCCFF;fontFamily=Lucida Console;fontSize=19;fontColor=#000000;fillColor=none;rotation=40;" vertex="1" parent="1">
+          <mxGeometry x="385.25" y="265.07" width="513.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeAqyZSYbl9CQPo2ivNF-8" value="top-down (to construct API message)" style="shape=singleArrow;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#CCCCFF;fontFamily=Lucida Console;fontSize=19;fontColor=#000000;fillColor=none;rotation=40;" vertex="1" parent="1">
+          <mxGeometry x="169" y="446" width="545.91" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
