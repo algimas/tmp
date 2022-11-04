@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T17:32:55.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="PHHg0hkctiXd6cSdVGN1" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-04T17:55:39.029Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vsRjPfYe5WeXGkZ5Luqi" version="20.5.1" type="github" pages="2">
   <diagram name="CreateCR" id="X3QRcElQ5Iuo-_neAbF0">
     <mxGraphModel dx="1624" dy="1164" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -106,11 +106,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpGYdnlyM7rzxQ0NYGCE-0" value="parse provided Excel file" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="YcPQ61z67r9PlWFHKwve-9" vertex="1">
+        <mxCell id="rpGYdnlyM7rzxQ0NYGCE-0" value="parse attached Excel file" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="YcPQ61z67r9PlWFHKwve-9" vertex="1">
           <mxGeometry x="508" y="113" width="92" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="lLLrWBRVVJRMvtl2eppm-8" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YcPQ61z67r9PlWFHKwve-9" source="rpGYdnlyM7rzxQ0NYGCE-17" target="rpGYdnlyM7rzxQ0NYGCE-0">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rpGYdnlyM7rzxQ0NYGCE-17" value="initiate&lt;br&gt;AlgoSec CR" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="YcPQ61z67r9PlWFHKwve-9" vertex="1">
           <mxGeometry x="508" y="203" width="92" height="45" as="geometry" />
@@ -121,17 +118,6 @@
         <mxCell id="rpGYdnlyM7rzxQ0NYGCE-19" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;" parent="rpGYdnlyM7rzxQ0NYGCE-18" vertex="1" connectable="0">
           <mxGeometry x="0.4" y="-1" relative="1" as="geometry">
             <mxPoint x="-9" y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rpGYdnlyM7rzxQ0NYGCE-22" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="YcPQ61z67r9PlWFHKwve-9" source="rpGYdnlyM7rzxQ0NYGCE-0" target="rpGYdnlyM7rzxQ0NYGCE-17" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="610" y="147.5" as="sourcePoint" />
-            <mxPoint x="854" y="147.5999999999999" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rpGYdnlyM7rzxQ0NYGCE-23" value="&lt;b&gt;2&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="rpGYdnlyM7rzxQ0NYGCE-22" vertex="1" connectable="0">
-          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lLLrWBRVVJRMvtl2eppm-1" value="Update CR for every parsed Excel line" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="YcPQ61z67r9PlWFHKwve-9">
@@ -172,6 +158,17 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="518" y="417.5" as="sourcePoint" />
             <mxPoint x="432" y="358.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_pQ5WrbcsnYaPn9w_dk-12" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="YcPQ61z67r9PlWFHKwve-9" source="rpGYdnlyM7rzxQ0NYGCE-0" target="rpGYdnlyM7rzxQ0NYGCE-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="564" y="258" as="sourcePoint" />
+            <mxPoint x="564" y="304" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1_pQ5WrbcsnYaPn9w_dk-13" value="&lt;b&gt;2&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="1_pQ5WrbcsnYaPn9w_dk-12">
+          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gpyhw4safOaDeC1kDyDY-0" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="YcPQ61z67r9PlWFHKwve-1" source="rpGYdnlyM7rzxQ0NYGCE-17" target="YcPQ61z67r9PlWFHKwve-4" edge="1">
