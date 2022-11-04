@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T16:01:57.469Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="wchgXQs9BmW4BnGDgAH8" version="20.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-04T16:43:52.314Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="GsUjftTo6njy5jkbV06m" version="20.5.1" type="github" pages="4">
   <diagram name="CreateCase" id="X3QRcElQ5Iuo-_neAbF0">
-    <mxGraphModel dx="1319" dy="1164" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1624" dy="1164" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="YcPQ61z67r9PlWFHKwve-0" />
         <mxCell id="YcPQ61z67r9PlWFHKwve-1" parent="YcPQ61z67r9PlWFHKwve-0" />
@@ -40,16 +40,16 @@
           <mxGeometry x="308" y="257" width="134" height="73" as="geometry" />
         </mxCell>
         <mxCell id="rpGYdnlyM7rzxQ0NYGCE-1" value="User Requests Item" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" parent="YcPQ61z67r9PlWFHKwve-9" vertex="1">
-          <mxGeometry x="13" y="147" width="78" height="57" as="geometry" />
+          <mxGeometry x="14" y="133" width="78" height="57" as="geometry" />
         </mxCell>
         <mxCell id="rpGYdnlyM7rzxQ0NYGCE-7" value="Request Management" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" parent="YcPQ61z67r9PlWFHKwve-9" vertex="1">
-          <mxGeometry x="126" y="38" width="162" height="281" as="geometry" />
+          <mxGeometry x="126" y="38" width="162" height="245" as="geometry" />
         </mxCell>
         <mxCell id="rpGYdnlyM7rzxQ0NYGCE-2" value="DB: &amp;lt;sc_req_item&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="YcPQ61z67r9PlWFHKwve-9" vertex="1">
           <mxGeometry x="146.5" y="139" width="121" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="rpGYdnlyM7rzxQ0NYGCE-3" value="&lt;div&gt;DB: &amp;lt;sc_task&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Assignment Group&lt;/div&gt;&lt;div&gt;State&lt;/div&gt;&lt;div&gt;Oh hold reason&lt;/div&gt;&lt;div&gt;...&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="YcPQ61z67r9PlWFHKwve-9" vertex="1">
-          <mxGeometry x="146.5" y="209" width="121" height="97" as="geometry" />
+        <mxCell id="rpGYdnlyM7rzxQ0NYGCE-3" value="&lt;div&gt;DB: &amp;lt;sc_task&amp;gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="YcPQ61z67r9PlWFHKwve-9" vertex="1">
+          <mxGeometry x="146.5" y="209" width="121" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rpGYdnlyM7rzxQ0NYGCE-6" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="YcPQ61z67r9PlWFHKwve-9" source="rpGYdnlyM7rzxQ0NYGCE-2" target="rpGYdnlyM7rzxQ0NYGCE-3" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -57,11 +57,11 @@
             <mxPoint x="653.5" y="66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpGYdnlyM7rzxQ0NYGCE-8" value="Data Changes &amp;lt;sc_task: Assignment Group, State, ...&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" parent="YcPQ61z67r9PlWFHKwve-9" vertex="1">
-          <mxGeometry x="325" y="150" width="107" height="57" as="geometry" />
+        <mxCell id="rpGYdnlyM7rzxQ0NYGCE-8" value="Data Changes (item requested)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" parent="YcPQ61z67r9PlWFHKwve-9" vertex="1">
+          <mxGeometry x="314" y="373" width="107" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="rpGYdnlyM7rzxQ0NYGCE-9" value="SN-2-Spryker API" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" parent="YcPQ61z67r9PlWFHKwve-9" vertex="1">
-          <mxGeometry x="470" y="38" width="162" height="281" as="geometry" />
+        <mxCell id="rpGYdnlyM7rzxQ0NYGCE-9" value="Manage Firewall Rules" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" parent="YcPQ61z67r9PlWFHKwve-9" vertex="1">
+          <mxGeometry x="470" y="38" width="162" height="573" as="geometry" />
         </mxCell>
         <mxCell id="rpGYdnlyM7rzxQ0NYGCE-10" value="Flow Designer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;verticalAlign=top;strokeColor=#82b366;" parent="YcPQ61z67r9PlWFHKwve-9" vertex="1">
           <mxGeometry x="484" y="72" width="140" height="224" as="geometry" />
