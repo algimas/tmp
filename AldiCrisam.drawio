@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T15:04:10.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="zB2LYDlGfqdjXJ2A8E5X" version="20.5.3" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-11-29T11:26:02.638Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="FsfVD6z3pYlFaOGa6Fsl" version="20.5.3" type="github" pages="16">
   <diagram name="Hierarchy1" id="K9JmOt2MnFPWWsac-dhA">
     <mxGraphModel dx="2893" dy="1164" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -4316,9 +4316,6 @@
             <mxRectangle x="13" y="267" width="64" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jWTncPSZUQyBG794sO1R-54" value="&lt;div&gt;&lt;b&gt;Synchronous&lt;/b&gt;&lt;/div&gt;&lt;div&gt;OAuth 2.0 over TLS 1.2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jWTncPSZUQyBG794sO1R-1">
-          <mxGeometry x="607" y="562" width="136" height="32" as="geometry" />
-        </mxCell>
         <mxCell id="DwhTR8-JtISrgp1nDlkf-2" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="jWTncPSZUQyBG794sO1R-1" source="YMkVPcHWmQSqaw5xGF2Q-9" target="YMkVPcHWmQSqaw5xGF2Q-4">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="528.5" y="451.76456167594074" as="sourcePoint" />
@@ -4353,22 +4350,25 @@
             <mxPoint x="977.04" y="566" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="kUr-8UGkQpnEgz8Pi_UF-0" value="&lt;div&gt;&lt;b&gt;Synchronous REST call&lt;/b&gt;&lt;/div&gt;&lt;div&gt;OAuth 2.0 over TLS 1.2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jWTncPSZUQyBG794sO1R-1">
+          <mxGeometry x="594" y="551" width="153" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="METhj1cT1Y32HXTmfvD9" name="SN2Crisam">
-    <mxGraphModel dx="1698" dy="1164" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2176" dy="1164" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4WTPp41B0f5GD_muHWLP-1" value="Crisam" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="847" y="87" width="303" height="368" as="geometry" />
+          <mxGeometry x="869" y="86" width="264" height="368" as="geometry" />
         </mxCell>
         <mxCell id="4WTPp41B0f5GD_muHWLP-3" value="CRISAM API" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=interface;archiType=square;strokeColor=#6c8ebf;verticalAlign=top;" parent="4WTPp41B0f5GD_muHWLP-1" vertex="1">
-          <mxGeometry x="15" y="37" width="109" height="282" as="geometry" />
+          <mxGeometry x="21" y="36" width="109" height="282" as="geometry" />
         </mxCell>
         <mxCell id="4WTPp41B0f5GD_muHWLP-4" value="DB: Risk / Measure" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="4WTPp41B0f5GD_muHWLP-1" vertex="1">
-          <mxGeometry x="140" y="174" width="131" height="49" as="geometry" />
+          <mxGeometry x="137" y="175" width="119" height="49" as="geometry" />
         </mxCell>
         <mxCell id="4WTPp41B0f5GD_muHWLP-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" parent="4WTPp41B0f5GD_muHWLP-1" source="E5EbKRlsQo4o2PiDVAn4-1" target="4WTPp41B0f5GD_muHWLP-4" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -4377,10 +4377,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="E5EbKRlsQo4o2PiDVAn4-1" value="/measures" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;" parent="4WTPp41B0f5GD_muHWLP-1" vertex="1">
-          <mxGeometry x="20.5" y="117" width="98" height="39" as="geometry" />
+          <mxGeometry x="29" y="121" width="89" height="39" as="geometry" />
         </mxCell>
         <mxCell id="4WTPp41B0f5GD_muHWLP-8" value="ServiceNow" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="18" y="87" width="739" height="368" as="geometry" />
+          <mxGeometry x="18" y="87" width="703" height="368" as="geometry" />
         </mxCell>
         <mxCell id="4WTPp41B0f5GD_muHWLP-10" value="User updates risk related data" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" parent="4WTPp41B0f5GD_muHWLP-8" vertex="1">
           <mxGeometry x="13" y="134" width="78" height="80" as="geometry" />
@@ -4401,13 +4401,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4WTPp41B0f5GD_muHWLP-15" value="ServiceNow catches data changes" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" parent="4WTPp41B0f5GD_muHWLP-8" vertex="1">
-          <mxGeometry x="401" y="150" width="107" height="57" as="geometry" />
+          <mxGeometry x="378" y="152" width="107" height="57" as="geometry" />
         </mxCell>
         <mxCell id="4WTPp41B0f5GD_muHWLP-16" value="Process Automation" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" parent="4WTPp41B0f5GD_muHWLP-8" vertex="1">
-          <mxGeometry x="546" y="38" width="162" height="281" as="geometry" />
+          <mxGeometry x="523" y="40" width="162" height="281" as="geometry" />
         </mxCell>
         <mxCell id="4WTPp41B0f5GD_muHWLP-17" value="Flow Designer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;verticalAlign=top;strokeColor=#82b366;" parent="4WTPp41B0f5GD_muHWLP-8" vertex="1">
-          <mxGeometry x="560" y="72" width="140" height="224" as="geometry" />
+          <mxGeometry x="537" y="74" width="140" height="224" as="geometry" />
         </mxCell>
         <mxCell id="4WTPp41B0f5GD_muHWLP-18" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="4WTPp41B0f5GD_muHWLP-8" source="4WTPp41B0f5GD_muHWLP-19" target="4WTPp41B0f5GD_muHWLP-12" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -4427,10 +4427,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4WTPp41B0f5GD_muHWLP-22" value="Update Measure" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="4WTPp41B0f5GD_muHWLP-8" vertex="1">
-          <mxGeometry x="584" y="115" width="92" height="45" as="geometry" />
+          <mxGeometry x="561" y="117" width="92" height="45" as="geometry" />
         </mxCell>
         <mxCell id="4WTPp41B0f5GD_muHWLP-23" value="Notify on results" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="4WTPp41B0f5GD_muHWLP-8" vertex="1">
-          <mxGeometry x="584" y="215" width="92" height="45" as="geometry" />
+          <mxGeometry x="561" y="217" width="92" height="45" as="geometry" />
         </mxCell>
         <mxCell id="4WTPp41B0f5GD_muHWLP-25" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" parent="4WTPp41B0f5GD_muHWLP-8" source="4WTPp41B0f5GD_muHWLP-15" target="4WTPp41B0f5GD_muHWLP-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -4442,8 +4442,8 @@
         </mxCell>
         <mxCell id="4WTPp41B0f5GD_muHWLP-28" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="4WTPp41B0f5GD_muHWLP-8" source="4WTPp41B0f5GD_muHWLP-22" target="4WTPp41B0f5GD_muHWLP-23" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="686" y="147.5" as="sourcePoint" />
-            <mxPoint x="930" y="147.5999999999999" as="targetPoint" />
+            <mxPoint x="663" y="149.5" as="sourcePoint" />
+            <mxPoint x="907" y="149.5999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4WTPp41B0f5GD_muHWLP-29" value="&lt;b&gt;3&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="4WTPp41B0f5GD_muHWLP-28" vertex="1" connectable="0">
@@ -4478,6 +4478,9 @@
           <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2n7FD-HHF9C3128gwcw8-1" value="&lt;div&gt;&lt;b&gt;Synchronous REST call&lt;/b&gt;&lt;/div&gt;&lt;div&gt;OAuth 2.0 over TLS 1.2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="715" y="179" width="153" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
