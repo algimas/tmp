@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T11:57:10.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="5hLzxBYlWTf684_TiOVd" version="20.7.4" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2023-01-16T13:54:42.348Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ls7Vns4EysBtpa5dhCyO" version="20.7.4" type="github" pages="25">
   <diagram name="Hierarchy1" id="K9JmOt2MnFPWWsac-dhA">
     <mxGraphModel dx="1735" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -4357,7 +4357,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Crisam2SnNightly" id="LxVTb_Td4nOiHnH-R4qv">
-    <mxGraphModel dx="1388" dy="933" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2051" dy="933" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WrOrSSEMAf1SF6fCG9IN-0" />
         <mxCell id="WrOrSSEMAf1SF6fCG9IN-1" parent="WrOrSSEMAf1SF6fCG9IN-0" />
@@ -4368,7 +4368,7 @@
           <mxGeometry x="20.5" y="29" width="125" height="378" as="geometry" />
         </mxCell>
         <mxCell id="WrOrSSEMAf1SF6fCG9IN-48" value="/measures" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;" vertex="1" parent="WrOrSSEMAf1SF6fCG9IN-2">
-          <mxGeometry x="34" y="314.5" width="98" height="39" as="geometry" />
+          <mxGeometry x="34" y="283.5" width="98" height="39" as="geometry" />
         </mxCell>
         <mxCell id="yNjyjOc6FVl-3_BNZ_E9-1" value="audits" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;" vertex="1" parent="WrOrSSEMAf1SF6fCG9IN-2">
           <mxGeometry x="34" y="191.5" width="98" height="39" as="geometry" />
@@ -4423,7 +4423,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DuWXr4mn9S0v7zFBblb6-0" value="&amp;lt;ALDi Crisam create SN Mitigation&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="WrOrSSEMAf1SF6fCG9IN-12">
-          <mxGeometry x="358.5" y="311" width="282" height="46" as="geometry" />
+          <mxGeometry x="358.5" y="280" width="282" height="46" as="geometry" />
         </mxCell>
         <mxCell id="DuWXr4mn9S0v7zFBblb6-1" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="WrOrSSEMAf1SF6fCG9IN-12" source="yNjyjOc6FVl-3_BNZ_E9-0" target="DuWXr4mn9S0v7zFBblb6-0">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -4431,7 +4431,7 @@
             <mxPoint x="473.5447761194032" y="174" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DuWXr4mn9S0v7zFBblb6-2" value="&lt;b&gt;4&amp;nbsp;&lt;/b&gt;(async)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="DuWXr4mn9S0v7zFBblb6-1">
+        <mxCell id="DuWXr4mn9S0v7zFBblb6-2" value="&lt;b&gt;4a&amp;nbsp;&lt;/b&gt;(async) - if missing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="DuWXr4mn9S0v7zFBblb6-1">
           <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -4454,24 +4454,36 @@
             <mxPoint x="157" y="265" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5xCGJriaxVXPfP6FLR2p-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="WrOrSSEMAf1SF6fCG9IN-12" source="DuWXr4mn9S0v7zFBblb6-0" target="5xCGJriaxVXPfP6FLR2p-7">
+        <mxCell id="5xCGJriaxVXPfP6FLR2p-10" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="WrOrSSEMAf1SF6fCG9IN-12" source="DuWXr4mn9S0v7zFBblb6-0" target="5xCGJriaxVXPfP6FLR2p-7">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="299.5" y="221" as="sourcePoint" />
             <mxPoint x="149.5" y="180" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="305" y="334" />
-              <mxPoint x="305" y="284" />
-            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5xCGJriaxVXPfP6FLR2p-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="WrOrSSEMAf1SF6fCG9IN-12" source="DuWXr4mn9S0v7zFBblb6-0" target="5xCGJriaxVXPfP6FLR2p-6">
+        <mxCell id="5xCGJriaxVXPfP6FLR2p-11" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="WrOrSSEMAf1SF6fCG9IN-12" source="DuWXr4mn9S0v7zFBblb6-0" target="5xCGJriaxVXPfP6FLR2p-6">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="309.5" y="231" as="sourcePoint" />
             <mxPoint x="159.5" y="190" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="304" y="334" />
-              <mxPoint x="304" y="386" />
-            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cpJwZe_5ezjxZsZSICGm-0" value="&amp;lt;ALDi Crisam sync SN Mitigation status&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="WrOrSSEMAf1SF6fCG9IN-12">
+          <mxGeometry x="358.5" y="360" width="280.5" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="cpJwZe_5ezjxZsZSICGm-1" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="WrOrSSEMAf1SF6fCG9IN-12" source="DuWXr4mn9S0v7zFBblb6-0" target="cpJwZe_5ezjxZsZSICGm-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="509.5" y="244" as="sourcePoint" />
+            <mxPoint x="509.5" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cpJwZe_5ezjxZsZSICGm-2" value="&lt;b&gt;4b&amp;nbsp;&lt;/b&gt;(async) - if exists, thus update status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="cpJwZe_5ezjxZsZSICGm-1">
+          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cpJwZe_5ezjxZsZSICGm-3" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="WrOrSSEMAf1SF6fCG9IN-12" source="cpJwZe_5ezjxZsZSICGm-0" target="5xCGJriaxVXPfP6FLR2p-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="580" y="517" as="sourcePoint" />
+            <mxPoint x="123" y="652" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WrOrSSEMAf1SF6fCG9IN-49" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="WrOrSSEMAf1SF6fCG9IN-1" source="yNjyjOc6FVl-3_BNZ_E9-0" target="yNjyjOc6FVl-3_BNZ_E9-1">
@@ -4526,7 +4538,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="SN2CrisamConcept" id="_BijdJNfpNHS02dc935f">
-    <mxGraphModel dx="1388" dy="933" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2051" dy="933" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="YjnLGksCjPWYK3giWORC-0" />
         <mxCell id="YjnLGksCjPWYK3giWORC-1" parent="YjnLGksCjPWYK3giWORC-0" />
@@ -4669,7 +4681,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="SnRisk2Crisam" id="QB0SyopwDeTL7NndrAQj">
-    <mxGraphModel dx="1388" dy="933" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2051" dy="933" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="4abHBTXoF8-87Vxw50pm-0" />
         <mxCell id="4abHBTXoF8-87Vxw50pm-1" parent="4abHBTXoF8-87Vxw50pm-0" />
@@ -4823,7 +4835,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="SnMitigation2Crisam" id="FC9DD4VUwDj5OhkHxRHF">
-    <mxGraphModel dx="1388" dy="933" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2051" dy="933" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="_6FXy4G5H11tdbNQzrnF-0" />
         <mxCell id="_6FXy4G5H11tdbNQzrnF-1" parent="_6FXy4G5H11tdbNQzrnF-0" />
@@ -4977,7 +4989,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="METhj1cT1Y32HXTmfvD9" name="SN2Crisam">
-    <mxGraphModel dx="1735" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2564" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
