@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T09:13:08.306Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="mLekEGPfmQmWkPmQoYOH" version="20.7.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-01-17T09:27:23.217Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="9gCojJ9OlgmktpGqY-Ez" version="20.7.4" type="github" pages="6">
   <diagram name="DemandStates" id="FoYyU6KP7FereD8xL6Yg">
     <mxGraphModel dx="2714" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -736,50 +736,44 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ypn8mK02HDiOsNtpbP3W" name="Components">
-    <mxGraphModel dx="2303" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2303" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NRm_-DyZYPhQtgougCX1-1" value="Flow" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="189" y="171" width="730" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="NRm_-DyZYPhQtgougCX1-2" value="&amp;lt;ALDi Crisam sync Risk&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="198" y="203" width="327" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="NRm_-DyZYPhQtgougCX1-3" value="&amp;lt;ALDI Crisam sync Measure&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="570" y="203" width="327" height="58" as="geometry" />
+        <mxCell id="NRm_-DyZYPhQtgougCX1-2" value="&amp;lt;ALDI DevOps Update Jira Ticket for Demand&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="251" y="205" width="327" height="58" as="geometry" />
         </mxCell>
         <mxCell id="NRm_-DyZYPhQtgougCX1-4" value="SubFlow" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="185" y="473" width="730" height="211" as="geometry" />
         </mxCell>
-        <mxCell id="NRm_-DyZYPhQtgougCX1-5" value="&amp;lt;ALDi Crisam import SN Risks and Mitigations&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="203.5" y="559" width="282" height="46" as="geometry" />
+        <mxCell id="NRm_-DyZYPhQtgougCX1-5" value="&amp;lt;ALDI DevOps sync Jira Ticket with Demand&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="502" y="494" width="282" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="NRm_-DyZYPhQtgougCX1-6" value="&amp;lt;ALDi Crisam create SN Mitigation&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="496" y="495" width="258" height="46" as="geometry" />
+        <mxCell id="NRm_-DyZYPhQtgougCX1-6" value="&amp;lt;ALDI DevOps Create Jira Ticket for Demand&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="201.5" y="504" width="284" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="NRm_-DyZYPhQtgougCX1-7" value="&amp;lt;ALDi Crisam sync SN Mitigation status&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="494" y="629" width="260" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="NRm_-DyZYPhQtgougCX1-9" value="&amp;lt;ALDi Crisam make REST call&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="NRm_-DyZYPhQtgougCX1-9" value="&amp;lt;Jira Spoke&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="640" y="559" width="260" height="46" as="geometry" />
         </mxCell>
         <mxCell id="NRm_-DyZYPhQtgougCX1-10" value="Demand changed" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="109" y="71.5" width="136" height="57" as="geometry" />
+          <mxGeometry x="162" y="73.5" width="136" height="57" as="geometry" />
         </mxCell>
         <mxCell id="NRm_-DyZYPhQtgougCX1-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="1" source="NRm_-DyZYPhQtgougCX1-10" target="NRm_-DyZYPhQtgougCX1-18">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="206" y="105" as="sourcePoint" />
-            <mxPoint x="251" y="105" as="targetPoint" />
+            <mxPoint x="259" y="107" as="sourcePoint" />
+            <mxPoint x="304" y="107" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NRm_-DyZYPhQtgougCX1-18" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&amp;lt;dmn_demand&amp;gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;sys_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;state&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="290.5" y="56" width="140" height="88" as="geometry" />
+          <mxGeometry x="343.5" y="58" width="140" height="88" as="geometry" />
         </mxCell>
         <mxCell id="NRm_-DyZYPhQtgougCX1-19" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="NRm_-DyZYPhQtgougCX1-18" target="NRm_-DyZYPhQtgougCX1-2">
           <mxGeometry x="-1" y="-326" width="160" relative="1" as="geometry">
-            <mxPoint x="128.00072580645178" y="196" as="sourcePoint" />
-            <mxPoint x="128.31725806451618" y="274.5" as="targetPoint" />
+            <mxPoint x="181.00072580645178" y="198" as="sourcePoint" />
+            <mxPoint x="181.31725806451618" y="276.5" as="targetPoint" />
             <mxPoint x="123" y="-256" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -795,31 +789,10 @@
             <mxPoint x="354.5" y="569" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NRm_-DyZYPhQtgougCX1-24" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="1" source="NRm_-DyZYPhQtgougCX1-1" target="NRm_-DyZYPhQtgougCX1-9">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="812" y="389" as="sourcePoint" />
-            <mxPoint x="1052" y="357.98" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="NRm_-DyZYPhQtgougCX1-25" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="1" source="NRm_-DyZYPhQtgougCX1-6" target="NRm_-DyZYPhQtgougCX1-9">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="562" y="254" as="sourcePoint" />
             <mxPoint x="775" y="569" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NRm_-DyZYPhQtgougCX1-26" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="1" source="NRm_-DyZYPhQtgougCX1-7" target="NRm_-DyZYPhQtgougCX1-9">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="572" y="264" as="sourcePoint" />
-            <mxPoint x="785" y="579" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NRm_-DyZYPhQtgougCX1-27" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&amp;lt;u_aldi_interface_transaction&amp;gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="867" y="696.5" width="194" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="NRm_-DyZYPhQtgougCX1-28" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="1" source="NRm_-DyZYPhQtgougCX1-9" target="NRm_-DyZYPhQtgougCX1-27">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="564" y="313" as="sourcePoint" />
-            <mxPoint x="775.04" y="569" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NRm_-DyZYPhQtgougCX1-30" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="1" source="NRm_-DyZYPhQtgougCX1-5" target="NRm_-DyZYPhQtgougCX1-9">
@@ -828,22 +801,22 @@
             <mxPoint x="537.7112676056338" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NRm_-DyZYPhQtgougCX1-31" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="NRm_-DyZYPhQtgougCX1-5" target="NRm_-DyZYPhQtgougCX1-6">
+        <mxCell id="NRm_-DyZYPhQtgougCX1-31" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="NRm_-DyZYPhQtgougCX1-40" target="NRm_-DyZYPhQtgougCX1-6">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="354.5" y="444" as="sourcePoint" />
             <mxPoint x="354.5" y="569" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NRm_-DyZYPhQtgougCX1-32" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="NRm_-DyZYPhQtgougCX1-5" target="NRm_-DyZYPhQtgougCX1-7">
+        <mxCell id="NRm_-DyZYPhQtgougCX1-32" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="NRm_-DyZYPhQtgougCX1-2" target="NRm_-DyZYPhQtgougCX1-5">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="364.5" y="454" as="sourcePoint" />
-            <mxPoint x="364.5" y="579" as="targetPoint" />
+            <mxPoint x="532.164285714286" y="629" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NRm_-DyZYPhQtgougCX1-33" value="Script Include" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="727" y="293" width="192" height="113" as="geometry" />
         </mxCell>
-        <mxCell id="NRm_-DyZYPhQtgougCX1-34" value="ALDICrisamInterface" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="NRm_-DyZYPhQtgougCX1-34" value="ALDIDevOpsJiraDemand" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="758" y="327" width="146" height="52" as="geometry" />
         </mxCell>
         <mxCell id="NRm_-DyZYPhQtgougCX1-35" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="1" source="NRm_-DyZYPhQtgougCX1-4" target="NRm_-DyZYPhQtgougCX1-34">
@@ -858,17 +831,8 @@
             <mxPoint x="668.6912751677855" y="391" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NRm_-DyZYPhQtgougCX1-37" value="Script Include" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="686" y="696.5" width="168" height="99" as="geometry" />
-        </mxCell>
-        <mxCell id="NRm_-DyZYPhQtgougCX1-38" value="AldiCrisamRestHelper" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="698" y="732.5" width="146" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="NRm_-DyZYPhQtgougCX1-39" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="1" source="NRm_-DyZYPhQtgougCX1-9" target="NRm_-DyZYPhQtgougCX1-38">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="780.04" y="615" as="sourcePoint" />
-            <mxPoint x="773" y="721" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="NRm_-DyZYPhQtgougCX1-40" value="UI Action" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="275.5" y="385" width="136" height="57" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
