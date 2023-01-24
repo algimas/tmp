@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T14:23:09.298Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="XigT7fo3MkemA0cUbFJq" version="20.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-24T14:24:29.487Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="1bsTgexbEHhS1o-2rE9a" version="20.8.5" type="github" pages="2">
   <diagram name="SN&gt;BMC" id="X3QRcElQ5Iuo-_neAbF0">
     <mxGraphModel dx="1706" dy="972" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -121,10 +121,10 @@
       <root>
         <mxCell id="RvUQp98ntliPEG7AJHw2-0" />
         <mxCell id="RvUQp98ntliPEG7AJHw2-1" parent="RvUQp98ntliPEG7AJHw2-0" />
-        <mxCell id="RvUQp98ntliPEG7AJHw2-2" value="Salesforce" style="swimlane;" parent="RvUQp98ntliPEG7AJHw2-1" vertex="1">
+        <mxCell id="RvUQp98ntliPEG7AJHw2-2" value="BMC-Astea" style="swimlane;" parent="RvUQp98ntliPEG7AJHw2-1" vertex="1">
           <mxGeometry x="797" y="70" width="328" height="464" as="geometry" />
         </mxCell>
-        <mxCell id="RvUQp98ntliPEG7AJHw2-3" value="DB: Case" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="RvUQp98ntliPEG7AJHw2-2" vertex="1">
+        <mxCell id="RvUQp98ntliPEG7AJHw2-3" value="DB: record" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="RvUQp98ntliPEG7AJHw2-2" vertex="1">
           <mxGeometry x="147" y="175" width="130" height="61" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-4" value="&lt;div&gt;Data &lt;br&gt;&lt;/div&gt;&lt;div&gt;Changes&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.event;direction=west;strokeColor=#6c8ebf;" parent="RvUQp98ntliPEG7AJHw2-2" vertex="1">
@@ -192,12 +192,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T3Ntwo333TGOfmnkiFuI-0" value="DB: Incident" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="RvUQp98ntliPEG7AJHw2-5" vertex="1">
-          <mxGeometry x="332" y="312" width="130" height="58" as="geometry" />
+          <mxGeometry x="347" y="355.5" width="130" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="RvUQp98ntliPEG7AJHw2-24" value="DB: &amp;lt;sc_task&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;" parent="RvUQp98ntliPEG7AJHw2-5" vertex="1">
-          <mxGeometry x="332" y="388" width="130" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="RvUQp98ntliPEG7AJHw2-11" value="Spryker" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=top;" parent="RvUQp98ntliPEG7AJHw2-1" vertex="1">
+        <mxCell id="RvUQp98ntliPEG7AJHw2-11" value="BMC" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=top;" parent="RvUQp98ntliPEG7AJHw2-1" vertex="1">
           <mxGeometry x="810" y="119" width="163" height="75" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-12" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#00b9f2;" parent="RvUQp98ntliPEG7AJHw2-1" source="RvUQp98ntliPEG7AJHw2-11" target="RvUQp98ntliPEG7AJHw2-3" edge="1">
@@ -235,7 +232,7 @@
         <mxCell id="RvUQp98ntliPEG7AJHw2-20" value="&lt;div&gt;&lt;b&gt;Asynchronous&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(mTLS)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="RvUQp98ntliPEG7AJHw2-1" vertex="1">
           <mxGeometry x="658" y="131" width="94" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="RvUQp98ntliPEG7AJHw2-21" value="Salesforce Outbound Messaging" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=middle;" parent="RvUQp98ntliPEG7AJHw2-1" vertex="1">
+        <mxCell id="RvUQp98ntliPEG7AJHw2-21" value="Outbound Messaging" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=middle;" parent="RvUQp98ntliPEG7AJHw2-1" vertex="1">
           <mxGeometry x="816" y="146.5" width="148.5" height="41" as="geometry" />
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-22" value="Flow Designer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" parent="RvUQp98ntliPEG7AJHw2-1" vertex="1">
@@ -243,12 +240,6 @@
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-23" value="Flow Action" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" parent="RvUQp98ntliPEG7AJHw2-1" vertex="1">
           <mxGeometry x="183.5" y="455" width="101" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="RvUQp98ntliPEG7AJHw2-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#80b6a1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="RvUQp98ntliPEG7AJHw2-1" source="RvUQp98ntliPEG7AJHw2-23" target="RvUQp98ntliPEG7AJHw2-24" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="353.75" y="223" as="sourcePoint" />
-            <mxPoint x="496" y="254.5" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="RvUQp98ntliPEG7AJHw2-26" value="&lt;b&gt;D&lt;/b&gt; (Asynchronous)" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="RvUQp98ntliPEG7AJHw2-1" source="RvUQp98ntliPEG7AJHw2-8" target="RvUQp98ntliPEG7AJHw2-22" edge="1">
           <mxGeometry x="-0.5157" width="160" relative="1" as="geometry">
