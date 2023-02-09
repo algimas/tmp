@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T21:32:55.975Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="G_jJkW5k-lbRZxRRWD0p" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T21:37:01.373Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="TbmdXqsdNlSeml5f1DA5" version="20.8.13" type="github">
   <diagram name="Page-1" id="SZxe-0-CcY78cEOd1M_S">
     <mxGraphModel dx="776" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -8,24 +8,45 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LeXulU7U5m2sNfc2g644-2" value="GitLab:&lt;br&gt;Start Pipeline" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;verticalAlign=middle;align=center;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="40" y="260" width="80" height="40" as="geometry" />
+          <mxGeometry x="50" y="270" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LeXulU7U5m2sNfc2g644-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="LeXulU7U5m2sNfc2g644-4" target="LeXulU7U5m2sNfc2g644-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LeXulU7U5m2sNfc2g644-4" value="SN: catch event" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="112" y="411" width="80" height="40" as="geometry" />
+          <mxGeometry x="50" y="411" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LeXulU7U5m2sNfc2g644-5" value="SN: call Pipeline for JSON file or variables" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="220" y="270" width="80" height="40" as="geometry" />
+          <mxGeometry x="170" y="270" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LeXulU7U5m2sNfc2g644-6" value="SN: create SC_TASK" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="320" y="411" width="80" height="40" as="geometry" />
+          <mxGeometry x="260" y="411" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LeXulU7U5m2sNfc2g644-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="LeXulU7U5m2sNfc2g644-5" target="LeXulU7U5m2sNfc2g644-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="202" y="441" as="sourcePoint" />
             <mxPoint x="270" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeXulU7U5m2sNfc2g644-8" value="SN: get Attachment" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LeXulU7U5m2sNfc2g644-9" value="SN: upload to sc_task" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="460" y="411" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LeXulU7U5m2sNfc2g644-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="LeXulU7U5m2sNfc2g644-6" target="LeXulU7U5m2sNfc2g644-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="300" as="sourcePoint" />
+            <mxPoint x="370" y="421" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="431" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeXulU7U5m2sNfc2g644-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="LeXulU7U5m2sNfc2g644-8" target="LeXulU7U5m2sNfc2g644-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="441" as="sourcePoint" />
+            <mxPoint x="460" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
