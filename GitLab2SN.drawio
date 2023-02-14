@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T10:10:48.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="k68Rxfl7Kahyh6hDKQm7" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T11:55:00.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Nuf6kwm6NlM4l6Hpg3yL" version="20.8.13" type="github">
   <diagram name="Page-1" id="SZxe-0-CcY78cEOd1M_S">
     <mxGraphModel dx="1117" dy="804" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="LeXulU7U5m2sNfc2g644-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="LeXulU7U5m2sNfc2g644-2" target="LeXulU7U5m2sNfc2g644-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LeXulU7U5m2sNfc2g644-2" value="GitLab:&lt;br&gt;Start Pipeline" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;verticalAlign=middle;align=center;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="LeXulU7U5m2sNfc2g644-2" value="GitLab:&lt;br&gt;Start Pipeline" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;verticalAlign=middle;align=center;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="25" y="139" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LeXulU7U5m2sNfc2g644-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="LeXulU7U5m2sNfc2g644-4" target="LeXulU7U5m2sNfc2g644-5">
@@ -17,10 +17,10 @@
           <mxGeometry x="25" y="382" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LeXulU7U5m2sNfc2g644-5" value="SN: call Pipeline for JSON file or variables" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="143" y="233" width="80" height="40" as="geometry" />
+          <mxGeometry x="159" y="139" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LeXulU7U5m2sNfc2g644-6" value="SN: create SC_TASK" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="260" y="411" width="80" height="40" as="geometry" />
+          <mxGeometry x="257" y="382" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LeXulU7U5m2sNfc2g644-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="LeXulU7U5m2sNfc2g644-5" target="LeXulU7U5m2sNfc2g644-6">
           <mxGeometry relative="1" as="geometry">
@@ -58,8 +58,8 @@
             <mxPoint x="510" y="421" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LeXulU7U5m2sNfc2g644-14" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;sn_devops_pipeline&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;JSON properties&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate3.representation;fontSize=12;align=center;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="34" y="451" width="209" height="107" as="geometry" />
+        <mxCell id="LeXulU7U5m2sNfc2g644-14" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Flow: on created Pipeline Execution&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;find:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;sn_devops_pipeline&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;JSON properties&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate3.representation;fontSize=12;align=center;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="25" y="498" width="209" height="107" as="geometry" />
         </mxCell>
         <mxCell id="LeXulU7U5m2sNfc2g644-15" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="1" source="LeXulU7U5m2sNfc2g644-4" target="LeXulU7U5m2sNfc2g644-14">
           <mxGeometry width="160" relative="1" as="geometry">
