@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T11:55:00.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Nuf6kwm6NlM4l6Hpg3yL" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T12:04:32.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="6s-PZ7WN_UEz65V3_Pk5" version="20.8.13" type="github">
   <diagram name="Page-1" id="SZxe-0-CcY78cEOd1M_S">
     <mxGraphModel dx="1117" dy="804" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -29,18 +29,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LeXulU7U5m2sNfc2g644-8" value="SN: get Attachment" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="360" y="270" width="80" height="40" as="geometry" />
+          <mxGeometry x="523" y="240" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LeXulU7U5m2sNfc2g644-9" value="SN: upload to sc_task" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="460" y="411" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LeXulU7U5m2sNfc2g644-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="LeXulU7U5m2sNfc2g644-6" target="LeXulU7U5m2sNfc2g644-8">
+        <mxCell id="LeXulU7U5m2sNfc2g644-10" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="LeXulU7U5m2sNfc2g644-6" target="LeXulU7U5m2sNfc2g644-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="300" as="sourcePoint" />
             <mxPoint x="370" y="421" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="430" y="431" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="LeXulU7U5m2sNfc2g644-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="LeXulU7U5m2sNfc2g644-8" target="LeXulU7U5m2sNfc2g644-9">
@@ -66,6 +63,9 @@
             <mxPoint x="341.75" y="329" as="sourcePoint" />
             <mxPoint x="316.24117647058824" y="388" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LeXulU7U5m2sNfc2g644-16" value="SN: update GitLab pipeline variable: Request ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontSize=9;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="350" y="139" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
