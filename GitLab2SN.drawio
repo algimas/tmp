@@ -1,86 +1,128 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T07:07:51.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="hBbkvWf_vWRGNGHdm13g" version="21.0.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-28T08:35:25.520Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="iwWJs6FAkDTG5kR9A7bH" version="21.0.6" type="github" pages="5">
   <diagram name="concept" id="SZxe-0-CcY78cEOd1M_S">
-    <mxGraphModel dx="1780" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1413" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-11" value="Script Include" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#cce5ff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#36393d;verticalAlign=bottom;align=right;gradientColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="236" width="335" height="253" as="geometry" />
+        </mxCell>
         <mxCell id="DcvnHdwFFgLcWuKvTc4U-1" value="Flow" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="189" y="219" width="307" height="110" as="geometry" />
+          <mxGeometry x="179" y="176.5" width="307" height="110" as="geometry" />
         </mxCell>
         <mxCell id="DcvnHdwFFgLcWuKvTc4U-2" value="&amp;lt;ALDI DevOps SR from GitLab&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="210" y="251" width="260" height="58" as="geometry" />
+          <mxGeometry x="202.5" y="200.5" width="260" height="58" as="geometry" />
         </mxCell>
         <mxCell id="DcvnHdwFFgLcWuKvTc4U-3" value="SubFlow" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="500" y="480" width="300" height="140" as="geometry" />
+          <mxGeometry x="179" y="309" width="306" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="DcvnHdwFFgLcWuKvTc4U-4" value="&amp;lt;ALDI DevOps resume GitLab Job&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="530" y="502.5" width="260" height="109" as="geometry" />
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-4" value="&amp;lt;ALDI DevOps resume GitLab Job&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="205" y="331.5" width="260" height="58.5" as="geometry" />
         </mxCell>
-        <mxCell id="DcvnHdwFFgLcWuKvTc4U-5" value="Pipeline execution created/updated" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="272.5" y="125.5" width="136" height="57" as="geometry" />
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-5" value="Pipeline &lt;br&gt;execution created/updated" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="83" width="136" height="57" as="geometry" />
         </mxCell>
         <mxCell id="DcvnHdwFFgLcWuKvTc4U-6" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="1" source="DcvnHdwFFgLcWuKvTc4U-5" target="DcvnHdwFFgLcWuKvTc4U-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="292.5" y="159" as="sourcePoint" />
-            <mxPoint x="337.5" y="159" as="targetPoint" />
+            <mxPoint x="282.5" y="116.5" as="sourcePoint" />
+            <mxPoint x="327.5" y="116.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DcvnHdwFFgLcWuKvTc4U-7" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&amp;lt;sn_devops_pipeline_execution&amp;gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;sys_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;state&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="444" y="117.5" width="211" height="73" as="geometry" />
+          <mxGeometry x="486" y="75" width="211" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="DcvnHdwFFgLcWuKvTc4U-8" value="Conigma" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="828" y="523.5" width="121" height="90" as="geometry" />
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-8" value="GitLab" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="866" y="224.5" width="121" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DcvnHdwFFgLcWuKvTc4U-9" value="API" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=interface;archiType=square;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="DcvnHdwFFgLcWuKvTc4U-8">
           <mxGeometry x="24.5" y="35.5" width="72" height="35" as="geometry" />
         </mxCell>
         <mxCell id="DcvnHdwFFgLcWuKvTc4U-10" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="DcvnHdwFFgLcWuKvTc4U-2" target="DcvnHdwFFgLcWuKvTc4U-4">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="364.5" y="454" as="sourcePoint" />
-            <mxPoint x="532.164285714286" y="629" as="targetPoint" />
+            <mxPoint x="255.5" y="411.5" as="sourcePoint" />
+            <mxPoint x="488.03971119133575" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DcvnHdwFFgLcWuKvTc4U-11" value="Script Include" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="189" y="360" width="231" height="99" as="geometry" />
-        </mxCell>
-        <mxCell id="DcvnHdwFFgLcWuKvTc4U-12" value="ALDITelefonicaIncidentInterface" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="210" y="388" width="190" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="DcvnHdwFFgLcWuKvTc4U-13" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="1" source="DcvnHdwFFgLcWuKvTc4U-3" target="DcvnHdwFFgLcWuKvTc4U-12">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="786.6872246696034" y="569" as="sourcePoint" />
-            <mxPoint x="838.4405286343613" y="391" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-12" value="ALDIDevOpsSrGitLab" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="529" y="411" width="190" height="52" as="geometry" />
         </mxCell>
         <mxCell id="DcvnHdwFFgLcWuKvTc4U-14" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="1" source="DcvnHdwFFgLcWuKvTc4U-5" target="DcvnHdwFFgLcWuKvTc4U-7">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="522.9985714285716" y="246" as="sourcePoint" />
-            <mxPoint x="669.2612751677856" y="356" as="targetPoint" />
+            <mxPoint x="512.9985714285716" y="203.5" as="sourcePoint" />
+            <mxPoint x="659.2612751677856" y="313.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DcvnHdwFFgLcWuKvTc4U-19" value="Flow Action" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="560" y="530" width="210" height="73" as="geometry" />
-        </mxCell>
-        <mxCell id="DcvnHdwFFgLcWuKvTc4U-20" value="&amp;lt;ALDI&amp;nbsp;Telefonica REST call&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="574" y="553" width="177" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="DcvnHdwFFgLcWuKvTc4U-21" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DcvnHdwFFgLcWuKvTc4U-1" target="DcvnHdwFFgLcWuKvTc4U-12">
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-26" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="DcvnHdwFFgLcWuKvTc4U-36" target="DcvnHdwFFgLcWuKvTc4U-9">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="289.4263565891474" y="310" as="sourcePoint" />
-            <mxPoint x="464.59078590785884" y="435" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DcvnHdwFFgLcWuKvTc4U-26" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="DcvnHdwFFgLcWuKvTc4U-20" target="DcvnHdwFFgLcWuKvTc4U-9">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="675.2368421052633" y="593" as="sourcePoint" />
-            <mxPoint x="714.5" y="711.1455445544555" as="targetPoint" />
+            <mxPoint x="714" y="615.5239179954442" as="sourcePoint" />
+            <mxPoint x="718.5" y="579.6455445544555" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DcvnHdwFFgLcWuKvTc4U-29" value="Business Rule" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="626" y="219" width="300" height="107" as="geometry" />
+          <mxGeometry x="179" y="450" width="306" height="111.5" as="geometry" />
         </mxCell>
         <mxCell id="DcvnHdwFFgLcWuKvTc4U-30" value="&amp;lt;ALDI DevOps Notify GitLab&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="646" y="251" width="260" height="58" as="geometry" />
+          <mxGeometry x="204" y="486.5" width="260" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-31" value="after: update&lt;br&gt;state - changes" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="266" y="594" width="136" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-32" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="1" source="DcvnHdwFFgLcWuKvTc4U-31" target="DcvnHdwFFgLcWuKvTc4U-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="818" y="678" as="sourcePoint" />
+            <mxPoint x="866.7707509881423" y="770.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-33" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&amp;lt;sc_req_item&amp;gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;sys_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;state&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="486" y="586" width="103.5" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-34" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="1" source="DcvnHdwFFgLcWuKvTc4U-31" target="DcvnHdwFFgLcWuKvTc4U-33">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1048.4985714285717" y="765" as="sourcePoint" />
+            <mxPoint x="1194.7612751677857" y="875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-35" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="DcvnHdwFFgLcWuKvTc4U-30" target="DcvnHdwFFgLcWuKvTc4U-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="277" as="sourcePoint" />
+            <mxPoint x="597" y="513" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-36" value="Flow Action" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="529" y="176.5" width="300" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-37" value="&amp;lt;ALDI&amp;nbsp;DevOps Get Job response&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="541" y="259.5" width="276" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-38" value="&amp;lt;ALDI&amp;nbsp;DevOps Get Artifact as Table Attachment&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="541" y="200.5" width="276" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-39" value="&amp;lt;ALDI&amp;nbsp;DevOps GitLab REST call&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="540" y="318.5" width="276" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-40" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="DcvnHdwFFgLcWuKvTc4U-4" target="DcvnHdwFFgLcWuKvTc4U-39">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="835" y="425" as="sourcePoint" />
+            <mxPoint x="967" y="431" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-41" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="DcvnHdwFFgLcWuKvTc4U-4" target="DcvnHdwFFgLcWuKvTc4U-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="388" y="606" as="sourcePoint" />
+            <mxPoint x="628" y="506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-42" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="DcvnHdwFFgLcWuKvTc4U-2" target="DcvnHdwFFgLcWuKvTc4U-38">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="277" as="sourcePoint" />
+            <mxPoint x="274" y="441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DcvnHdwFFgLcWuKvTc4U-43" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="DcvnHdwFFgLcWuKvTc4U-2" target="DcvnHdwFFgLcWuKvTc4U-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="242" as="sourcePoint" />
+            <mxPoint x="551" y="239" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
