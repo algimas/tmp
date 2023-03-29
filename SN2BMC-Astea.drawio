@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T12:23:15.458Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="pOAfcMU1HHuKHM2_2zVK" version="21.0.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-29T12:29:58.455Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="jal8ATTV8OQzkruaVCMx" version="21.0.6" type="github" pages="4">
   <diagram name="SN&gt;BMC" id="X3QRcElQ5Iuo-_neAbF0">
     <mxGraphModel dx="1800" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -353,13 +353,13 @@
           <mxGeometry x="319" y="250.5" width="260" height="58" as="geometry" />
         </mxCell>
         <mxCell id="L5J293ZByZ9VCPRC4FHN-4" value="SubFlow" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="300" y="425.75" width="310" height="102" as="geometry" />
+          <mxGeometry x="300" y="425.75" width="310" height="164.25" as="geometry" />
         </mxCell>
         <mxCell id="L5J293ZByZ9VCPRC4FHN-5" value="&amp;lt;ALDI BMC Astea make SOAP call&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="319" y="448.25" width="260" height="58.5" as="geometry" />
         </mxCell>
-        <mxCell id="L5J293ZByZ9VCPRC4FHN-6" value="OnHold, &lt;br&gt;Assignment Group..." style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="349" y="138" width="200" height="57" as="geometry" />
+        <mxCell id="L5J293ZByZ9VCPRC4FHN-6" value="Updated: OnHold, &lt;br&gt;Assignment Group..." style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="368.5" y="146" width="161" height="57" as="geometry" />
         </mxCell>
         <mxCell id="L5J293ZByZ9VCPRC4FHN-7" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="1" source="L5J293ZByZ9VCPRC4FHN-6" target="L5J293ZByZ9VCPRC4FHN-3">
           <mxGeometry relative="1" as="geometry">
@@ -368,7 +368,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="L5J293ZByZ9VCPRC4FHN-8" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&amp;lt;sc_task&amp;gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;sys_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;state&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="604.5" y="130" width="104" height="73" as="geometry" />
+          <mxGeometry x="630" y="138" width="104" height="73" as="geometry" />
         </mxCell>
         <mxCell id="L5J293ZByZ9VCPRC4FHN-9" value="BMC Astea" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="678" y="605.75" width="121" height="90" as="geometry" />
@@ -446,6 +446,42 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="459" y="205" as="sourcePoint" />
             <mxPoint x="459" y="261" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlzW70LXLLc55NaW1HuK-6" value="Catalog Item" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="870" y="222.25" width="220" height="107.75" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlzW70LXLLc55NaW1HuK-7" value="&amp;lt;BMC Astea Service Order&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="886" y="250.5" width="180" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlzW70LXLLc55NaW1HuK-8" value="Service Requested" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="895.5" y="146" width="161" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlzW70LXLLc55NaW1HuK-9" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="1" source="ZlzW70LXLLc55NaW1HuK-8" target="ZlzW70LXLLc55NaW1HuK-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="459" y="213" as="sourcePoint" />
+            <mxPoint x="459" y="261" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlzW70LXLLc55NaW1HuK-10" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="ZlzW70LXLLc55NaW1HuK-7" target="L5J293ZByZ9VCPRC4FHN-30">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="459" y="319" as="sourcePoint" />
+            <mxPoint x="459" y="458" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlzW70LXLLc55NaW1HuK-11" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="1" source="L5J293ZByZ9VCPRC4FHN-30" target="L5J293ZByZ9VCPRC4FHN-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="539" y="185" as="sourcePoint" />
+            <mxPoint x="640" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlzW70LXLLc55NaW1HuK-12" value="&amp;lt;ALDI BMC ToDo!!!&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="460" y="521.5" width="120" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlzW70LXLLc55NaW1HuK-13" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="ZlzW70LXLLc55NaW1HuK-1" target="ZlzW70LXLLc55NaW1HuK-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="749" y="616" as="sourcePoint" />
+            <mxPoint x="750" y="517" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
