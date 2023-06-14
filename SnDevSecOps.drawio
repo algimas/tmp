@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T10:48:33.023Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="S2cs3y7vC7WKGh9TNQEZ" version="21.3.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-06-14T19:35:59.771Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wiOOjv079b1SuZrDhbea" version="21.3.8" type="github" pages="6">
   <diagram id="Sc14ZII5uoRKNZlVD90k" name="concept">
-    <mxGraphModel dx="1567" dy="1167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="puMBQeqeTpWvrjrb3OdP-1" value="ServiceNow (source/DEV)" style="swimlane;" parent="1" vertex="1">
+        <mxCell id="puMBQeqeTpWvrjrb3OdP-1" value="Source" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="140" y="190" width="190" height="401" as="geometry">
             <mxRectangle x="10" y="190" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -24,7 +24,7 @@
         <mxCell id="FpccCggEMooWjYoVqN9N-2" value="Pipeline execution" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="puMBQeqeTpWvrjrb3OdP-15" vertex="1">
           <mxGeometry x="15" y="167" width="160" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="puMBQeqeTpWvrjrb3OdP-16" value="ServiceNow (target/TEST)" style="swimlane;" parent="1" vertex="1">
+        <mxCell id="puMBQeqeTpWvrjrb3OdP-16" value="Target" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="810" y="190" width="190" height="401" as="geometry">
             <mxRectangle x="10" y="190" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -45,6 +45,60 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FpccCggEMooWjYoVqN9N-4" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" parent="1" source="FpccCggEMooWjYoVqN9N-2" target="FpccCggEMooWjYoVqN9N-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="323" y="405" as="sourcePoint" />
+            <mxPoint x="395" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="conceptProducts" id="7p2t3JZLU5xTMU9K9htR">
+    <mxGraphModel dx="1095" dy="789" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="eqY7StnmCgiGqUW9I_UC-0" />
+        <mxCell id="eqY7StnmCgiGqUW9I_UC-1" parent="eqY7StnmCgiGqUW9I_UC-0" />
+        <mxCell id="eqY7StnmCgiGqUW9I_UC-2" value="ServiceNow (source/DEV)" style="swimlane;" vertex="1" parent="eqY7StnmCgiGqUW9I_UC-1">
+          <mxGeometry x="140" y="190" width="190" height="401" as="geometry">
+            <mxRectangle x="10" y="190" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqY7StnmCgiGqUW9I_UC-3" value="Source Code &lt;br&gt;changed" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="eqY7StnmCgiGqUW9I_UC-2">
+          <mxGeometry x="27" y="167" width="136" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="eqY7StnmCgiGqUW9I_UC-4" value="GitHub" style="swimlane;" vertex="1" parent="eqY7StnmCgiGqUW9I_UC-1">
+          <mxGeometry x="360" y="190" width="190" height="401" as="geometry" />
+        </mxCell>
+        <mxCell id="eqY7StnmCgiGqUW9I_UC-5" value="Source Code Commit" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="eqY7StnmCgiGqUW9I_UC-4">
+          <mxGeometry x="15" y="166" width="160" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="eqY7StnmCgiGqUW9I_UC-6" value="Azure DevOps" style="swimlane;" vertex="1" parent="eqY7StnmCgiGqUW9I_UC-1">
+          <mxGeometry x="580" y="190" width="190" height="401" as="geometry" />
+        </mxCell>
+        <mxCell id="eqY7StnmCgiGqUW9I_UC-7" value="Pipeline execution" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="eqY7StnmCgiGqUW9I_UC-6">
+          <mxGeometry x="15" y="167" width="160" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="eqY7StnmCgiGqUW9I_UC-8" value="ServiceNow (target)" style="swimlane;" vertex="1" parent="eqY7StnmCgiGqUW9I_UC-1">
+          <mxGeometry x="810" y="190" width="190" height="401" as="geometry">
+            <mxRectangle x="10" y="190" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqY7StnmCgiGqUW9I_UC-9" value="Deployment / Feedback" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="eqY7StnmCgiGqUW9I_UC-8">
+          <mxGeometry x="15" y="166" width="160" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="eqY7StnmCgiGqUW9I_UC-10" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="eqY7StnmCgiGqUW9I_UC-1" source="eqY7StnmCgiGqUW9I_UC-3" target="eqY7StnmCgiGqUW9I_UC-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="332" y="104" as="sourcePoint" />
+            <mxPoint x="332" y="201" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqY7StnmCgiGqUW9I_UC-11" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="eqY7StnmCgiGqUW9I_UC-1" source="eqY7StnmCgiGqUW9I_UC-5" target="eqY7StnmCgiGqUW9I_UC-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="313" y="395" as="sourcePoint" />
+            <mxPoint x="385" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eqY7StnmCgiGqUW9I_UC-12" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="eqY7StnmCgiGqUW9I_UC-1" source="eqY7StnmCgiGqUW9I_UC-7" target="eqY7StnmCgiGqUW9I_UC-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="323" y="405" as="sourcePoint" />
             <mxPoint x="395" y="405" as="targetPoint" />
