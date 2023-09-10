@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-10T19:38:03.882Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Y6rWC7T53VpEodrTJbwi" version="21.6.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-09-10T19:40:51.596Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="p_aJUXILruXb-R-AytLZ" version="21.6.9" type="github" pages="6">
   <diagram id="h_mYvzWCQLt7tXOibcmP" name="Weekly">
     <mxGraphModel dx="2536" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -466,7 +466,7 @@
         <mxCell id="hUfgq16riaGwXGE7L7q9-3" value="SubFlow &amp;lt;DBS DS PF - Run User Inventory Refresh&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="hUfgq16riaGwXGE7L7q9-2">
           <mxGeometry x="317.75" y="45" width="609" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="2-qKb6qWI2n3jj20tsSn-20" value="Event" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="hUfgq16riaGwXGE7L7q9-2">
+        <mxCell id="2-qKb6qWI2n3jj20tsSn-20" value="Event &lt;br&gt;(in one user context)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="hUfgq16riaGwXGE7L7q9-2">
           <mxGeometry x="66" y="86" width="135" height="57" as="geometry" />
         </mxCell>
         <mxCell id="hUfgq16riaGwXGE7L7q9-42" value="Source" style="swimlane;" vertex="1" parent="hUfgq16riaGwXGE7L7q9-1">
@@ -478,7 +478,7 @@
         <mxCell id="2-qKb6qWI2n3jj20tsSn-0" value="Flow Action &amp;lt;DBS DS PF SSTDB Single User Inventory Refresh&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="hUfgq16riaGwXGE7L7q9-1">
           <mxGeometry x="340" y="-722" width="585.25" height="379" as="geometry" />
         </mxCell>
-        <mxCell id="2-qKb6qWI2n3jj20tsSn-5" value="Get data for all objects: &quot;A&quot; to &quot;Z&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="hUfgq16riaGwXGE7L7q9-1">
+        <mxCell id="2-qKb6qWI2n3jj20tsSn-5" value="Get data for selected User for all objects: &quot;A&quot; to &quot;Z&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="hUfgq16riaGwXGE7L7q9-1">
           <mxGeometry x="355.88" y="-694" width="553.5" height="101" as="geometry" />
         </mxCell>
         <mxCell id="2-qKb6qWI2n3jj20tsSn-6" value="DB VIEW:&lt;br&gt;A, B, ..., Z" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="hUfgq16riaGwXGE7L7q9-1">
@@ -498,7 +498,7 @@
             <mxPoint x="3" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2-qKb6qWI2n3jj20tsSn-12" value="Upload to staging tables and execute transformation to target tables" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="hUfgq16riaGwXGE7L7q9-1">
+        <mxCell id="2-qKb6qWI2n3jj20tsSn-12" value="Upload received data to staging tables and execute transformation to target tables" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="hUfgq16riaGwXGE7L7q9-1">
           <mxGeometry x="355.87" y="-552" width="553.5" height="195" as="geometry" />
         </mxCell>
         <mxCell id="2-qKb6qWI2n3jj20tsSn-13" value="&amp;lt;Import Table A-Z&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="hUfgq16riaGwXGE7L7q9-1">
