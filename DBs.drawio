@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-10T20:10:28.165Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="LJp-LOh2hPgY6L55rjsQ" version="21.6.9" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-09-10T20:12:40.477Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="tNVnSMK1E_s25lu0SOz8" version="21.6.9" type="github" pages="7">
   <diagram id="h_mYvzWCQLt7tXOibcmP" name="Weekly">
     <mxGraphModel dx="2536" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -349,16 +349,16 @@
         <mxCell id="i8tqQI8NODH92z0265Eu-25" value="u_cmdb_ds_sstdb_phonegroup" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="XPOB_h4kB1DFkJ-dIGqh-1">
           <mxGeometry x="975" y="-434" width="241.5" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="i8tqQI8NODH92z0265Eu-26" value="&amp;lt;DBS DS SSTDB CMDB_CI Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="XPOB_h4kB1DFkJ-dIGqh-1">
+        <mxCell id="i8tqQI8NODH92z0265Eu-26" value="&amp;lt;DBS DS SSTDB V_CMDB_IP_ADDRESS Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="XPOB_h4kB1DFkJ-dIGqh-1">
           <mxGeometry x="37" y="-361" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="i8tqQI8NODH92z0265Eu-27" value="u_imp_cmdb_ds_sstdb_accounting" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="XPOB_h4kB1DFkJ-dIGqh-1">
+        <mxCell id="i8tqQI8NODH92z0265Eu-27" value="u_imp_cmdb_ds_sstdb_ip_address" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="XPOB_h4kB1DFkJ-dIGqh-1">
           <mxGeometry x="716" y="-362" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="i8tqQI8NODH92z0265Eu-28" value="sstdb.V_CMDB_ACCOUNTING" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="XPOB_h4kB1DFkJ-dIGqh-1">
-          <mxGeometry x="427" y="-362" width="220" height="43" as="geometry" />
+        <mxCell id="i8tqQI8NODH92z0265Eu-28" value="&lt;div&gt;sstdb.V_CMDB_IP_ADDRESS vcia&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcia.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;WHERE cc.STATUS_ID IN (0, 31)&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="XPOB_h4kB1DFkJ-dIGqh-1">
+          <mxGeometry x="427" y="-362" width="220" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="i8tqQI8NODH92z0265Eu-29" value="u_cmdb_ds_sstdb_accounting" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="XPOB_h4kB1DFkJ-dIGqh-1">
+        <mxCell id="i8tqQI8NODH92z0265Eu-29" value="u_cmdb_ds_sstdb_ip_address" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="XPOB_h4kB1DFkJ-dIGqh-1">
           <mxGeometry x="975" y="-362" width="241.5" height="47" as="geometry" />
         </mxCell>
         <mxCell id="i8tqQI8NODH92z0265Eu-30" value="u_imp_cmdb_ds_sstdb_accounting" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="XPOB_h4kB1DFkJ-dIGqh-1">
