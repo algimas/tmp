@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-10T16:45:18.151Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="IPDgZ6qpVBvBCAbX4RF2" version="21.6.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-10T16:46:47.549Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="5BUDBkQgQaowxXnTOwGc" version="21.6.9" type="github" pages="4">
   <diagram name="Page-1" id="5DsjO6dGdmBg-zCnN2zg">
     <mxGraphModel dx="1565" dy="1205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -686,25 +686,25 @@
         <mxCell id="sPlbNuECdOUcrTxnxM2u-8" value="Scheduled Data Import&lt;br&gt;&amp;lt;scheduled_import_set&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="sPlbNuECdOUcrTxnxM2u-5">
           <mxGeometry x="181" y="-824" width="609" height="604" as="geometry" />
         </mxCell>
-        <mxCell id="sPlbNuECdOUcrTxnxM2u-7" value="Weekly (Full)&lt;br&gt;Friday 18:00" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-696" width="135" height="57" as="geometry" />
+        <mxCell id="sPlbNuECdOUcrTxnxM2u-7" value="Weekly (Full)&lt;br&gt;Friday 18:00" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="sPlbNuECdOUcrTxnxM2u-5">
+          <mxGeometry x="18.75" y="-738.87" width="135" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="CUH35MEfp4jzeERtj9Yg-8" value="Load Data &quot;A&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="230" y="-740" width="553.5" height="200" as="geometry" />
+        <mxCell id="CUH35MEfp4jzeERtj9Yg-8" value="Load Data &quot;A&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="sPlbNuECdOUcrTxnxM2u-5">
+          <mxGeometry x="208.75" y="-774" width="553.5" height="184" as="geometry" />
         </mxCell>
-        <mxCell id="CUH35MEfp4jzeERtj9Yg-10" value="Truncate Staging Data A" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="260" y="-694" width="150" height="55" as="geometry" />
+        <mxCell id="CUH35MEfp4jzeERtj9Yg-10" value="Truncate Staging Data A" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="sPlbNuECdOUcrTxnxM2u-5">
+          <mxGeometry x="238.75" y="-736.87" width="150" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="CUH35MEfp4jzeERtj9Yg-12" value="Get Data A From Source" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="569.25" y="-710.25" width="180" height="87.5" as="geometry" />
+        <mxCell id="CUH35MEfp4jzeERtj9Yg-12" value="Get Data A" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="sPlbNuECdOUcrTxnxM2u-5">
+          <mxGeometry x="560" y="-753.12" width="150" height="87.5" as="geometry" />
         </mxCell>
-        <mxCell id="CUH35MEfp4jzeERtj9Yg-13" value="Data Source &lt;br&gt;&amp;lt;sys_data_source&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="596.75" y="-681.75" width="125" height="50" as="geometry" />
+        <mxCell id="CUH35MEfp4jzeERtj9Yg-13" value="Data Source &lt;br&gt;&amp;lt;sys_data_source&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="sPlbNuECdOUcrTxnxM2u-5">
+          <mxGeometry x="575.5" y="-724.62" width="125" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="CUH35MEfp4jzeERtj9Yg-15" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="1" source="sPlbNuECdOUcrTxnxM2u-7" target="CUH35MEfp4jzeERtj9Yg-10">
+        <mxCell id="CUH35MEfp4jzeERtj9Yg-15" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="sPlbNuECdOUcrTxnxM2u-5" source="sPlbNuECdOUcrTxnxM2u-7" target="CUH35MEfp4jzeERtj9Yg-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="175" y="-710" as="sourcePoint" />
-            <mxPoint x="290" y="-684" as="targetPoint" />
+            <mxPoint x="153.75" y="-752.87" as="sourcePoint" />
+            <mxPoint x="268.75" y="-726.87" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CUH35MEfp4jzeERtj9Yg-16" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;" vertex="1" connectable="0" parent="CUH35MEfp4jzeERtj9Yg-15">
@@ -712,13 +712,10 @@
             <mxPoint x="-9" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CUH35MEfp4jzeERtj9Yg-17" value="&amp;lt;Import Table A&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="269.5" y="-610" width="131" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="CUH35MEfp4jzeERtj9Yg-18" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="CUH35MEfp4jzeERtj9Yg-10" target="CUH35MEfp4jzeERtj9Yg-12">
+        <mxCell id="CUH35MEfp4jzeERtj9Yg-18" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="sPlbNuECdOUcrTxnxM2u-5" source="CUH35MEfp4jzeERtj9Yg-10" target="CUH35MEfp4jzeERtj9Yg-12">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="190" y="-413" as="sourcePoint" />
-            <mxPoint x="500" y="-373.44425087108016" as="targetPoint" />
+            <mxPoint x="168.75" y="-455.87" as="sourcePoint" />
+            <mxPoint x="478.75" y="-416.31425087108016" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CUH35MEfp4jzeERtj9Yg-19" value="&lt;b&gt;2&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="CUH35MEfp4jzeERtj9Yg-18">
@@ -737,26 +734,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CUH35MEfp4jzeERtj9Yg-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="1" source="CUH35MEfp4jzeERtj9Yg-10" target="CUH35MEfp4jzeERtj9Yg-17">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="378" y="235" as="sourcePoint" />
-            <mxPoint x="178" y="194" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="390" y="-581" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CUH35MEfp4jzeERtj9Yg-26" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="1" source="CUH35MEfp4jzeERtj9Yg-12" target="CUH35MEfp4jzeERtj9Yg-17">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="388" y="245" as="sourcePoint" />
-            <mxPoint x="188" y="204" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="670" y="-580" />
-              <mxPoint x="582" y="-580" />
-              <mxPoint x="582" y="-581" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="CUH35MEfp4jzeERtj9Yg-27" value="Transform Data &quot;A&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="227.75" y="-490" width="553.5" height="177" as="geometry" />
         </mxCell>
@@ -773,6 +750,29 @@
         </mxCell>
         <mxCell id="CUH35MEfp4jzeERtj9Yg-30" value="Robust Import Set Transformer &amp;lt;sys_robust_import_set_transformer&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="380" y="-460" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="CUH35MEfp4jzeERtj9Yg-17" value="&amp;lt;Import Table A&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="267.25" y="-640" width="131" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="CUH35MEfp4jzeERtj9Yg-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="1" source="CUH35MEfp4jzeERtj9Yg-10" target="CUH35MEfp4jzeERtj9Yg-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="375.75" y="216.13" as="sourcePoint" />
+            <mxPoint x="175.75" y="175.13" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="387.75" y="-599.87" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CUH35MEfp4jzeERtj9Yg-26" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="1" source="CUH35MEfp4jzeERtj9Yg-12" target="CUH35MEfp4jzeERtj9Yg-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="385.75" y="226.13" as="sourcePoint" />
+            <mxPoint x="185.75" y="185.13" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="667.75" y="-598.87" />
+              <mxPoint x="579.75" y="-598.87" />
+              <mxPoint x="579.75" y="-599.87" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
