@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T10:58:04.179Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="YfynmsYCd50lHwHYijMx" version="21.8.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-09-27T11:29:24.710Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="e9qVDkBAJeQJP7cIX1NH" version="21.8.1" type="github" pages="8">
   <diagram id="h_mYvzWCQLt7tXOibcmP" name="Weekly">
     <mxGraphModel dx="1477" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -275,53 +275,25 @@
           <mxGeometry x="10" y="-803" width="950" height="780" as="geometry" />
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-3" value="Scheduled Data Import&lt;br&gt;&amp;lt;scheduled_import_set&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="338" y="45" width="588.75" height="690" as="geometry" />
+          <mxGeometry x="338" y="45" width="588.75" height="717" as="geometry" />
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-4" value="Load and Transformation for data &quot;A&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="349" y="85" width="568.75" height="440" as="geometry" />
+          <mxGeometry x="349" y="85" width="568.75" height="374" as="geometry" />
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-5" value="Every 1h" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="181" y="45" width="135" height="57" as="geometry" />
+          <mxGeometry x="126" y="85" width="135" height="57" as="geometry" />
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-6" value="Load Data &quot;A&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="367" y="115" width="533.25" height="184" as="geometry" />
+          <mxGeometry x="361" y="187" width="533.25" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-7" value="Truncate Staging Data A" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="376.75" y="152.13" width="150" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-8" value="&lt;span style=&quot;border-color: var(--border-color); color: rgb(255, 0, 0);&quot;&gt;Get&lt;/span&gt;&lt;b style=&quot;border-color: var(--border-color); color: rgb(255, 0, 0);&quot;&gt; DELTA&lt;/b&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp;Data A&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="698" y="135.88" width="150" height="87.5" as="geometry" />
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-9" value="Data Source &lt;br&gt;&amp;lt;sys_data_source&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="713.5" y="164.38" width="125" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-10" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="U0b1ydR-looWnHxSrak1-2" source="U0b1ydR-looWnHxSrak1-5" target="U0b1ydR-looWnHxSrak1-7">
+        <mxCell id="U0b1ydR-looWnHxSrak1-10" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="U0b1ydR-looWnHxSrak1-2" source="U0b1ydR-looWnHxSrak1-5" target="U0b1ydR-looWnHxSrak1-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="144" y="134.13" as="sourcePoint" />
-            <mxPoint x="259" y="160.13" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-11" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;" vertex="1" connectable="0" parent="U0b1ydR-looWnHxSrak1-10">
-          <mxGeometry x="0.4" y="-1" relative="1" as="geometry">
-            <mxPoint x="-9" y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-12" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="U0b1ydR-looWnHxSrak1-2" source="U0b1ydR-looWnHxSrak1-7" target="U0b1ydR-looWnHxSrak1-8">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="306.75" y="433.13" as="sourcePoint" />
-            <mxPoint x="616.75" y="472.68574912891984" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-13" value="&lt;b&gt;2&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="U0b1ydR-looWnHxSrak1-12">
-          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="399.08463676623023" y="152.1300000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-14" value="Transform Data &quot;A&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="367" y="335" width="533.25" height="177" as="geometry" />
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-15" value="Robust Import Set Transformer &amp;lt;sys_robust_import_set_transformer&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="540" y="365" width="340" height="134" as="geometry" />
+          <mxGeometry x="363" y="278" width="533.25" height="42" as="geometry" />
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-16" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="U0b1ydR-looWnHxSrak1-2" source="U0b1ydR-looWnHxSrak1-6" target="U0b1ydR-looWnHxSrak1-14">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -334,43 +306,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-18" value="CMDB Integration Execution &amp;lt;sn_cmdb_int_util_cmdb_integration_execution&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="567.5" y="412" width="285" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-19" value="&amp;lt;Import Table A&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="386.25" y="240" width="131" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-20" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="U0b1ydR-looWnHxSrak1-2" source="U0b1ydR-looWnHxSrak1-7" target="U0b1ydR-looWnHxSrak1-19">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="494.75" y="1081.13" as="sourcePoint" />
-            <mxPoint x="294.75" y="1040.13" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="506.75" y="265.13" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-21" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="U0b1ydR-looWnHxSrak1-2" source="U0b1ydR-looWnHxSrak1-8" target="U0b1ydR-looWnHxSrak1-19">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="504.75" y="1091.13" as="sourcePoint" />
-            <mxPoint x="304.75" y="1050.13" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="786.75" y="266.13" />
-              <mxPoint x="698.75" y="266.13" />
-              <mxPoint x="698.75" y="265.13" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-22" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="U0b1ydR-looWnHxSrak1-2" source="U0b1ydR-looWnHxSrak1-15" target="U0b1ydR-looWnHxSrak1-19">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="797" y="233" as="sourcePoint" />
-            <mxPoint x="527" y="275" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="452" y="380" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-23" value="Load and Transformation for data &quot;B&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="348" y="565" width="570.5" height="50" as="geometry" />
+          <mxGeometry x="347.13" y="610" width="570.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-24" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="U0b1ydR-looWnHxSrak1-2" source="U0b1ydR-looWnHxSrak1-4" target="U0b1ydR-looWnHxSrak1-23">
           <mxGeometry relative="1" as="geometry">
@@ -384,76 +321,58 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-26" value="SubFlow" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="32" y="332" width="240" height="403" as="geometry" />
+          <mxGeometry x="36" y="257" width="240" height="266" as="geometry" />
         </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-27" value="DBS DS Inventory Data - &lt;br&gt;Cleanup Not Imported" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="52" y="357" width="200" height="349" as="geometry" />
+        <mxCell id="U0b1ydR-looWnHxSrak1-27" value="DBS DS Inventory Data - &lt;br&gt;Copy from Parent" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
+          <mxGeometry x="56" y="291" width="200" height="215" as="geometry" />
         </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-28" value="DB VIEW: &amp;lt;u_cmdb_ds_acat_software_import_view&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="35" y="231" width="240" height="58" as="geometry" />
+        <mxCell id="U0b1ydR-looWnHxSrak1-35" value="Update Inventory Record" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
+          <mxGeometry x="85.75" y="442.5" width="140.5" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-32" value="&amp;lt;Target Table A&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="386.25" y="405.75" width="131" height="35.5" as="geometry" />
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-33" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="U0b1ydR-looWnHxSrak1-2" source="U0b1ydR-looWnHxSrak1-18" target="U0b1ydR-looWnHxSrak1-32">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="558" y="375" as="sourcePoint" />
-            <mxPoint x="462" y="293" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-34" value="Cleanup obsolete&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;ACAT inventory&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="64" y="403" width="177" height="171" as="geometry" />
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-35" value="Mark as Retired &lt;br&gt;in target table" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="82.25" y="515" width="140.5" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-36" value="Identify missing data&lt;br&gt;&amp;nbsp;in staging table" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="82.25" y="443" width="140.5" height="46" as="geometry" />
+        <mxCell id="U0b1ydR-looWnHxSrak1-36" value="Get Inventory Records that needs to be updated using DB View" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
+          <mxGeometry x="85.75" y="351" width="140.5" height="46" as="geometry" />
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-37" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="U0b1ydR-looWnHxSrak1-2" source="U0b1ydR-looWnHxSrak1-36" target="U0b1ydR-looWnHxSrak1-35">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-240.75" y="273" as="sourcePoint" />
-            <mxPoint x="-240.75" y="319" as="targetPoint" />
+            <mxPoint x="-227.75" y="390" as="sourcePoint" />
+            <mxPoint x="-227.75" y="436" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-38" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;exitX=0.75;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U0b1ydR-looWnHxSrak1-2" source="U0b1ydR-looWnHxSrak1-36" target="U0b1ydR-looWnHxSrak1-28">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="222.3744292237443" y="960" as="sourcePoint" />
-            <mxPoint x="158" y="289" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-39" value="Cleanup obsolete&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;SSTDB inventory&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(ToBe implemented - pending)&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;gradientColor=#FFFFCC;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
-          <mxGeometry x="63.5" y="615" width="177" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-40" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="U0b1ydR-looWnHxSrak1-2" source="U0b1ydR-looWnHxSrak1-34" target="U0b1ydR-looWnHxSrak1-39">
+        <mxCell id="U0b1ydR-looWnHxSrak1-56" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="U0b1ydR-looWnHxSrak1-2" source="fjzB5R0mICVd0E0ZO5V0-2" target="U0b1ydR-looWnHxSrak1-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="225" y="1090" as="sourcePoint" />
-            <mxPoint x="225" y="1120" as="targetPoint" />
+            <mxPoint x="634" y="625" as="sourcePoint" />
+            <mxPoint x="634" y="665" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-41" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;10&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;" vertex="1" connectable="0" parent="U0b1ydR-looWnHxSrak1-40">
+        <mxCell id="U0b1ydR-looWnHxSrak1-57" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;9&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;" vertex="1" connectable="0" parent="U0b1ydR-looWnHxSrak1-56">
           <mxGeometry x="0.4" y="-1" relative="1" as="geometry">
             <mxPoint x="-9" y="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fjzB5R0mICVd0E0ZO5V0-2" value="Update Inventory Record" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
+          <mxGeometry x="567.5" y="367" width="284.5" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="fjzB5R0mICVd0E0ZO5V0-3" value="Pre Script for Data &quot;A&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="U0b1ydR-looWnHxSrak1-2">
+          <mxGeometry x="366.75" y="111" width="533.25" height="42" as="geometry" />
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-42" value="Source" style="swimlane;" vertex="1" parent="U0b1ydR-looWnHxSrak1-1">
           <mxGeometry x="980" y="-803" width="168.5" height="780" as="geometry" />
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-43" value="Oracle DB" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="U0b1ydR-looWnHxSrak1-42">
-          <mxGeometry x="20" y="40" width="130" height="690" as="geometry" />
+          <mxGeometry x="20" y="40" width="130" height="719" as="geometry" />
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-44" value="DB VIEW A" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="U0b1ydR-looWnHxSrak1-42">
-          <mxGeometry x="34.25" y="152.63" width="100" height="50" as="geometry" />
+          <mxGeometry x="35" y="183" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-45" value="DB VIEW B" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="U0b1ydR-looWnHxSrak1-42">
-          <mxGeometry x="34.25" y="565" width="100" height="50" as="geometry" />
+          <mxGeometry x="34.25" y="602" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-46" value="DB VIEW Z" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="U0b1ydR-looWnHxSrak1-42">
-          <mxGeometry x="34.25" y="655" width="100" height="50" as="geometry" />
+          <mxGeometry x="34.25" y="692" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-47" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="U0b1ydR-looWnHxSrak1-1" source="U0b1ydR-looWnHxSrak1-8" target="U0b1ydR-looWnHxSrak1-44">
+        <mxCell id="U0b1ydR-looWnHxSrak1-47" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="U0b1ydR-looWnHxSrak1-1" source="U0b1ydR-looWnHxSrak1-6" target="U0b1ydR-looWnHxSrak1-44">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="911.25" y="-93" as="sourcePoint" />
+            <mxPoint x="858" y="-623.9033333333332" as="sourcePoint" />
             <mxPoint x="981.25" y="-163" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -463,12 +382,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-49" value="Load and Transformation for data &quot;Z&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#82b366;verticalAlign=top;align=left;" vertex="1" parent="U0b1ydR-looWnHxSrak1-1">
-          <mxGeometry x="359" y="-148" width="569.5" height="50" as="geometry" />
+          <mxGeometry x="359" y="-111" width="569.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-50" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="U0b1ydR-looWnHxSrak1-1" source="U0b1ydR-looWnHxSrak1-23" target="U0b1ydR-looWnHxSrak1-49">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="321.75" y="-604" as="sourcePoint" />
-            <mxPoint x="633.5" y="-148" as="targetPoint" />
+            <mxPoint x="321.75" y="-567" as="sourcePoint" />
+            <mxPoint x="633.5" y="-111" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-51" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;7&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;" vertex="1" connectable="0" parent="U0b1ydR-looWnHxSrak1-50">
@@ -478,8 +397,8 @@
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-52" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="U0b1ydR-looWnHxSrak1-1" source="U0b1ydR-looWnHxSrak1-23" target="U0b1ydR-looWnHxSrak1-45">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="868" y="-614" as="sourcePoint" />
-            <mxPoint x="1024" y="-615" as="targetPoint" />
+            <mxPoint x="868" y="-577" as="sourcePoint" />
+            <mxPoint x="1024" y="-578" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-53" value="&lt;b&gt;6&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="U0b1ydR-looWnHxSrak1-52">
@@ -489,8 +408,8 @@
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-54" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="U0b1ydR-looWnHxSrak1-1" source="U0b1ydR-looWnHxSrak1-49" target="U0b1ydR-looWnHxSrak1-46">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="878" y="-604" as="sourcePoint" />
-            <mxPoint x="1034" y="-605" as="targetPoint" />
+            <mxPoint x="878" y="-567" as="sourcePoint" />
+            <mxPoint x="1034" y="-568" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="U0b1ydR-looWnHxSrak1-55" value="&lt;b&gt;8&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="U0b1ydR-looWnHxSrak1-54">
@@ -498,19 +417,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="U0b1ydR-looWnHxSrak1-1" source="U0b1ydR-looWnHxSrak1-49" target="U0b1ydR-looWnHxSrak1-27">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="644" y="-178" as="sourcePoint" />
-            <mxPoint x="644" y="-138" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="310" y="-123" />
-              <mxPoint x="310" y="-283" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="U0b1ydR-looWnHxSrak1-28" value="DB VIEW: &amp;lt;u_cmdb_ds_acat_software_import_view&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="U0b1ydR-looWnHxSrak1-1">
+          <mxGeometry x="42" y="51" width="240" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="U0b1ydR-looWnHxSrak1-57" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;9&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;" vertex="1" connectable="0" parent="U0b1ydR-looWnHxSrak1-56">
-          <mxGeometry x="0.4" y="-1" relative="1" as="geometry">
-            <mxPoint x="-9" y="-1" as="offset" />
+        <mxCell id="U0b1ydR-looWnHxSrak1-38" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;exitX=0.75;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U0b1ydR-looWnHxSrak1-1" source="U0b1ydR-looWnHxSrak1-36" target="U0b1ydR-looWnHxSrak1-28">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="232.3744292237443" y="157" as="sourcePoint" />
+            <mxPoint x="168" y="-514" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
