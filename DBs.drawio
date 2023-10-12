@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T13:33:54.253Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="28nqYDwfBuHsoDVpJjG5" version="22.0.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-10-12T13:38:32.956Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="JpfALoCAaAsEv4evs5zi" version="22.0.0" type="github" pages="9">
   <diagram id="h_mYvzWCQLt7tXOibcmP" name="Weekly">
     <mxGraphModel dx="1477" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1802,17 +1802,11 @@
       <root>
         <mxCell id="dpV3ktaBx-UMTCAibwIo-0" />
         <mxCell id="dpV3ktaBx-UMTCAibwIo-1" parent="dpV3ktaBx-UMTCAibwIo-0" />
-        <mxCell id="dpV3ktaBx-UMTCAibwIo-2" value="sys_import_set_run&lt;br&gt;Transform History" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="dpV3ktaBx-UMTCAibwIo-1">
-          <mxGeometry x="390.5" y="431" width="130" height="61" as="geometry" />
+        <mxCell id="dpV3ktaBx-UMTCAibwIo-2" value="sys_flow_context_chunk_archive&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Cancelled&lt;/div&gt;&lt;div&gt;Complete&lt;/div&gt;&lt;div&gt;Error&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="dpV3ktaBx-UMTCAibwIo-1">
+          <mxGeometry x="310" y="520" width="240" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dpV3ktaBx-UMTCAibwIo-3" value="sys_robust_import_set_transformer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="dpV3ktaBx-UMTCAibwIo-1">
-          <mxGeometry x="350" y="300" width="211" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="dpV3ktaBx-UMTCAibwIo-4" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="dpV3ktaBx-UMTCAibwIo-1" source="dpV3ktaBx-UMTCAibwIo-3" target="dpV3ktaBx-UMTCAibwIo-2">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="352" y="403" as="sourcePoint" />
-            <mxPoint x="700.5" y="268.5" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="dpV3ktaBx-UMTCAibwIo-3" value="sys_flow_context_chunk&lt;br&gt;&lt;br&gt;&lt;div&gt;Continue Sync&lt;/div&gt;&lt;div&gt;In Progress&lt;/div&gt;&lt;div&gt;Queued&lt;/div&gt;&lt;div&gt;Waiting&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="dpV3ktaBx-UMTCAibwIo-1">
+          <mxGeometry x="350" y="300" width="211" height="100" as="geometry" />
         </mxCell>
         <mxCell id="dpV3ktaBx-UMTCAibwIo-5" value="sys_flow_context&lt;br&gt;Flow Engine Context&lt;br&gt;(retention: 2 - 6 weeks)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="dpV3ktaBx-UMTCAibwIo-1">
           <mxGeometry x="350" y="180" width="211" height="61" as="geometry" />
@@ -1823,19 +1817,15 @@
             <mxPoint x="280" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dpV3ktaBx-UMTCAibwIo-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dpV3ktaBx-UMTCAibwIo-1" source="dpV3ktaBx-UMTCAibwIo-8" target="dpV3ktaBx-UMTCAibwIo-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Y2OQdov0zLCDOBoFofvM-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="dpV3ktaBx-UMTCAibwIo-1" source="dpV3ktaBx-UMTCAibwIo-3" target="dpV3ktaBx-UMTCAibwIo-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="210.5" as="sourcePoint" />
+            <mxPoint x="561" y="211" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="dpV3ktaBx-UMTCAibwIo-8" value="sys_rte_eb_definition&lt;br&gt;&lt;div&gt;Robust Transform Engine Entity Based Definitions&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="dpV3ktaBx-UMTCAibwIo-1">
-          <mxGeometry x="680" y="180" width="270" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="dpV3ktaBx-UMTCAibwIo-9" value="cmdb_inst_entity&lt;br&gt;table=u_cmdb_ds_acat_software" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="dpV3ktaBx-UMTCAibwIo-1">
-          <mxGeometry x="715" y="431" width="200" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="dpV3ktaBx-UMTCAibwIo-10" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="dpV3ktaBx-UMTCAibwIo-1" source="dpV3ktaBx-UMTCAibwIo-8" target="dpV3ktaBx-UMTCAibwIo-9">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="466" y="251" as="sourcePoint" />
-            <mxPoint x="466" y="310" as="targetPoint" />
+        <mxCell id="Y2OQdov0zLCDOBoFofvM-2" value="move when Flow stops" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y2OQdov0zLCDOBoFofvM-1">
+          <mxGeometry x="-0.3127" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
