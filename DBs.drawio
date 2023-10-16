@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T07:05:02.531Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="31GVtNgzLScH5P9awdLx" version="22.0.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-10-16T07:08:23.208Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Z5pvLmGDNHYw7yej5qNo" version="22.0.4" type="github" pages="10">
   <diagram id="h_mYvzWCQLt7tXOibcmP" name="Weekly">
     <mxGraphModel dx="1243" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -272,15 +272,15 @@
         <mxCell id="87JEa8djRhTJHTV08rNp-0" />
         <mxCell id="87JEa8djRhTJHTV08rNp-1" parent="87JEa8djRhTJHTV08rNp-0" />
         <mxCell id="87JEa8djRhTJHTV08rNp-2" value="ServiceNow (DEV)" style="swimlane;" vertex="1" parent="87JEa8djRhTJHTV08rNp-1">
-          <mxGeometry x="559" y="-670" width="216" height="129" as="geometry" />
+          <mxGeometry x="471" y="-670" width="216" height="129" as="geometry" />
         </mxCell>
         <mxCell id="U4FPPFse97oHkCDtolPM-0" value="Verification Rule Implemented" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#d6b656;verticalAlign=middle;fontStyle=0" vertex="1" parent="87JEa8djRhTJHTV08rNp-2">
           <mxGeometry x="20" y="45" width="176" height="55" as="geometry" />
         </mxCell>
         <mxCell id="87JEa8djRhTJHTV08rNp-12" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" edge="1" parent="87JEa8djRhTJHTV08rNp-1" source="87JEa8djRhTJHTV08rNp-7" target="U4FPPFse97oHkCDtolPM-0">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="510.75" y="573" as="sourcePoint" />
-            <mxPoint x="716" y="316.67818181818177" as="targetPoint" />
+            <mxPoint x="422.75" y="573" as="sourcePoint" />
+            <mxPoint x="628" y="316.67818181818177" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="87JEa8djRhTJHTV08rNp-13" value="&lt;span&gt;2&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=0" vertex="1" connectable="0" parent="87JEa8djRhTJHTV08rNp-12">
@@ -289,7 +289,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="U4FPPFse97oHkCDtolPM-1" value="Confluence" style="swimlane;" vertex="1" parent="87JEa8djRhTJHTV08rNp-1">
-          <mxGeometry x="113" y="-670" width="398" height="130" as="geometry" />
+          <mxGeometry x="25" y="-670" width="398" height="130" as="geometry" />
         </mxCell>
         <mxCell id="87JEa8djRhTJHTV08rNp-5" value="&lt;span&gt;Event: Idea&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;fontStyle=0" vertex="1" parent="U4FPPFse97oHkCDtolPM-1">
           <mxGeometry x="23" y="44" width="135" height="57" as="geometry" />
@@ -309,15 +309,29 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="U4FPPFse97oHkCDtolPM-2" value="ServiceNow (TEST)" style="swimlane;" vertex="1" parent="87JEa8djRhTJHTV08rNp-1">
-          <mxGeometry x="821" y="-670" width="216" height="129" as="geometry" />
+          <mxGeometry x="733" y="-670" width="416" height="129" as="geometry" />
         </mxCell>
         <mxCell id="U4FPPFse97oHkCDtolPM-3" value="Verification Rule&amp;nbsp;Deployed" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=middle;fontStyle=0" vertex="1" parent="U4FPPFse97oHkCDtolPM-2">
           <mxGeometry x="26.5" y="45" width="163" height="55" as="geometry" />
         </mxCell>
+        <mxCell id="bMr2Oz4dPO2UxRa5Z-H0-1" value="Verification Rule&amp;nbsp;In Use" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=middle;fontStyle=0" vertex="1" parent="U4FPPFse97oHkCDtolPM-2">
+          <mxGeometry x="233" y="45" width="163" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="bMr2Oz4dPO2UxRa5Z-H0-2" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" edge="1" parent="U4FPPFse97oHkCDtolPM-2" source="U4FPPFse97oHkCDtolPM-3" target="bMr2Oz4dPO2UxRa5Z-H0-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-56" y="83" as="sourcePoint" />
+            <mxPoint x="37" y="83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMr2Oz4dPO2UxRa5Z-H0-3" value="&lt;span&gt;4&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=0" vertex="1" connectable="0" parent="bMr2Oz4dPO2UxRa5Z-H0-2">
+          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="U4FPPFse97oHkCDtolPM-5" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" edge="1" parent="87JEa8djRhTJHTV08rNp-1" source="U4FPPFse97oHkCDtolPM-0" target="U4FPPFse97oHkCDtolPM-3">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="498" y="-592" as="sourcePoint" />
-            <mxPoint x="588" y="-592" as="targetPoint" />
+            <mxPoint x="410" y="-592" as="sourcePoint" />
+            <mxPoint x="500" y="-592" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="U4FPPFse97oHkCDtolPM-6" value="&lt;span&gt;3&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=0" vertex="1" connectable="0" parent="U4FPPFse97oHkCDtolPM-5">
