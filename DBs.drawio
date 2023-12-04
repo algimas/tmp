@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T09:59:37.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ID_NeyB35pOz9NjNwSiJ" version="22.1.5" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-12-04T10:04:19.609Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="kqmEQt61IjoOy0Z8MqLt" version="22.1.5" type="github" pages="16">
   <diagram name="ImportObjects" id="B52h8_X5WKBb54wcMegX">
     <mxGraphModel dx="1240" dy="1831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -13,25 +13,25 @@
         <mxCell id="LdAP1DnBUgq6UGCHDwLP-4" value="sstdb.V_CMDB_ACCOUNTING" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
           <mxGeometry x="3.5" y="40" width="220" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-5" value="&lt;div&gt;sstdb.V_CMDB_IP_DEVICE vcid&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcid.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;WHERE cc.STATUS_ID IN (0, 31)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-5" value="&lt;div&gt;&lt;div&gt;sstdb.V_CMDB_IP_DEVICE vcid&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcid.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
           <mxGeometry x="3" y="223.5" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-6" value="&lt;div&gt;sstdb.V_CMDB_PHONECONTRACT vcp&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcp.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;WHERE cc.STATUS_ID IN (0, 31)&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-6" value="&lt;div&gt;sstdb.V_CMDB_PHONECONTRACT vcp&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcp.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
           <mxGeometry x="3.5" y="298" width="220" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-7" value="&lt;div&gt;SSTDB.V_CMDB_PHONEGROUP vcp LEFT JOIN SSTDB.CMDB_CI cc ON vcp.CI_ID = cc.CI_ID&lt;/div&gt;&lt;div&gt;WHERE cc.STATUS_ID IN (0, 31)&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-7" value="SSTDB.V_CMDB_PHONEGROUP vcp LEFT JOIN SSTDB.CMDB_CI cc ON vcp.CI_ID = cc.CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
           <mxGeometry x="3.5" y="362" width="220" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-8" value="&lt;div&gt;sstdb.V_CMDB_IP_ADDRESS vcia&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcia.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;WHERE cc.STATUS_ID IN (0, 31)&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-8" value="&lt;div&gt;sstdb.V_CMDB_IP_ADDRESS vcia&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcia.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
           <mxGeometry x="3.5" y="438" width="220" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-9" value="&lt;div&gt;sstdb.V_CMDB_IP_DEVICE_PRINTER vcidp&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcidp.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;WHERE cc.STATUS_ID IN (0, 31)&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-9" value="&lt;div&gt;sstdb.V_CMDB_IP_DEVICE_PRINTER vcidp&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcidp.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
           <mxGeometry x="3" y="505" width="220" height="73" as="geometry" />
         </mxCell>
         <mxCell id="LdAP1DnBUgq6UGCHDwLP-10" value="SSTDB.V_CMDB_PHONE_GRPMBR vcp" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
           <mxGeometry x="3.5" y="586" width="220" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-11" value="sstdb.VM_CMDB_MOBILE_DEVICES vcmd LEFT JOIN sstdb.cmdb_ci cc ON vcmd.CI_ID = cc.CI_ID&#xa;WHERE cc.STATUS_ID IN (0, 31)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-11" value="sstdb.V_CMDB_MOBILE_DEVICES vcmd LEFT JOIN sstdb.cmdb_ci cc ON vcmd.CI_ID = cc.CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
           <mxGeometry x="3" y="641" width="220" height="61" as="geometry" />
         </mxCell>
         <mxCell id="LdAP1DnBUgq6UGCHDwLP-12" value="DBO_SST.SPO_ACAT_CISERVICE sw" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
