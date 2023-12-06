@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T08:28:39.036Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="oqxKYO1wYF7hUaV8BA8A" version="22.1.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-12-06T08:51:23.699Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="f3oRbEx2ixV53x3vNHSY" version="22.1.5" type="github" pages="4">
   <diagram name="IntroCi" id="jqjDg9kWaLE52GAI048v">
     <mxGraphModel dx="1770" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-0GjVQ2w-u6F1-nN_Xd9" name="Page-3">
-    <mxGraphModel dx="1770" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1711" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,20 +101,26 @@
             <mxPoint x="874" y="393" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1-WOWmvDrKWyMFJxuiMH-11" value="&lt;div&gt;&lt;div&gt;sstdb.V_CMDB_IP_DEVICE vcid&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcid.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="777" y="523" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1-WOWmvDrKWyMFJxuiMH-16" value="V_CMDB_PHONE_GRPMBR vcp" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="104" y="39" width="240" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="1-WOWmvDrKWyMFJxuiMH-19" value="sstdb.CMDB_CI cc LEFT JOIN sstdb.V_CMDB_BASIC_WORKPLACES vcbw ON cc.CI_ID = VCBW.CI_ID&amp;nbsp;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="447" y="53" width="220" height="66" as="geometry" />
+        <mxCell id="1-WOWmvDrKWyMFJxuiMH-16" value="V_CMDB_PHONE_GRPMBR" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="863" y="429" width="202" height="55" as="geometry" />
         </mxCell>
         <mxCell id="1-WOWmvDrKWyMFJxuiMH-21" value="CI_ID" style="fontSize=12;html=1;endArrow=baseDash;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-3" target="1-WOWmvDrKWyMFJxuiMH-8">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="508" y="398" as="sourcePoint" />
             <mxPoint x="293" y="533" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="twIGyOFzCb9MJOZK3sOc-1" value="V_CMDB_IP_DEVICE&lt;br&gt;&lt;br&gt;PK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="770" y="523" width="210" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="twIGyOFzCb9MJOZK3sOc-2" value="CI_ID" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-3" target="twIGyOFzCb9MJOZK3sOc-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="664" y="368" as="sourcePoint" />
+            <mxPoint x="780" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="twIGyOFzCb9MJOZK3sOc-3" value="V_CMDB_BASIC_WORKPLACES" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="844" y="187" width="210" height="61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -175,16 +181,16 @@
         <mxCell id="ngETcyTxvMbDPHaEo8yi-16" value="u_cmdb_ds_acat_software" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="485" y="848" width="241.5" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="7oC0EhshWbzqOsgAs2XE-1" value="DB Office 365" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="7oC0EhshWbzqOsgAs2XE-1" value="DB Office 365" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="192" y="848" width="241.5" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="7oC0EhshWbzqOsgAs2XE-2" value="Other Products and Services" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="7oC0EhshWbzqOsgAs2XE-2" value="Other Products and Services" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="192" y="899" width="241.5" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="7oC0EhshWbzqOsgAs2XE-3" value="Software" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="7oC0EhshWbzqOsgAs2XE-3" value="Software" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="192" y="953" width="241.5" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="7oC0EhshWbzqOsgAs2XE-4" value="Web Conferences" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="7oC0EhshWbzqOsgAs2XE-4" value="Web Conferences" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="192" y="1015" width="241.5" height="43" as="geometry" />
         </mxCell>
         <mxCell id="7oC0EhshWbzqOsgAs2XE-5" value="Basic Workplaces" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
