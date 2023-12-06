@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T14:29:31.264Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="I-OLVdac2IANEacTKZ2V" version="22.1.5" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-12-06T14:37:55.003Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7jUKz_yKtTuNuWLoVT3D" version="22.1.5" type="github" pages="10">
   <diagram name="IntroCi" id="jqjDg9kWaLE52GAI048v">
     <mxGraphModel dx="2290" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -346,40 +346,43 @@
         <mxCell id="Z_4HRF_TiKk-_QkpuXRr-0" />
         <mxCell id="Z_4HRF_TiKk-_QkpuXRr-1" parent="Z_4HRF_TiKk-_QkpuXRr-0" />
         <mxCell id="Z_4HRF_TiKk-_QkpuXRr-2" value="u_cmdb_ds_sstdb" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="Z_4HRF_TiKk-_QkpuXRr-1">
-          <mxGeometry x="761" y="140" width="180" height="61" as="geometry" />
+          <mxGeometry x="529.5" y="364" width="180" height="61" as="geometry" />
         </mxCell>
         <mxCell id="Z_4HRF_TiKk-_QkpuXRr-3" value="u_cmdb_ds_sstdb_ci" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#e1d5e7;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#9673a6;dashed=1;" vertex="1" parent="Z_4HRF_TiKk-_QkpuXRr-1">
-          <mxGeometry x="786" y="159" width="130" height="30" as="geometry" />
+          <mxGeometry x="554.5" y="383" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z_4HRF_TiKk-_QkpuXRr-4" value="cmdb_ci" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="Z_4HRF_TiKk-_QkpuXRr-1">
-          <mxGeometry x="969" y="55" width="75" height="97" as="geometry" />
+          <mxGeometry x="737.5" y="279" width="75" height="147" as="geometry" />
         </mxCell>
         <mxCell id="Z_4HRF_TiKk-_QkpuXRr-5" value="u_cmdb_ds_sstdb_accounting" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;dashed=1;" vertex="1" parent="Z_4HRF_TiKk-_QkpuXRr-1">
-          <mxGeometry x="487" y="55" width="454" height="40" as="geometry" />
+          <mxGeometry x="532" y="279" width="177.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Z_4HRF_TiKk-_QkpuXRr-6" value="Account Asset" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="Z_4HRF_TiKk-_QkpuXRr-1" source="Z_4HRF_TiKk-_QkpuXRr-5" target="Z_4HRF_TiKk-_QkpuXRr-2">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="909" y="114" as="sourcePoint" />
-            <mxPoint x="916" y="113" as="targetPoint" />
+            <mxPoint x="677.5" y="338" as="sourcePoint" />
+            <mxPoint x="684.5" y="337" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Z_4HRF_TiKk-_QkpuXRr-7" value="u_cmdb_ds_sstdb_ci" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.businessObject;overflow=fill;dashed=1;" vertex="1" parent="Z_4HRF_TiKk-_QkpuXRr-1">
-          <mxGeometry x="486.5" y="141" width="240" height="61" as="geometry" />
+          <mxGeometry x="255" y="365" width="240" height="61" as="geometry" />
         </mxCell>
         <mxCell id="Z_4HRF_TiKk-_QkpuXRr-8" value="cmdb" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="Z_4HRF_TiKk-_QkpuXRr-1">
-          <mxGeometry x="1067" y="55" width="79" height="97" as="geometry" />
+          <mxGeometry x="835.5" y="279" width="79" height="147" as="geometry" />
         </mxCell>
         <mxCell id="Z_4HRF_TiKk-_QkpuXRr-9" value="u_cmdb_ds_sstdb_ip_device" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="Z_4HRF_TiKk-_QkpuXRr-1">
-          <mxGeometry x="486.5" y="282" width="241.5" height="43" as="geometry" />
+          <mxGeometry x="255" y="506" width="241.5" height="43" as="geometry" />
         </mxCell>
         <mxCell id="Z_4HRF_TiKk-_QkpuXRr-10" value="u_cmdb_ds_sstdb_ip_address" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="Z_4HRF_TiKk-_QkpuXRr-1">
-          <mxGeometry x="486.5" y="220" width="241.5" height="45" as="geometry" />
+          <mxGeometry x="255" y="444" width="241.5" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="Z_4HRF_TiKk-_QkpuXRr-11" value="Parent Id" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="Z_4HRF_TiKk-_QkpuXRr-1" source="Z_4HRF_TiKk-_QkpuXRr-7" target="Z_4HRF_TiKk-_QkpuXRr-5">
+        <mxCell id="Z_4HRF_TiKk-_QkpuXRr-11" value="Parent Id" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="Z_4HRF_TiKk-_QkpuXRr-1" source="Z_4HRF_TiKk-_QkpuXRr-2" target="nUgiZVEypmkwlj9uyU9N-0">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="414" y="141" as="sourcePoint" />
-            <mxPoint x="413" y="96" as="targetPoint" />
+            <mxPoint x="182.5" y="365" as="sourcePoint" />
+            <mxPoint x="181.5" y="320" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nUgiZVEypmkwlj9uyU9N-0" value="u_cmdb_ds_sstdb_accounting" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;dashed=1;" vertex="1" parent="Z_4HRF_TiKk-_QkpuXRr-1">
+          <mxGeometry x="255.5" y="279" width="239.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -474,7 +477,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="VisionPrinter" id="gkPyweVs2RL9VKJvZZtX">
-    <mxGraphModel dx="1711" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2290" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="YX8aRbytLqZ86VxBtwbp-0" />
         <mxCell id="YX8aRbytLqZ86VxBtwbp-1" parent="YX8aRbytLqZ86VxBtwbp-0" />
