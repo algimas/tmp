@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T14:40:32.240Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="kAgEi4vRbNN3rYA-8Vgv" version="22.1.5" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-12-06T14:46:35.456Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="UnijE-lJ_5VJi4qnjoWn" version="22.1.5" type="github" pages="11">
   <diagram name="IntroCi" id="jqjDg9kWaLE52GAI048v">
     <mxGraphModel dx="2290" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -28,6 +28,89 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="-0GjVQ2w-u6F1-nN_Xd9" name="SourceStar">
+    <mxGraphModel dx="2290" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1-WOWmvDrKWyMFJxuiMH-1" value="V_CMDB_IP_ADDRESS&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;PK: CI_ID + CODE&amp;nbsp; &amp;nbsp;!!!&lt;/font&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="443.25" y="193" width="205" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="1-WOWmvDrKWyMFJxuiMH-2" value="CI_ID" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#FF3333;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-3" target="1-WOWmvDrKWyMFJxuiMH-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="572.9566210045664" y="120" as="sourcePoint" />
+            <mxPoint x="585" y="616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1-WOWmvDrKWyMFJxuiMH-3" value="CMDB_CI&lt;br&gt;&lt;br&gt;PK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="438" y="328" width="215.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1-WOWmvDrKWyMFJxuiMH-4" value="V_CMDB_IP_DEVICE_PRINTER&lt;br&gt;&lt;br&gt;PK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="111" y="328" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1-WOWmvDrKWyMFJxuiMH-5" value="CI_ID" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-3" target="1-WOWmvDrKWyMFJxuiMH-4">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="604" y="424" as="sourcePoint" />
+            <mxPoint x="587" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1-WOWmvDrKWyMFJxuiMH-6" value="V_CMDB_IP_DEVICE&lt;br&gt;&lt;br&gt;PK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="111" y="523" width="210" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="1-WOWmvDrKWyMFJxuiMH-7" value="CI_ID" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-3" target="1-WOWmvDrKWyMFJxuiMH-6">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="518" y="233" as="sourcePoint" />
+            <mxPoint x="631" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1-WOWmvDrKWyMFJxuiMH-8" value="V_CMDB_PHONECONTRACT&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;PK: CI_ID +&amp;nbsp;TKANLAGE_GLOBAL_ID&lt;/font&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440.75" y="522" width="210" height="181" as="geometry" />
+        </mxCell>
+        <mxCell id="1-WOWmvDrKWyMFJxuiMH-9" value="V_CMDB_PHONEGROUP&lt;br&gt;&lt;br&gt;PK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="789" y="522" width="210" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="1-WOWmvDrKWyMFJxuiMH-10" value="CI_ID" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-3" target="1-WOWmvDrKWyMFJxuiMH-9">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="551" y="233" as="sourcePoint" />
+            <mxPoint x="874" y="393" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1-WOWmvDrKWyMFJxuiMH-16" value="V_CMDB_PHONE_GRPMBR" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="832" y="603" width="202" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="twIGyOFzCb9MJOZK3sOc-1" value="V_CMDB_MOBILE_DEVICES&lt;br&gt;&lt;br&gt;PK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="789" y="328" width="210" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="twIGyOFzCb9MJOZK3sOc-2" value="CI_ID" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-3" target="twIGyOFzCb9MJOZK3sOc-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="664" y="368" as="sourcePoint" />
+            <mxPoint x="780" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="twIGyOFzCb9MJOZK3sOc-3" value="V_CMDB_BASIC_WORKPLACES&lt;br&gt;&lt;br&gt;PK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="789" y="187" width="210" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="twIGyOFzCb9MJOZK3sOc-4" value="CI_ID" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-3" target="twIGyOFzCb9MJOZK3sOc-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="664" y="368" as="sourcePoint" />
+            <mxPoint x="780" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="twIGyOFzCb9MJOZK3sOc-5" value="CI_ID" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#FF3333;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-3" target="1-WOWmvDrKWyMFJxuiMH-8">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="596" y="399" as="sourcePoint" />
+            <mxPoint x="556" y="264" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="twIGyOFzCb9MJOZK3sOc-6" value="CMDB_CI&lt;br&gt;&lt;br&gt;join LOCAL_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="548.25" y="630" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="twIGyOFzCb9MJOZK3sOc-7" value="T_VOIPPROFIL&lt;br&gt;&lt;br&gt;TKANLAGE_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="448" y="600.5" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="CiPath" id="xO-fJI0FFCdMl9LTQsgy">
     <mxGraphModel dx="1579" dy="831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -51,88 +134,8 @@
         <mxCell id="QfE7_d8JJjclEiBsj3Uo-4" value="cmdb" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="y6HC1oknwoSADN_m1p-D-1">
           <mxGeometry x="671" y="361" width="160" height="51" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="-0GjVQ2w-u6F1-nN_Xd9" name="SourceStar">
-    <mxGraphModel dx="2290" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="1-WOWmvDrKWyMFJxuiMH-1" value="V_CMDB_IP_ADDRESS&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;PK: CI_ID + CODE&amp;nbsp; &amp;nbsp;!!!&lt;/font&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="443.25" y="193" width="205" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="1-WOWmvDrKWyMFJxuiMH-2" value="CI_ID" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#FF3333;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-3" target="1-WOWmvDrKWyMFJxuiMH-1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="572.9566210045664" y="120" as="sourcePoint" />
-            <mxPoint x="585" y="616" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1-WOWmvDrKWyMFJxuiMH-3" value="CMDB_CI&lt;br&gt;&lt;br&gt;PK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="438" y="328" width="215.5" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1-WOWmvDrKWyMFJxuiMH-4" value="V_CMDB_IP_DEVICE_PRINTER&lt;br&gt;&lt;br&gt;PK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="129" y="328" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1-WOWmvDrKWyMFJxuiMH-5" value="CI_ID" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-3" target="1-WOWmvDrKWyMFJxuiMH-4">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="604" y="424" as="sourcePoint" />
-            <mxPoint x="587" y="530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1-WOWmvDrKWyMFJxuiMH-6" value="V_CMDB_IP_DEVICE&lt;br&gt;&lt;br&gt;PK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="129" y="523" width="210" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="1-WOWmvDrKWyMFJxuiMH-7" value="CI_ID" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-3" target="1-WOWmvDrKWyMFJxuiMH-6">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="518" y="233" as="sourcePoint" />
-            <mxPoint x="631" y="470" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1-WOWmvDrKWyMFJxuiMH-8" value="V_CMDB_PHONECONTRACT&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;PK: CI_ID +&amp;nbsp;TKANLAGE_GLOBAL_ID&lt;/font&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="440.75" y="522" width="210" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="1-WOWmvDrKWyMFJxuiMH-9" value="V_CMDB_PHONEGROUP&lt;br&gt;&lt;br&gt;PK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="844" y="522" width="210" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="1-WOWmvDrKWyMFJxuiMH-10" value="CI_ID" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-3" target="1-WOWmvDrKWyMFJxuiMH-9">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="551" y="233" as="sourcePoint" />
-            <mxPoint x="874" y="393" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1-WOWmvDrKWyMFJxuiMH-16" value="V_CMDB_PHONE_GRPMBR" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="887" y="603" width="202" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="twIGyOFzCb9MJOZK3sOc-1" value="V_CMDB_MOBILE_DEVICES&lt;br&gt;&lt;br&gt;PK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="844" y="328" width="210" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="twIGyOFzCb9MJOZK3sOc-2" value="CI_ID" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-3" target="twIGyOFzCb9MJOZK3sOc-1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="664" y="368" as="sourcePoint" />
-            <mxPoint x="780" y="368" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="twIGyOFzCb9MJOZK3sOc-3" value="V_CMDB_BASIC_WORKPLACES&lt;br&gt;&lt;br&gt;PK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="844" y="187" width="210" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="twIGyOFzCb9MJOZK3sOc-4" value="CI_ID" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-3" target="twIGyOFzCb9MJOZK3sOc-3">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="664" y="368" as="sourcePoint" />
-            <mxPoint x="780" y="368" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="twIGyOFzCb9MJOZK3sOc-5" value="CI_ID" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#FF3333;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-3" target="1-WOWmvDrKWyMFJxuiMH-8">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="596" y="399" as="sourcePoint" />
-            <mxPoint x="556" y="264" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="twIGyOFzCb9MJOZK3sOc-6" value="CMDB_CI&lt;br&gt;&lt;br&gt;join LOCAL_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="495.75" y="709" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="twIGyOFzCb9MJOZK3sOc-7" value="T_VOIPPROFIL&lt;br&gt;&lt;br&gt;TKANLAGE_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="469" y="630" width="100" height="60" as="geometry" />
+        <mxCell id="3cEyqOT0ZleN2BlKbvZ9-0" value="CMDB_CI&lt;br&gt;&lt;br&gt;PK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="y6HC1oknwoSADN_m1p-D-1">
+          <mxGeometry x="1033" y="293" width="124.5" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -304,6 +307,44 @@
         </mxCell>
         <mxCell id="QctCCBXibKItamILWiIA-14" value="cmdb" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;" vertex="1" parent="QctCCBXibKItamILWiIA-1">
           <mxGeometry x="1000" y="162" width="110" height="51" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="AsIsPrinterForm" id="Aj6l9xXWTP3LDEr56WKR">
+    <mxGraphModel dx="2290" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="L_pTf_Fj3E4htamk4JVU-0" />
+        <mxCell id="L_pTf_Fj3E4htamk4JVU-1" parent="L_pTf_Fj3E4htamk4JVU-0" />
+        <mxCell id="L_pTf_Fj3E4htamk4JVU-3" value="u_cmdb_ds_sstdb_ci" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;fontStyle=0" vertex="1" parent="L_pTf_Fj3E4htamk4JVU-1">
+          <mxGeometry x="464.75" y="240" width="240" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="L_pTf_Fj3E4htamk4JVU-6" value="u_cmdb_ds_sstdb_ip_device" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;" vertex="1" parent="L_pTf_Fj3E4htamk4JVU-1">
+          <mxGeometry x="464" y="391" width="241.5" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="L_pTf_Fj3E4htamk4JVU-9" value="u_cmdb_ds_sstdb_ip_address" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;fontStyle=0" vertex="1" parent="L_pTf_Fj3E4htamk4JVU-1">
+          <mxGeometry x="743" y="391" width="241.5" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="L_pTf_Fj3E4htamk4JVU-10" value="u_cmdb_ds_sstdb_ip_device_printer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;" vertex="1" parent="L_pTf_Fj3E4htamk4JVU-1">
+          <mxGeometry x="185" y="391" width="241.5" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="EdUAASCn8yxF7EcJdjHg-0" value="Parent Id" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="L_pTf_Fj3E4htamk4JVU-1" source="L_pTf_Fj3E4htamk4JVU-3" target="L_pTf_Fj3E4htamk4JVU-6">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="620" y="319" as="sourcePoint" />
+            <mxPoint x="620" y="364" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdUAASCn8yxF7EcJdjHg-1" value="Parent Id" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#FF6666;" edge="1" parent="L_pTf_Fj3E4htamk4JVU-1" source="L_pTf_Fj3E4htamk4JVU-3" target="L_pTf_Fj3E4htamk4JVU-9">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="595" y="298" as="sourcePoint" />
+            <mxPoint x="595" y="401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdUAASCn8yxF7EcJdjHg-2" value="Parent Id" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="L_pTf_Fj3E4htamk4JVU-1" source="L_pTf_Fj3E4htamk4JVU-3" target="L_pTf_Fj3E4htamk4JVU-10">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="605" y="308" as="sourcePoint" />
+            <mxPoint x="605" y="411" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
