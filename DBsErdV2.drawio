@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T10:10:43.368Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="em6FOm35IJF6WqelGucq" version="22.1.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-12-06T11:11:54.240Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="rfOQ15P9YSW4ip6wNtCt" version="22.1.5" type="github" pages="6">
   <diagram name="IntroCi" id="jqjDg9kWaLE52GAI048v">
     <mxGraphModel dx="1770" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -215,7 +215,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qOJfmeMptNHJs6J1GD0c" name="Vision">
-    <mxGraphModel dx="1711" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2290" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -229,19 +229,16 @@
           <mxGeometry x="969" y="55" width="75" height="97" as="geometry" />
         </mxCell>
         <mxCell id="ngETcyTxvMbDPHaEo8yi-4" value="u_cmdb_ds_sstdb_accounting" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="756" y="55" width="185" height="40" as="geometry" />
+          <mxGeometry x="487" y="55" width="454" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ngETcyTxvMbDPHaEo8yi-5" value="Account Asset" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="ngETcyTxvMbDPHaEo8yi-1" target="ngETcyTxvMbDPHaEo8yi-4">
+        <mxCell id="ngETcyTxvMbDPHaEo8yi-5" value="Account Asset" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="ngETcyTxvMbDPHaEo8yi-4" target="ngETcyTxvMbDPHaEo8yi-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="909" y="114" as="sourcePoint" />
-            <mxPoint x="861" y="591" as="targetPoint" />
+            <mxPoint x="916" y="113" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ngETcyTxvMbDPHaEo8yi-6" value="u_cmdb_ds_sstdb_ci" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.businessObject;overflow=fill;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="486.5" y="141" width="240" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="ngETcyTxvMbDPHaEo8yi-7" value="u_cmdb_ds_sstdb_accounting" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.businessObject;overflow=fill;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="486.5" y="55" width="240" height="41" as="geometry" />
         </mxCell>
         <mxCell id="ngETcyTxvMbDPHaEo8yi-8" value="cmdb" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1067" y="55" width="79" height="97" as="geometry" />
@@ -296,6 +293,12 @@
         </mxCell>
         <mxCell id="7oC0EhshWbzqOsgAs2XE-9" value="Web Conferences" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="485.75" y="889" width="241.5" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4JjU4Keu0FjbpoTxo6ce-1" value="Parent Id" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="ngETcyTxvMbDPHaEo8yi-6" target="ngETcyTxvMbDPHaEo8yi-4">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="414" y="141" as="sourcePoint" />
+            <mxPoint x="413" y="96" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
