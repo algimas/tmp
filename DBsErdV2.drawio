@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T13:39:27.007Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="RvAPQuXuWr58zoaOTMvn" version="22.1.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-12-06T13:42:47.133Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="DqdPnMFxE0B--OM3VLSA" version="22.1.5" type="github" pages="9">
   <diagram name="IntroCi" id="jqjDg9kWaLE52GAI048v">
-    <mxGraphModel dx="1770" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2290" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="CiPath" id="xO-fJI0FFCdMl9LTQsgy">
-    <mxGraphModel dx="1221" dy="831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1579" dy="831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="y6HC1oknwoSADN_m1p-D-0" />
         <mxCell id="y6HC1oknwoSADN_m1p-D-1" parent="y6HC1oknwoSADN_m1p-D-0" />
@@ -55,7 +55,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-0GjVQ2w-u6F1-nN_Xd9" name="SourceStar">
-    <mxGraphModel dx="1711" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2290" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -185,7 +185,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="SourceStarPrinter" id="5n0v99sd2csnKgw8HSSp">
-    <mxGraphModel dx="1711" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2290" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="u8an3EuGELjMrUbO22-0-0" />
         <mxCell id="u8an3EuGELjMrUbO22-0-1" parent="u8an3EuGELjMrUbO22-0-0" />
@@ -301,6 +301,53 @@
             <mxPoint x="414" y="141" as="sourcePoint" />
             <mxPoint x="413" y="96" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="AsIsPrinter" id="ZcyC45Pnql2zGOTlBaKM">
+    <mxGraphModel dx="2290" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="QctCCBXibKItamILWiIA-0" />
+        <mxCell id="QctCCBXibKItamILWiIA-1" parent="QctCCBXibKItamILWiIA-0" />
+        <mxCell id="QctCCBXibKItamILWiIA-2" value="u_cmdb_ds_sstdb" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="QctCCBXibKItamILWiIA-1">
+          <mxGeometry x="550" y="65" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QctCCBXibKItamILWiIA-3" value="u_cmdb_ds_sstdb_ci" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="QctCCBXibKItamILWiIA-1">
+          <mxGeometry x="240" y="165" width="240" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="QctCCBXibKItamILWiIA-4" value="cmdb_ci" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="QctCCBXibKItamILWiIA-1">
+          <mxGeometry x="810" y="65" width="110" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QctCCBXibKItamILWiIA-5" value="u_cmdb_ds_sstdb_accounting" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="QctCCBXibKItamILWiIA-1">
+          <mxGeometry x="240" y="65" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QctCCBXibKItamILWiIA-6" value="u_cmdb_ds_sstdb_ip_device" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="QctCCBXibKItamILWiIA-1">
+          <mxGeometry x="239.25" y="412" width="241.5" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="QctCCBXibKItamILWiIA-7" value="u_cmdb_ds_sstdb_phonecontract" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="QctCCBXibKItamILWiIA-1">
+          <mxGeometry x="239" y="487" width="241.5" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="QctCCBXibKItamILWiIA-8" value="u_cmdb_ds_sstdb_phonegroup" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="QctCCBXibKItamILWiIA-1">
+          <mxGeometry x="239" y="553" width="241.5" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="QctCCBXibKItamILWiIA-9" value="u_cmdb_ds_sstdb_ip_address" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="QctCCBXibKItamILWiIA-1">
+          <mxGeometry x="239" y="260" width="241.5" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="QctCCBXibKItamILWiIA-10" value="u_cmdb_ds_sstdb_ip_device_printer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="QctCCBXibKItamILWiIA-1">
+          <mxGeometry x="239" y="631" width="241.5" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="QctCCBXibKItamILWiIA-11" value="u_cmdb_ds_sstdb_phonegroup_member" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="QctCCBXibKItamILWiIA-1">
+          <mxGeometry x="239" y="702" width="241.5" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="QctCCBXibKItamILWiIA-12" value="u_cmdb_ds_sstdb_mobile_device" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="QctCCBXibKItamILWiIA-1">
+          <mxGeometry x="239" y="768" width="241.5" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="QctCCBXibKItamILWiIA-13" value="u_cmdb_ds_acat_software" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="QctCCBXibKItamILWiIA-1">
+          <mxGeometry x="239" y="337" width="241.5" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="QctCCBXibKItamILWiIA-14" value="cmdb" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="QctCCBXibKItamILWiIA-1">
+          <mxGeometry x="1000" y="65" width="110" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
