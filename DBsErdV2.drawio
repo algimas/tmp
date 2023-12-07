@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T11:05:49.321Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="eZnX5Vp-WzyL68hkoFLH" version="22.1.5" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-12-07T11:13:30.117Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="mQyz8fDtpJmuDx2CSE4W" version="22.1.5" type="github" pages="11">
   <diagram name="IntroCi" id="jqjDg9kWaLE52GAI048v">
     <mxGraphModel dx="2066" dy="1205" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -63,8 +63,8 @@
             <mxPoint x="631" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1-WOWmvDrKWyMFJxuiMH-8" value="V_CMDB_PHONECONTRACT&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;UK: CI_ID +&amp;nbsp;TKANLAGE_GLOBAL_ID&lt;/font&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="440.75" y="522" width="210" height="181" as="geometry" />
+        <mxCell id="1-WOWmvDrKWyMFJxuiMH-8" value="V_CMDB_PHONECONTRACT&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;UK: CI_ID +&amp;nbsp;TKANLAGE_GLOBAL_ID&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(T_VOIPPROFIL.TKANLAGE_ID = CMDB_CI_TKSYS.&lt;font style=&quot;font-size: 9px;&quot; color=&quot;#ff3333&quot;&gt;LOCAL_ID(+)&lt;/font&gt;)&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;b&gt;where&lt;/b&gt; CMDB_CI.CI_TYPE &lt;span style=&quot;color: rgb(128, 0, 0);&quot; class=&quot;s1&quot;&gt;&lt;b&gt;LIKE&lt;/b&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(0, 128, 0);&quot; class=&quot;s2&quot;&gt;&#39;VOICE&#39;&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="438" y="523" width="220" height="137" as="geometry" />
         </mxCell>
         <mxCell id="1-WOWmvDrKWyMFJxuiMH-9" value="V_CMDB_PHONEGROUP&lt;br&gt;&lt;br&gt;UK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="789" y="522" width="210" height="61" as="geometry" />
@@ -101,12 +101,6 @@
             <mxPoint x="596" y="399" as="sourcePoint" />
             <mxPoint x="556" y="264" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="twIGyOFzCb9MJOZK3sOc-6" value="CMDB_CI&lt;br&gt;&lt;br&gt;join LOCAL_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="548.25" y="630" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="twIGyOFzCb9MJOZK3sOc-7" value="T_VOIPPROFIL&lt;br&gt;&lt;br&gt;TKANLAGE_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="448" y="600.5" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DgY4Ho7ynAC5AwsM3Ex9-1" value="CI_ID" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#FF3333;" edge="1" parent="1" source="1-WOWmvDrKWyMFJxuiMH-9" target="1-WOWmvDrKWyMFJxuiMH-16">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
