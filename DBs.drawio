@@ -1,190 +1,190 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T10:04:19.609Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="kqmEQt61IjoOy0Z8MqLt" version="22.1.5" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-12-07T16:27:58.509Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uC9ypOOZgnhJVxipZg-y" version="22.1.5" type="github" pages="16">
   <diagram name="ImportObjects" id="B52h8_X5WKBb54wcMegX">
-    <mxGraphModel dx="1240" dy="1831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2125" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="LdAP1DnBUgq6UGCHDwLP-0" />
         <mxCell id="LdAP1DnBUgq6UGCHDwLP-1" parent="LdAP1DnBUgq6UGCHDwLP-0" />
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-2" value="ServiceNow (target)" style="swimlane;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-2" value="ServiceNow (target)" style="swimlane;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="11" y="-805" width="394" height="789" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-3" value="Source" style="swimlane;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-3" value="Source" style="swimlane;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="414" y="-805" width="227" height="790" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-4" value="sstdb.V_CMDB_ACCOUNTING" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-4" value="sstdb.V_CMDB_ACCOUNTING" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="LdAP1DnBUgq6UGCHDwLP-3" vertex="1">
           <mxGeometry x="3.5" y="40" width="220" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-5" value="&lt;div&gt;&lt;div&gt;sstdb.V_CMDB_IP_DEVICE vcid&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcid.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-5" value="&lt;div&gt;&lt;div&gt;sstdb.V_CMDB_IP_DEVICE vcid&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcid.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="LdAP1DnBUgq6UGCHDwLP-3" vertex="1">
           <mxGeometry x="3" y="223.5" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-6" value="&lt;div&gt;sstdb.V_CMDB_PHONECONTRACT vcp&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcp.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-6" value="&lt;div&gt;sstdb.V_CMDB_PHONECONTRACT vcp&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcp.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="LdAP1DnBUgq6UGCHDwLP-3" vertex="1">
           <mxGeometry x="3.5" y="298" width="220" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-7" value="SSTDB.V_CMDB_PHONEGROUP vcp LEFT JOIN SSTDB.CMDB_CI cc ON vcp.CI_ID = cc.CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-7" value="SSTDB.V_CMDB_PHONEGROUP vcp LEFT JOIN SSTDB.CMDB_CI cc ON vcp.CI_ID = cc.CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="LdAP1DnBUgq6UGCHDwLP-3" vertex="1">
           <mxGeometry x="3.5" y="362" width="220" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-8" value="&lt;div&gt;sstdb.V_CMDB_IP_ADDRESS vcia&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcia.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-8" value="&lt;div&gt;sstdb.V_CMDB_IP_ADDRESS vcia&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcia.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="LdAP1DnBUgq6UGCHDwLP-3" vertex="1">
           <mxGeometry x="3.5" y="438" width="220" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-9" value="&lt;div&gt;sstdb.V_CMDB_IP_DEVICE_PRINTER vcidp&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcidp.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-9" value="&lt;div&gt;sstdb.V_CMDB_IP_DEVICE_PRINTER vcidp&lt;/div&gt;&lt;div&gt;LEFT JOIN sstdb.CMDB_CI cc ON&lt;/div&gt;&lt;div&gt;vcidp.CI_ID = cc.CI_ID&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="LdAP1DnBUgq6UGCHDwLP-3" vertex="1">
           <mxGeometry x="3" y="505" width="220" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-10" value="SSTDB.V_CMDB_PHONE_GRPMBR vcp" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-10" value="SSTDB.V_CMDB_PHONE_GRPMBR vcp" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="LdAP1DnBUgq6UGCHDwLP-3" vertex="1">
           <mxGeometry x="3.5" y="586" width="220" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-11" value="sstdb.V_CMDB_MOBILE_DEVICES vcmd LEFT JOIN sstdb.cmdb_ci cc ON vcmd.CI_ID = cc.CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-11" value="sstdb.V_CMDB_MOBILE_DEVICES vcmd LEFT JOIN sstdb.cmdb_ci cc ON vcmd.CI_ID = cc.CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="LdAP1DnBUgq6UGCHDwLP-3" vertex="1">
           <mxGeometry x="3" y="641" width="220" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-12" value="DBO_SST.SPO_ACAT_CISERVICE sw" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-12" value="DBO_SST.SPO_ACAT_CISERVICE sw" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="LdAP1DnBUgq6UGCHDwLP-3" vertex="1">
           <mxGeometry x="3.5" y="727" width="220" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-19" value="sstdb.CMDB_CI cc LEFT JOIN sstdb.V_CMDB_BASIC_WORKPLACES vcbw ON cc.CI_ID = VCBW.CI_ID&amp;nbsp;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-3">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-19" value="sstdb.CMDB_CI cc LEFT JOIN sstdb.V_CMDB_BASIC_WORKPLACES vcbw ON cc.CI_ID = VCBW.CI_ID&amp;nbsp;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="LdAP1DnBUgq6UGCHDwLP-3" vertex="1">
           <mxGeometry x="3.5" y="124" width="220" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-14" value="Scheduled Data Import&lt;br&gt;&amp;lt;scheduled_import_set&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-14" value="Scheduled Data Import&lt;br&gt;&amp;lt;scheduled_import_set&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="20" y="-768" width="373" height="736" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-15" value="&amp;lt;DBS DS SSTDB V_CMDB_ACCONTING Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-15" value="&amp;lt;DBS DS SSTDB V_CMDB_ACCONTING Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="27" y="-720" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-17" value="&amp;lt;DBS DS SSTDB CMDB_CI Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-17" value="&amp;lt;DBS DS SSTDB CMDB_CI Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="27" y="-653" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-21" value="u_imp_cmdb_ds_sstdb_ip_device" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-21" value="u_imp_cmdb_ds_sstdb_ip_device" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="665" y="-572" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-22" value="&amp;lt;DBS DS SSTDB V_CMDB_IP_DEVICE Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-22" value="&amp;lt;DBS DS SSTDB V_CMDB_IP_DEVICE Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="27" y="-574" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-23" value="u_cmdb_ds_sstdb_ip_device" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-23" value="u_cmdb_ds_sstdb_ip_device" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="908" y="-572" width="241.5" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-24" value="&amp;lt;DBS DS SSTDB V_CMDB_PHONECONTRACT Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-24" value="&amp;lt;DBS DS SSTDB V_CMDB_PHONECONTRACT Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="27" y="-502" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-25" value="u_imp_cmdb_ds_sstdb_phonecontract" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-25" value="u_imp_cmdb_ds_sstdb_phonecontract" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="665" y="-497" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-26" value="u_cmdb_ds_sstdb_phonecontract" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-26" value="u_cmdb_ds_sstdb_phonecontract" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="908" y="-497" width="241.5" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-27" value="u_imp_cmdb_ds_sstdb_phonegroup" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-27" value="u_imp_cmdb_ds_sstdb_phonegroup" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="665" y="-431" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-28" value="&amp;lt;DBS DS SSTDB V_CMDB_PHONEGROUP Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-28" value="&amp;lt;DBS DS SSTDB V_CMDB_PHONEGROUP Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="27" y="-435" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-29" value="u_cmdb_ds_sstdb_phonegroup" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-29" value="u_cmdb_ds_sstdb_phonegroup" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="908" y="-431" width="241.5" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-30" value="&amp;lt;DBS DS SSTDB V_CMDB_IP_ADDRESS Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-30" value="&amp;lt;DBS DS SSTDB V_CMDB_IP_ADDRESS Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="27" y="-363" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-31" value="u_imp_cmdb_ds_sstdb_ip_address" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-31" value="u_imp_cmdb_ds_sstdb_ip_address" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="665" y="-358" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-32" value="u_cmdb_ds_sstdb_ip_address" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-32" value="u_cmdb_ds_sstdb_ip_address" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="908" y="-358" width="241.5" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-33" value="u_imp_cmdb_ds_sstdb_ip_device_printer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-33" value="u_imp_cmdb_ds_sstdb_ip_device_printer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="663" y="-287" width="224" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-34" value="&amp;lt;DBS DS SSTDB V_CMDB_IP_DEVICE_PRINTER Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-34" value="&amp;lt;DBS DS SSTDB V_CMDB_IP_DEVICE_PRINTER Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="27" y="-293" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-35" value="u_cmdb_ds_sstdb_ip_device_printer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-35" value="u_cmdb_ds_sstdb_ip_device_printer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="908" y="-287" width="241.5" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-36" value="&amp;lt;DBS DS SSTDB V_CMDB_PHONE_GRPMBR Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-36" value="&amp;lt;DBS DS SSTDB V_CMDB_PHONE_GRPMBR Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="27" y="-221" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-37" value="u_imp_cmdb_ds_sstdb_phone_grpmbr" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-37" value="u_imp_cmdb_ds_sstdb_phone_grpmbr" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="665" y="-216" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-38" value="u_cmdb_ds_sstdb_phonegroup_member" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-38" value="u_cmdb_ds_sstdb_phonegroup_member" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="908" y="-216" width="241.5" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-39" value="u_imp_cmdb_ds_sstdb_mobile_device" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-39" value="u_imp_cmdb_ds_sstdb_mobile_device" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="665" y="-150" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-40" value="&amp;lt;DBS DS SSTDB Import Mobile Devices Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-40" value="&amp;lt;DBS DS SSTDB Import Mobile Devices Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="27" y="-156" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-41" value="u_cmdb_ds_sstdb_mobile_device" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-41" value="u_cmdb_ds_sstdb_mobile_device" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="908" y="-150" width="241.5" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-42" value="&amp;lt;DBS DS ACAT Software Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-42" value="&amp;lt;DBS DS ACAT Software Full Load&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="27" y="-84" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-43" value="u_imp_dbs_ds_acat_software" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-43" value="u_imp_dbs_ds_acat_software" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="665" y="-78" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-44" value="u_cmdb_ds_acat_software" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-44" value="u_cmdb_ds_acat_software" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="908" y="-78" width="241.5" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-45" value="ServiceNow (target)" style="swimlane;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-1">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-45" value="ServiceNow (target)" style="swimlane;" parent="LdAP1DnBUgq6UGCHDwLP-1" vertex="1">
           <mxGeometry x="645" y="-805" width="516" height="789" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-13" value="u_imp_cmdb_ds_sstdb_accounting" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-45">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-13" value="u_imp_cmdb_ds_sstdb_accounting" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="LdAP1DnBUgq6UGCHDwLP-45" vertex="1">
           <mxGeometry x="18" y="40" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-16" value="u_cmdb_ds_sstdb_accounting" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-45">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-16" value="u_cmdb_ds_sstdb_accounting" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-45" vertex="1">
           <mxGeometry x="263" y="40" width="241.5" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-18" value="u_imp_cmdb_ds_sstdb_cmdb_ci" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-45">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-18" value="u_imp_cmdb_ds_sstdb_cmdb_ci" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="LdAP1DnBUgq6UGCHDwLP-45" vertex="1">
           <mxGeometry x="18" y="126" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-20" value="u_cmdb_ds_sstdb_ci" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="LdAP1DnBUgq6UGCHDwLP-45">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-20" value="u_cmdb_ds_sstdb_ci" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="LdAP1DnBUgq6UGCHDwLP-45" vertex="1">
           <mxGeometry x="263" y="126" width="241.5" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-46" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-15" target="LdAP1DnBUgq6UGCHDwLP-17">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-46" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-15" target="LdAP1DnBUgq6UGCHDwLP-17" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="387" y="137" as="sourcePoint" />
             <mxPoint x="558" y="137" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-47" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-17" target="LdAP1DnBUgq6UGCHDwLP-22">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-47" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-17" target="LdAP1DnBUgq6UGCHDwLP-22" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="217" y="-665" as="sourcePoint" />
             <mxPoint x="217" y="-643" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-48" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-22" target="LdAP1DnBUgq6UGCHDwLP-24">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-48" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-22" target="LdAP1DnBUgq6UGCHDwLP-24" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="227" y="-655" as="sourcePoint" />
             <mxPoint x="227" y="-633" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-49" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-24" target="LdAP1DnBUgq6UGCHDwLP-28">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-49" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-24" target="LdAP1DnBUgq6UGCHDwLP-28" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="237" y="-645" as="sourcePoint" />
             <mxPoint x="237" y="-623" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-50" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-28" target="LdAP1DnBUgq6UGCHDwLP-30">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-50" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-28" target="LdAP1DnBUgq6UGCHDwLP-30" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="247" y="-635" as="sourcePoint" />
             <mxPoint x="247" y="-613" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-51" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-30" target="LdAP1DnBUgq6UGCHDwLP-34">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-51" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-30" target="LdAP1DnBUgq6UGCHDwLP-34" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="257" y="-625" as="sourcePoint" />
             <mxPoint x="257" y="-603" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-52" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-34" target="LdAP1DnBUgq6UGCHDwLP-36">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-52" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-34" target="LdAP1DnBUgq6UGCHDwLP-36" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="267" y="-615" as="sourcePoint" />
             <mxPoint x="267" y="-593" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-53" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-36" target="LdAP1DnBUgq6UGCHDwLP-40">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-53" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-36" target="LdAP1DnBUgq6UGCHDwLP-40" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="277" y="-605" as="sourcePoint" />
             <mxPoint x="277" y="-583" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LdAP1DnBUgq6UGCHDwLP-54" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-40" target="LdAP1DnBUgq6UGCHDwLP-42">
+        <mxCell id="LdAP1DnBUgq6UGCHDwLP-54" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="LdAP1DnBUgq6UGCHDwLP-1" source="LdAP1DnBUgq6UGCHDwLP-40" target="LdAP1DnBUgq6UGCHDwLP-42" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="287" y="-595" as="sourcePoint" />
             <mxPoint x="287" y="-573" as="targetPoint" />
@@ -904,7 +904,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="PreViewUs" id="qb7ysX5tzedW2moCwv-Q">
-    <mxGraphModel dx="1488" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2125" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="kf59W46QKnhdLK6P00vs-0" />
         <mxCell id="kf59W46QKnhdLK6P00vs-1" parent="kf59W46QKnhdLK6P00vs-0" />
@@ -983,7 +983,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="DeltaCopy" id="709KVMmvN1Y5giY07gsS">
-    <mxGraphModel dx="1488" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2125" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="U0b1ydR-looWnHxSrak1-0" />
         <mxCell id="U0b1ydR-looWnHxSrak1-1" parent="U0b1ydR-looWnHxSrak1-0" />
@@ -1196,7 +1196,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="WeeklyObjects" id="dnzOUvA7nEcUB2mmhmie">
-    <mxGraphModel dx="1488" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2125" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="XPOB_h4kB1DFkJ-dIGqh-0" />
         <mxCell id="XPOB_h4kB1DFkJ-dIGqh-1" parent="XPOB_h4kB1DFkJ-dIGqh-0" />
@@ -1389,8 +1389,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Categorization" id="jN_AfCLM3Y8PA1jdPaCm">
-    <mxGraphModel dx="1488" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram name="CategoV2" id="jN_AfCLM3Y8PA1jdPaCm">
+    <mxGraphModel dx="2125" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="oSIjYCIH4rzHEnAsvokl-0" />
         <mxCell id="oSIjYCIH4rzHEnAsvokl-1" parent="oSIjYCIH4rzHEnAsvokl-0" />
@@ -1413,43 +1413,46 @@
           <mxGeometry x="26" y="-120" width="187" height="43" as="geometry" />
         </mxCell>
         <mxCell id="ZoBfAKQWAgnvfvX_pDhC-0" value="400: Other Products and Services&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;u_ci_typeSTARTSWITHsvc&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
-          <mxGeometry x="892" y="-120" width="271" height="80" as="geometry" />
+          <mxGeometry x="511" y="-120" width="191" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZoBfAKQWAgnvfvX_pDhC-1" value="400:&amp;nbsp;DB Office 365&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;u_product_idISNOTEMPTY&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;u_product_class.u_idSTARTSWITH&lt;b&gt;SW_OFFICE&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
-          <mxGeometry x="602" y="-120" width="271" height="79" as="geometry" />
+          <mxGeometry x="222" y="-120" width="271" height="79" as="geometry" />
         </mxCell>
         <mxCell id="ZoBfAKQWAgnvfvX_pDhC-2" value="400:&amp;nbsp;Software&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;u_product_idISNOTEMPTY&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;u_ci_type=sw&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;u_product_class.u_idNOT LIKE&lt;b&gt;SW_OFFICE&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
-          <mxGeometry x="222" y="-120" width="361" height="79" as="geometry" />
+          <mxGeometry x="720" y="-120" width="254" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="ZoBfAKQWAgnvfvX_pDhC-3" value="200: Video Conferencing&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;install_statusIN31,14,0,3,4&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;u_product_class&lt;/b&gt;.u_idLIKEViKo&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
+        <mxCell id="ZoBfAKQWAgnvfvX_pDhC-3" value="200: Video Conferencing&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;u_product_class&lt;/b&gt;.u_idLIKEViKo&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
           <mxGeometry x="413" y="-350.5" width="172" height="84.5" as="geometry" />
         </mxCell>
-        <mxCell id="ZoBfAKQWAgnvfvX_pDhC-4" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100: Hardware&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;b&gt;u_parent_id&lt;/b&gt;.install_statusIN31,14,0,3,4&lt;br&gt;&lt;b&gt;u_parent_id&lt;/b&gt;.u_ci_type=ipdev&lt;br&gt;&lt;b&gt;u_parent_id&lt;/b&gt;.u_account_assetISNOTEMPTY" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;align=left;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
+        <mxCell id="ZoBfAKQWAgnvfvX_pDhC-4" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;100: Hardware&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;b&gt;u_parent_id&lt;/b&gt;.u_ci_type=ipdev&lt;br&gt;&lt;b&gt;u_parent_id&lt;/b&gt;.u_account_assetISNOTEMPTY" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;align=left;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
           <mxGeometry x="227" y="-548" width="358" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="ZoBfAKQWAgnvfvX_pDhC-5" value="300: Web Conferences&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;install_statusIN31,14,0,3,4&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;u_ci_type=webkonf&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
+        <mxCell id="ZoBfAKQWAgnvfvX_pDhC-5" value="300: Web Conferences&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;u_ci_type=webkonf&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
           <mxGeometry x="606" y="-351.5" width="172" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZoBfAKQWAgnvfvX_pDhC-6" value="100: Basic Workplaces&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;install_statusIN31,14,0,3,4&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;u_ci_type=bw&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;u_account_assetISNOTEMPTY&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
+        <mxCell id="ZoBfAKQWAgnvfvX_pDhC-6" value="100: Basic Workplaces&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;u_ci_type=bw&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;u_account_assetISNOTEMPTY&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
           <mxGeometry x="224" y="-350.5" width="172" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="ZoBfAKQWAgnvfvX_pDhC-7" value="300: Networkboxes&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;install_statusIN31,14,0,3,4&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;u_ci_type=nwbox&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
+        <mxCell id="ZoBfAKQWAgnvfvX_pDhC-7" value="300: Networkboxes&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;u_ci_type=nwbox&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
           <mxGeometry x="798" y="-350.5" width="172" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="ZoBfAKQWAgnvfvX_pDhC-8" value="300: IP Ports&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;install_statusIN31,14,0,3,4&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;u_ci_type=ippo&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
+        <mxCell id="ZoBfAKQWAgnvfvX_pDhC-8" value="300: IP Ports&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;u_ci_type=ippo&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
           <mxGeometry x="991" y="-350.5" width="172" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="ZoBfAKQWAgnvfvX_pDhC-9" value="100: Mobile Devices&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;u_parent_id&lt;/b&gt;.install_statusIN&lt;b&gt;&lt;font color=&quot;#f03405&quot;&gt;31,14,0,3&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;u_parent_id&lt;/b&gt;.u_ci_type=mobdev&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;u_parent_id&lt;/b&gt;.u_account_assetISNOTEMPTY&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
+        <mxCell id="ZoBfAKQWAgnvfvX_pDhC-9" value="100: Mobile Devices&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;u_parent_id&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.u_ci_type=mobdev&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;u_parent_id&lt;/b&gt;.u_account_assetISNOTEMPTY&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
           <mxGeometry x="226" y="-454" width="358" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="ZoBfAKQWAgnvfvX_pDhC-10" value="200: Voice/Basa&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;u_parent_id&lt;/b&gt;.install_statusIN31,14,0,3,4&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;u_parent_id&lt;/b&gt;.u_product_class.u_idSTARTSWITH&lt;b&gt;V_&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;OR&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;u_parent_id&lt;/b&gt;.u_product_class.u_idSTARTSWITH&lt;b&gt;BV_&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
+        <mxCell id="ZoBfAKQWAgnvfvX_pDhC-10" value="200: Voice/Basa&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;u_parent_id&lt;/b&gt;.u_product_class.u_idSTARTSWITH&lt;b&gt;V_&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;OR&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;u_parent_id&lt;/b&gt;.u_product_class.u_idSTARTSWITH&lt;b&gt;BV_&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="oSIjYCIH4rzHEnAsvokl-1" vertex="1">
           <mxGeometry x="222" y="-250" width="360" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="XIrnmT71yADOPrVZD3rj-0" value="400: Web Conferences&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;u_ci_type=V&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="oSIjYCIH4rzHEnAsvokl-1">
+          <mxGeometry x="991" y="-121" width="173" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Daily" id="XZXjSqrEXjs2A0nVUc4g">
-    <mxGraphModel dx="1488" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2125" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="a4CmLrXr7Pk9MMHqqa8v-0" />
         <mxCell id="a4CmLrXr7Pk9MMHqqa8v-1" parent="a4CmLrXr7Pk9MMHqqa8v-0" />
@@ -1638,7 +1641,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="DailyObjects" id="WtYd5_BrQMatARl6S3RK">
-    <mxGraphModel dx="1488" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2125" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="ygMkK0dSq-oCgryzfYB0-0" />
         <mxCell id="ygMkK0dSq-oCgryzfYB0-1" parent="ygMkK0dSq-oCgryzfYB0-0" />
