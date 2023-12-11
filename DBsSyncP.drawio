@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T11:39:40.578Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5Tu67cDkcUD0DmTXphbd" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T11:42:44.796Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YmBisUjh_RdkOgUZzz8B" version="22.1.7" type="github">
   <diagram name="Page-1" id="jKb18ju2QpwEmjpjgpJ_">
     <mxGraphModel dx="2125" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -232,7 +232,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rB3nnP-iTHuCGY8ewRmM-4" value="BR: &quot;DBS DS PM Product Version went live&quot;&lt;br&gt;Version type changes to &quot;&lt;b&gt;live&lt;/b&gt;&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="60" y="-770" width="260" height="57" as="geometry" />
+          <mxGeometry x="80" y="-770" width="260" height="57" as="geometry" />
         </mxCell>
         <mxCell id="rB3nnP-iTHuCGY8ewRmM-9" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="1" source="rB3nnP-iTHuCGY8ewRmM-4" target="rB3nnP-iTHuCGY8ewRmM-31">
           <mxGeometry relative="1" as="geometry">
@@ -252,7 +252,7 @@
           <mxGeometry x="660" y="-775" width="350" height="67" as="geometry" />
         </mxCell>
         <mxCell id="rB3nnP-iTHuCGY8ewRmM-58" value="dbs_ds_pm_ProductSync.setVersionLiveOnTargets(current);" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="660" y="-670" width="350" height="67" as="geometry" />
+          <mxGeometry x="660" y="-510" width="350" height="67" as="geometry" />
         </mxCell>
         <mxCell id="rB3nnP-iTHuCGY8ewRmM-59" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="rB3nnP-iTHuCGY8ewRmM-31" target="rB3nnP-iTHuCGY8ewRmM-57">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -272,6 +272,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rB3nnP-iTHuCGY8ewRmM-62" value="&lt;b&gt;2&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rB3nnP-iTHuCGY8ewRmM-61">
+          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-63" value="u_dbs_ds_pm_product_version&lt;br&gt;&lt;br&gt;grPV.setValue(&quot;u_version_type&quot;, &quot;archive&quot;);" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="-770" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-64" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="rB3nnP-iTHuCGY8ewRmM-57" target="rB3nnP-iTHuCGY8ewRmM-63">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="585" y="-732" as="sourcePoint" />
+            <mxPoint x="670" y="-732" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-65" value="&lt;b&gt;3&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rB3nnP-iTHuCGY8ewRmM-64">
+          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-66" value="dbs_ds_pm_product_utils .updateCatalogItemData: function(catItemGr, productVersionGr)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="-650" width="350" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-67" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="rB3nnP-iTHuCGY8ewRmM-63" target="rB3nnP-iTHuCGY8ewRmM-66">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1020" y="-731" as="sourcePoint" />
+            <mxPoint x="1100" y="-731" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-68" value="&lt;b&gt;4&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rB3nnP-iTHuCGY8ewRmM-67">
           <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
