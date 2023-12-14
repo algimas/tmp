@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T13:10:38.735Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="FpdObYE38gZCKVqw-V9D" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T14:20:46.362Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="p0P-jVippZODFnqxkOYc" version="22.1.7" type="github">
   <diagram name="Page-1" id="jKb18ju2QpwEmjpjgpJ_">
-    <mxGraphModel dx="1771" dy="1831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1839" dy="1831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,17 +35,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-61" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="rB3nnP-iTHuCGY8ewRmM-57" target="rB3nnP-iTHuCGY8ewRmM-58">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="247" y="-77" as="sourcePoint" />
-            <mxPoint x="418" y="-77" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-62" value="&lt;b&gt;5&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rB3nnP-iTHuCGY8ewRmM-61">
-          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="rB3nnP-iTHuCGY8ewRmM-63" value="u_dbs_ds_pm_product_version&lt;br&gt;&lt;br&gt;grPV.setValue(&quot;u_version_type&quot;, &quot;archive&quot;);" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="490" y="-677" width="270" height="60" as="geometry" />
         </mxCell>
@@ -75,9 +64,9 @@
           <mxGeometry x="840" y="-810" width="300" height="780" as="geometry" />
         </mxCell>
         <mxCell id="rB3nnP-iTHuCGY8ewRmM-75" value="Scripted REST API" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
-          <mxGeometry x="30" y="313.5" width="125" height="50" as="geometry" />
+          <mxGeometry x="21" y="313.5" width="125" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-78" value="&lt;b&gt;dbs_ds_pm_ProductSync&lt;/b&gt;.&lt;br&gt;setVersionLiveOnTargets(current);" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-78" value="&lt;b&gt;dbs_ds_pm_ProductSync&lt;/b&gt;.&lt;br&gt;setVersionLiveOnTarget(pv);" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
           <mxGeometry x="30" y="410" width="230" height="360" as="geometry" />
         </mxCell>
         <mxCell id="rB3nnP-iTHuCGY8ewRmM-79" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="rB3nnP-iTHuCGY8ewRmM-69" source="rB3nnP-iTHuCGY8ewRmM-75" target="rB3nnP-iTHuCGY8ewRmM-78">
@@ -109,10 +98,10 @@
         <mxCell id="rB3nnP-iTHuCGY8ewRmM-92" value="sys_translated_text" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
           <mxGeometry x="40" y="719" width="210" height="35.5" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-93" value="&lt;b&gt;dbs_ds_pm_product_utils&lt;/b&gt;.&lt;br&gt;????&lt;br&gt;(catItemGr, productVersionGr)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#b85450;verticalAlign=middle;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
-          <mxGeometry x="30" y="130" width="230" height="67" as="geometry" />
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-93" value="&lt;b&gt;dbs_ds_pm_product_utils&lt;/b&gt;.&lt;br&gt;updateOldLiveVersion&lt;br&gt;(grPV)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#d79b00;verticalAlign=middle;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
+          <mxGeometry x="86" y="217" width="192" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-94" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="rB3nnP-iTHuCGY8ewRmM-69" target="rB3nnP-iTHuCGY8ewRmM-93">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-94" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="rB3nnP-iTHuCGY8ewRmM-69" source="rB3nnP-iTHuCGY8ewRmM-78" target="rB3nnP-iTHuCGY8ewRmM-93">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="204" y="334" as="sourcePoint" />
             <mxPoint x="155" y="420" as="targetPoint" />
@@ -121,6 +110,24 @@
         <mxCell id="rB3nnP-iTHuCGY8ewRmM-95" value="&lt;b&gt;???&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rB3nnP-iTHuCGY8ewRmM-94">
           <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-98" value="u_dbs_ds_pm_product_version&lt;br&gt;&lt;br&gt;grPV.setValue(&quot;u_version_type&quot;, &quot;archive&quot;);" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
+          <mxGeometry x="13" y="131" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-99" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="rB3nnP-iTHuCGY8ewRmM-69" source="rB3nnP-iTHuCGY8ewRmM-93" target="rB3nnP-iTHuCGY8ewRmM-98">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="175" y="420" as="sourcePoint" />
+            <mxPoint x="191" y="271" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-102" value="&lt;b&gt;dbs_ds_pm_product_utils&lt;/b&gt;.&lt;br&gt;updateCatalogItemData(catItemGr, productVersionGr)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#d79b00;verticalAlign=middle;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
+          <mxGeometry x="13" y="38" width="268" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-103" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="rB3nnP-iTHuCGY8ewRmM-69" source="rB3nnP-iTHuCGY8ewRmM-98" target="rB3nnP-iTHuCGY8ewRmM-102">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="177" y="244" as="sourcePoint" />
+            <mxPoint x="166" y="218" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rB3nnP-iTHuCGY8ewRmM-74" value="Source env." style="swimlane;" vertex="1" parent="1">
@@ -141,6 +148,17 @@
         <mxCell id="rB3nnP-iTHuCGY8ewRmM-77" value="&lt;b&gt;6&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rB3nnP-iTHuCGY8ewRmM-76">
           <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-96" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="1" source="rB3nnP-iTHuCGY8ewRmM-57" target="rB3nnP-iTHuCGY8ewRmM-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="-732" as="sourcePoint" />
+            <mxPoint x="410" y="-732" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-97" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;5&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;" vertex="1" connectable="0" parent="rB3nnP-iTHuCGY8ewRmM-96">
+          <mxGeometry x="0.4" y="-1" relative="1" as="geometry">
+            <mxPoint x="-9" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
