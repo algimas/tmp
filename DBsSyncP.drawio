@@ -1,165 +1,165 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T15:34:36.525Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Gw64tIRM1Hkdq8devwsR" version="22.1.11" type="github" pages="3">
-  <diagram name="Page-1" id="jKb18ju2QpwEmjpjgpJ_">
-    <mxGraphModel dx="1578" dy="1831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-12-18T15:35:27.774Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="j6Kaf4a9YR9V684i75yo" version="22.1.11" type="github" pages="3">
+  <diagram name="updCatItem" id="jKb18ju2QpwEmjpjgpJ_">
+    <mxGraphModel dx="1760" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-4" value="BR: &quot;DBS DS PM Product Version went live&quot;&lt;br&gt;Version type changes to &quot;&lt;b&gt;live&lt;/b&gt;&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-4" value="BR: &quot;DBS DS PM Product Version went live&quot;&lt;br&gt;Version type changes to &quot;&lt;b&gt;live&lt;/b&gt;&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="80" y="-770" width="260" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-9" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="1" source="rB3nnP-iTHuCGY8ewRmM-4" target="rB3nnP-iTHuCGY8ewRmM-31">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-9" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" parent="1" source="rB3nnP-iTHuCGY8ewRmM-4" target="rB3nnP-iTHuCGY8ewRmM-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="334" y="-505.87" as="sourcePoint" />
             <mxPoint x="449" y="-479.87" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;" vertex="1" connectable="0" parent="rB3nnP-iTHuCGY8ewRmM-9">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;" parent="rB3nnP-iTHuCGY8ewRmM-9" vertex="1" connectable="0">
           <mxGeometry x="0.4" y="-1" relative="1" as="geometry">
             <mxPoint x="-9" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-31" value="u_dbs_ds_pm_product_version" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-31" value="u_dbs_ds_pm_product_version" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="400" y="-760" width="175" height="35.5" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-57" value="&lt;b&gt;dbs_ds_pm_product_utils&lt;/b&gt;.updateOldLiveVersion(current);" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-57" value="&lt;b&gt;dbs_ds_pm_product_utils&lt;/b&gt;.updateOldLiveVersion(current);" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="60" y="-682" width="350" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-59" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="rB3nnP-iTHuCGY8ewRmM-31" target="rB3nnP-iTHuCGY8ewRmM-57">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-59" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="1" source="rB3nnP-iTHuCGY8ewRmM-31" target="rB3nnP-iTHuCGY8ewRmM-57" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="837" y="-180" as="sourcePoint" />
             <mxPoint x="1008" y="-180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-60" value="&lt;b&gt;2&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rB3nnP-iTHuCGY8ewRmM-59">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-60" value="&lt;b&gt;2&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="rB3nnP-iTHuCGY8ewRmM-59" vertex="1" connectable="0">
           <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-63" value="u_dbs_ds_pm_product_version&lt;br&gt;&lt;br&gt;grPV.setValue(&quot;u_version_type&quot;, &quot;archive&quot;);" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-63" value="u_dbs_ds_pm_product_version&lt;br&gt;&lt;br&gt;grPV.setValue(&quot;u_version_type&quot;, &quot;archive&quot;);" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="490" y="-677" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-64" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="rB3nnP-iTHuCGY8ewRmM-57" target="rB3nnP-iTHuCGY8ewRmM-63">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-64" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="1" source="rB3nnP-iTHuCGY8ewRmM-57" target="rB3nnP-iTHuCGY8ewRmM-63" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-15" y="-639" as="sourcePoint" />
             <mxPoint x="70" y="-639" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-65" value="&lt;b&gt;3&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rB3nnP-iTHuCGY8ewRmM-64">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-65" value="&lt;b&gt;3&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="rB3nnP-iTHuCGY8ewRmM-64" vertex="1" connectable="0">
           <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-67" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="rB3nnP-iTHuCGY8ewRmM-63" target="rB3nnP-iTHuCGY8ewRmM-66">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-67" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="1" source="rB3nnP-iTHuCGY8ewRmM-63" target="rB3nnP-iTHuCGY8ewRmM-66" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="420" y="-638" as="sourcePoint" />
             <mxPoint x="500" y="-638" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-68" value="&lt;b&gt;4&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rB3nnP-iTHuCGY8ewRmM-67">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-68" value="&lt;b&gt;4&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="rB3nnP-iTHuCGY8ewRmM-67" vertex="1" connectable="0">
           <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-69" value="Lower env." style="swimlane;" vertex="1" parent="1">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-69" value="Lower env." style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="840" y="-810" width="300" height="780" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-75" value="Scripted REST API" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-75" value="Scripted REST API" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=middle;" parent="rB3nnP-iTHuCGY8ewRmM-69" vertex="1">
           <mxGeometry x="21" y="313.5" width="125" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-78" value="&lt;b&gt;dbs_ds_pm_ProductSync&lt;/b&gt;.&lt;br&gt;setVersionLiveOnTarget(pv);" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-78" value="&lt;b&gt;dbs_ds_pm_ProductSync&lt;/b&gt;.&lt;br&gt;setVersionLiveOnTarget(pv);" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;verticalAlign=top;" parent="rB3nnP-iTHuCGY8ewRmM-69" vertex="1">
           <mxGeometry x="30" y="410" width="230" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-79" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="rB3nnP-iTHuCGY8ewRmM-69" source="rB3nnP-iTHuCGY8ewRmM-75" target="rB3nnP-iTHuCGY8ewRmM-78">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-79" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="rB3nnP-iTHuCGY8ewRmM-69" source="rB3nnP-iTHuCGY8ewRmM-75" target="rB3nnP-iTHuCGY8ewRmM-78" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-410" y="346.5" as="sourcePoint" />
             <mxPoint x="50" y="346.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-80" value="&lt;b&gt;7&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rB3nnP-iTHuCGY8ewRmM-79">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-80" value="&lt;b&gt;7&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="rB3nnP-iTHuCGY8ewRmM-79" vertex="1" connectable="0">
           <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-87" value="u_dbs_ds_pm_product" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-87" value="u_dbs_ds_pm_product" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="rB3nnP-iTHuCGY8ewRmM-69" vertex="1">
           <mxGeometry x="40" y="470" width="210" height="35.5" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-88" value="u_dbs_ds_pm_product_version" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-88" value="u_dbs_ds_pm_product_version" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="rB3nnP-iTHuCGY8ewRmM-69" vertex="1">
           <mxGeometry x="40" y="521.5" width="210" height="35.5" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-89" value="u_m2m_dbs_ds_pm_product_rel" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-89" value="u_m2m_dbs_ds_pm_product_rel" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="rB3nnP-iTHuCGY8ewRmM-69" vertex="1">
           <mxGeometry x="40" y="570" width="210" height="35.5" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-90" value="u_m2m_dbs_ds_pm_core_company" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-90" value="u_m2m_dbs_ds_pm_core_company" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="rB3nnP-iTHuCGY8ewRmM-69" vertex="1">
           <mxGeometry x="40" y="620" width="210" height="35.5" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-91" value="u_m2m_product_version_sc_category" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-91" value="u_m2m_product_version_sc_category" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="rB3nnP-iTHuCGY8ewRmM-69" vertex="1">
           <mxGeometry x="40" y="670" width="210" height="35.5" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-92" value="sys_translated_text" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-92" value="sys_translated_text" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="rB3nnP-iTHuCGY8ewRmM-69" vertex="1">
           <mxGeometry x="40" y="719" width="210" height="35.5" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-93" value="&lt;b&gt;dbs_ds_pm_product_utils&lt;/b&gt;.&lt;br&gt;updateOldLiveVersion&lt;br&gt;(grPV)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#d79b00;verticalAlign=middle;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-93" value="&lt;b&gt;dbs_ds_pm_product_utils&lt;/b&gt;.&lt;br&gt;updateOldLiveVersion&lt;br&gt;(grPV)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#d79b00;verticalAlign=middle;" parent="rB3nnP-iTHuCGY8ewRmM-69" vertex="1">
           <mxGeometry x="86" y="217" width="192" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-94" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="rB3nnP-iTHuCGY8ewRmM-69" source="rB3nnP-iTHuCGY8ewRmM-78" target="rB3nnP-iTHuCGY8ewRmM-93">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-94" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="rB3nnP-iTHuCGY8ewRmM-69" source="rB3nnP-iTHuCGY8ewRmM-78" target="rB3nnP-iTHuCGY8ewRmM-93" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="204" y="334" as="sourcePoint" />
             <mxPoint x="155" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-95" value="&lt;b&gt;???&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rB3nnP-iTHuCGY8ewRmM-94">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-95" value="&lt;b&gt;???&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="rB3nnP-iTHuCGY8ewRmM-94" vertex="1" connectable="0">
           <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-98" value="u_dbs_ds_pm_product_version&lt;br&gt;&lt;br&gt;grPV.setValue(&quot;u_version_type&quot;, &quot;archive&quot;);" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-98" value="u_dbs_ds_pm_product_version&lt;br&gt;&lt;br&gt;grPV.setValue(&quot;u_version_type&quot;, &quot;archive&quot;);" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;" parent="rB3nnP-iTHuCGY8ewRmM-69" vertex="1">
           <mxGeometry x="13" y="131" width="265" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-99" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="rB3nnP-iTHuCGY8ewRmM-69" source="rB3nnP-iTHuCGY8ewRmM-93" target="rB3nnP-iTHuCGY8ewRmM-98">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-99" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="rB3nnP-iTHuCGY8ewRmM-69" source="rB3nnP-iTHuCGY8ewRmM-93" target="rB3nnP-iTHuCGY8ewRmM-98" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="175" y="420" as="sourcePoint" />
             <mxPoint x="191" y="271" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-102" value="&lt;b&gt;dbs_ds_pm_product_utils&lt;/b&gt;.&lt;br&gt;updateCatalogItemData(catItemGr, productVersionGr)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#d79b00;verticalAlign=middle;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-69">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-102" value="&lt;b&gt;dbs_ds_pm_product_utils&lt;/b&gt;.&lt;br&gt;updateCatalogItemData(catItemGr, productVersionGr)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#d79b00;verticalAlign=middle;" parent="rB3nnP-iTHuCGY8ewRmM-69" vertex="1">
           <mxGeometry x="13" y="38" width="268" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-103" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="rB3nnP-iTHuCGY8ewRmM-69" source="rB3nnP-iTHuCGY8ewRmM-98" target="rB3nnP-iTHuCGY8ewRmM-102">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-103" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="rB3nnP-iTHuCGY8ewRmM-69" source="rB3nnP-iTHuCGY8ewRmM-98" target="rB3nnP-iTHuCGY8ewRmM-102" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="177" y="244" as="sourcePoint" />
             <mxPoint x="166" y="218" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-74" value="Source env." style="swimlane;" vertex="1" parent="1">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-74" value="Source env." style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="50" y="-810" width="770" height="780" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-66" value="&lt;b&gt;dbs_ds_pm_product_utils&lt;/b&gt;.&lt;br&gt;updateCatalogItemData(catItemGr, productVersionGr)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-74">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-66" value="&lt;b&gt;dbs_ds_pm_product_utils&lt;/b&gt;.&lt;br&gt;updateCatalogItemData(catItemGr, productVersionGr)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" parent="rB3nnP-iTHuCGY8ewRmM-74" vertex="1">
           <mxGeometry x="430" y="238" width="290" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-58" value="&lt;b&gt;dbs_ds_pm_ProductSync&lt;/b&gt;.setVersionLiveOnTargets(current);" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-74">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-58" value="&lt;b&gt;dbs_ds_pm_ProductSync&lt;/b&gt;.setVersionLiveOnTargets(current);" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=middle;" parent="rB3nnP-iTHuCGY8ewRmM-74" vertex="1">
           <mxGeometry x="10" y="305" width="350" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-104" value="&lt;ul&gt;&lt;li&gt;From PROD changes go &quot;down&quot; only when Version changes to &quot;live&quot;&lt;/li&gt;&lt;li&gt;To PROD changes go only via Update Sets ???&lt;/li&gt;&lt;li&gt;Changes that could exists at &quot;lower&quot; but not transferred yet:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Only diff version, e.g. PROD=&quot;live&quot; and AU=&quot;edit&quot; but the same Cat Item&lt;/li&gt;&lt;li&gt;Different Cat Item linked but the same version, thus, probably only: &quot;live&quot;=&quot;live&quot;&lt;/li&gt;&lt;li&gt;Diff version and Cat Item&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Question:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;In what cases we take the truth from &lt;b&gt;Upper&lt;/b&gt; and from what from &lt;b&gt;Lower &lt;/b&gt;(ignore the update from Upper)?&lt;/li&gt;&lt;li&gt;I think, that only when the data state/values are the same on Lower env. ELSE we should provide some notification, e.g.: changes on Upper please click button to see changes, or even, later: click button to apply locally changes from Upper.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rB3nnP-iTHuCGY8ewRmM-74">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-104" value="&lt;ul&gt;&lt;li&gt;From PROD changes go &quot;down&quot; only when Version changes to &quot;live&quot;&lt;/li&gt;&lt;li&gt;To PROD changes go only via Update Sets ???&lt;/li&gt;&lt;li&gt;Changes that could exists at &quot;lower&quot; but not transferred yet:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Only diff version, e.g. PROD=&quot;live&quot; and AU=&quot;edit&quot; but the same Cat Item&lt;/li&gt;&lt;li&gt;Different Cat Item linked but the same version, thus, probably only: &quot;live&quot;=&quot;live&quot;&lt;/li&gt;&lt;li&gt;Diff version and Cat Item&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Question:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;In what cases we take the truth from &lt;b&gt;Upper&lt;/b&gt; and from what from &lt;b&gt;Lower &lt;/b&gt;(ignore the update from Upper)?&lt;/li&gt;&lt;li&gt;I think, that only when the data state/values are the same on Lower env. ELSE we should provide some notification, e.g.: changes on Upper please click button to see changes, or even, later: click button to apply locally changes from Upper.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rB3nnP-iTHuCGY8ewRmM-74" vertex="1">
           <mxGeometry x="26" y="401" width="726" height="231" as="geometry" />
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-76" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" edge="1" parent="1" source="rB3nnP-iTHuCGY8ewRmM-58" target="rB3nnP-iTHuCGY8ewRmM-75">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-76" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;" parent="1" source="rB3nnP-iTHuCGY8ewRmM-58" target="rB3nnP-iTHuCGY8ewRmM-75" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="245" y="-648" as="sourcePoint" />
             <mxPoint x="245" y="-450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-77" value="&lt;b&gt;6&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rB3nnP-iTHuCGY8ewRmM-76">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-77" value="&lt;b&gt;6&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="rB3nnP-iTHuCGY8ewRmM-76" vertex="1" connectable="0">
           <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-96" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="1" source="rB3nnP-iTHuCGY8ewRmM-57" target="rB3nnP-iTHuCGY8ewRmM-58">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-96" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" parent="1" source="rB3nnP-iTHuCGY8ewRmM-57" target="rB3nnP-iTHuCGY8ewRmM-58" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="-732" as="sourcePoint" />
             <mxPoint x="410" y="-732" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rB3nnP-iTHuCGY8ewRmM-97" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;5&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;" vertex="1" connectable="0" parent="rB3nnP-iTHuCGY8ewRmM-96">
+        <mxCell id="rB3nnP-iTHuCGY8ewRmM-97" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;5&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;" parent="rB3nnP-iTHuCGY8ewRmM-96" vertex="1" connectable="0">
           <mxGeometry x="0.4" y="-1" relative="1" as="geometry">
             <mxPoint x="-9" y="-1" as="offset" />
           </mxGeometry>
