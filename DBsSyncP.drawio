@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T12:53:43.193Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="VNbKyCX47393oXfPM5xf" version="22.1.16" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-01-08T13:01:39.809Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vTgzCmm2rwu_1Bq5oRkF" version="22.1.16" type="github" pages="9">
   <diagram name="conceptProd" id="FF8k_o0fuCdBNsSGvPOi">
     <mxGraphModel dx="1404" dy="1004" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -891,7 +891,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="CostCenterV1" id="yPhNIy7ZcB1LQOe-gwoO">
-    <mxGraphModel dx="1685" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1404" dy="1831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="HjMPfb8YsYBV-lph0hdM-0" />
         <mxCell id="HjMPfb8YsYBV-lph0hdM-1" parent="HjMPfb8YsYBV-lph0hdM-0" />
@@ -910,7 +910,7 @@
         <mxCell id="CcWh_ljGi_Ar1H1nf0w8-0" value="u_dbs_ds_imp_cost_center_successor" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="HjMPfb8YsYBV-lph0hdM-1">
           <mxGeometry x="394" y="-464" width="242" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="CcWh_ljGi_Ar1H1nf0w8-1" value="cmn_cost_center&lt;br&gt;&lt;br&gt;u_successor&lt;br&gt;&lt;br&gt;u_successors&lt;br&gt;u_successor_list" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="HjMPfb8YsYBV-lph0hdM-1">
+        <mxCell id="CcWh_ljGi_Ar1H1nf0w8-1" value="cmn_cost_center&lt;br&gt;&lt;br&gt;u_successors" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="HjMPfb8YsYBV-lph0hdM-1">
           <mxGeometry x="686" y="-464" width="242" height="90" as="geometry" />
         </mxCell>
         <mxCell id="7-5iqIPBYRDh8eueCRhF-0" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#00b9f2;" edge="1" parent="HjMPfb8YsYBV-lph0hdM-1" source="ERw81RyKzPV9JfM9aN0A-1" target="CcWh_ljGi_Ar1H1nf0w8-0">
@@ -924,6 +924,9 @@
             <mxPoint x="595" y="-546" as="sourcePoint" />
             <mxPoint x="540" y="-454" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7-5iqIPBYRDh8eueCRhF-2" value="two header columns: OLD, NEW&lt;br&gt;Value: String, text but NOT number etc" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.36;" vertex="1" parent="HjMPfb8YsYBV-lph0hdM-1">
+          <mxGeometry x="330" y="-777" width="184" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
