@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T15:48:59.213Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xVOP0EP19WeKWwRDtVZ3" version="22.1.16" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-01-09T09:57:53.660Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="1sg6LTV9oQJWcvPY3g6u" version="22.1.16" type="github" pages="11">
   <diagram name="conceptProd" id="FF8k_o0fuCdBNsSGvPOi">
     <mxGraphModel dx="1404" dy="1004" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -891,7 +891,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="CostCenterDOC" id="yPhNIy7ZcB1LQOe-gwoO">
-    <mxGraphModel dx="1404" dy="2658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1539" dy="2658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="HjMPfb8YsYBV-lph0hdM-0" />
         <mxCell id="HjMPfb8YsYBV-lph0hdM-1" parent="HjMPfb8YsYBV-lph0hdM-0" />
@@ -1012,8 +1012,140 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram name="CostCenterDOC2" id="cw0ZK1_tMA0IHrvdSo2K">
+    <mxGraphModel dx="1539" dy="2658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-0" />
+        <mxCell id="KM4cgijmqH9jGYhfioUz-1" parent="KM4cgijmqH9jGYhfioUz-0" />
+        <mxCell id="KM4cgijmqH9jGYhfioUz-2" value="Preparation" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="11" y="-1631" width="525" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-3" value="Execution" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="552" y="-1631" width="334" height="359" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-4" value="Review" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="901" y="-1631" width="256" height="359" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-5" value="Set System Property" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="30" y="-1587" width="235" height="304" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-6" value="Upload / Validate &lt;br&gt;Data Source (file)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="280" y="-1584" width="242" height="299" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-7" value="Validate / Review &lt;br&gt;Results" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="910" y="-1584" width="239" height="298" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-8" value="Schedule / Execute&lt;br&gt;Data Import" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="569" y="-1584" width="309" height="298" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-9" value="System Property&lt;br&gt;&amp;lt;sys_properties&amp;gt;&lt;br&gt;&lt;br&gt;dbs.ds.imp.cost.center.successor.clean&lt;br&gt;= true/false" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="41" y="-1536" width="215" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-10" value="Data Source&lt;br&gt;&amp;lt;sys_data_source&amp;gt;&lt;br&gt;&lt;br&gt;&quot;DBS DS imp cost_center successors&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="288.5" y="-1536" width="222" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-11" value="Excel File (2 columns)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="304.25" y="-1460" width="194.25" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-12" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#6c8ebf;fillColor=#dae8fc;shadow=1;fontSize=10;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="311.5" y="-1432" width="169.87" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-13" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;fontSize=10;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-12">
+          <mxGeometry width="169.87" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-14" value="OLD" style="connectable=0;recursiveResize=0;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;fontStyle=1;fontSize=10;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-13">
+          <mxGeometry width="81" height="26" as="geometry">
+            <mxRectangle width="81" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-15" value="NEW" style="connectable=0;recursiveResize=0;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;fontStyle=1;fontSize=10;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-13">
+          <mxGeometry x="81" width="89" height="26" as="geometry">
+            <mxRectangle width="89" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-16" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;fontSize=10;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-12">
+          <mxGeometry y="26" width="169.87" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-17" value="123456789012" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;fontSize=10;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-16">
+          <mxGeometry width="81" height="25" as="geometry">
+            <mxRectangle width="81" height="25" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-18" value="123456777777" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;fontSize=10;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-16">
+          <mxGeometry x="81" width="89" height="25" as="geometry">
+            <mxRectangle width="89" height="25" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;fontSize=10;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-12">
+          <mxGeometry y="51" width="169.87" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-20" value="123456789012" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontSize=10;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-19">
+          <mxGeometry width="81" height="24" as="geometry">
+            <mxRectangle width="81" height="24" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-21" value="123456788888" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontSize=10;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-19">
+          <mxGeometry x="81" width="89" height="24" as="geometry">
+            <mxRectangle width="89" height="24" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-22" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;fontSize=10;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-12">
+          <mxGeometry y="75" width="169.87" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-23" value="123456789000" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;fontSize=10;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-22">
+          <mxGeometry width="81" height="26" as="geometry">
+            <mxRectangle width="81" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-24" value="123456789999" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;fontSize=10;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-22">
+          <mxGeometry x="81" width="89" height="26" as="geometry">
+            <mxRectangle width="89" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-25" value="Scheduled Data Import&lt;br&gt;&amp;lt;scheduled_import_set&amp;gt;&lt;br&gt;&lt;br&gt;&quot;DBS DS import cost_center successors&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="577" y="-1536" width="292" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-26" value="u_dbs_ds_imp_cost_center_successor&lt;br&gt;&lt;br&gt;u_OLD&lt;br&gt;u_NEW" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="919" y="-1536" width="220" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-27" value="cmn_cost_center&lt;br&gt;&lt;br&gt;code&lt;br&gt;u_successors (List)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="953" y="-1403" width="152" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-28" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="KM4cgijmqH9jGYhfioUz-1" source="KM4cgijmqH9jGYhfioUz-26" target="KM4cgijmqH9jGYhfioUz-27">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1068" y="-1009" as="sourcePoint" />
+            <mxPoint x="1013" y="-917" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-29" value="On Demand" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="585" y="-1444.25" width="118" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-30" value="Scheduled, e.g.: exact date" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="585" y="-1375.75" width="118" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-31" value="Two columns: &lt;b&gt;OLD&lt;/b&gt;, &lt;b&gt;NEW&lt;/b&gt; must exist in the file.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Cell value: should be String/Text but NOT number etc" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="197" y="-1247" width="322" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KM4cgijmqH9jGYhfioUz-32" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="KM4cgijmqH9jGYhfioUz-1" source="KM4cgijmqH9jGYhfioUz-11" target="KM4cgijmqH9jGYhfioUz-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="402" y="-1198" as="sourcePoint" />
+            <mxPoint x="519" y="-1209.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="57Am8r_ch7VPnuhylMRC-0" value="Table Transform Map" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="707" y="-1452" width="153" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="57Am8r_ch7VPnuhylMRC-1" value="Field Map" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="713" y="-1413" width="139" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="57Am8r_ch7VPnuhylMRC-2" value="Transform Script" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="KM4cgijmqH9jGYhfioUz-1">
+          <mxGeometry x="713" y="-1369" width="139" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="CostCenterPROC" id="w3IFHc7MtA6FxPNTWxz1">
-    <mxGraphModel dx="1685" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1189" dy="1831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="fnyhMy0de34pNRiM0W6U-0" />
         <mxCell id="fnyhMy0de34pNRiM0W6U-1" parent="fnyhMy0de34pNRiM0W6U-0" />
