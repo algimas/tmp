@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T15:47:07.121Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Zc_G6OFJvvFvqVyhaxiy" version="22.1.16" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-01-15T15:51:13.458Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5L7NVKBQoVMwJ9HH1ncc" version="22.1.16" type="github" pages="12">
   <diagram name="conceptProd" id="FF8k_o0fuCdBNsSGvPOi">
     <mxGraphModel dx="1419" dy="1004" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -82,11 +82,11 @@
     </mxGraphModel>
   </diagram>
   <diagram name="conceptProdV2" id="UgxHk8I2sKFs8ivhiYCR">
-    <mxGraphModel dx="1174" dy="831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1076" dy="831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="xyLIVG5ZsKwe74OfGHAW-0" />
         <mxCell id="xyLIVG5ZsKwe74OfGHAW-1" parent="xyLIVG5ZsKwe74OfGHAW-0" />
-        <mxCell id="xyLIVG5ZsKwe74OfGHAW-2" value="Informs the User&amp;nbsp;on potential issues &lt;br&gt;for the future commit on &quot;master&quot;&lt;br&gt;(e.g. &quot;historical TU/AU record exists)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-2" value="Inform PROD User&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;on last action perform&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;on selected Product" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="889.5000000000002" y="281.5" as="targetPoint" />
             <mxPoint x="680.0000000000002" y="281.5" as="sourcePoint" />
@@ -168,10 +168,11 @@
             <mxPoint x="315" y="368.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eE3aeX85G0-pTwcHgiIc-0" value="Inform the User&amp;nbsp;&lt;br&gt;on last action perform &lt;br&gt;on selected Product" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="VbkTdKXqVNzKP8jWDh7o-1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="eE3aeX85G0-pTwcHgiIc-0" value="Inform PROD User&amp;nbsp;&lt;br&gt;on last action perform &lt;br&gt;on selected Product" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="VbkTdKXqVNzKP8jWDh7o-1">
+          <mxGeometry x="0.0024" relative="1" as="geometry">
             <mxPoint x="898.5000000000002" y="283.5" as="targetPoint" />
             <mxPoint x="689.0000000000002" y="283.5" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eE3aeX85G0-pTwcHgiIc-1" value="PROD User" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="VbkTdKXqVNzKP8jWDh7o-1">
