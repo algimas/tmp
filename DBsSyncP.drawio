@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T16:11:29.968Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="zwf4GR3EYEG8Tl_F1TZc" version="22.1.16" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2024-01-15T16:23:12.079Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="XZv4168r2tx6qCNXXnvg" version="22.1.16" type="github" pages="13">
   <diagram name="conceptProd" id="FF8k_o0fuCdBNsSGvPOi">
     <mxGraphModel dx="1419" dy="1004" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -382,16 +382,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BrFRpHKL2Kj6J68TfjPU-3" value="AU User" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="BrFRpHKL2Kj6J68TfjPU-1">
-          <mxGeometry x="716" y="117" width="20" height="455" as="geometry" />
+          <mxGeometry x="716" y="117" width="20" height="493" as="geometry" />
         </mxCell>
         <mxCell id="BrFRpHKL2Kj6J68TfjPU-4" value="PROD&lt;br&gt;/master" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="BrFRpHKL2Kj6J68TfjPU-1">
-          <mxGeometry x="857" y="117" width="100" height="455" as="geometry" />
+          <mxGeometry x="857" y="117" width="100" height="492" as="geometry" />
         </mxCell>
         <mxCell id="BrFRpHKL2Kj6J68TfjPU-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BrFRpHKL2Kj6J68TfjPU-4">
           <mxGeometry x="45" y="107" width="10" height="25" as="geometry" />
         </mxCell>
         <mxCell id="BrFRpHKL2Kj6J68TfjPU-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BrFRpHKL2Kj6J68TfjPU-4">
           <mxGeometry x="45" y="257" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BrFRpHKL2Kj6J68TfjPU-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BrFRpHKL2Kj6J68TfjPU-4">
+          <mxGeometry x="45" y="356" width="10" height="39.5" as="geometry" />
         </mxCell>
         <mxCell id="BrFRpHKL2Kj6J68TfjPU-5" value="1. Initiates the change, &lt;br&gt;creates TU EPV" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="BrFRpHKL2Kj6J68TfjPU-1" target="BrFRpHKL2Kj6J68TfjPU-14">
           <mxGeometry x="-0.0219" y="7" relative="1" as="geometry">
@@ -401,10 +404,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BrFRpHKL2Kj6J68TfjPU-6" value="AU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="BrFRpHKL2Kj6J68TfjPU-1">
-          <mxGeometry x="505" y="117" width="100" height="459" as="geometry" />
+          <mxGeometry x="505" y="117" width="100" height="494" as="geometry" />
         </mxCell>
         <mxCell id="BrFRpHKL2Kj6J68TfjPU-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BrFRpHKL2Kj6J68TfjPU-6">
-          <mxGeometry x="45" y="347" width="10" height="93" as="geometry" />
+          <mxGeometry x="45" y="347" width="10" height="126" as="geometry" />
         </mxCell>
         <mxCell id="BrFRpHKL2Kj6J68TfjPU-10" value="2. REST call: &lt;br&gt;validates LOG,&lt;br&gt;adds LOG entry" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="BrFRpHKL2Kj6J68TfjPU-1">
           <mxGeometry x="-0.0333" y="9" relative="1" as="geometry">
@@ -414,13 +417,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BrFRpHKL2Kj6J68TfjPU-11" value="TU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="BrFRpHKL2Kj6J68TfjPU-1">
-          <mxGeometry x="307" y="117" width="100" height="460" as="geometry" />
+          <mxGeometry x="307" y="117" width="100" height="494" as="geometry" />
         </mxCell>
         <mxCell id="BrFRpHKL2Kj6J68TfjPU-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BrFRpHKL2Kj6J68TfjPU-11">
           <mxGeometry x="45" y="244" width="10" height="68" as="geometry" />
         </mxCell>
         <mxCell id="BrFRpHKL2Kj6J68TfjPU-13" value="TU User" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="BrFRpHKL2Kj6J68TfjPU-1">
-          <mxGeometry x="129" y="114" width="20" height="455" as="geometry" />
+          <mxGeometry x="129" y="114" width="20" height="502" as="geometry" />
         </mxCell>
         <mxCell id="BrFRpHKL2Kj6J68TfjPU-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BrFRpHKL2Kj6J68TfjPU-1">
           <mxGeometry x="352" y="209" width="10" height="83" as="geometry" />
@@ -445,27 +448,34 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BrFRpHKL2Kj6J68TfjPU-18" value="5. Select and publish&lt;br&gt;AU LPV =&amp;gt; PROD LPV" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="BrFRpHKL2Kj6J68TfjPU-1" source="BrFRpHKL2Kj6J68TfjPU-3" target="BrFRpHKL2Kj6J68TfjPU-9">
+        <mxCell id="BrFRpHKL2Kj6J68TfjPU-18" value="5. Initiates validation &lt;br&gt;before publication" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="BrFRpHKL2Kj6J68TfjPU-1" source="BrFRpHKL2Kj6J68TfjPU-3" target="BrFRpHKL2Kj6J68TfjPU-9">
           <mxGeometry x="0.1057" relative="1" as="geometry">
             <mxPoint x="372" y="396.5" as="sourcePoint" />
             <mxPoint x="560" y="397" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BrFRpHKL2Kj6J68TfjPU-19" value="6. REST call: &lt;br&gt;create PROD LPV" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="BrFRpHKL2Kj6J68TfjPU-1" source="BrFRpHKL2Kj6J68TfjPU-9" target="BrFRpHKL2Kj6J68TfjPU-20">
+        <mxCell id="BrFRpHKL2Kj6J68TfjPU-19" value="6. REST call:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;validates LOG" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="BrFRpHKL2Kj6J68TfjPU-1">
           <mxGeometry x="0.5322" y="5" relative="1" as="geometry">
-            <mxPoint x="372" y="396.5" as="sourcePoint" />
-            <mxPoint x="560" y="397" as="targetPoint" />
+            <mxPoint x="560" y="494.5" as="sourcePoint" />
+            <mxPoint x="902" y="494.5" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BrFRpHKL2Kj6J68TfjPU-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BrFRpHKL2Kj6J68TfjPU-1">
-          <mxGeometry x="902" y="510" width="10" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="BrFRpHKL2Kj6J68TfjPU-21" value="Inform User on issues,&lt;br&gt;else DONE." style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="BrFRpHKL2Kj6J68TfjPU-1">
+        <mxCell id="BrFRpHKL2Kj6J68TfjPU-21" value="Inform AU User on &lt;br&gt;potential issues" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="BrFRpHKL2Kj6J68TfjPU-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="725.5" y="554.5" as="targetPoint" />
-            <mxPoint x="559.9999999999998" y="554.5" as="sourcePoint" />
+            <mxPoint x="725.5" y="539.5" as="targetPoint" />
+            <mxPoint x="559.9999999999998" y="539.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0hsHW-oS5iMXxy7q_7xn-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BrFRpHKL2Kj6J68TfjPU-1">
+          <mxGeometry x="902" y="549" width="10" height="39.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0hsHW-oS5iMXxy7q_7xn-2" value="7. REST call:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;publishes, &lt;br&gt;adds LOG entry&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="BrFRpHKL2Kj6J68TfjPU-1">
+          <mxGeometry x="0.5322" y="5" relative="1" as="geometry">
+            <mxPoint x="560" y="567.5" as="sourcePoint" />
+            <mxPoint x="902" y="567.5" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
