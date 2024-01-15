@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T14:57:12.589Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="PrK4ywYkUdgp-2zp399S" version="22.1.16" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-01-15T15:16:03.303Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="pM2UIztp4CMLpSgZIz2s" version="22.1.16" type="github" pages="12">
   <diagram name="conceptProd" id="FF8k_o0fuCdBNsSGvPOi">
     <mxGraphModel dx="1419" dy="1004" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -81,12 +81,12 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Copy of conceptProd" id="UgxHk8I2sKFs8ivhiYCR">
+  <diagram name="conceptProdV2" id="UgxHk8I2sKFs8ivhiYCR">
     <mxGraphModel dx="1174" dy="831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="xyLIVG5ZsKwe74OfGHAW-0" />
         <mxCell id="xyLIVG5ZsKwe74OfGHAW-1" parent="xyLIVG5ZsKwe74OfGHAW-0" />
-        <mxCell id="xyLIVG5ZsKwe74OfGHAW-2" value="Inform the User&amp;nbsp;on potential issues &lt;br&gt;for the future commit on &quot;master&quot;&lt;br&gt;(e.g. &quot;historical TU/AU record exists)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-2" value="Informs the User&amp;nbsp;on potential issues &lt;br&gt;for the future commit on &quot;master&quot;&lt;br&gt;(e.g. &quot;historical TU/AU record exists)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="889.5000000000002" y="281.5" as="targetPoint" />
             <mxPoint x="680.0000000000002" y="281.5" as="sourcePoint" />
@@ -104,14 +104,7 @@
         <mxCell id="xyLIVG5ZsKwe74OfGHAW-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="xyLIVG5ZsKwe74OfGHAW-4">
           <mxGeometry x="45" y="237" width="10" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="xyLIVG5ZsKwe74OfGHAW-7" value="4. REST call: &lt;br&gt;create PROD LPV" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.172;exitY=0.209;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-4">
-          <mxGeometry x="-0.06" relative="1" as="geometry">
-            <mxPoint x="44" y="241" as="sourcePoint" />
-            <mxPoint x="-118" y="241" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xyLIVG5ZsKwe74OfGHAW-13" value="2. Validate LOG,&lt;br&gt;add LOG entry" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.172;exitY=0.209;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-4" source="xyLIVG5ZsKwe74OfGHAW-5" target="xyLIVG5ZsKwe74OfGHAW-5">
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-13" value="2. Validates LOG,&lt;br&gt;adds LOG entry" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.172;exitY=0.209;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-4" source="xyLIVG5ZsKwe74OfGHAW-5" target="xyLIVG5ZsKwe74OfGHAW-5">
           <mxGeometry x="-0.06" relative="1" as="geometry">
             <mxPoint x="275" y="132" as="sourcePoint" />
             <mxPoint x="-119" y="107" as="targetPoint" />
@@ -122,7 +115,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xyLIVG5ZsKwe74OfGHAW-8" value="1. Initiate the change, &lt;br&gt;create/open PROD EPV" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.9;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-8" value="1. Initiates the change, &lt;br&gt;creates/opens PROD EPV" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.9;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
           <mxGeometry x="-0.06" relative="1" as="geometry">
             <mxPoint x="889.5" y="210.96000000000004" as="sourcePoint" />
             <mxPoint x="679.0000000000002" y="210.96000000000004" as="targetPoint" />
@@ -132,80 +125,26 @@
         <mxCell id="xyLIVG5ZsKwe74OfGHAW-9" value="AU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
           <mxGeometry x="451" y="118" width="100" height="388" as="geometry" />
         </mxCell>
-        <mxCell id="xyLIVG5ZsKwe74OfGHAW-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="xyLIVG5ZsKwe74OfGHAW-9">
-          <mxGeometry x="45" y="240" width="10" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="xyLIVG5ZsKwe74OfGHAW-12" value="5. REST call: &lt;br&gt;create (sync) PROD LPV" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.172;exitY=0.209;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-9">
-          <mxGeometry x="-0.06" relative="1" as="geometry">
-            <mxPoint x="45" y="261" as="sourcePoint" />
-            <mxPoint x="-117" y="261" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xyLIVG5ZsKwe74OfGHAW-14" value="3. Publish: PROD EPV =&amp;gt; PROD LPV" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.9;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-14" value="3. Publishes: PROD EPV =&amp;gt; PROD LPV" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.9;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
           <mxGeometry x="-0.0606" relative="1" as="geometry">
             <mxPoint x="889.5" y="356" as="sourcePoint" />
             <mxPoint x="681.0000000000002" y="356.00000000000006" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xyLIVG5ZsKwe74OfGHAW-15" value="block PROD LPV on issues, else DONE" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1.076;exitY=0.925;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1" source="xyLIVG5ZsKwe74OfGHAW-6" target="xyLIVG5ZsKwe74OfGHAW-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="889.5" y="429" as="targetPoint" />
-            <mxPoint x="674.8103448275863" y="429" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="xyLIVG5ZsKwe74OfGHAW-16" value="TU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
           <mxGeometry x="283" y="117" width="100" height="384" as="geometry" />
-        </mxCell>
-        <mxCell id="xyLIVG5ZsKwe74OfGHAW-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="xyLIVG5ZsKwe74OfGHAW-16">
-          <mxGeometry x="45" y="260" width="10" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="conceptTu" id="dkTxK_XPM0qkGIUMU3e8">
+  <diagram name="conceptTuV2" id="dkTxK_XPM0qkGIUMU3e8">
     <mxGraphModel dx="1419" dy="1004" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="VbkTdKXqVNzKP8jWDh7o-0" />
         <mxCell id="VbkTdKXqVNzKP8jWDh7o-1" parent="VbkTdKXqVNzKP8jWDh7o-0" />
-        <mxCell id="VbkTdKXqVNzKP8jWDh7o-2" value="Inform the User&amp;nbsp;on potential issues &lt;br&gt;for the change&amp;nbsp;based on &quot;master&quot; state &lt;br&gt;(e.g. TU/AU EPV exists)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.793;exitY=0.966;exitDx=0;exitDy=0;exitPerimeter=0;" parent="VbkTdKXqVNzKP8jWDh7o-1" source="VbkTdKXqVNzKP8jWDh7o-5" target="VbkTdKXqVNzKP8jWDh7o-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="614.9999999999998" as="targetPoint" />
-            <mxPoint x="729.6700000000001" y="614.9999999999998" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VbkTdKXqVNzKP8jWDh7o-3" value="PROD User" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="VbkTdKXqVNzKP8jWDh7o-1" vertex="1">
-          <mxGeometry x="880" y="116" width="20" height="390" as="geometry" />
-        </mxCell>
-        <mxCell id="VbkTdKXqVNzKP8jWDh7o-4" value="PROD" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="VbkTdKXqVNzKP8jWDh7o-1" vertex="1">
-          <mxGeometry x="625" y="118" width="100" height="389" as="geometry" />
-        </mxCell>
-        <mxCell id="VbkTdKXqVNzKP8jWDh7o-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="VbkTdKXqVNzKP8jWDh7o-4" vertex="1">
-          <mxGeometry x="45" y="90" width="10" height="83" as="geometry" />
-        </mxCell>
-        <mxCell id="VbkTdKXqVNzKP8jWDh7o-10" value="1. Initiate the change, &lt;br&gt;create/open PROD EPV" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.9;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" parent="VbkTdKXqVNzKP8jWDh7o-1" edge="1">
-          <mxGeometry x="-0.06" relative="1" as="geometry">
-            <mxPoint x="889.5" y="210.96000000000004" as="sourcePoint" />
-            <mxPoint x="679.0000000000002" y="210.96000000000004" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VbkTdKXqVNzKP8jWDh7o-11" value="AU&lt;br&gt;/master" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="VbkTdKXqVNzKP8jWDh7o-1" vertex="1">
+        <mxCell id="VbkTdKXqVNzKP8jWDh7o-11" value="AU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="VbkTdKXqVNzKP8jWDh7o-1" vertex="1">
           <mxGeometry x="451" y="118" width="100" height="388" as="geometry" />
-        </mxCell>
-        <mxCell id="VbkTdKXqVNzKP8jWDh7o-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="VbkTdKXqVNzKP8jWDh7o-11" vertex="1">
-          <mxGeometry x="45" y="105" width="10" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="REUs3WpmHxYYgudyPkxX-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="VbkTdKXqVNzKP8jWDh7o-11" vertex="1">
-          <mxGeometry x="45" y="241" width="10" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="VbkTdKXqVNzKP8jWDh7o-13" value="2. REST call: &lt;br&gt;validate LOG,&lt;br&gt;add LOG entry" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.172;exitY=0.209;exitDx=0;exitDy=0;exitPerimeter=0;" parent="VbkTdKXqVNzKP8jWDh7o-1" source="VbkTdKXqVNzKP8jWDh7o-5" edge="1">
-          <mxGeometry x="-0.06" relative="1" as="geometry">
-            <mxPoint x="900" y="250" as="sourcePoint" />
-            <mxPoint x="506" y="225" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="VbkTdKXqVNzKP8jWDh7o-17" value="TU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="VbkTdKXqVNzKP8jWDh7o-1" vertex="1">
           <mxGeometry x="270" y="117" width="100" height="384" as="geometry" />
@@ -223,17 +162,53 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4JSpI75o1jnsnsw6Iq2j-0" value="4. REST call: &lt;br&gt;validate LOG,&lt;br&gt;add LOG entry" style="html=1;verticalAlign=bottom;endArrow=block;" parent="VbkTdKXqVNzKP8jWDh7o-1" source="REUs3WpmHxYYgudyPkxX-3" target="VbkTdKXqVNzKP8jWDh7o-11" edge="1">
-          <mxGeometry x="-0.06" relative="1" as="geometry">
-            <mxPoint x="555" y="641" as="sourcePoint" />
-            <mxPoint x="393" y="641" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="4JSpI75o1jnsnsw6Iq2j-1" value="Inform the User&amp;nbsp;on potential&lt;br&gt;publication issue&lt;br&gt;e.g.: PROD EPV exists" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="VbkTdKXqVNzKP8jWDh7o-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="138.81034482758628" y="398.5" as="targetPoint" />
             <mxPoint x="315" y="398.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eE3aeX85G0-pTwcHgiIc-0" value="Inform the User&amp;nbsp;on potential issues &lt;br&gt;for the future commit on &quot;master&quot;&lt;br&gt;(e.g. &quot;historical TU/AU record exists)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="VbkTdKXqVNzKP8jWDh7o-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="898.5000000000002" y="283.5" as="targetPoint" />
+            <mxPoint x="689.0000000000002" y="283.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eE3aeX85G0-pTwcHgiIc-1" value="PROD User" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="VbkTdKXqVNzKP8jWDh7o-1">
+          <mxGeometry x="889" y="118" width="20" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="eE3aeX85G0-pTwcHgiIc-2" value="PROD&lt;br&gt;/master" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="VbkTdKXqVNzKP8jWDh7o-1">
+          <mxGeometry x="634" y="120" width="100" height="389" as="geometry" />
+        </mxCell>
+        <mxCell id="eE3aeX85G0-pTwcHgiIc-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="eE3aeX85G0-pTwcHgiIc-2">
+          <mxGeometry x="45" y="90" width="10" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="eE3aeX85G0-pTwcHgiIc-5" value="2. Validate LOG,&lt;br&gt;add LOG entry" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.172;exitY=0.209;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="eE3aeX85G0-pTwcHgiIc-2" source="eE3aeX85G0-pTwcHgiIc-3" target="eE3aeX85G0-pTwcHgiIc-3">
+          <mxGeometry x="-0.06" relative="1" as="geometry">
+            <mxPoint x="275" y="132" as="sourcePoint" />
+            <mxPoint x="-119" y="107" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-29" y="107" />
+              <mxPoint x="-29" y="139" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REUs3WpmHxYYgudyPkxX-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="eE3aeX85G0-pTwcHgiIc-2" vertex="1">
+          <mxGeometry x="45" y="227" width="10" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="eE3aeX85G0-pTwcHgiIc-6" value="1. Initiate the change, &lt;br&gt;create/open PROD EPV" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.9;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="VbkTdKXqVNzKP8jWDh7o-1">
+          <mxGeometry x="-0.06" relative="1" as="geometry">
+            <mxPoint x="898.5" y="212.96000000000004" as="sourcePoint" />
+            <mxPoint x="688.0000000000002" y="212.96000000000004" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4JSpI75o1jnsnsw6Iq2j-0" value="4. REST call: &lt;br&gt;validates LOG,&lt;br&gt;adds LOG entry" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.133;entryY=0.52;entryDx=0;entryDy=0;entryPerimeter=0;" parent="VbkTdKXqVNzKP8jWDh7o-1" source="REUs3WpmHxYYgudyPkxX-3" target="REUs3WpmHxYYgudyPkxX-4" edge="1">
+          <mxGeometry x="-0.06" relative="1" as="geometry">
+            <mxPoint x="555" y="641" as="sourcePoint" />
+            <mxPoint x="393" y="641" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
