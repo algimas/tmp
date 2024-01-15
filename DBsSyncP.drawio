@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T13:27:19.751Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="aQUFD1RfZFomPC1Ow9Md" version="22.1.16" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-01-15T14:57:12.589Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="PrK4ywYkUdgp-2zp399S" version="22.1.16" type="github" pages="12">
   <diagram name="conceptProd" id="FF8k_o0fuCdBNsSGvPOi">
     <mxGraphModel dx="1419" dy="1004" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -76,6 +76,89 @@
           <mxGeometry x="283" y="117" width="100" height="384" as="geometry" />
         </mxCell>
         <mxCell id="EKYT5XfYBZebJacgYSHt-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="2VtuYGCWm7bWfLwQ3X8T-43" vertex="1">
+          <mxGeometry x="45" y="260" width="10" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of conceptProd" id="UgxHk8I2sKFs8ivhiYCR">
+    <mxGraphModel dx="1174" dy="831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-0" />
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-1" parent="xyLIVG5ZsKwe74OfGHAW-0" />
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-2" value="Inform the User&amp;nbsp;on potential issues &lt;br&gt;for the future commit on &quot;master&quot;&lt;br&gt;(e.g. &quot;historical TU/AU record exists)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="889.5000000000002" y="281.5" as="targetPoint" />
+            <mxPoint x="680.0000000000002" y="281.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-3" value="PROD User" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
+          <mxGeometry x="880" y="116" width="20" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-4" value="PROD&lt;br&gt;/master" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
+          <mxGeometry x="625" y="118" width="100" height="389" as="geometry" />
+        </mxCell>
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="xyLIVG5ZsKwe74OfGHAW-4">
+          <mxGeometry x="45" y="90" width="10" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="xyLIVG5ZsKwe74OfGHAW-4">
+          <mxGeometry x="45" y="237" width="10" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-7" value="4. REST call: &lt;br&gt;create PROD LPV" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.172;exitY=0.209;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-4">
+          <mxGeometry x="-0.06" relative="1" as="geometry">
+            <mxPoint x="44" y="241" as="sourcePoint" />
+            <mxPoint x="-118" y="241" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-13" value="2. Validate LOG,&lt;br&gt;add LOG entry" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.172;exitY=0.209;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-4" source="xyLIVG5ZsKwe74OfGHAW-5" target="xyLIVG5ZsKwe74OfGHAW-5">
+          <mxGeometry x="-0.06" relative="1" as="geometry">
+            <mxPoint x="275" y="132" as="sourcePoint" />
+            <mxPoint x="-119" y="107" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-29" y="107" />
+              <mxPoint x="-29" y="139" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-8" value="1. Initiate the change, &lt;br&gt;create/open PROD EPV" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.9;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
+          <mxGeometry x="-0.06" relative="1" as="geometry">
+            <mxPoint x="889.5" y="210.96000000000004" as="sourcePoint" />
+            <mxPoint x="679.0000000000002" y="210.96000000000004" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-9" value="AU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
+          <mxGeometry x="451" y="118" width="100" height="388" as="geometry" />
+        </mxCell>
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="xyLIVG5ZsKwe74OfGHAW-9">
+          <mxGeometry x="45" y="240" width="10" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-12" value="5. REST call: &lt;br&gt;create (sync) PROD LPV" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.172;exitY=0.209;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-9">
+          <mxGeometry x="-0.06" relative="1" as="geometry">
+            <mxPoint x="45" y="261" as="sourcePoint" />
+            <mxPoint x="-117" y="261" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-14" value="3. Publish: PROD EPV =&amp;gt; PROD LPV" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.9;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
+          <mxGeometry x="-0.0606" relative="1" as="geometry">
+            <mxPoint x="889.5" y="356" as="sourcePoint" />
+            <mxPoint x="681.0000000000002" y="356.00000000000006" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-15" value="block PROD LPV on issues, else DONE" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1.076;exitY=0.925;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1" source="xyLIVG5ZsKwe74OfGHAW-6" target="xyLIVG5ZsKwe74OfGHAW-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="889.5" y="429" as="targetPoint" />
+            <mxPoint x="674.8103448275863" y="429" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-16" value="TU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
+          <mxGeometry x="283" y="117" width="100" height="384" as="geometry" />
+        </mxCell>
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="xyLIVG5ZsKwe74OfGHAW-16">
           <mxGeometry x="45" y="260" width="10" height="25" as="geometry" />
         </mxCell>
       </root>
