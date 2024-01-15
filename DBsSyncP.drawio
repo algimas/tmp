@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T16:58:42.951Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vlMVawdHVtUuh1VTpDT4" version="22.1.16" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2024-01-15T17:00:37.657Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="WX4iGNT5WR2b-kWIFdcy" version="22.1.16" type="github" pages="13">
   <diagram name="conceptProd" id="FF8k_o0fuCdBNsSGvPOi">
     <mxGraphModel dx="1419" dy="1004" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -216,7 +216,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xyLIVG5ZsKwe74OfGHAW-8" value="1. Initiates the change, &lt;br&gt;creates/opens PROD EPV" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.9;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
+        <mxCell id="C2BcCZCg5xYa2uZk1d3j-1" value="4. Validates LOG,&lt;br&gt;adds LOG entry" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-4">
+          <mxGeometry x="-0.06" relative="1" as="geometry">
+            <mxPoint x="44" y="255" as="sourcePoint" />
+            <mxPoint x="44" y="287" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-21" y="255" />
+              <mxPoint x="-21" y="287" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-8" value="1. Initiates the change, &lt;br&gt;creates PROD EPV" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.9;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
           <mxGeometry x="-0.06" relative="1" as="geometry">
             <mxPoint x="889.5" y="210.96000000000004" as="sourcePoint" />
             <mxPoint x="679.0000000000002" y="210.96000000000004" as="targetPoint" />
@@ -226,7 +237,7 @@
         <mxCell id="xyLIVG5ZsKwe74OfGHAW-9" value="AU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;strokeColor=#82b366;" vertex="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
           <mxGeometry x="451" y="118" width="100" height="388" as="geometry" />
         </mxCell>
-        <mxCell id="xyLIVG5ZsKwe74OfGHAW-14" value="3. Publishes: PROD EPV =&amp;gt; PROD LPV" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.9;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
+        <mxCell id="xyLIVG5ZsKwe74OfGHAW-14" value="3. Publishes: &lt;br&gt;PROD EPV =&amp;gt; PROD LPV" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.9;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
           <mxGeometry x="-0.0606" relative="1" as="geometry">
             <mxPoint x="889.5" y="356" as="sourcePoint" />
             <mxPoint x="681.0000000000002" y="356.00000000000006" as="targetPoint" />
@@ -235,6 +246,12 @@
         </mxCell>
         <mxCell id="xyLIVG5ZsKwe74OfGHAW-16" value="TU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;strokeColor=#82b366;" vertex="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
           <mxGeometry x="283" y="117" width="100" height="384" as="geometry" />
+        </mxCell>
+        <mxCell id="C2BcCZCg5xYa2uZk1d3j-0" value="Inform PROD User&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;on last action perform&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;on selected Product" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="xyLIVG5ZsKwe74OfGHAW-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="889.5000000000002" y="429" as="targetPoint" />
+            <mxPoint x="680.0000000000002" y="429" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
