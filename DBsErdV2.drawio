@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T14:45:25.093Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="rzkExvouXFloP3EmSXiA" version="23.1.1" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2024-04-08T09:15:04.797Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="-a3NbNxVs1TDpLWQzqm8" version="24.2.0" type="github" pages="22">
   <diagram id="-0GjVQ2w-u6F1-nN_Xd9" name="SourceStar">
     <mxGraphModel dx="2065" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -92,89 +92,89 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of SourceStar" id="7GciAIFETMdfqOmUBLtP">
-    <mxGraphModel dx="1190" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1719" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="3BncivtdgoS3ed6zAPbX-0" />
         <mxCell id="3BncivtdgoS3ed6zAPbX-1" parent="3BncivtdgoS3ed6zAPbX-0" />
-        <mxCell id="3BncivtdgoS3ed6zAPbX-2" value="6) V_CMDB_IP_ADDRESS&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 9px;&quot;&gt;UK: CODE&lt;/font&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="3BncivtdgoS3ed6zAPbX-1">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-2" value="6) V_CMDB_IP_ADDRESS&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 9px;&quot;&gt;UK: CODE&lt;/font&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" parent="3BncivtdgoS3ed6zAPbX-1" vertex="1">
           <mxGeometry x="443.25" y="193" width="205" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-3" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#FF3333;" edge="1" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-4" target="3BncivtdgoS3ed6zAPbX-2">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-3" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#FF3333;" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-4" target="3BncivtdgoS3ed6zAPbX-2" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="572.9566210045664" y="120" as="sourcePoint" />
             <mxPoint x="585" y="616" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-4" value="2a) CMDB_CI&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;PK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1;fontSize=9;" vertex="1" parent="3BncivtdgoS3ed6zAPbX-1">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-4" value="2a) CMDB_CI&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;PK: CI_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1;fontSize=9;" parent="3BncivtdgoS3ed6zAPbX-1" vertex="1">
           <mxGeometry x="438" y="328" width="215.5" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-5" value="7) V_CMDB_IP_DEVICE_PRINTER&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;UK: CI_ID&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;CMDB_CI.CI_TYPE = &#39;&lt;font color=&quot;#008000&quot; style=&quot;font-size: 9px;&quot;&gt;IPDEV&lt;/font&gt;&#39;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="3BncivtdgoS3ed6zAPbX-1">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-5" value="7) V_CMDB_IP_DEVICE_PRINTER&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;UK: CI_ID&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;CMDB_CI.CI_TYPE = &#39;&lt;font color=&quot;#008000&quot; style=&quot;font-size: 9px;&quot;&gt;IPDEV&lt;/font&gt;&#39;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" parent="3BncivtdgoS3ed6zAPbX-1" vertex="1">
           <mxGeometry x="111" y="328" width="210" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-6" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-4" target="3BncivtdgoS3ed6zAPbX-5">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-6" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-4" target="3BncivtdgoS3ed6zAPbX-5" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="604" y="424" as="sourcePoint" />
             <mxPoint x="587" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-7" value="3) V_CMDB_IP_DEVICE&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;UK: CI_ID&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;cmdb_ci.ci_type = &#39;&lt;font color=&quot;#008000&quot; style=&quot;font-size: 9px;&quot;&gt;IPDEV&lt;/font&gt;&#39;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="3BncivtdgoS3ed6zAPbX-1">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-7" value="3) V_CMDB_IP_DEVICE&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;UK: CI_ID&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;cmdb_ci.ci_type = &#39;&lt;font color=&quot;#008000&quot; style=&quot;font-size: 9px;&quot;&gt;IPDEV&lt;/font&gt;&#39;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" parent="3BncivtdgoS3ed6zAPbX-1" vertex="1">
           <mxGeometry x="111" y="523" width="210" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-8" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-4" target="3BncivtdgoS3ed6zAPbX-7">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-8" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-4" target="3BncivtdgoS3ed6zAPbX-7" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="518" y="233" as="sourcePoint" />
             <mxPoint x="631" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-9" value="4) V_CMDB_PHONECONTRACT&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 9px;&quot;&gt;UK: CI_ID +&amp;nbsp;TKANLAGE_GLOBAL_ID&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(T_VOIPPROFIL.TKANLAGE_ID = CMDB_CI_TKSYS.&lt;font style=&quot;font-size: 9px;&quot; color=&quot;#ff3333&quot;&gt;LOCAL_ID(+)&lt;/font&gt;)&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;CMDB_CI.CI_TYPE &lt;span style=&quot;color: rgb(128, 0, 0); font-size: 9px;&quot; class=&quot;s1&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;LIKE&lt;/b&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(0, 128, 0); font-size: 9px;&quot; class=&quot;s2&quot;&gt;&#39;VOICE&#39;&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="3BncivtdgoS3ed6zAPbX-1">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-9" value="4) V_CMDB_PHONECONTRACT&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 9px;&quot;&gt;UK: CI_ID +&amp;nbsp;TKANLAGE_GLOBAL_ID&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(T_VOIPPROFIL.TKANLAGE_ID = CMDB_CI_TKSYS.&lt;font style=&quot;font-size: 9px;&quot; color=&quot;#ff3333&quot;&gt;LOCAL_ID(+)&lt;/font&gt;)&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;CMDB_CI.CI_TYPE &lt;span style=&quot;color: rgb(128, 0, 0); font-size: 9px;&quot; class=&quot;s1&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;LIKE&lt;/b&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(0, 128, 0); font-size: 9px;&quot; class=&quot;s2&quot;&gt;&#39;VOICE&#39;&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" parent="3BncivtdgoS3ed6zAPbX-1" vertex="1">
           <mxGeometry x="438" y="523" width="220" height="137" as="geometry" />
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-10" value="5) V_CMDB_PHONEGROUP&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;UK: CI_ID&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;CMDB_CI.CI_TYPE &lt;b style=&quot;font-size: 9px;&quot;&gt;LIKE&lt;/b&gt; &lt;span style=&quot;color: rgb(0, 128, 0); font-size: 9px;&quot; class=&quot;s2&quot;&gt;&#39;VBGRP&#39;&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="3BncivtdgoS3ed6zAPbX-1">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-10" value="5) V_CMDB_PHONEGROUP&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;UK: CI_ID&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;CMDB_CI.CI_TYPE &lt;b style=&quot;font-size: 9px;&quot;&gt;LIKE&lt;/b&gt; &lt;span style=&quot;color: rgb(0, 128, 0); font-size: 9px;&quot; class=&quot;s2&quot;&gt;&#39;VBGRP&#39;&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" parent="3BncivtdgoS3ed6zAPbX-1" vertex="1">
           <mxGeometry x="789" y="522" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-11" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-4" target="3BncivtdgoS3ed6zAPbX-10">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-11" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-4" target="3BncivtdgoS3ed6zAPbX-10" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="551" y="233" as="sourcePoint" />
             <mxPoint x="874" y="393" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-12" value="8) V_CMDB_PHONE_GRPMBR&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;UK:&amp;nbsp;PROFILE_CI_ID +&amp;nbsp;&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 9px;&quot;&gt;GROUP_CI_ID&lt;/font&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="3BncivtdgoS3ed6zAPbX-1">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-12" value="8) V_CMDB_PHONE_GRPMBR&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;UK:&amp;nbsp;PROFILE_CI_ID +&amp;nbsp;&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 9px;&quot;&gt;GROUP_CI_ID&lt;/font&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" parent="3BncivtdgoS3ed6zAPbX-1" vertex="1">
           <mxGeometry x="793" y="660" width="202" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-13" value="9) V_CMDB_MOBILE_DEVICES&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;UK: CI_ID&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;CMDB_CI.CI_TYPE = &#39;&lt;font color=&quot;#008000&quot; style=&quot;font-size: 9px;&quot;&gt;MOBDEV&lt;/font&gt;&#39;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="3BncivtdgoS3ed6zAPbX-1">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-13" value="9) V_CMDB_MOBILE_DEVICES&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;UK: CI_ID&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;CMDB_CI.CI_TYPE = &#39;&lt;font color=&quot;#008000&quot; style=&quot;font-size: 9px;&quot;&gt;MOBDEV&lt;/font&gt;&#39;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" parent="3BncivtdgoS3ed6zAPbX-1" vertex="1">
           <mxGeometry x="789" y="328" width="210" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-14" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-4" target="3BncivtdgoS3ed6zAPbX-13">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-14" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-4" target="3BncivtdgoS3ed6zAPbX-13" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="664" y="368" as="sourcePoint" />
             <mxPoint x="780" y="368" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-15" value="2b) V_CMDB_BASIC_WORKPLACES&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;UK: CI_ID&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;CMDB_CI.CI_TYPE = &#39;&lt;font color=&quot;#008000&quot; style=&quot;font-size: 9px;&quot;&gt;BW&lt;/font&gt;&#39;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="3BncivtdgoS3ed6zAPbX-1">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-15" value="2b) V_CMDB_BASIC_WORKPLACES&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;UK: CI_ID&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;CMDB_CI.CI_TYPE = &#39;&lt;font color=&quot;#008000&quot; style=&quot;font-size: 9px;&quot;&gt;BW&lt;/font&gt;&#39;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" parent="3BncivtdgoS3ed6zAPbX-1" vertex="1">
           <mxGeometry x="789" y="187" width="210" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-16" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-4" target="3BncivtdgoS3ed6zAPbX-15">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-16" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-4" target="3BncivtdgoS3ed6zAPbX-15" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="664" y="368" as="sourcePoint" />
             <mxPoint x="780" y="368" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-17" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#FF3333;" edge="1" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-4" target="3BncivtdgoS3ed6zAPbX-9">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-17" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#FF3333;" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-4" target="3BncivtdgoS3ed6zAPbX-9" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="596" y="399" as="sourcePoint" />
             <mxPoint x="556" y="264" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-18" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#FF3333;" edge="1" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-10" target="3BncivtdgoS3ed6zAPbX-12">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-18" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#FF3333;" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-10" target="3BncivtdgoS3ed6zAPbX-12" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="556" y="398" as="sourcePoint" />
             <mxPoint x="556" y="532" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-19" value="1) V_CMDB_ACCOUNTING&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;UK: CI_ID +&amp;nbsp;ACCASSET_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="3BncivtdgoS3ed6zAPbX-1">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-19" value="1) V_CMDB_ACCOUNTING&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;UK: CI_ID +&amp;nbsp;ACCASSET_ID" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontSize=9;" parent="3BncivtdgoS3ed6zAPbX-1" vertex="1">
           <mxGeometry x="111" y="193" width="210" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="3BncivtdgoS3ed6zAPbX-20" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#FF3333;" edge="1" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-4" target="3BncivtdgoS3ed6zAPbX-19">
+        <mxCell id="3BncivtdgoS3ed6zAPbX-20" value="CI_ID" style="fontSize=9;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#dae8fc;strokeColor=#FF3333;" parent="3BncivtdgoS3ed6zAPbX-1" source="3BncivtdgoS3ed6zAPbX-4" target="3BncivtdgoS3ed6zAPbX-19" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="556" y="338" as="sourcePoint" />
             <mxPoint x="556" y="264" as="targetPoint" />
@@ -184,7 +184,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="SourceIsCi" id="an43WXgNUSEQFVjAdYcq">
-    <mxGraphModel dx="2065" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1719" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="q8nP8Bxxd-t0EnK8jRNj-0" />
         <mxCell id="q8nP8Bxxd-t0EnK8jRNj-1" parent="q8nP8Bxxd-t0EnK8jRNj-0" />
@@ -276,7 +276,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="SourceStar7" id="J0eBt4wNIX_Lw0EeTGFL">
-    <mxGraphModel dx="2065" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1719" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="sTuLOva-M_VGBoc-0h92-0" />
         <mxCell id="sTuLOva-M_VGBoc-0h92-1" parent="sTuLOva-M_VGBoc-0h92-0" />
@@ -350,7 +350,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="SourceStarMobile" id="8KwHckdStNWMx_SurDb2">
-    <mxGraphModel dx="2065" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1719" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="PrNBDiFCTM5TOo3gn5rB-0" />
         <mxCell id="PrNBDiFCTM5TOo3gn5rB-1" parent="PrNBDiFCTM5TOo3gn5rB-0" />
@@ -535,7 +535,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="AsIs" id="FceLTfoAD5zEOHpHB1AR">
-    <mxGraphModel dx="1616" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1719" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="uMq123VB7vo7uCOXMGW6-0" />
         <mxCell id="uMq123VB7vo7uCOXMGW6-1" parent="uMq123VB7vo7uCOXMGW6-0" />
@@ -646,7 +646,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ToBeNewClass" id="Nq6OYuMkhhaJ8OvbdbeQ">
-    <mxGraphModel dx="1616" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1719" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="-SGtkzLdG-UsrRn5jIci-0" />
         <mxCell id="-SGtkzLdG-UsrRn5jIci-1" parent="-SGtkzLdG-UsrRn5jIci-0" />
@@ -1069,7 +1069,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ToBeIpAdd" id="vPkoRJxJYFJTqGwNhgp_">
-    <mxGraphModel dx="2065" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="828" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="XrwUqEY4zvleiukZN3sw-0" />
         <mxCell id="XrwUqEY4zvleiukZN3sw-1" parent="XrwUqEY4zvleiukZN3sw-0" />
@@ -1080,7 +1080,7 @@
           <mxGeometry x="554.5" y="383" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XrwUqEY4zvleiukZN3sw-4" value="cmdb_ci" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="XrwUqEY4zvleiukZN3sw-1" vertex="1">
-          <mxGeometry x="737.5" y="279" width="75" height="147" as="geometry" />
+          <mxGeometry x="733" y="364" width="75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XrwUqEY4zvleiukZN3sw-6" value="Account Asset" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;endSize=18;" parent="XrwUqEY4zvleiukZN3sw-1" source="XrwUqEY4zvleiukZN3sw-12" target="XrwUqEY4zvleiukZN3sw-2" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -1092,7 +1092,7 @@
           <mxGeometry x="255" y="365" width="240" height="61" as="geometry" />
         </mxCell>
         <mxCell id="XrwUqEY4zvleiukZN3sw-8" value="cmdb" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="XrwUqEY4zvleiukZN3sw-1" vertex="1">
-          <mxGeometry x="835.5" y="279" width="79" height="147" as="geometry" />
+          <mxGeometry x="832" y="365" width="79" height="59" as="geometry" />
         </mxCell>
         <mxCell id="XrwUqEY4zvleiukZN3sw-9" value="u_cmdb_ds_sstdb_ip_device" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="XrwUqEY4zvleiukZN3sw-1" vertex="1">
           <mxGeometry x="255" y="530" width="241.5" height="43" as="geometry" />
@@ -1125,7 +1125,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="VisionAllT" id="gfTJx7urdG6Cm7c9I1Tt">
-    <mxGraphModel dx="2065" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1719" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="zT4fVrRxOpUtCQQI1fxU-0" />
         <mxCell id="zT4fVrRxOpUtCQQI1fxU-1" parent="zT4fVrRxOpUtCQQI1fxU-0" />
@@ -1214,7 +1214,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ToBeNewCl" id="ZVb0Nc7fDo9xKxyNF28q">
-    <mxGraphModel dx="2065" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1719" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="RQRnGmw-IL4X-fdh7c36-0" />
         <mxCell id="RQRnGmw-IL4X-fdh7c36-1" parent="RQRnGmw-IL4X-fdh7c36-0" />
@@ -1276,7 +1276,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="NumberOfRec" id="gkPyweVs2RL9VKJvZZtX">
-    <mxGraphModel dx="2065" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1719" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="YX8aRbytLqZ86VxBtwbp-0" />
         <mxCell id="YX8aRbytLqZ86VxBtwbp-1" parent="YX8aRbytLqZ86VxBtwbp-0" />
