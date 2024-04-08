@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T09:15:04.797Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="-a3NbNxVs1TDpLWQzqm8" version="24.2.0" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2024-04-08T09:26:04.684Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="jWJat5wGA7qYdMbi0BDO" version="24.2.0" type="github" pages="23">
   <diagram id="-0GjVQ2w-u6F1-nN_Xd9" name="SourceStar">
     <mxGraphModel dx="2065" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1069,7 +1069,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ToBeIpAdd" id="vPkoRJxJYFJTqGwNhgp_">
-    <mxGraphModel dx="1186" dy="828" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1719" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="XrwUqEY4zvleiukZN3sw-0" />
         <mxCell id="XrwUqEY4zvleiukZN3sw-1" parent="XrwUqEY4zvleiukZN3sw-0" />
@@ -1080,7 +1080,7 @@
           <mxGeometry x="554.5" y="383" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XrwUqEY4zvleiukZN3sw-4" value="cmdb_ci" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="XrwUqEY4zvleiukZN3sw-1" vertex="1">
-          <mxGeometry x="733" y="364" width="75" height="60" as="geometry" />
+          <mxGeometry x="766" y="364" width="75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XrwUqEY4zvleiukZN3sw-6" value="Account Asset" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;endSize=18;" parent="XrwUqEY4zvleiukZN3sw-1" source="XrwUqEY4zvleiukZN3sw-12" target="XrwUqEY4zvleiukZN3sw-2" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -1092,7 +1092,7 @@
           <mxGeometry x="255" y="365" width="240" height="61" as="geometry" />
         </mxCell>
         <mxCell id="XrwUqEY4zvleiukZN3sw-8" value="cmdb" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="XrwUqEY4zvleiukZN3sw-1" vertex="1">
-          <mxGeometry x="832" y="365" width="79" height="59" as="geometry" />
+          <mxGeometry x="865" y="365" width="79" height="59" as="geometry" />
         </mxCell>
         <mxCell id="XrwUqEY4zvleiukZN3sw-9" value="u_cmdb_ds_sstdb_ip_device" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="XrwUqEY4zvleiukZN3sw-1" vertex="1">
           <mxGeometry x="255" y="530" width="241.5" height="43" as="geometry" />
@@ -1118,6 +1118,79 @@
             <mxPoint x="436" y="329" as="targetPoint" />
             <Array as="points">
               <mxPoint x="617" y="491" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dudDUYnJiHVGU0A4qcbm-0" value="Parent Id" style="fontSize=12;html=1;endArrow=ERoneToMany;endFill=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;endSize=18;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="XrwUqEY4zvleiukZN3sw-1" source="XrwUqEY4zvleiukZN3sw-2" target="XrwUqEY4zvleiukZN3sw-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="630" y="374" as="sourcePoint" />
+            <mxPoint x="505" y="256" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="678" y="335" />
+              <mxPoint x="736" y="335" />
+              <mxPoint x="736" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Parent-Id" id="mmAx0Ld45ykQNTXJyUU6">
+    <mxGraphModel dx="1719" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="KVP9wJ9kkffBmScc4GFQ-0" />
+        <mxCell id="KVP9wJ9kkffBmScc4GFQ-1" parent="KVP9wJ9kkffBmScc4GFQ-0" />
+        <mxCell id="KVP9wJ9kkffBmScc4GFQ-2" value="u_cmdb_ds_sstdb" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="KVP9wJ9kkffBmScc4GFQ-1">
+          <mxGeometry x="595" y="68" width="180" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="KVP9wJ9kkffBmScc4GFQ-4" value="cmdb_ci" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="KVP9wJ9kkffBmScc4GFQ-1">
+          <mxGeometry x="831.5" y="68" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KVP9wJ9kkffBmScc4GFQ-5" value="Account Asset" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;endSize=18;" edge="1" parent="KVP9wJ9kkffBmScc4GFQ-1" source="KVP9wJ9kkffBmScc4GFQ-11" target="KVP9wJ9kkffBmScc4GFQ-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="573.4882198952882" y="23" as="sourcePoint" />
+            <mxPoint x="637.5" y="41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVP9wJ9kkffBmScc4GFQ-7" value="cmdb" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="KVP9wJ9kkffBmScc4GFQ-1">
+          <mxGeometry x="930.5" y="69" width="79" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="KVP9wJ9kkffBmScc4GFQ-8" value="u_cmdb_ds_sstdb_ip_device" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="KVP9wJ9kkffBmScc4GFQ-1">
+          <mxGeometry x="161" y="227" width="241.5" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="KVP9wJ9kkffBmScc4GFQ-9" value="u_cmdb_ds_sstdb_ip_address" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="KVP9wJ9kkffBmScc4GFQ-1">
+          <mxGeometry x="160" y="146" width="241.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KVP9wJ9kkffBmScc4GFQ-10" value="Parent Id" style="fontSize=12;html=1;endArrow=ERoneToMany;endFill=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;endSize=18;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="KVP9wJ9kkffBmScc4GFQ-1" source="KVP9wJ9kkffBmScc4GFQ-2" target="KVP9wJ9kkffBmScc4GFQ-11">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="135.5" y="69" as="sourcePoint" />
+            <mxPoint x="134.5" y="24" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="685" y="41" />
+              <mxPoint x="291" y="41" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVP9wJ9kkffBmScc4GFQ-11" value="u_cmdb_ds_sstdb_accounting" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;dashed=1;" vertex="1" parent="KVP9wJ9kkffBmScc4GFQ-1">
+          <mxGeometry x="161" y="69" width="239.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KVP9wJ9kkffBmScc4GFQ-12" value="Parent Id" style="fontSize=12;html=1;endArrow=ERoneToMany;endFill=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;endSize=17;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="KVP9wJ9kkffBmScc4GFQ-1" source="KVP9wJ9kkffBmScc4GFQ-2" target="KVP9wJ9kkffBmScc4GFQ-9">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="504" y="78" as="sourcePoint" />
+            <mxPoint x="389" y="33" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="683" y="176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVP9wJ9kkffBmScc4GFQ-13" value="Parent Id" style="fontSize=12;html=1;endArrow=ERoneToMany;endFill=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;endSize=18;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="KVP9wJ9kkffBmScc4GFQ-1" source="KVP9wJ9kkffBmScc4GFQ-2" target="KVP9wJ9kkffBmScc4GFQ-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="695.5" y="78" as="sourcePoint" />
+            <mxPoint x="570.5" y="-40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="743.5" y="39" />
+              <mxPoint x="801.5" y="39" />
+              <mxPoint x="801.5" y="99" />
             </Array>
           </mxGeometry>
         </mxCell>
