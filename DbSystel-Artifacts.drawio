@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T13:24:20.255Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ubmA8mcjZviP8jgKbVda" version="24.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-04-16T14:18:31.821Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="MmSAt-ctYw3MDvjTgmIz" version="24.2.3" type="github" pages="4">
   <diagram name="SampleABC" id="A-9OroKqDIvkVA6F5WEZ">
     <mxGraphModel dx="1431" dy="2370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,39 +119,147 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0JPaxBTBWzsw_oPq_P66" name="CMDB_new">
-    <mxGraphModel dx="1431" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1431" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="QKlA3orBwlYLqxMizvsG-1" value="u_cmdb_ds_dev_artifact&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Also f&lt;span style=&quot;background-color: initial;&quot;&gt;or general development artifacts not covered by more specific classes.&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="734.5" y="22" width="173" height="98" as="geometry" />
+          <mxGeometry x="924.5" y="12" width="173" height="98" as="geometry" />
         </mxCell>
         <mxCell id="QKlA3orBwlYLqxMizvsG-2" value="cmdb_ci" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="938.5" y="21" width="75" height="100" as="geometry" />
+          <mxGeometry x="1128.5" y="11" width="75" height="100" as="geometry" />
         </mxCell>
         <mxCell id="QKlA3orBwlYLqxMizvsG-4" value="cmdb" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1046.5" y="20" width="79" height="100" as="geometry" />
+          <mxGeometry x="1236.5" y="10" width="79" height="100" as="geometry" />
         </mxCell>
         <mxCell id="R8iF7iwD15j4fxaqrg_F-1" value="&lt;h3&gt;&lt;code style=&quot;font-weight: normal;&quot;&gt;cmdb_rel_ci&lt;/code&gt;&lt;/h3&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="938.5" y="146" width="186" height="50" as="geometry" />
+          <mxGeometry x="1128.5" y="136" width="186" height="50" as="geometry" />
         </mxCell>
         <mxCell id="D1BjVWEdn5ruUxLxJjHD-2" value="u_cmdb_ds_dev_script&lt;div&gt;&lt;br&gt;&lt;div&gt;For all scripting artifacts, including Business Rules, Client Scripts, and Script Includes.&lt;/div&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="528" y="23" width="173" height="98" as="geometry" />
+          <mxGeometry x="718" y="13" width="173" height="98" as="geometry" />
         </mxCell>
         <mxCell id="D1BjVWEdn5ruUxLxJjHD-3" value="u_cmdb_ds_dev_ui&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For UI Pages, UI Macros, and other UI components&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="528" y="156" width="173" height="98" as="geometry" />
+          <mxGeometry x="718" y="120" width="173" height="98" as="geometry" />
         </mxCell>
         <mxCell id="D1BjVWEdn5ruUxLxJjHD-4" value="&lt;div&gt;u_cmdb_ds_dev_flow&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For Flow Designer artifacts such as Flows, Subflows, and Flow Actions.&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="528" y="286" width="173" height="98" as="geometry" />
+          <mxGeometry x="718" y="230" width="173" height="98" as="geometry" />
         </mxCell>
         <mxCell id="D1BjVWEdn5ruUxLxJjHD-5" value="&lt;div&gt;u_cmdb_ds_&lt;span style=&quot;background-color: initial;&quot;&gt;catalog&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;For Service Catalog-related artifacts including Catalog Items, Variables, and Variable Sets.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="528" y="419" width="173" height="98" as="geometry" />
+          <mxGeometry x="718" y="340" width="173" height="98" as="geometry" />
         </mxCell>
         <mxCell id="D1BjVWEdn5ruUxLxJjHD-6" value="&lt;div&gt;u_cmdb_ds_dev_integration&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For IntegrationHub spokes and actions, including REST/SOAP message definitions and Transform Maps.&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="528" y="546" width="173" height="98" as="geometry" />
+          <mxGeometry x="718" y="450" width="173" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="D1BjVWEdn5ruUxLxJjHD-7" value="&lt;div&gt;u_cmdb_ds_dev_integration&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For IntegrationHub spokes and actions, including REST/SOAP message definitions and Transform Maps.&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="528" y="676" width="173" height="98" as="geometry" />
+        <mxCell id="D1BjVWEdn5ruUxLxJjHD-7" value="&lt;div&gt;u_cmdb_ds_dev_&lt;span style=&quot;background-color: initial;&quot;&gt;portal&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For Service Portal widgets, pages, and themes.&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="718" y="560" width="173" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="44cYLQkW7nzJHBqRKgP3-1" value="&lt;em&gt;sys_script_include&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="12" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="44cYLQkW7nzJHBqRKgP3-2" value="&lt;em&gt;sys_script&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="60" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-1" value="&lt;em&gt;catalog_script_client&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="60" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-2" value="&lt;em&gt;sys_script_client&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="13" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-3" value="&lt;em&gt;sys_script_email&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="60" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-4" value="&lt;em&gt;sys_script_fix&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="151.5" y="13" width="160" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-5" value="&lt;em&gt;sys_ui_form&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="120" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-6" value="&lt;em&gt;sys_portal_page&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="168" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-7" value="&lt;em&gt;sys_ui_list&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="168" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-8" value="&lt;em&gt;sys_ui_macro&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="121" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-9" value="&lt;em&gt;sys_ui_policy&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="168" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-10" value="&lt;em&gt;sys_ui_page&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="151.5" y="121" width="160" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-11" value="&lt;em&gt;sys_hub_action_instance&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="230" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-14" value="&lt;em&gt;sys_hub_sub_flow_instance&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="231" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-16" value="&lt;em&gt;sys_hub_flow&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="151.5" y="231" width="160" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-17" value="&lt;em&gt;sys_script_include&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="340" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-18" value="&lt;em&gt;sys_script&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="388" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-19" value="&lt;em&gt;catalog_script_client&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="388" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-20" value="&lt;em&gt;sys_script_client&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="341" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-21" value="&lt;em&gt;sys_script_email&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="388" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-22" value="&lt;em&gt;sys_script_fix&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="151.5" y="341" width="160" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-23" value="&lt;em&gt;sys_script_include&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="450" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-24" value="&lt;em&gt;sys_script&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="498" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-25" value="&lt;em&gt;catalog_script_client&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="498" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-26" value="&lt;em&gt;sys_script_client&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="451" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-27" value="&lt;em&gt;sys_script_email&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="498" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-28" value="&lt;em&gt;sys_script_fix&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="151.5" y="451" width="160" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-29" value="&lt;em&gt;sys_script_include&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="560" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-30" value="&lt;em&gt;sys_script&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="608" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-31" value="&lt;em&gt;catalog_script_client&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="608" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-32" value="&lt;em&gt;sys_script_client&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="561" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-33" value="&lt;em&gt;sys_script_email&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="608" width="161.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-34" value="&lt;em&gt;sys_script_fix&lt;/em&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="151.5" y="561" width="160" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-35" value="&lt;div&gt;u_cmdb_ds_dev_report&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For Reports and Dashboards, including Performance Analytics widgets and indicators.&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="718" y="670" width="173" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-36" value="&lt;div&gt;u_cmdb_ds_dev_configuration&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For System Properties, Email Notifications, SLA Definitions, etc&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="718" y="780" width="173" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="hTLO9U2BkPfuNUVABp6u-37" value="&lt;div&gt;u_cmdb_ds_dev_data_model&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For Database Tables, Fields, and Dictionary Entries.&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="720" y="890" width="173" height="98" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
