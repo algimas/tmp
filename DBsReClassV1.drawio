@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T07:39:16.076Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="pOvrH69TKmn2_OxZDAFH" version="24.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-13T09:16:46.691Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="F51zrvUFgnu1iRcf3uSU" version="24.5.3" type="github" pages="4">
   <diagram name="Page-1" id="jFSeWyLYcZw_hIauVOHn">
     <mxGraphModel dx="1515" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -209,7 +209,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Cat_PVS" id="07ArIGwHmgp4II-hTwLD">
-    <mxGraphModel dx="1515" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2229" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="nTBD9H4JTt06tkAGfnjP-0" />
         <mxCell id="nTBD9H4JTt06tkAGfnjP-1" parent="nTBD9H4JTt06tkAGfnjP-0" />
@@ -278,6 +278,15 @@
         </mxCell>
         <mxCell id="RdqkyAlCNXt8UiqKLHyJ-0" value="DB View: u_sc_req_item_option_view" style="swimlane;" parent="nTBD9H4JTt06tkAGfnjP-1" vertex="1">
           <mxGeometry x="613" y="199" width="275" height="492" as="geometry" />
+        </mxCell>
+        <mxCell id="CzlCltZnf7aBvWKsNB5O-0" value="Read:&lt;div&gt;itil&lt;/div&gt;&lt;div&gt;sn_request_write&lt;br&gt;&lt;/div&gt;&lt;div&gt;catalog_admin&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="nTBD9H4JTt06tkAGfnjP-1">
+          <mxGeometry x="903" y="545" width="130" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="CzlCltZnf7aBvWKsNB5O-1" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="nTBD9H4JTt06tkAGfnjP-1" source="CzlCltZnf7aBvWKsNB5O-0" target="1d-HJl-K2GCEpB39Q3SS-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1852" y="1007" as="sourcePoint" />
+            <mxPoint x="1087" y="648" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
