@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T09:17:36.933Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="7PJZLZjl1TGKjECRo95M" version="24.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-13T09:20:46.404Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="v_Uc0SZocixMKzgO8Ssg" version="24.5.3" type="github" pages="4">
   <diagram name="Page-1" id="jFSeWyLYcZw_hIauVOHn">
     <mxGraphModel dx="1515" dy="1201" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -279,13 +279,40 @@
         <mxCell id="RdqkyAlCNXt8UiqKLHyJ-0" value="DB View: u_sc_req_item_option_view" style="swimlane;" parent="nTBD9H4JTt06tkAGfnjP-1" vertex="1">
           <mxGeometry x="613" y="199" width="275" height="492" as="geometry" />
         </mxCell>
-        <mxCell id="CzlCltZnf7aBvWKsNB5O-0" value="Read:&lt;div&gt;itil&lt;/div&gt;&lt;div&gt;sn_request_write&lt;br&gt;&lt;/div&gt;&lt;div&gt;catalog_admin&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="nTBD9H4JTt06tkAGfnjP-1">
+        <mxCell id="CzlCltZnf7aBvWKsNB5O-0" value="&lt;b&gt;Read&lt;/b&gt;:&lt;div&gt;itil&lt;/div&gt;&lt;div&gt;sn_request_write&lt;br&gt;&lt;/div&gt;&lt;div&gt;catalog_admin&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="nTBD9H4JTt06tkAGfnjP-1">
           <mxGeometry x="903" y="545" width="130" height="74" as="geometry" />
         </mxCell>
         <mxCell id="CzlCltZnf7aBvWKsNB5O-1" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="nTBD9H4JTt06tkAGfnjP-1" source="CzlCltZnf7aBvWKsNB5O-0" target="1d-HJl-K2GCEpB39Q3SS-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1852" y="1007" as="sourcePoint" />
             <mxPoint x="1087" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CzlCltZnf7aBvWKsNB5O-2" value="&lt;b&gt;Read&lt;/b&gt;:&lt;div&gt;sn_request_read&lt;/div&gt;&lt;div&gt;sn_request_write&lt;br&gt;&lt;/div&gt;&lt;div&gt;itil&lt;/div&gt;&lt;div&gt;catalog_admin&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="nTBD9H4JTt06tkAGfnjP-1">
+          <mxGeometry x="921" y="381" width="130" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="CzlCltZnf7aBvWKsNB5O-3" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="nTBD9H4JTt06tkAGfnjP-1" source="CzlCltZnf7aBvWKsNB5O-2" target="1d-HJl-K2GCEpB39Q3SS-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1928" y="855" as="sourcePoint" />
+            <mxPoint x="879" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CzlCltZnf7aBvWKsNB5O-4" value="&lt;b&gt;Read&lt;/b&gt;:&lt;div&gt;&lt;div&gt;itil&lt;/div&gt;&lt;div&gt;catalog_admin&lt;/div&gt;&lt;div&gt;catalog_manager&lt;/div&gt;&lt;div&gt;catalog_editor&lt;/div&gt;&lt;div&gt;catalog_builder_editor&lt;/div&gt;&lt;div&gt;sn_request_write&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="nTBD9H4JTt06tkAGfnjP-1">
+          <mxGeometry x="913" y="210" width="157" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="CzlCltZnf7aBvWKsNB5O-5" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="nTBD9H4JTt06tkAGfnjP-1" source="CzlCltZnf7aBvWKsNB5O-4" target="1d-HJl-K2GCEpB39Q3SS-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1937" y="701" as="sourcePoint" />
+            <mxPoint x="888" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CzlCltZnf7aBvWKsNB5O-6" value="Read:&lt;div&gt;itil&lt;/div&gt;&lt;div&gt;sn_request_write&lt;br&gt;&lt;/div&gt;&lt;div&gt;catalog_admin&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="nTBD9H4JTt06tkAGfnjP-1">
+          <mxGeometry x="205" y="262.5" width="130" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="CzlCltZnf7aBvWKsNB5O-7" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="nTBD9H4JTt06tkAGfnjP-1" source="CzlCltZnf7aBvWKsNB5O-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1154" y="724.5" as="sourcePoint" />
+            <mxPoint x="105" y="341.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
