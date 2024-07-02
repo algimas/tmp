@@ -1,9 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T06:25:51.779Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="hLxB7AmLgb-4N6ZXBPhL" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-02T06:35:17.283Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="2YJzYjpCwpiy8QIcGq0K" version="24.6.4" type="github">
   <diagram name="Page-1" id="yZ5Ocwlv4FhU6Q7RMmHw">
-    <mxGraphModel>
+    <mxGraphModel dx="1644" dy="2370" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-1" value="ServiceNow (DEV)" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="471" y="-670" width="216" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-2" value="Verification Policy Implemented" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#d6b656;verticalAlign=middle;fontStyle=0" vertex="1" parent="MCBt5lzLdkXNeVL7bORd-1">
+          <mxGeometry x="20" y="45" width="176" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-3" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" edge="1" parent="1" target="MCBt5lzLdkXNeVL7bORd-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="394" y="-597.5" as="sourcePoint" />
+            <mxPoint x="628" y="316.67818181818177" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-4" value="&lt;span&gt;2&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=0" vertex="1" connectable="0" parent="MCBt5lzLdkXNeVL7bORd-3">
+          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-5" value="ServiceNow" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="25" y="-670" width="398" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-6" value="Get Issue" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;fontStyle=0" vertex="1" parent="MCBt5lzLdkXNeVL7bORd-5">
+          <mxGeometry x="23" y="44" width="135" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-8" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;fontStyle=0" edge="1" parent="MCBt5lzLdkXNeVL7bORd-5" source="MCBt5lzLdkXNeVL7bORd-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="132" y="22" as="sourcePoint" />
+            <mxPoint x="219" y="72.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-9" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span&gt;1&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;fontStyle=0" vertex="1" connectable="0" parent="MCBt5lzLdkXNeVL7bORd-8">
+          <mxGeometry x="0.4" y="-1" relative="1" as="geometry">
+            <mxPoint x="-9" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-10" value="ServiceNow (TEST)" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="733" y="-670" width="416" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-11" value="Verification Policy&amp;nbsp;Deployed" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=middle;fontStyle=0" vertex="1" parent="MCBt5lzLdkXNeVL7bORd-10">
+          <mxGeometry x="26.5" y="45" width="163" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-12" value="Verification Policy&amp;nbsp;In Use" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=middle;fontStyle=0" vertex="1" parent="MCBt5lzLdkXNeVL7bORd-10">
+          <mxGeometry x="233" y="45" width="163" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-13" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" edge="1" parent="MCBt5lzLdkXNeVL7bORd-10" source="MCBt5lzLdkXNeVL7bORd-11" target="MCBt5lzLdkXNeVL7bORd-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-56" y="83" as="sourcePoint" />
+            <mxPoint x="37" y="83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-14" value="&lt;span&gt;4&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=0" vertex="1" connectable="0" parent="MCBt5lzLdkXNeVL7bORd-13">
+          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-15" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" edge="1" parent="1" source="MCBt5lzLdkXNeVL7bORd-2" target="MCBt5lzLdkXNeVL7bORd-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="410" y="-592" as="sourcePoint" />
+            <mxPoint x="500" y="-592" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-16" value="&lt;span&gt;3&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=0" vertex="1" connectable="0" parent="MCBt5lzLdkXNeVL7bORd-15">
+          <mxGeometry x="0.0913" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-17" value="http://example.com:8080/jira/rest/api/2/issue/{issueIdOrKey}" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="48" y="-849" width="357" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MCBt5lzLdkXNeVL7bORd-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="MCBt5lzLdkXNeVL7bORd-17" target="MCBt5lzLdkXNeVL7bORd-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="785" y="-563" as="sourcePoint" />
+            <mxPoint x="835" y="-613" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
