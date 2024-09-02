@@ -208,7 +208,7 @@
         <mxCell id="8M_2qIod3BfNdIqab-nL-7" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="8M_2qIod3BfNdIqab-nL-1">
           <mxGeometry x="41" y="200" width="20" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="8M_2qIod3BfNdIqab-nL-8" value="Table&lt;div&gt;rm_story&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8M_2qIod3BfNdIqab-nL-1">
+        <mxCell id="8M_2qIod3BfNdIqab-nL-8" value="Table&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Story&lt;/font&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8M_2qIod3BfNdIqab-nL-1">
           <mxGeometry x="193" y="200" width="100" height="400" as="geometry" />
         </mxCell>
         <mxCell id="8M_2qIod3BfNdIqab-nL-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8M_2qIod3BfNdIqab-nL-8">
@@ -222,16 +222,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8M_2qIod3BfNdIqab-nL-13" value="Business Rule&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Synch Story with Jira&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8M_2qIod3BfNdIqab-nL-1">
-          <mxGeometry x="347" y="200" width="100" height="400" as="geometry" />
+          <mxGeometry x="355" y="198" width="100" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="8M_2qIod3BfNdIqab-nL-15" value="Jira" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="8M_2qIod3BfNdIqab-nL-1">
-          <mxGeometry x="1474" y="199" width="100" height="400" as="geometry" />
+        <mxCell id="8M_2qIod3BfNdIqab-nL-15" value="Jira API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="8M_2qIod3BfNdIqab-nL-1">
+          <mxGeometry x="1166" y="195" width="100" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="pLt4B56tlW5DJveMxNSO-0" value="Script Include&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;AgileJiraUtils&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8M_2qIod3BfNdIqab-nL-1">
-          <mxGeometry x="500" y="200" width="100" height="400" as="geometry" />
+        <mxCell id="pLt4B56tlW5DJveMxNSO-0" value="Script Include&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;AgileJiraUtils&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;AgileJiraExportUtils&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;JiraExportUtils&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=65;" vertex="1" parent="8M_2qIod3BfNdIqab-nL-1">
+          <mxGeometry x="517" y="199" width="100" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="pLt4B56tlW5DJveMxNSO-1" value="Script Include&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;AgileJiraExportUtils&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8M_2qIod3BfNdIqab-nL-1">
-          <mxGeometry x="663" y="198" width="100" height="400" as="geometry" />
+        <mxCell id="pLt4B56tlW5DJveMxNSO-1" value="&lt;div&gt;SubFlow&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Sync Jira Issue&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=41;" vertex="1" parent="8M_2qIod3BfNdIqab-nL-1">
+          <mxGeometry x="679" y="197" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="pLt4B56tlW5DJveMxNSO-2" value="&lt;div&gt;SubFlow&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Update Jira Issue and process&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=44;" vertex="1" parent="8M_2qIod3BfNdIqab-nL-1">
+          <mxGeometry x="842" y="196" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="pLt4B56tlW5DJveMxNSO-3" value="&lt;div&gt;Flow Action&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;BBM Update Issue&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=43;" vertex="1" parent="8M_2qIod3BfNdIqab-nL-1">
+          <mxGeometry x="1004" y="194" width="100" height="400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
