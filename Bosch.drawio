@@ -307,14 +307,21 @@
       <root>
         <mxCell id="wExX9vU8mXdaXNsDhXZx-0" />
         <mxCell id="wExX9vU8mXdaXNsDhXZx-1" parent="wExX9vU8mXdaXNsDhXZx-0" />
-        <mxCell id="wExX9vU8mXdaXNsDhXZx-2" value="3. Execute SI Functions" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wExX9vU8mXdaXNsDhXZx-1" target="wExX9vU8mXdaXNsDhXZx-17">
+        <mxCell id="w6iNsmUOlt_yqRtRa1Gk-2" value="6. execute SI" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="wExX9vU8mXdaXNsDhXZx-1" source="wExX9vU8mXdaXNsDhXZx-22" target="w6iNsmUOlt_yqRtRa1Gk-0">
+          <mxGeometry x="-0.06" relative="1" as="geometry">
+            <mxPoint x="1076.5" y="315.9000000000001" as="sourcePoint" />
+            <mxPoint x="1239" y="315" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wExX9vU8mXdaXNsDhXZx-2" value="3. REST call SN endpoiont" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wExX9vU8mXdaXNsDhXZx-1" target="wExX9vU8mXdaXNsDhXZx-17">
           <mxGeometry x="-0.06" relative="1" as="geometry">
             <mxPoint x="579.5" y="248.9000000000001" as="sourcePoint" />
             <mxPoint x="690" y="253" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wExX9vU8mXdaXNsDhXZx-3" value="4. Call SubFlow" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wExX9vU8mXdaXNsDhXZx-1" target="wExX9vU8mXdaXNsDhXZx-19">
+        <mxCell id="wExX9vU8mXdaXNsDhXZx-3" value="4. Get SubFlow name from DT" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.2;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wExX9vU8mXdaXNsDhXZx-1" target="wExX9vU8mXdaXNsDhXZx-19" source="wExX9vU8mXdaXNsDhXZx-17">
           <mxGeometry x="-0.06" relative="1" as="geometry">
             <mxPoint x="741.5" y="267.9000000000001" as="sourcePoint" />
             <mxPoint x="853" y="272" as="targetPoint" />
@@ -328,21 +335,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wExX9vU8mXdaXNsDhXZx-5" value="6. Call FlowAction" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wExX9vU8mXdaXNsDhXZx-1" target="wExX9vU8mXdaXNsDhXZx-23">
+        <mxCell id="wExX9vU8mXdaXNsDhXZx-5" value="6. execute SI" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wExX9vU8mXdaXNsDhXZx-1" target="wExX9vU8mXdaXNsDhXZx-23">
           <mxGeometry x="-0.06" relative="1" as="geometry">
             <mxPoint x="1066.5" y="305.9000000000001" as="sourcePoint" />
             <mxPoint x="1176" y="310" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wExX9vU8mXdaXNsDhXZx-6" value="7. REST call Jira API" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wExX9vU8mXdaXNsDhXZx-1" target="wExX9vU8mXdaXNsDhXZx-15">
-          <mxGeometry x="-0.06" relative="1" as="geometry">
-            <mxPoint x="1228.5" y="322.9000000000001" as="sourcePoint" />
-            <mxPoint x="1340" y="327" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wExX9vU8mXdaXNsDhXZx-7" value="2. After Update" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.84;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wExX9vU8mXdaXNsDhXZx-1" source="wExX9vU8mXdaXNsDhXZx-10" target="wExX9vU8mXdaXNsDhXZx-13">
+        <mxCell id="wExX9vU8mXdaXNsDhXZx-7" value="2. Trigger Webhook" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.84;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wExX9vU8mXdaXNsDhXZx-1" source="wExX9vU8mXdaXNsDhXZx-10" target="wExX9vU8mXdaXNsDhXZx-13">
           <mxGeometry x="-0.06" relative="1" as="geometry">
             <mxPoint x="387" y="229" as="sourcePoint" />
             <mxPoint x="527" y="233" as="targetPoint" />
@@ -358,7 +358,7 @@
         <mxCell id="wExX9vU8mXdaXNsDhXZx-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="wExX9vU8mXdaXNsDhXZx-9">
           <mxGeometry x="45" y="90" width="10" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="wExX9vU8mXdaXNsDhXZx-11" value="1. Update Jira Issue in-sync" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wExX9vU8mXdaXNsDhXZx-1" source="wExX9vU8mXdaXNsDhXZx-8" target="wExX9vU8mXdaXNsDhXZx-10">
+        <mxCell id="wExX9vU8mXdaXNsDhXZx-11" value="1. Update/Create issue" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wExX9vU8mXdaXNsDhXZx-1" source="wExX9vU8mXdaXNsDhXZx-8" target="wExX9vU8mXdaXNsDhXZx-10">
           <mxGeometry x="-0.06" relative="1" as="geometry">
             <mxPoint x="225.5" y="214.5" as="sourcePoint" />
             <mxPoint x="366" y="215" as="targetPoint" />
@@ -371,17 +371,11 @@
         <mxCell id="wExX9vU8mXdaXNsDhXZx-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="wExX9vU8mXdaXNsDhXZx-12">
           <mxGeometry x="44" y="110" width="10" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="wExX9vU8mXdaXNsDhXZx-14" value="Jira API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=43;" vertex="1" parent="wExX9vU8mXdaXNsDhXZx-1">
-          <mxGeometry x="1341" y="115" width="100" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="wExX9vU8mXdaXNsDhXZx-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="wExX9vU8mXdaXNsDhXZx-14">
-          <mxGeometry x="46" y="207" width="10" height="25" as="geometry" />
-        </mxCell>
         <mxCell id="wExX9vU8mXdaXNsDhXZx-16" value="&lt;div&gt;&lt;font style=&quot;&quot;&gt;Scripted REST API&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Jira Webhook Callbacks&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=39;" vertex="1" parent="wExX9vU8mXdaXNsDhXZx-1">
           <mxGeometry x="674" y="118" width="118" height="401" as="geometry" />
         </mxCell>
         <mxCell id="wExX9vU8mXdaXNsDhXZx-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="wExX9vU8mXdaXNsDhXZx-16">
-          <mxGeometry x="45" y="129" width="10" height="25" as="geometry" />
+          <mxGeometry x="55" y="130" width="10" height="25" as="geometry" />
         </mxCell>
         <mxCell id="wExX9vU8mXdaXNsDhXZx-18" value="&lt;div&gt;Decision Table&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Jira Webhook Decision Policy&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=41;" vertex="1" parent="wExX9vU8mXdaXNsDhXZx-1">
           <mxGeometry x="854" y="117" width="100" height="400" as="geometry" />
@@ -395,11 +389,17 @@
         <mxCell id="wExX9vU8mXdaXNsDhXZx-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="wExX9vU8mXdaXNsDhXZx-20">
           <mxGeometry x="44" y="169" width="10" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="wExX9vU8mXdaXNsDhXZx-22" value="&lt;div&gt;Script Include&lt;/div&gt;&lt;div&gt;BBMJiraEventProcessorUtil&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=46;" vertex="1" parent="wExX9vU8mXdaXNsDhXZx-1">
+        <mxCell id="wExX9vU8mXdaXNsDhXZx-22" value="&lt;div&gt;Script Include&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;BBMJiraEventProcessorUtil&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=46;" vertex="1" parent="wExX9vU8mXdaXNsDhXZx-1">
           <mxGeometry x="1152" y="114" width="160" height="400" as="geometry" />
         </mxCell>
         <mxCell id="wExX9vU8mXdaXNsDhXZx-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="wExX9vU8mXdaXNsDhXZx-22">
-          <mxGeometry x="44" y="191" width="10" height="25" as="geometry" />
+          <mxGeometry x="76" y="190" width="10" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="w6iNsmUOlt_yqRtRa1Gk-0" value="Table&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Story&lt;/font&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=46;" vertex="1" parent="wExX9vU8mXdaXNsDhXZx-1">
+          <mxGeometry x="1364" y="111" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="w6iNsmUOlt_yqRtRa1Gk-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="w6iNsmUOlt_yqRtRa1Gk-0">
+          <mxGeometry x="45" y="202" width="10" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
