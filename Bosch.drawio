@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7" pages="6">
   <diagram name="Gateway" id="yZ5Ocwlv4FhU6Q7RMmHw">
-    <mxGraphModel dx="1626" dy="2370" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1787" dy="2370" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,24 +55,6 @@
             <mxPoint x="-215" y="118" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MCBt5lzLdkXNeVL7bORd-27" value="http://example.com:8080/jira/rest/api/2/issue/{issueIdOrKey}" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="1223" y="-411" width="357" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MCBt5lzLdkXNeVL7bORd-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="MCBt5lzLdkXNeVL7bORd-27" target="MCBt5lzLdkXNeVL7bORd-26" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1983" y="-525" as="sourcePoint" />
-            <mxPoint x="1367" y="-506" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MCBt5lzLdkXNeVL7bORd-29" value="HTTP Basic" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="279" y="-731" width="103" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MCBt5lzLdkXNeVL7bORd-30" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="MCBt5lzLdkXNeVL7bORd-29" target="MCBt5lzLdkXNeVL7bORd-2" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="913" y="-905" as="sourcePoint" />
-            <mxPoint x="332" y="-620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="MCBt5lzLdkXNeVL7bORd-33" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" parent="1" source="MCBt5lzLdkXNeVL7bORd-22" target="MCBt5lzLdkXNeVL7bORd-24" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="549" y="-562" as="sourcePoint" />
@@ -85,115 +67,97 @@
             <mxPoint x="613" y="-542" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MCBt5lzLdkXNeVL7bORd-36" value="https://ews-esz-emea.api.bosch.com/it/technology/jira/d/v1" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="233" y="-383" width="350" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MCBt5lzLdkXNeVL7bORd-37" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="MCBt5lzLdkXNeVL7bORd-36" target="MCBt5lzLdkXNeVL7bORd-2" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="209" y="-439" as="sourcePoint" />
-            <mxPoint x="179" y="-534" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MCBt5lzLdkXNeVL7bORd-38" value="http://...???" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="854" y="-392" width="99" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MCBt5lzLdkXNeVL7bORd-39" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="MCBt5lzLdkXNeVL7bORd-38" target="MCBt5lzLdkXNeVL7bORd-24" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1485" y="-506" as="sourcePoint" />
-            <mxPoint x="869" y="-487" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="oJAhjhPk2IbuKHqsH7m5" name="Export2Jira">
-    <mxGraphModel grid="0" page="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1787" dy="1201" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-31" value="&lt;div&gt;Make: &quot;Jira URL&quot; visible&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.283;exitY=0.965;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0bMMf0Bpn4kn9gRaY-OJ-26" target="0bMMf0Bpn4kn9gRaY-OJ-2">
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-31" value="&lt;div&gt;Make: &quot;Jira URL&quot; visible&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.283;exitY=0.965;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0bMMf0Bpn4kn9gRaY-OJ-26" target="0bMMf0Bpn4kn9gRaY-OJ-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="255" y="517" as="targetPoint" />
-            <mxPoint x="389" y="517" as="sourcePoint" />
+            <mxPoint x="702" y="441" as="targetPoint" />
+            <mxPoint x="836" y="441" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-30" value="&lt;div&gt;Set: Jira URL&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.417;exitY=0.969;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.7;entryY=0.769;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0bMMf0Bpn4kn9gRaY-OJ-8" target="0bMMf0Bpn4kn9gRaY-OJ-26">
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-30" value="&lt;div&gt;Set: Jira URL&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.417;exitY=0.969;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.7;entryY=0.769;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0bMMf0Bpn4kn9gRaY-OJ-8" target="0bMMf0Bpn4kn9gRaY-OJ-26" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="392" y="502" as="targetPoint" />
-            <mxPoint x="547" y="502" as="sourcePoint" />
+            <mxPoint x="839" y="426" as="targetPoint" />
+            <mxPoint x="994" y="426" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-29" value="&lt;div&gt;Return initial ticket data&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.35;exitY=0.945;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.667;entryY=0.67;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0bMMf0Bpn4kn9gRaY-OJ-21" target="0bMMf0Bpn4kn9gRaY-OJ-8">
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-29" value="&lt;div&gt;Return initial ticket data&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.35;exitY=0.945;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.667;entryY=0.67;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0bMMf0Bpn4kn9gRaY-OJ-21" target="0bMMf0Bpn4kn9gRaY-OJ-8" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="61" y="390" as="targetPoint" />
-            <mxPoint x="255" y="390" as="sourcePoint" />
+            <mxPoint x="508" y="314" as="targetPoint" />
+            <mxPoint x="702" y="314" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-22" value="5. Create Jira ticket" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.333;exitY=0.197;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.267;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0bMMf0Bpn4kn9gRaY-OJ-8" target="0bMMf0Bpn4kn9gRaY-OJ-21">
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-22" value="5. Create Jira ticket" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.333;exitY=0.197;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.267;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0bMMf0Bpn4kn9gRaY-OJ-8" target="0bMMf0Bpn4kn9gRaY-OJ-21" edge="1">
           <mxGeometry x="-0.06" relative="1" as="geometry">
-            <mxPoint x="612" y="416.81770833333326" as="sourcePoint" />
-            <mxPoint x="769" y="416" as="targetPoint" />
+            <mxPoint x="1059" y="340.81770833333326" as="sourcePoint" />
+            <mxPoint x="1216" y="340" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-28" value="4. Start data export" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.4;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0bMMf0Bpn4kn9gRaY-OJ-3" target="0bMMf0Bpn4kn9gRaY-OJ-8">
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-28" value="4. Start data export" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.4;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0bMMf0Bpn4kn9gRaY-OJ-3" target="0bMMf0Bpn4kn9gRaY-OJ-8" edge="1">
           <mxGeometry x="-0.06" relative="1" as="geometry">
-            <mxPoint x="326" y="410" as="sourcePoint" />
-            <mxPoint x="249" y="436" as="targetPoint" />
+            <mxPoint x="773" y="334" as="sourcePoint" />
+            <mxPoint x="696" y="360" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="41" y="200" width="20" height="400" as="geometry" />
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="488" y="124" width="20" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-3" value="SN Stories" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="193" y="200" width="100" height="400" as="geometry" />
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-3" value="SN Stories" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="640" y="124" width="100" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="0bMMf0Bpn4kn9gRaY-OJ-3">
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="0bMMf0Bpn4kn9gRaY-OJ-3" vertex="1">
           <mxGeometry x="45" y="90" width="10" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="0bMMf0Bpn4kn9gRaY-OJ-3">
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="0bMMf0Bpn4kn9gRaY-OJ-3" vertex="1">
           <mxGeometry x="45" y="142" width="10" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="0bMMf0Bpn4kn9gRaY-OJ-3">
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="0bMMf0Bpn4kn9gRaY-OJ-3" vertex="1">
           <mxGeometry x="45" y="225" width="10" height="106" as="geometry" />
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-6" value="1. Create new story" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="0bMMf0Bpn4kn9gRaY-OJ-4" source="0bMMf0Bpn4kn9gRaY-OJ-2">
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-6" value="1. Create new story" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0bMMf0Bpn4kn9gRaY-OJ-2" target="0bMMf0Bpn4kn9gRaY-OJ-4" edge="1">
           <mxGeometry x="-0.06" relative="1" as="geometry">
-            <mxPoint x="50.5" y="294.5" as="sourcePoint" />
-            <mxPoint x="191" y="295" as="targetPoint" />
+            <mxPoint x="497.5" y="218.5" as="sourcePoint" />
+            <mxPoint x="638" y="219" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-7" value="SN Export to Jira component" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="331" y="200" width="100" height="400" as="geometry" />
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-7" value="SN Export to Jira component" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="778" y="124" width="100" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="0bMMf0Bpn4kn9gRaY-OJ-7">
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="0bMMf0Bpn4kn9gRaY-OJ-7" vertex="1">
           <mxGeometry x="44" y="256" width="10" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-20" value="Jira" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="488" y="199" width="100" height="400" as="geometry" />
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-20" value="Jira" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="935" y="123" width="100" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="0bMMf0Bpn4kn9gRaY-OJ-20">
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="0bMMf0Bpn4kn9gRaY-OJ-20" vertex="1">
           <mxGeometry x="46" y="267" width="10" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-24" value="2. Set: Assignment Group" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="0bMMf0Bpn4kn9gRaY-OJ-23" source="0bMMf0Bpn4kn9gRaY-OJ-2">
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-24" value="2. Set: Assignment Group" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0bMMf0Bpn4kn9gRaY-OJ-2" target="0bMMf0Bpn4kn9gRaY-OJ-23" edge="1">
           <mxGeometry x="-0.06" relative="1" as="geometry">
-            <mxPoint x="51" y="343" as="sourcePoint" />
-            <mxPoint x="191" y="347" as="targetPoint" />
+            <mxPoint x="498" y="267" as="sourcePoint" />
+            <mxPoint x="638" y="271" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-25" value="&lt;div&gt;Make: &quot;Export to Jira&quot; visible&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.7;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0bMMf0Bpn4kn9gRaY-OJ-23" target="0bMMf0Bpn4kn9gRaY-OJ-2">
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-25" value="&lt;div&gt;Make: &quot;Export to Jira&quot; visible&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.7;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0bMMf0Bpn4kn9gRaY-OJ-23" target="0bMMf0Bpn4kn9gRaY-OJ-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="51" y="410" as="targetPoint" />
-            <mxPoint x="186" y="410" as="sourcePoint" />
+            <mxPoint x="498" y="334" as="targetPoint" />
+            <mxPoint x="633" y="334" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-27" value="3. Select: &quot;Export to Jira&quot;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="0bMMf0Bpn4kn9gRaY-OJ-26" source="0bMMf0Bpn4kn9gRaY-OJ-2">
+        <mxCell id="0bMMf0Bpn4kn9gRaY-OJ-27" value="3. Select: &quot;Export to Jira&quot;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0bMMf0Bpn4kn9gRaY-OJ-2" target="0bMMf0Bpn4kn9gRaY-OJ-26" edge="1">
           <mxGeometry x="-0.06" relative="1" as="geometry">
-            <mxPoint x="51" y="426" as="sourcePoint" />
-            <mxPoint x="191" y="430" as="targetPoint" />
+            <mxPoint x="498" y="350" as="sourcePoint" />
+            <mxPoint x="638" y="354" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -303,7 +267,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Flow2Sn" id="Nv76xbOXWDYpIcduM0Fp">
-    <mxGraphModel dx="1787" dy="1201" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="wExX9vU8mXdaXNsDhXZx-0" />
         <mxCell id="wExX9vU8mXdaXNsDhXZx-1" parent="wExX9vU8mXdaXNsDhXZx-0" />
