@@ -267,7 +267,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="getJiraProjects" id="sM66DQH_kz7lZcJXfTfA">
-    <mxGraphModel dx="2026" dy="1201" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1786" dy="1201" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="SRtOGTVQiHrdVFHQsfQX-0" />
         <mxCell id="SRtOGTVQiHrdVFHQsfQX-1" parent="SRtOGTVQiHrdVFHQsfQX-0" />
@@ -292,14 +292,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SRtOGTVQiHrdVFHQsfQX-5" value="6. Call FlowAction" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="SRtOGTVQiHrdVFHQsfQX-1" target="SRtOGTVQiHrdVFHQsfQX-23">
+        <mxCell id="SRtOGTVQiHrdVFHQsfQX-5" value="6. Call FlowAction" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="SRtOGTVQiHrdVFHQsfQX-1" target="SRtOGTVQiHrdVFHQsfQX-22">
           <mxGeometry x="-0.06" relative="1" as="geometry">
             <mxPoint x="1066.5" y="305.9000000000001" as="sourcePoint" />
             <mxPoint x="1176" y="310" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SRtOGTVQiHrdVFHQsfQX-6" value="7. REST call Jira API" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.133;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="SRtOGTVQiHrdVFHQsfQX-1" target="SRtOGTVQiHrdVFHQsfQX-15">
+        <mxCell id="SRtOGTVQiHrdVFHQsfQX-6" value="7. REST call Jira API" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="SRtOGTVQiHrdVFHQsfQX-1" target="SRtOGTVQiHrdVFHQsfQX-14" source="SRtOGTVQiHrdVFHQsfQX-22">
           <mxGeometry x="-0.06" relative="1" as="geometry">
             <mxPoint x="1228.5" y="322.9000000000001" as="sourcePoint" />
             <mxPoint x="1340" y="327" as="targetPoint" />
@@ -329,41 +329,41 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SRtOGTVQiHrdVFHQsfQX-12" value="&lt;div&gt;&lt;div&gt;SubFlow&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Sync Jira Issue&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-1">
+        <mxCell id="SRtOGTVQiHrdVFHQsfQX-12" value="&lt;div&gt;SubFlow&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;Discover projects in Jira&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=44;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-1">
           <mxGeometry x="530" y="118" width="100" height="400" as="geometry" />
         </mxCell>
         <mxCell id="SRtOGTVQiHrdVFHQsfQX-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-12">
           <mxGeometry x="44" y="110" width="10" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="SRtOGTVQiHrdVFHQsfQX-14" value="Jira API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-1">
+        <mxCell id="SRtOGTVQiHrdVFHQsfQX-14" value="Table&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;sn_jira_int_project&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-1">
           <mxGeometry x="1341" y="115" width="100" height="400" as="geometry" />
         </mxCell>
         <mxCell id="SRtOGTVQiHrdVFHQsfQX-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-14">
-          <mxGeometry x="46" y="207" width="10" height="25" as="geometry" />
+          <mxGeometry x="45" y="200" width="10" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="SRtOGTVQiHrdVFHQsfQX-16" value="Script Include&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;AgileJiraUtils&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;AgileJiraExportUtils&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;JiraExportUtils&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=65;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-1">
+        <mxCell id="SRtOGTVQiHrdVFHQsfQX-16" value="&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;div&gt;Flow Action&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Look up Cloud Projects Stream&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=43;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-1">
           <mxGeometry x="692" y="119" width="100" height="400" as="geometry" />
         </mxCell>
         <mxCell id="SRtOGTVQiHrdVFHQsfQX-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-16">
           <mxGeometry x="45" y="129" width="10" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="SRtOGTVQiHrdVFHQsfQX-18" value="&lt;div&gt;SubFlow&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Sync Jira Issue&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=41;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-1">
+        <mxCell id="SRtOGTVQiHrdVFHQsfQX-18" value="Jira API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;size=41;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-1">
           <mxGeometry x="854" y="117" width="100" height="400" as="geometry" />
         </mxCell>
         <mxCell id="SRtOGTVQiHrdVFHQsfQX-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-18">
           <mxGeometry x="46" y="150" width="10" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="SRtOGTVQiHrdVFHQsfQX-20" value="&lt;div&gt;SubFlow&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Update Jira Issue and process&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=44;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-1">
+        <mxCell id="SRtOGTVQiHrdVFHQsfQX-20" value="&lt;div&gt;Flow Action&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Process Response&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=44;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-1">
           <mxGeometry x="1017" y="116" width="100" height="400" as="geometry" />
         </mxCell>
         <mxCell id="SRtOGTVQiHrdVFHQsfQX-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-20">
           <mxGeometry x="44" y="169" width="10" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="SRtOGTVQiHrdVFHQsfQX-22" value="&lt;div&gt;Flow Action&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;BBM Update Issue&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=43;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-1">
-          <mxGeometry x="1179" y="114" width="100" height="400" as="geometry" />
+        <mxCell id="SRtOGTVQiHrdVFHQsfQX-22" value="Script Include&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;JIRAManager&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;JIRAManagerBase&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;JiraProcessor&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;+ &lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;BBM&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;JiraProcessor&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;size=97;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-1">
+          <mxGeometry x="1172" y="115" width="120" height="399" as="geometry" />
         </mxCell>
         <mxCell id="SRtOGTVQiHrdVFHQsfQX-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="SRtOGTVQiHrdVFHQsfQX-22">
-          <mxGeometry x="44" y="191" width="10" height="25" as="geometry" />
+          <mxGeometry x="56" y="192" width="10" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
