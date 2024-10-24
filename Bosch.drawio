@@ -606,8 +606,98 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="h0mTReuBGJ--NKqM2s0E-1" value="Outbound" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#82b366;verticalAlign=top;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="174" y="-987" width="170" height="120" as="geometry" />
+        <mxCell id="h0mTReuBGJ--NKqM2s0E-1" value="BBM import &lt;b&gt;Ideas&lt;/b&gt; from Jira (data source)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="124" y="-999" width="315" height="243" as="geometry" />
+        </mxCell>
+        <mxCell id="iloycmq8qeG7hNxHAAld-1" value="&lt;b&gt;dmn_demand&lt;/b&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="551" y="-655" width="177" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="iloycmq8qeG7hNxHAAld-2" value="idea" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="195" y="-517" width="177" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="iloycmq8qeG7hNxHAAld-3" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" edge="1" parent="1" source="iloycmq8qeG7hNxHAAld-1" target="iloycmq8qeG7hNxHAAld-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="-667" as="sourcePoint" />
+            <mxPoint x="433" y="-602" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iloycmq8qeG7hNxHAAld-4" value="demand_task" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="918" y="-511" width="177" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="iloycmq8qeG7hNxHAAld-5" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" edge="1" parent="1" source="iloycmq8qeG7hNxHAAld-1" target="iloycmq8qeG7hNxHAAld-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="572" y="-550" as="sourcePoint" />
+            <mxPoint x="669" y="-549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iloycmq8qeG7hNxHAAld-6" value="Table Transform Map" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="144" y="-961" width="272" height="181" as="geometry" />
+        </mxCell>
+        <mxCell id="iloycmq8qeG7hNxHAAld-7" value="Field Maps" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="160" y="-920" width="245" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="iloycmq8qeG7hNxHAAld-10" value="Excel file:&amp;nbsp;&lt;div&gt;&lt;b&gt;IdeaSNOWMigration16102024.xlsx&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=passive;archiType=square;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="127" y="-1131" width="309" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="oK7sJuvjA5cR5mMGTXBv-1" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" edge="1" parent="1" source="iloycmq8qeG7hNxHAAld-10" target="h0mTReuBGJ--NKqM2s0E-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="888" y="-616" as="sourcePoint" />
+            <mxPoint x="347" y="-545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oK7sJuvjA5cR5mMGTXBv-2" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" edge="1" parent="1" source="iloycmq8qeG7hNxHAAld-7" target="iloycmq8qeG7hNxHAAld-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="898" y="-606" as="sourcePoint" />
+            <mxPoint x="357" y="-535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oK7sJuvjA5cR5mMGTXBv-3" value="BBM import &lt;b&gt;Demands&lt;/b&gt; from Jira (data source)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="482" y="-1000" width="315" height="243" as="geometry" />
+        </mxCell>
+        <mxCell id="oK7sJuvjA5cR5mMGTXBv-4" value="Table Transform Map" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="502" y="-962" width="272" height="181" as="geometry" />
+        </mxCell>
+        <mxCell id="oK7sJuvjA5cR5mMGTXBv-5" value="Field Maps" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="518" y="-921" width="245" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="oK7sJuvjA5cR5mMGTXBv-6" value="Excel file:&amp;nbsp;&lt;div&gt;&lt;b&gt;SubprocessesWave1_21102024.xlsx&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=passive;archiType=square;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="485" y="-1132" width="309" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="oK7sJuvjA5cR5mMGTXBv-7" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" edge="1" parent="1" source="oK7sJuvjA5cR5mMGTXBv-6" target="oK7sJuvjA5cR5mMGTXBv-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1246" y="-617" as="sourcePoint" />
+            <mxPoint x="705" y="-546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oK7sJuvjA5cR5mMGTXBv-8" value="BBM import &lt;b&gt;Demand Tasks&lt;/b&gt; from Jira (data source)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="844" y="-1001" width="315" height="243" as="geometry" />
+        </mxCell>
+        <mxCell id="oK7sJuvjA5cR5mMGTXBv-9" value="Table Transform Map" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="864" y="-963" width="272" height="181" as="geometry" />
+        </mxCell>
+        <mxCell id="oK7sJuvjA5cR5mMGTXBv-10" value="Field Maps" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="880" y="-922" width="245" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="oK7sJuvjA5cR5mMGTXBv-11" value="Excel file:&amp;nbsp;&lt;div&gt;&lt;b&gt;UserStoriesDRIVEWAVE1_21102024.xlsx&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=passive;archiType=square;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="847" y="-1133" width="309" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="oK7sJuvjA5cR5mMGTXBv-12" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" edge="1" parent="1" source="oK7sJuvjA5cR5mMGTXBv-11" target="oK7sJuvjA5cR5mMGTXBv-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1608" y="-618" as="sourcePoint" />
+            <mxPoint x="1067" y="-547" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oK7sJuvjA5cR5mMGTXBv-13" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" edge="1" parent="1" source="oK7sJuvjA5cR5mMGTXBv-5" target="iloycmq8qeG7hNxHAAld-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="293" y="-804" as="sourcePoint" />
+            <mxPoint x="293" y="-507" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oK7sJuvjA5cR5mMGTXBv-14" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" edge="1" parent="1" source="oK7sJuvjA5cR5mMGTXBv-10" target="iloycmq8qeG7hNxHAAld-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="303" y="-794" as="sourcePoint" />
+            <mxPoint x="303" y="-497" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
