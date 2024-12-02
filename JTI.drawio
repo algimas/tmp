@@ -467,15 +467,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3QFOPM6lI8m10fyFuGb6-18" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
-          <mxGeometry x="396" y="-1128" width="26.5" height="50" as="geometry" />
+          <mxGeometry x="390" y="-1052" width="26.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3QFOPM6lI8m10fyFuGb6-19" value="Is &quot;Context&quot; provided explicitly by user?" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" vertex="1" parent="1">
           <mxGeometry x="328" y="-975" width="150" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="3QFOPM6lI8m10fyFuGb6-20" value="Use provided &quot;Context&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" vertex="1" parent="1">
+        <mxCell id="3QFOPM6lI8m10fyFuGb6-20" value="Use provided &quot;Context&quot;,&amp;nbsp;&lt;div&gt;e.g.: &quot;A&quot;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" vertex="1" parent="1">
           <mxGeometry x="175" y="-826" width="150" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="3QFOPM6lI8m10fyFuGb6-21" value="Get User Roles" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" vertex="1" parent="1">
+        <mxCell id="3QFOPM6lI8m10fyFuGb6-21" value="Is User has role that start with &quot;Context_&quot;?" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" vertex="1" parent="1">
           <mxGeometry x="455" y="-828" width="150" height="75" as="geometry" />
         </mxCell>
         <mxCell id="PuZkENe9o25EPkGiI5qV-1" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="3QFOPM6lI8m10fyFuGb6-19" target="3QFOPM6lI8m10fyFuGb6-20">
@@ -496,6 +496,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PuZkENe9o25EPkGiI5qV-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PuZkENe9o25EPkGiI5qV-5">
+          <mxGeometry x="-0.2592" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuZkENe9o25EPkGiI5qV-12" value="Get first, parse and use &quot;Context&quot;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" vertex="1" parent="1">
+          <mxGeometry x="331" y="-666" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="PuZkENe9o25EPkGiI5qV-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="3QFOPM6lI8m10fyFuGb6-21" target="PuZkENe9o25EPkGiI5qV-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="374" y="-890" as="sourcePoint" />
+            <mxPoint x="299" y="-816" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuZkENe9o25EPkGiI5qV-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Yes&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PuZkENe9o25EPkGiI5qV-13">
+          <mxGeometry x="-0.2592" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuZkENe9o25EPkGiI5qV-15" value="Use default &quot;Context&quot; from sys_properties" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" vertex="1" parent="1">
+          <mxGeometry x="589" y="-670" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="PuZkENe9o25EPkGiI5qV-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="3QFOPM6lI8m10fyFuGb6-21" target="PuZkENe9o25EPkGiI5qV-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="-890" as="sourcePoint" />
+            <mxPoint x="508" y="-818" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuZkENe9o25EPkGiI5qV-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PuZkENe9o25EPkGiI5qV-16">
           <mxGeometry x="-0.2592" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
