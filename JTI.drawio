@@ -1787,13 +1787,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wl1KFv7bVJsTd1QiVmuC-19" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;strokeColor=#82b366;" vertex="1" parent="wl1KFv7bVJsTd1QiVmuC-1">
-          <mxGeometry x="29" y="-771" width="26.5" height="50" as="geometry" />
+          <mxGeometry x="57" y="-752" width="26.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wl1KFv7bVJsTd1QiVmuC-20" value="&lt;div&gt;&lt;b&gt;Decision 1&lt;/b&gt;:&lt;/div&gt;&lt;div&gt;Is Context explicitly provided (e.g., from URL or Form)?&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="wl1KFv7bVJsTd1QiVmuC-1">
           <mxGeometry x="289" y="-782" width="181" height="124" as="geometry" />
         </mxCell>
-        <mxCell id="wl1KFv7bVJsTd1QiVmuC-22" value="Is User has role that e.g.: starts with &quot;&lt;b&gt;Context_?&lt;/b&gt;&quot;?" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="wl1KFv7bVJsTd1QiVmuC-1">
-          <mxGeometry x="538" y="-700" width="150" height="75" as="geometry" />
+        <mxCell id="wl1KFv7bVJsTd1QiVmuC-22" value="&lt;div&gt;&lt;b&gt;Decision 2:&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Does the user have a Context role?&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="wl1KFv7bVJsTd1QiVmuC-1">
+          <mxGeometry x="550" y="-661" width="176" height="122" as="geometry" />
         </mxCell>
         <mxCell id="wl1KFv7bVJsTd1QiVmuC-23" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="wl1KFv7bVJsTd1QiVmuC-1" source="wl1KFv7bVJsTd1QiVmuC-20" target="mCBksk2NQ0W5FNFiOfxo-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1851,14 +1851,17 @@
             <mxPoint x="780" y="-551" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mCBksk2NQ0W5FNFiOfxo-3" value="&lt;div&gt;User submits the&lt;/div&gt;&lt;div&gt;&amp;nbsp;Form, e.g.:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Project Form&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.event;" vertex="1" parent="wl1KFv7bVJsTd1QiVmuC-1">
+        <mxCell id="mCBksk2NQ0W5FNFiOfxo-3" value="&lt;div&gt;User submits the&lt;/div&gt;&lt;div&gt;&amp;nbsp;Form, e.g.:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Project Form&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="wl1KFv7bVJsTd1QiVmuC-1">
           <mxGeometry x="89" y="-771" width="148" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="mCBksk2NQ0W5FNFiOfxo-4" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.equipment;" vertex="1" parent="wl1KFv7bVJsTd1QiVmuC-1">
+        <mxCell id="mCBksk2NQ0W5FNFiOfxo-4" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.equipment;strokeColor=#82b366;strokeWidth=3;" vertex="1" parent="wl1KFv7bVJsTd1QiVmuC-1">
           <mxGeometry x="349" y="-716" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mCBksk2NQ0W5FNFiOfxo-6" value="Use provided &quot;&lt;b&gt;Context&lt;/b&gt;&quot;,&amp;nbsp;&lt;div&gt;e.g.: &quot;&lt;b&gt;A&lt;/b&gt;&quot;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.service;" vertex="1" parent="wl1KFv7bVJsTd1QiVmuC-1">
           <mxGeometry x="778" y="-966" width="161" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="mCBksk2NQ0W5FNFiOfxo-7" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.equipment;strokeColor=#82b366;strokeWidth=3;" vertex="1" parent="wl1KFv7bVJsTd1QiVmuC-1">
+          <mxGeometry x="607" y="-602" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
