@@ -872,8 +872,8 @@
             <mxPoint x="1536" y="-1783" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g6G_uZiZioMznuUXLCPw-11" value="cost_plan" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#e1d5e7;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#9673a6;" vertex="1" parent="bqs1xpyfi-aHq7FliR-y-1">
-          <mxGeometry x="1426" y="-2310" width="160" height="50" as="geometry" />
+        <mxCell id="g6G_uZiZioMznuUXLCPw-11" value="cost_plan" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#e1d5e7;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="bqs1xpyfi-aHq7FliR-y-1">
+          <mxGeometry x="1321" y="-2314" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="g6G_uZiZioMznuUXLCPw-12" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="bqs1xpyfi-aHq7FliR-y-1" source="bqs1xpyfi-aHq7FliR-y-14" target="g6G_uZiZioMznuUXLCPw-11">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -987,6 +987,39 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="1117" y="-2238" as="sourcePoint" />
             <mxPoint x="989" y="-2214" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6G_uZiZioMznuUXLCPw-34" value="fm_expense_line" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;" vertex="1" parent="bqs1xpyfi-aHq7FliR-y-1">
+          <mxGeometry x="1475" y="-2253" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g6G_uZiZioMznuUXLCPw-35" value="cost_plan_breakdown" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;" vertex="1" parent="bqs1xpyfi-aHq7FliR-y-1">
+          <mxGeometry x="1476" y="-2042" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g6G_uZiZioMznuUXLCPw-36" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="bqs1xpyfi-aHq7FliR-y-1" source="g6G_uZiZioMznuUXLCPw-11" target="g6G_uZiZioMznuUXLCPw-34">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1450" y="-1903" as="sourcePoint" />
+            <mxPoint x="1512" y="-2250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6G_uZiZioMznuUXLCPw-37" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="bqs1xpyfi-aHq7FliR-y-1" source="g6G_uZiZioMznuUXLCPw-11" target="g6G_uZiZioMznuUXLCPw-35">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1460" y="-1893" as="sourcePoint" />
+            <mxPoint x="1522" y="-2240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6G_uZiZioMznuUXLCPw-38" value="dmn_requirement" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#e1d5e7;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="bqs1xpyfi-aHq7FliR-y-1">
+          <mxGeometry x="1143" y="-2044" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g6G_uZiZioMznuUXLCPw-39" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="bqs1xpyfi-aHq7FliR-y-1" source="bqs1xpyfi-aHq7FliR-y-14" target="g6G_uZiZioMznuUXLCPw-38">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1366" y="-1880" as="sourcePoint" />
+            <mxPoint x="1081" y="-1888" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6G_uZiZioMznuUXLCPw-40" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="bqs1xpyfi-aHq7FliR-y-1" source="bqs1xpyfi-aHq7FliR-y-39" target="g6G_uZiZioMznuUXLCPw-38">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1366" y="-1871" as="sourcePoint" />
+            <mxPoint x="816" y="-1827" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
