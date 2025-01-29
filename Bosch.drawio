@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.6" pages="14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.6" pages="15">
   <diagram name="Gateway" id="yZ5Ocwlv4FhU6Q7RMmHw">
     <mxGraphModel dx="2026" dy="2370" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1257,6 +1257,40 @@
         </mxCell>
         <mxCell id="TLIUa-sUbiU7ORDbdynp-10" value="scrum_theme" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="pJQb0PDaX-yCl1FO-7SJ-1" vertex="1">
           <mxGeometry x="1019" y="-901" width="177" height="98" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="ideaDemand" id="IEl61H5z8-1L3ssq4IHZ">
+    <mxGraphModel dx="1488" dy="2370" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ax_-mjbBWdP17Hoe8qwo-0" />
+        <mxCell id="ax_-mjbBWdP17Hoe8qwo-1" parent="ax_-mjbBWdP17Hoe8qwo-0" />
+        <mxCell id="ax_-mjbBWdP17Hoe8qwo-4" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;dmn_demand&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1" vertex="1" parent="ax_-mjbBWdP17Hoe8qwo-1">
+          <mxGeometry x="619" y="-715" width="177" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="ax_-mjbBWdP17Hoe8qwo-9" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="ax_-mjbBWdP17Hoe8qwo-1" source="ax_-mjbBWdP17Hoe8qwo-10" target="ax_-mjbBWdP17Hoe8qwo-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="834" y="-912" as="sourcePoint" />
+            <mxPoint x="504.9250000000002" y="-555" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="269" y="-694" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MbdZMsxSl0RRdz1Xy7uu-0" value="u_original_idea" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ax_-mjbBWdP17Hoe8qwo-9">
+          <mxGeometry x="-0.0792" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ax_-mjbBWdP17Hoe8qwo-10" value="idea" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="ax_-mjbBWdP17Hoe8qwo-1">
+          <mxGeometry x="335" y="-717" width="177" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="ax_-mjbBWdP17Hoe8qwo-11" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" edge="1" parent="ax_-mjbBWdP17Hoe8qwo-1" source="ax_-mjbBWdP17Hoe8qwo-4" target="ax_-mjbBWdP17Hoe8qwo-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="594" y="-773" as="sourcePoint" />
+            <mxPoint x="667" y="-708" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
