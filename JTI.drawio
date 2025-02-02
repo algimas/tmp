@@ -996,7 +996,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="templateVisib" id="J3GY_uuDW2yypgAQ8-_k">
-    <mxGraphModel dx="930" dy="3013" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1170" dy="3013" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="HigLcBFkIjLDv55NLgPO-0" />
         <mxCell id="HigLcBFkIjLDv55NLgPO-1" parent="HigLcBFkIjLDv55NLgPO-0" />
@@ -1079,12 +1079,30 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w9Buv4wa-vWJ1GnvuZDb-5" value="&lt;div&gt;Business Rule&lt;/div&gt;&lt;div&gt;before: insert&lt;/div&gt;&lt;div&gt;set: u_jti_visibility_context&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#d6b656;verticalAlign=top;" vertex="1" parent="HigLcBFkIjLDv55NLgPO-1">
-          <mxGeometry x="531" y="-2230" width="161" height="66" as="geometry" />
+          <mxGeometry x="373" y="-2188" width="161" height="66" as="geometry" />
         </mxCell>
         <mxCell id="w9Buv4wa-vWJ1GnvuZDb-6" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="HigLcBFkIjLDv55NLgPO-1" source="w9Buv4wa-vWJ1GnvuZDb-5" target="HigLcBFkIjLDv55NLgPO-4">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="354" y="-1958" as="sourcePoint" />
             <mxPoint x="354" y="-1910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w9Buv4wa-vWJ1GnvuZDb-7" value="&lt;div&gt;ACL&lt;/div&gt;&lt;div&gt;Denny Unless:&lt;br&gt;&lt;/div&gt;&lt;div&gt;u_jti_visibility_context = 10 ...&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#b85450;verticalAlign=top;" vertex="1" parent="HigLcBFkIjLDv55NLgPO-1">
+          <mxGeometry x="588" y="-2188" width="161" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="w9Buv4wa-vWJ1GnvuZDb-8" value="&lt;div&gt;ACL&lt;/div&gt;&lt;div&gt;Denny Unless:&lt;br&gt;&lt;/div&gt;&lt;div&gt;u_jti_visibility_context = 20 ...&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#b85450;verticalAlign=top;" vertex="1" parent="HigLcBFkIjLDv55NLgPO-1">
+          <mxGeometry x="777" y="-2188" width="161" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="w9Buv4wa-vWJ1GnvuZDb-9" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="HigLcBFkIjLDv55NLgPO-1" source="w9Buv4wa-vWJ1GnvuZDb-7" target="HigLcBFkIjLDv55NLgPO-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="502" y="-2112" as="sourcePoint" />
+            <mxPoint x="620" y="-2010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w9Buv4wa-vWJ1GnvuZDb-10" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="HigLcBFkIjLDv55NLgPO-1" source="w9Buv4wa-vWJ1GnvuZDb-8" target="HigLcBFkIjLDv55NLgPO-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="512" y="-2102" as="sourcePoint" />
+            <mxPoint x="630" y="-2000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
