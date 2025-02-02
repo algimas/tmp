@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.4" pages="13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.5" pages="14">
   <diagram name="TStables" id="akTVKKfx578aE0_P_ynU">
     <mxGraphModel grid="0" page="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -991,6 +991,38 @@
         </mxCell>
         <mxCell id="_6xWOhnd_3hI7VJfS1Ji-6" value="dmn_requirement" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="uP0esxPJ5vqHrzvQJqz2-1">
           <mxGeometry x="340" y="-2113" width="100" height="29" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="templateVisib" id="J3GY_uuDW2yypgAQ8-_k">
+    <mxGraphModel dx="1376" dy="3132" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="HigLcBFkIjLDv55NLgPO-0" />
+        <mxCell id="HigLcBFkIjLDv55NLgPO-1" parent="HigLcBFkIjLDv55NLgPO-0" />
+        <mxCell id="HigLcBFkIjLDv55NLgPO-4" value="planned_task" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;fontSize=14;" vertex="1" parent="HigLcBFkIjLDv55NLgPO-1">
+          <mxGeometry x="406" y="-2085" width="404" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="HigLcBFkIjLDv55NLgPO-9" value="pm_project" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1" vertex="1" parent="HigLcBFkIjLDv55NLgPO-1">
+          <mxGeometry x="427" y="-2001" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="HigLcBFkIjLDv55NLgPO-10" value="pm_program" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;fontSize=14;" vertex="1" parent="HigLcBFkIjLDv55NLgPO-1">
+          <mxGeometry x="427" y="-2052" width="127" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="HigLcBFkIjLDv55NLgPO-11" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="HigLcBFkIjLDv55NLgPO-1" source="HigLcBFkIjLDv55NLgPO-10" target="HigLcBFkIjLDv55NLgPO-9">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="755" y="-2123" as="sourcePoint" />
+            <mxPoint x="775" y="-2285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HigLcBFkIjLDv55NLgPO-12" value="pm_program_task" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="HigLcBFkIjLDv55NLgPO-1">
+          <mxGeometry x="566" y="-2051" width="114" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="HigLcBFkIjLDv55NLgPO-13" value="pm_project_task" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="HigLcBFkIjLDv55NLgPO-1">
+          <mxGeometry x="566" y="-2002" width="113" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="HigLcBFkIjLDv55NLgPO-15" value="dmn_requirement" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="HigLcBFkIjLDv55NLgPO-1">
+          <mxGeometry x="697" y="-2051" width="100" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
