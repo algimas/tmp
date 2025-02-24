@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11" pages="2">
   <diagram name="landing" id="QRmQ1dGdKTm8xX9rar3Z">
     <mxGraphModel dx="1218" dy="1175" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,80 @@
         </mxCell>
         <mxCell id="LtmkOcvQwODDvvEoTKv7-11" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Demand 1&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Section 1.1&lt;br&gt;Section 1.2&lt;br&gt;Section 1.3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Section 2.1&lt;br&gt;Section 2.2&lt;br&gt;Section 2.3&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
           <mxGeometry x="792" y="477" width="180" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WSY-gjTEog1dUcVkWKKA" name="Page-2">
+    <mxGraphModel dx="1575" dy="2370" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C-N8vvvN-SdDMxmpiXjP-1" value="BBM Story&lt;div&gt;Created&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="146" y="-823" width="135" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="C-N8vvvN-SdDMxmpiXjP-2" value="State ABC" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="363" y="-834" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C-N8vvvN-SdDMxmpiXjP-10" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;fontStyle=0" edge="1" parent="1" source="C-N8vvvN-SdDMxmpiXjP-1" target="C-N8vvvN-SdDMxmpiXjP-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219" y="-673" as="sourcePoint" />
+            <mxPoint x="369" y="-600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-N8vvvN-SdDMxmpiXjP-11" value="State DDD" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="833" y="-627" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C-N8vvvN-SdDMxmpiXjP-12" value="initiate GS Story" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="606" y="-836" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C-N8vvvN-SdDMxmpiXjP-13" value="BBM Story&lt;div&gt;Created&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.event;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="623" y="-618" width="135" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="C-N8vvvN-SdDMxmpiXjP-14" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;fontStyle=0" edge="1" parent="1" source="C-N8vvvN-SdDMxmpiXjP-2" target="C-N8vvvN-SdDMxmpiXjP-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="291" y="-785" as="sourcePoint" />
+            <mxPoint x="373" y="-786" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-N8vvvN-SdDMxmpiXjP-15" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="C-N8vvvN-SdDMxmpiXjP-13" target="C-N8vvvN-SdDMxmpiXjP-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="301" y="-775" as="sourcePoint" />
+            <mxPoint x="383" y="-776" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-N8vvvN-SdDMxmpiXjP-16" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" edge="1" parent="1" source="C-N8vvvN-SdDMxmpiXjP-12" target="C-N8vvvN-SdDMxmpiXjP-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="751" y="-572" as="sourcePoint" />
+            <mxPoint x="832" y="-572" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-N8vvvN-SdDMxmpiXjP-17" value="State DDD" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="829" y="-832" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C-N8vvvN-SdDMxmpiXjP-18" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;fontStyle=0" edge="1" parent="1" source="C-N8vvvN-SdDMxmpiXjP-12" target="C-N8vvvN-SdDMxmpiXjP-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="523" y="-787" as="sourcePoint" />
+            <mxPoint x="616" y="-788" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-N8vvvN-SdDMxmpiXjP-19" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" edge="1" parent="1" source="C-N8vvvN-SdDMxmpiXjP-17" target="C-N8vvvN-SdDMxmpiXjP-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="693" y="-751" as="sourcePoint" />
+            <mxPoint x="699" y="-608" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-N8vvvN-SdDMxmpiXjP-20" value="State EEE" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1066" y="-626" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C-N8vvvN-SdDMxmpiXjP-21" value="State EEE" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="-831" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C-N8vvvN-SdDMxmpiXjP-22" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" edge="1" parent="1" source="C-N8vvvN-SdDMxmpiXjP-20" target="C-N8vvvN-SdDMxmpiXjP-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="926" y="-750" as="sourcePoint" />
+            <mxPoint x="1294" y="-672" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
