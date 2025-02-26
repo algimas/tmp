@@ -159,6 +159,53 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram name="title" id="W63Yk0ZWTzQ4ucz1iR9d">
+    <mxGraphModel dx="1174" dy="2824" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="Pkd2qrq-QmxPW7qq0s4b-0" />
+        <mxCell id="Pkd2qrq-QmxPW7qq0s4b-1" parent="Pkd2qrq-QmxPW7qq0s4b-0" />
+        <mxCell id="Pkd2qrq-QmxPW7qq0s4b-2" value="&lt;div&gt;sn_hr_integr_fw_hr_profile_staging&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;job_title&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="Pkd2qrq-QmxPW7qq0s4b-1">
+          <mxGeometry x="137" y="-1408" width="217.5" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="whoxsS6CrMYmXtxjEIzl-0" value="&lt;div&gt;sn_hr_core_profile&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- position&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- position_type&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="Pkd2qrq-QmxPW7qq0s4b-1">
+          <mxGeometry x="462" y="-1411" width="217.5" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="dH8s_RgIhzwNXNusU_kP-0" value="" style="html=1;endArrow=open;elbow=horizontal;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="Pkd2qrq-QmxPW7qq0s4b-1" source="Pkd2qrq-QmxPW7qq0s4b-2" target="vH-jSCkic-niVpZX-CZR-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="-1537" as="sourcePoint" />
+            <mxPoint x="600" y="-1543" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vH-jSCkic-niVpZX-CZR-0" value="transformation" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;" vertex="1" parent="Pkd2qrq-QmxPW7qq0s4b-1">
+          <mxGeometry x="340" y="-1509" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="vH-jSCkic-niVpZX-CZR-1" value="&lt;div&gt;sn_employee_profile&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;position_type&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="Pkd2qrq-QmxPW7qq0s4b-1">
+          <mxGeometry x="794" y="-1415" width="217.5" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="vH-jSCkic-niVpZX-CZR-2" value="" style="html=1;endArrow=open;elbow=horizontal;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="Pkd2qrq-QmxPW7qq0s4b-1" source="vH-jSCkic-niVpZX-CZR-0" target="whoxsS6CrMYmXtxjEIzl-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="311" y="-1398" as="sourcePoint" />
+            <mxPoint x="393" y="-1455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vH-jSCkic-niVpZX-CZR-3" value="&lt;div&gt;BR:&lt;/div&gt;&lt;div&gt;Sync fields to employee profile&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#6c8ebf;" vertex="1" parent="Pkd2qrq-QmxPW7qq0s4b-1">
+          <mxGeometry x="674" y="-1513" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="vH-jSCkic-niVpZX-CZR-4" value="" style="html=1;endArrow=open;elbow=horizontal;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="Pkd2qrq-QmxPW7qq0s4b-1" source="whoxsS6CrMYmXtxjEIzl-0" target="vH-jSCkic-niVpZX-CZR-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="455" y="-1455" as="sourcePoint" />
+            <mxPoint x="529" y="-1401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vH-jSCkic-niVpZX-CZR-5" value="" style="html=1;endArrow=open;elbow=horizontal;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="Pkd2qrq-QmxPW7qq0s4b-1" source="vH-jSCkic-niVpZX-CZR-3" target="vH-jSCkic-niVpZX-CZR-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="465" y="-1445" as="sourcePoint" />
+            <mxPoint x="539" y="-1391" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="market" id="rgSHMPDs5m6OYQXK4_7n">
     <mxGraphModel grid="0" page="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -166,32 +213,6 @@
         <mxCell id="EDPrpJCDoPqaRl5oovw6-1" parent="EDPrpJCDoPqaRl5oovw6-0" />
         <mxCell id="7x_pN_ITc0jEvHX_IEUc-0" value="x_jtis2_gbs_m_s_br_market" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="EDPrpJCDoPqaRl5oovw6-1">
           <mxGeometry x="298" y="-1441" width="217.5" height="76" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="title" id="W63Yk0ZWTzQ4ucz1iR9d">
-    <mxGraphModel dx="1174" dy="2824" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="Pkd2qrq-QmxPW7qq0s4b-0" />
-        <mxCell id="Pkd2qrq-QmxPW7qq0s4b-1" parent="Pkd2qrq-QmxPW7qq0s4b-0" />
-        <mxCell id="Pkd2qrq-QmxPW7qq0s4b-2" value="&lt;div&gt;sn_hr_integr_fw_hr_profile_staging&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;job_title&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="Pkd2qrq-QmxPW7qq0s4b-1">
-          <mxGeometry x="298" y="-1441" width="217.5" height="76" as="geometry" />
-        </mxCell>
-        <mxCell id="whoxsS6CrMYmXtxjEIzl-0" value="&lt;div&gt;sn_hr_core_profile&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;position&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="Pkd2qrq-QmxPW7qq0s4b-1">
-          <mxGeometry x="623" y="-1444" width="217.5" height="76" as="geometry" />
-        </mxCell>
-        <mxCell id="dH8s_RgIhzwNXNusU_kP-0" value="" style="html=1;endArrow=open;elbow=horizontal;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="Pkd2qrq-QmxPW7qq0s4b-1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="481" y="-1570" as="sourcePoint" />
-            <mxPoint x="761" y="-1576" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dH8s_RgIhzwNXNusU_kP-2" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;" edge="1" parent="Pkd2qrq-QmxPW7qq0s4b-1" source="Pkd2qrq-QmxPW7qq0s4b-2" target="whoxsS6CrMYmXtxjEIzl-0">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="503" y="-1108" as="sourcePoint" />
-            <mxPoint x="663" y="-1108" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
