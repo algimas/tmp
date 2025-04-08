@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9" pages="3">
   <diagram name="ApiGateway" id="lrhSs4NIBuE15-ALr9kW">
-    <mxGraphModel dx="1763" dy="2375" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1819" dy="2375" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,6 +44,24 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="804" y="-938" as="sourcePoint" />
             <mxPoint x="1087" y="-948.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8dd6PnlojU5S90c8eq-J-5" value="ServiceNow API" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="283" y="-708" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8dd6PnlojU5S90c8eq-J-6" value="Inbound" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#82b366;verticalAlign=top;fontStyle=0" vertex="1" parent="8dd6PnlojU5S90c8eq-J-5">
+          <mxGeometry x="50" y="37.5" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8dd6PnlojU5S90c8eq-J-8" value="Jira Webhook" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="1108" y="-709" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8dd6PnlojU5S90c8eq-J-9" value="Outbound" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=middle;fontStyle=0" vertex="1" parent="8dd6PnlojU5S90c8eq-J-8">
+          <mxGeometry x="50" y="37" width="170" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="8dd6PnlojU5S90c8eq-J-10" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;fontStyle=0" edge="1" parent="1" source="8dd6PnlojU5S90c8eq-J-9" target="8dd6PnlojU5S90c8eq-J-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="-574.7033898305085" as="sourcePoint" />
+            <mxPoint x="627" y="-610.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
