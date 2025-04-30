@@ -308,7 +308,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="QbjEQOX1ExhNVZri13zM" name="Page-4">
+  <diagram id="QbjEQOX1ExhNVZri13zM" name="concept">
     <mxGraphModel dx="1094" dy="3291" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -647,25 +647,36 @@
           <mxGeometry x="214" y="-2005" width="127" height="5" as="geometry" />
         </mxCell>
         <mxCell id="HDBQv2YtiCsI8Hgpni90-209" value="GBS" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="796" y="-2071" width="30" height="60" as="geometry" />
+          <mxGeometry x="766" y="-2101" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HDBQv2YtiCsI8Hgpni90-210" value="M&amp;amp;S" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="857" y="-2072" width="30" height="60" as="geometry" />
+          <mxGeometry x="858" y="-2102" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Qplx9c3wQBxVCaBwhgu5-1" value="I have M&amp;amp;S data visibility &lt;b&gt;Role&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="908" y="-2104" width="127" height="30" as="geometry" />
+          <mxGeometry x="909" y="-2134" width="127" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Qplx9c3wQBxVCaBwhgu5-2" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="Qplx9c3wQBxVCaBwhgu5-1" parent="1" source="HDBQv2YtiCsI8Hgpni90-210">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="-2125" as="sourcePoint" />
+            <mxPoint x="441" y="-2155" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Qplx9c3wQBxVCaBwhgu5-4" value="I have GBS data visibility &lt;b&gt;Role&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="646" y="-2103" width="127" height="30" as="geometry" />
+          <mxGeometry x="616" y="-2133" width="127" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Qplx9c3wQBxVCaBwhgu5-5" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="1" target="Qplx9c3wQBxVCaBwhgu5-4" source="HDBQv2YtiCsI8Hgpni90-209">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="591" y="-2053" as="sourcePoint" />
+            <mxPoint x="561" y="-2083" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qplx9c3wQBxVCaBwhgu5-6" value="... Super User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="814" y="-2008" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qplx9c3wQBxVCaBwhgu5-7" value="I have &quot;all&quot; data visibility &lt;b&gt;Roles&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="893" y="-2011" width="119" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qplx9c3wQBxVCaBwhgu5-8" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="1" target="Qplx9c3wQBxVCaBwhgu5-7" source="Qplx9c3wQBxVCaBwhgu5-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="877" y="-1963" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
