@@ -247,38 +247,47 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MOSCqYRkmQtc_-ahKyfB" name="markets1">
-    <mxGraphModel dx="1586" dy="1175" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1737" dy="1175" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3EEWNvutBsMj6GnOZGlg-1" value="Albania" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="361" y="52" width="30" height="60" as="geometry" />
+        <mxCell id="3EEWNvutBsMj6GnOZGlg-1" value="Austria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="362" y="127" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3EEWNvutBsMj6GnOZGlg-2" value="Baltics +" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="362" y="197" width="30" height="60" as="geometry" />
+          <mxGeometry x="362" y="223" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3EEWNvutBsMj6GnOZGlg-3" value="Belgium" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="363" y="334" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3EEWNvutBsMj6GnOZGlg-4" value="ServiceNow (GBS instance)" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="36" y="79" width="270" height="331" as="geometry" />
+          <mxGeometry x="36" y="79" width="288" height="331" as="geometry" />
         </mxCell>
         <mxCell id="3EEWNvutBsMj6GnOZGlg-5" value="SPM" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#82b366;verticalAlign=top;fontStyle=0" vertex="1" parent="3EEWNvutBsMj6GnOZGlg-4">
-          <mxGeometry x="50" y="37.5" width="170" height="139.5" as="geometry" />
+          <mxGeometry x="12" y="37.5" width="170" height="139.5" as="geometry" />
         </mxCell>
         <mxCell id="3EEWNvutBsMj6GnOZGlg-7" value="pm_project" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="3EEWNvutBsMj6GnOZGlg-4">
-          <mxGeometry x="72" y="90" width="122" height="59" as="geometry" />
+          <mxGeometry x="34" y="90" width="122" height="59" as="geometry" />
         </mxCell>
         <mxCell id="ObH1TygAwajP6qkHTM24-1" value="SPOCs within M&amp;S" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="3EEWNvutBsMj6GnOZGlg-4">
-          <mxGeometry x="150" y="220" width="30" height="60" as="geometry" />
+          <mxGeometry x="82" y="219" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ObH1TygAwajP6qkHTM24-2" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="3EEWNvutBsMj6GnOZGlg-4" source="ObH1TygAwajP6qkHTM24-1" target="3EEWNvutBsMj6GnOZGlg-7">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="337" y="292" as="sourcePoint" />
-            <mxPoint x="190" y="263" as="targetPoint" />
+            <mxPoint x="299" y="292" as="sourcePoint" />
+            <mxPoint x="152" y="263" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3EEWNvutBsMj6GnOZGlg-8" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="1" source="3EEWNvutBsMj6GnOZGlg-1" target="3EEWNvutBsMj6GnOZGlg-7">
+        <mxCell id="aJLC9tgEW2pMj3oVoMWB-3" value="Portal" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#82b366;verticalAlign=middle;fontStyle=0" vertex="1" parent="3EEWNvutBsMj6GnOZGlg-4">
+          <mxGeometry x="203" y="68" width="68" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aJLC9tgEW2pMj3oVoMWB-4" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="3EEWNvutBsMj6GnOZGlg-4" source="aJLC9tgEW2pMj3oVoMWB-3" target="3EEWNvutBsMj6GnOZGlg-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="333" y="82" as="sourcePoint" />
+            <mxPoint x="275" y="99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3EEWNvutBsMj6GnOZGlg-8" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="1" source="3EEWNvutBsMj6GnOZGlg-1" target="aJLC9tgEW2pMj3oVoMWB-3">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="448" y="194" as="sourcePoint" />
             <mxPoint x="608" y="194" as="targetPoint" />
@@ -291,10 +300,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3EEWNvutBsMj6GnOZGlg-11" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="402" y="179" width="30" height="60" as="geometry" />
+          <mxGeometry x="402" y="205" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3EEWNvutBsMj6GnOZGlg-12" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="438" y="212" width="30" height="60" as="geometry" />
+          <mxGeometry x="438" y="238" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3EEWNvutBsMj6GnOZGlg-13" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="402" y="320" width="30" height="60" as="geometry" />
@@ -304,6 +313,15 @@
             <mxPoint x="726" y="331" as="sourcePoint" />
             <mxPoint x="886" y="331" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aJLC9tgEW2pMj3oVoMWB-1" value="Email" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;fontStyle=1" edge="1" parent="1" source="3EEWNvutBsMj6GnOZGlg-5" target="aJLC9tgEW2pMj3oVoMWB-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="368" y="134" as="sourcePoint" />
+            <mxPoint x="377" y="74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJLC9tgEW2pMj3oVoMWB-2" value="Albania" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="411" y="36" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
