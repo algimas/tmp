@@ -1764,7 +1764,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="integrationHubV2" id="WFViIOVXF6ym6osDy8hU">
-    <mxGraphModel dx="1747" dy="2375" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1847" dy="2080" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="jcx7qENX52sRDsSpx3MJ-0" />
         <mxCell id="jcx7qENX52sRDsSpx3MJ-1" parent="jcx7qENX52sRDsSpx3MJ-0" />
@@ -1781,7 +1781,7 @@
           <mxGeometry x="1298" y="-950" width="104" height="52" as="geometry" />
         </mxCell>
         <mxCell id="4OyFM-rArJYAuf97UUhP-4" value="Task" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="jcx7qENX52sRDsSpx3MJ-1">
-          <mxGeometry x="1296" y="-544" width="115" height="50" as="geometry" />
+          <mxGeometry x="1296" y="-620" width="115" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4OyFM-rArJYAuf97UUhP-5" value="" style="html=1;endArrow=none;dashed=1;elbow=vertical;endFill=1;rounded=0;fontSize=12;fontStyle=0;startArrow=block;startFill=0;strokeWidth=3;" edge="1" parent="jcx7qENX52sRDsSpx3MJ-1" source="4OyFM-rArJYAuf97UUhP-9" target="4OyFM-rArJYAuf97UUhP-8">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -1793,7 +1793,7 @@
           <mxGeometry x="110" y="-1011" width="477" height="57" as="geometry" />
         </mxCell>
         <mxCell id="4OyFM-rArJYAuf97UUhP-7" value="Sub-Task" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="jcx7qENX52sRDsSpx3MJ-1">
-          <mxGeometry x="1298" y="-661" width="112" height="50" as="geometry" />
+          <mxGeometry x="1297" y="-686" width="112" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4OyFM-rArJYAuf97UUhP-8" value="Process Flow&lt;div&gt;/&lt;/div&gt;&lt;div&gt;Integration&lt;/div&gt;&lt;div&gt;Hub&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#82b366;verticalAlign=middle;fontStyle=0;fontSize=16;" vertex="1" parent="jcx7qENX52sRDsSpx3MJ-1">
           <mxGeometry x="631" y="-951" width="83" height="464" as="geometry" />
@@ -1931,7 +1931,7 @@
             <mxPoint x="1370" y="-558" as="sourcePoint" />
             <mxPoint x="1433" y="-475" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1422" y="-516" />
+              <mxPoint x="1440" y="-592" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1963,6 +1963,24 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1426" y="-781" as="sourcePoint" />
             <mxPoint x="1509" y="-726" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XdVS34VTZUarmR10Rgjw-0" value="ServiceNow&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Issue Type&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;" vertex="1" parent="jcx7qENX52sRDsSpx3MJ-1">
+          <mxGeometry x="1295" y="-551" width="116" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XdVS34VTZUarmR10Rgjw-1" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0;startArrow=none;startFill=0;" edge="1" parent="jcx7qENX52sRDsSpx3MJ-1" source="4OyFM-rArJYAuf97UUhP-9" target="XdVS34VTZUarmR10Rgjw-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1270" y="-627" as="sourcePoint" />
+            <mxPoint x="1490" y="-541" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XdVS34VTZUarmR10Rgjw-2" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="jcx7qENX52sRDsSpx3MJ-1" source="XdVS34VTZUarmR10Rgjw-0" target="4OyFM-rArJYAuf97UUhP-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1482" y="-471" as="sourcePoint" />
+            <mxPoint x="1564" y="-598" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1437" y="-520" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
