@@ -1339,7 +1339,7 @@
             <mxPoint x="1385" y="-2254" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tl2MGArWC5euDuR7wIGW-81" value="time_card" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#e1d5e7;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="Tl2MGArWC5euDuR7wIGW-1">
+        <mxCell id="Tl2MGArWC5euDuR7wIGW-81" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;time_card&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;top_task&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1" vertex="1" parent="Tl2MGArWC5euDuR7wIGW-1">
           <mxGeometry x="622" y="-1930" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Tl2MGArWC5euDuR7wIGW-82" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="Tl2MGArWC5euDuR7wIGW-1" source="Tl2MGArWC5euDuR7wIGW-79" target="Tl2MGArWC5euDuR7wIGW-81">
@@ -1443,6 +1443,18 @@
             <mxPoint x="1457" y="-1874" as="sourcePoint" />
             <mxPoint x="1313" y="-1860" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CRQG9YS8wrFumGkU7RX--0" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;sn_plng_att_core_resource_assignment&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;top_task&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="Tl2MGArWC5euDuR7wIGW-1">
+          <mxGeometry x="1040" y="-1371" width="251" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CRQG9YS8wrFumGkU7RX--1" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="Tl2MGArWC5euDuR7wIGW-1" source="Tl2MGArWC5euDuR7wIGW-76" target="CRQG9YS8wrFumGkU7RX--0">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1488" y="-1517" as="sourcePoint" />
+            <mxPoint x="1211" y="-1144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CRQG9YS8wrFumGkU7RX--2" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;sn_invst_pln_invst_investment&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span aria-label=&quot;Columns Section&quot; aria-hidden=&quot;false&quot; role=&quot;tabpanel&quot; style=&quot;display: block;&quot; data-section-id=&quot;057f7a12bf7021007de108f7ff073947&quot; id=&quot;section_tab.057f7a12bf7021007de108f7ff073947&quot; data-header-only=&quot;false&quot; class=&quot;tabs2_section tabs2_section_1 tabs2_section1 tab_section&quot;&gt;&lt;span class=&quot;section&quot; data-header-only=&quot;false&quot; id=&quot;section-057f7a12bf7021007de108f7ff073947&quot;&gt;&lt;span class=&quot;list_span_related embedded -tab-body&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;funding_entity.table=pm_project&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 254); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;var&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt; util = &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;new&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt; global.&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 128, 128);&quot;&gt;ProjectAdvancedSecurityUtil&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;answer = util.isProjectAccessible(current.getValue(&lt;/span&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&#39;funding_entity_id&#39;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;));&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;span aria-label=&quot;Columns Section&quot; aria-hidden=&quot;false&quot; role=&quot;tabpanel&quot; style=&quot;display: block;&quot; data-section-id=&quot;057f7a12bf7021007de108f7ff073947&quot; id=&quot;section_tab.057f7a12bf7021007de108f7ff073947&quot; data-header-only=&quot;false&quot; class=&quot;tabs2_section tabs2_section_1 tabs2_section1 tab_section&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="Tl2MGArWC5euDuR7wIGW-1">
+          <mxGeometry x="790" y="-1281" width="538" height="96" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
