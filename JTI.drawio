@@ -1467,8 +1467,8 @@
             <mxPoint x="566" y="524" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aVhNBkC9e0IaB3h3mBwd-24" value="&lt;div&gt;ACL&lt;/div&gt;&lt;div&gt;Denny Unless:&lt;br&gt;&lt;/div&gt;&lt;div&gt;u_jti_visibility_context = 10&lt;/div&gt;&lt;div&gt;&lt;b&gt;OR&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;top_task&lt;/b&gt;.u_jti_visibility_context = 10&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#b85450;verticalAlign=top;" vertex="1" parent="usCOfLr8uKXRRq_jzV2E-1">
-          <mxGeometry x="766" y="246" width="204" height="83" as="geometry" />
+        <mxCell id="aVhNBkC9e0IaB3h3mBwd-24" value="&lt;div&gt;&lt;b&gt;Read ACL&lt;/b&gt;&lt;/div&gt;&lt;div&gt;top_task.project.confidential=true&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Denny Unless:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;top_task.ref_pm_project.allowed_groups&lt;/div&gt;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;top_task.ref_pm_project.allowed_users&lt;/div&gt;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;top_task.ref_pm_project.project_manager&lt;/div&gt;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;top_task.assigned_to&lt;/div&gt;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;top_task.additional_assignee_list&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#b85450;verticalAlign=top;" vertex="1" parent="usCOfLr8uKXRRq_jzV2E-1">
+          <mxGeometry x="802" y="151" width="253" height="202" as="geometry" />
         </mxCell>
         <mxCell id="aVhNBkC9e0IaB3h3mBwd-25" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="usCOfLr8uKXRRq_jzV2E-1" source="aVhNBkC9e0IaB3h3mBwd-24" target="aVhNBkC9e0IaB3h3mBwd-0">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -1476,20 +1476,20 @@
             <mxPoint x="832" y="424" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aVhNBkC9e0IaB3h3mBwd-26" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="usCOfLr8uKXRRq_jzV2E-1" source="aVhNBkC9e0IaB3h3mBwd-27" target="aVhNBkC9e0IaB3h3mBwd-0">
+        <mxCell id="aVhNBkC9e0IaB3h3mBwd-26" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="usCOfLr8uKXRRq_jzV2E-1" source="o1GzPvdvYpr5-HqtHU7V-1" target="aVhNBkC9e0IaB3h3mBwd-0">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1056.69120458891" y="312" as="sourcePoint" />
+            <mxPoint x="1303" y="514.2780320366132" as="sourcePoint" />
             <mxPoint x="842" y="434" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="aVhNBkC9e0IaB3h3mBwd-27" value="&lt;div&gt;ACL&lt;/div&gt;&lt;div&gt;Denny Unless:&lt;br&gt;&lt;/div&gt;&lt;div&gt;u_jti_visibility_context = 20&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;OR&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;top_task&lt;/b&gt;.u_jti_visibility_context = 20&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#b85450;verticalAlign=top;" vertex="1" parent="usCOfLr8uKXRRq_jzV2E-1">
-          <mxGeometry x="996" y="247" width="204" height="83" as="geometry" />
         </mxCell>
         <mxCell id="o1GzPvdvYpr5-HqtHU7V-0" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="usCOfLr8uKXRRq_jzV2E-1" source="aVhNBkC9e0IaB3h3mBwd-0" target="Tytmc9Y55Z9DWWhFJn5R-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="776" y="850" as="sourcePoint" />
             <mxPoint x="632" y="864" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="o1GzPvdvYpr5-HqtHU7V-1" value="&lt;div&gt;&lt;b&gt;Delete ACL&lt;/b&gt;&lt;/div&gt;&lt;div&gt;top_task.project.confidential=true&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Denny Unless:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;top_task.ref_pm_project.allowed_groups&lt;/div&gt;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;top_task.ref_pm_project.allowed_users&lt;/div&gt;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;top_task.ref_pm_project.project_manager&lt;/div&gt;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;top_task.assigned_to&lt;/div&gt;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;top_task.additional_assignee_list&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#b85450;verticalAlign=top;" vertex="1" parent="usCOfLr8uKXRRq_jzV2E-1">
+          <mxGeometry x="1098" y="152" width="253" height="202" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
