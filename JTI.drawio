@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.1.1" pages="14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.1.1" pages="15">
   <diagram name="TStables" id="akTVKKfx578aE0_P_ynU">
     <mxGraphModel grid="0" page="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1442,6 +1442,53 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="1457" y="-1874" as="sourcePoint" />
             <mxPoint x="1313" y="-1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="topSecretACL" id="9Fal7N0LXsOki9Ibf4XP">
+    <mxGraphModel dx="993" dy="591" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="usCOfLr8uKXRRq_jzV2E-0" />
+        <mxCell id="usCOfLr8uKXRRq_jzV2E-1" parent="usCOfLr8uKXRRq_jzV2E-0" />
+        <mxCell id="Tytmc9Y55Z9DWWhFJn5R-1" value="&lt;div&gt;benefit_plan_breakdown&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;benefit_plan.top_task&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;shadow=0;" vertex="1" parent="usCOfLr8uKXRRq_jzV2E-1">
+          <mxGeometry x="885" y="600" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aVhNBkC9e0IaB3h3mBwd-0" value="&lt;div&gt;benefit_plan&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;top_task&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;fontSize=14;" vertex="1" parent="usCOfLr8uKXRRq_jzV2E-1">
+          <mxGeometry x="768" y="414" width="400" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="aVhNBkC9e0IaB3h3mBwd-22" value="&lt;div&gt;Business Rule&lt;/div&gt;&lt;div&gt;before: insert&lt;/div&gt;&lt;div&gt;set: u_jti_visibility_context&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#d6b656;verticalAlign=top;" vertex="1" parent="usCOfLr8uKXRRq_jzV2E-1">
+          <mxGeometry x="555" y="247" width="162" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="aVhNBkC9e0IaB3h3mBwd-23" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="usCOfLr8uKXRRq_jzV2E-1" source="aVhNBkC9e0IaB3h3mBwd-22" target="aVhNBkC9e0IaB3h3mBwd-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="566" y="476" as="sourcePoint" />
+            <mxPoint x="566" y="524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aVhNBkC9e0IaB3h3mBwd-24" value="&lt;div&gt;ACL&lt;/div&gt;&lt;div&gt;Denny Unless:&lt;br&gt;&lt;/div&gt;&lt;div&gt;u_jti_visibility_context = 10&lt;/div&gt;&lt;div&gt;&lt;b&gt;OR&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;top_task&lt;/b&gt;.u_jti_visibility_context = 10&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#b85450;verticalAlign=top;" vertex="1" parent="usCOfLr8uKXRRq_jzV2E-1">
+          <mxGeometry x="766" y="246" width="204" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="aVhNBkC9e0IaB3h3mBwd-25" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="usCOfLr8uKXRRq_jzV2E-1" source="aVhNBkC9e0IaB3h3mBwd-24" target="aVhNBkC9e0IaB3h3mBwd-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="714" y="322" as="sourcePoint" />
+            <mxPoint x="832" y="424" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aVhNBkC9e0IaB3h3mBwd-26" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="usCOfLr8uKXRRq_jzV2E-1" source="aVhNBkC9e0IaB3h3mBwd-27" target="aVhNBkC9e0IaB3h3mBwd-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1056.69120458891" y="312" as="sourcePoint" />
+            <mxPoint x="842" y="434" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aVhNBkC9e0IaB3h3mBwd-27" value="&lt;div&gt;ACL&lt;/div&gt;&lt;div&gt;Denny Unless:&lt;br&gt;&lt;/div&gt;&lt;div&gt;u_jti_visibility_context = 20&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;OR&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;top_task&lt;/b&gt;.u_jti_visibility_context = 20&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#b85450;verticalAlign=top;" vertex="1" parent="usCOfLr8uKXRRq_jzV2E-1">
+          <mxGeometry x="996" y="247" width="204" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="o1GzPvdvYpr5-HqtHU7V-0" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="usCOfLr8uKXRRq_jzV2E-1" source="aVhNBkC9e0IaB3h3mBwd-0" target="Tytmc9Y55Z9DWWhFJn5R-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="776" y="850" as="sourcePoint" />
+            <mxPoint x="632" y="864" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
