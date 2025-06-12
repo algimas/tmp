@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.14" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.6" pages="6">
   <diagram name="option1vs2" id="Ml2_Wi6gRCoKqoXRMsIn">
     <mxGraphModel dx="923" dy="2334" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -186,12 +186,12 @@
     </mxGraphModel>
   </diagram>
   <diagram name="start" id="W8yu_a4n5wBhyjvwb6gU">
-    <mxGraphModel grid="0" page="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="2606" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="BHgSwumkQWQFD8u2RNnu-0" />
         <mxCell id="BHgSwumkQWQFD8u2RNnu-1" parent="BHgSwumkQWQFD8u2RNnu-0" />
-        <mxCell id="BHgSwumkQWQFD8u2RNnu-2" value="&lt;div&gt;cmdb_consumable_product_model&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;u_market&lt;/div&gt;&lt;div&gt;u_sub_brand&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;parent&lt;/div&gt;&lt;div&gt;assigment_group&lt;/div&gt;&lt;div&gt;level (1,2,3)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;category (MnS)&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="BHgSwumkQWQFD8u2RNnu-1" vertex="1">
-          <mxGeometry x="369" y="-1520" width="219" height="246" as="geometry" />
+        <mxCell id="BHgSwumkQWQFD8u2RNnu-2" value="&lt;div&gt;cmdb_consumable_product_model&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;u_market (GCC column)&lt;/div&gt;&lt;div&gt;u_sub_brand (GCC column)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;u_parent (new MnS column) ???&lt;/div&gt;&lt;div&gt;level (1,2,3) (new MnS column) ???&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;category (MnS / GCC / GBS) ???&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="BHgSwumkQWQFD8u2RNnu-1" vertex="1">
+          <mxGeometry x="369" y="-1520" width="219" height="183" as="geometry" />
         </mxCell>
         <mxCell id="BHgSwumkQWQFD8u2RNnu-5" value="cmdb_model" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="BHgSwumkQWQFD8u2RNnu-1" vertex="1">
           <mxGeometry x="671" y="-1516" width="404" height="50" as="geometry" />
@@ -225,7 +225,7 @@
           <mxGeometry x="896" y="-1332" width="176" height="103" as="geometry" />
         </mxCell>
         <mxCell id="BHgSwumkQWQFD8u2RNnu-20" value="&lt;div&gt;Exported&lt;/div&gt;&lt;div&gt;from GCC&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="BHgSwumkQWQFD8u2RNnu-1" vertex="1">
-          <mxGeometry x="261" y="-1559" width="89" height="41" as="geometry" />
+          <mxGeometry x="148" y="-1502" width="89" height="41" as="geometry" />
         </mxCell>
         <mxCell id="BHgSwumkQWQFD8u2RNnu-21" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" parent="BHgSwumkQWQFD8u2RNnu-1" source="BHgSwumkQWQFD8u2RNnu-2" target="BHgSwumkQWQFD8u2RNnu-20" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -243,45 +243,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D05ecgKtBKhEEWfAZyXa-0" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="BHgSwumkQWQFD8u2RNnu-1" source="BHgSwumkQWQFD8u2RNnu-2" target="BHgSwumkQWQFD8u2RNnu-2">
+        <mxCell id="D05ecgKtBKhEEWfAZyXa-0" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" parent="BHgSwumkQWQFD8u2RNnu-1" source="BHgSwumkQWQFD8u2RNnu-2" target="BHgSwumkQWQFD8u2RNnu-2" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="870" y="-1456" as="sourcePoint" />
             <mxPoint x="800" y="-1322" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="517" y="-1565" />
+              <mxPoint x="558" y="-1582" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="D05ecgKtBKhEEWfAZyXa-1" value="parent" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D05ecgKtBKhEEWfAZyXa-0">
+        <mxCell id="D05ecgKtBKhEEWfAZyXa-1" value="u_parent" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="D05ecgKtBKhEEWfAZyXa-0" vertex="1" connectable="0">
           <mxGeometry x="-0.1616" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="D05ecgKtBKhEEWfAZyXa-2" value="&lt;div&gt;mns_product&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;parent&lt;/div&gt;&lt;div&gt;assigment_group&lt;/div&gt;&lt;div&gt;level (1,2,3)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;category (MnS)&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="BHgSwumkQWQFD8u2RNnu-1">
-          <mxGeometry x="119" y="-1243" width="196" height="132" as="geometry" />
-        </mxCell>
-        <mxCell id="D05ecgKtBKhEEWfAZyXa-3" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="BHgSwumkQWQFD8u2RNnu-1" source="BHgSwumkQWQFD8u2RNnu-2" target="D05ecgKtBKhEEWfAZyXa-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="778" y="-1456" as="sourcePoint" />
-            <mxPoint x="598" y="-1413" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="D05ecgKtBKhEEWfAZyXa-4" value="extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D05ecgKtBKhEEWfAZyXa-3">
-          <mxGeometry x="0.2866" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="D05ecgKtBKhEEWfAZyXa-5" value="gbs_product" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" vertex="1" parent="BHgSwumkQWQFD8u2RNnu-1">
-          <mxGeometry x="208" y="-1058" width="192" height="68" as="geometry" />
-        </mxCell>
-        <mxCell id="D05ecgKtBKhEEWfAZyXa-6" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="BHgSwumkQWQFD8u2RNnu-1" source="BHgSwumkQWQFD8u2RNnu-2" target="D05ecgKtBKhEEWfAZyXa-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="379" y="-1292" as="sourcePoint" />
-            <mxPoint x="311" y="-1233" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="D05ecgKtBKhEEWfAZyXa-7" value="extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D05ecgKtBKhEEWfAZyXa-6">
-          <mxGeometry x="0.2866" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
