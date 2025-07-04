@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-1" value="rm_sprint" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="164" y="323" width="177" height="98" as="geometry" />
+          <mxGeometry x="486" y="493" width="177" height="98" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-2" value="Enterprise agile planning item sn_align_core_eap_planning_item" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="503" y="472" width="221" height="98" as="geometry" />
+          <mxGeometry x="746" y="615" width="221" height="98" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-3" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" edge="1" parent="1" source="hy2QDzCqtzv86f-rD2Z0-5" target="hy2QDzCqtzv86f-rD2Z0-2">
           <mxGeometry relative="1" as="geometry">
@@ -17,7 +17,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-4" value="rm_story" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="163" y="476" width="177" height="98" as="geometry" />
+          <mxGeometry x="97" y="556" width="177" height="98" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-5" value="Enterprise agile iteration sn_apw_advanced_eap_iteration" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="504" y="318" width="221" height="98" as="geometry" />
@@ -64,6 +64,33 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1062" y="470" as="sourcePoint" />
             <mxPoint x="894" y="518" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-15" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" edge="1" parent="1" source="hy2QDzCqtzv86f-rD2Z0-2" target="hy2QDzCqtzv86f-rD2Z0-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="555" as="sourcePoint" />
+            <mxPoint x="910" y="611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-16" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" edge="1" parent="1" source="hy2QDzCqtzv86f-rD2Z0-1" target="hy2QDzCqtzv86f-rD2Z0-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="532" y="367" as="sourcePoint" />
+            <mxPoint x="369" y="369" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-17" value="rm_epic" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="145" y="341" width="177" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-18" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" edge="1" parent="1" source="hy2QDzCqtzv86f-rD2Z0-17" target="hy2QDzCqtzv86f-rD2Z0-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="594" y="520" as="sourcePoint" />
+            <mxPoint x="431" y="522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-19" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" edge="1" parent="1" source="hy2QDzCqtzv86f-rD2Z0-6" target="hy2QDzCqtzv86f-rD2Z0-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="577" y="447" as="sourcePoint" />
+            <mxPoint x="413" y="518" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
