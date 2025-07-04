@@ -1,9 +1,47 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="Page-1" id="IhMQIxFYWQhUG57-XFcb">
-    <mxGraphModel>
+    <mxGraphModel dx="1642" dy="1459" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-1" value="rm_sprint" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="164" y="323" width="177" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-2" value="rm_story" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="164" y="541" width="177" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-3" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" edge="1" parent="1" target="hy2QDzCqtzv86f-rD2Z0-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="477" y="441" as="sourcePoint" />
+            <mxPoint x="-50" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-4" value="rm_story" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="162" y="683" width="177" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-5" value="rm_story" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="509" y="435" width="177" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-6" value="rm_story" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="792" y="294" width="177" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-7" value="&lt;div&gt;Enterprise agile calendar entry&lt;/div&gt;sn_apw_advanced_eap_calendar_span" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="824" y="617" width="238" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-8" value="&lt;div&gt;Business calendar entry&lt;/div&gt;business_calendar_span" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1166" y="619" width="238" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-9" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="hy2QDzCqtzv86f-rD2Z0-8" target="hy2QDzCqtzv86f-rD2Z0-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="695" y="705" as="sourcePoint" />
+            <mxPoint x="604" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-10" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hy2QDzCqtzv86f-rD2Z0-9">
+          <mxGeometry x="0.0817" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
