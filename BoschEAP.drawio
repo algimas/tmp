@@ -100,7 +100,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-21" value="&lt;div&gt;Business Rule&lt;/div&gt;&lt;div&gt;after: insert&lt;/div&gt;&lt;div&gt;set: &lt;b&gt;iteration&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#d6b656;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="735" y="600" width="162" height="82" as="geometry" />
+          <mxGeometry x="735" y="621" width="116" height="61" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-22" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="1" source="hy2QDzCqtzv86f-rD2Z0-21" target="hy2QDzCqtzv86f-rD2Z0-1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -108,23 +108,17 @@
             <mxPoint x="1150" y="885" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hy2QDzCqtzv86f-rD2Z0-23" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="hy2QDzCqtzv86f-rD2Z0-25">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1294" y="756" as="sourcePoint" />
-            <mxPoint x="741" y="756" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-24" value="Jira" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="1121" y="631" width="270" height="233" as="geometry" />
+          <mxGeometry x="1121" y="631" width="270" height="436" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-25" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=product;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=0" vertex="1" parent="hy2QDzCqtzv86f-rD2Z0-24">
-          <mxGeometry x="26" y="49" width="214" height="149" as="geometry" />
+          <mxGeometry x="26" y="49" width="214" height="327" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-26" value="Board" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="hy2QDzCqtzv86f-rD2Z0-24">
-          <mxGeometry x="44" y="72" width="177" height="50" as="geometry" />
+          <mxGeometry x="46" y="293" width="177" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-27" value="Sprint" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="hy2QDzCqtzv86f-rD2Z0-24">
-          <mxGeometry x="44" y="136" width="177" height="50" as="geometry" />
+          <mxGeometry x="43" y="78" width="177" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-28" value="Agile team sn_apw_advanced_agile_team" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="200" y="242" width="211" height="98" as="geometry" />
@@ -173,7 +167,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-38" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Sprint webhook:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;sprint.id =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 102), rgb(149, 149, 149));&quot;&gt;69&lt;/span&gt;&lt;/div&gt;&lt;div&gt;name =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 102), rgb(149, 149, 149));&quot;&gt;ITP Sprint 4&lt;/span&gt;&lt;/div&gt;&lt;div&gt;state =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 102), rgb(149, 149, 149));&quot;&gt;future&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;originBoardId = 7&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=left;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=15;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" vertex="1" parent="1">
-          <mxGeometry x="855" y="763" width="160" height="110" as="geometry" />
+          <mxGeometry x="941" y="622" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-39" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;rounded=0;" edge="1" parent="1" source="hy2QDzCqtzv86f-rD2Z0-27" target="hy2QDzCqtzv86f-rD2Z0-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="677" y="814" as="sourcePoint" />
+            <mxPoint x="837" y="814" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
