@@ -201,6 +201,33 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-45" value="Jira Project&lt;div&gt;sn_jira_int_project&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="390" y="932" width="177" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-46" value="Team Integration Settings&lt;br&gt;&lt;div&gt;sn_agile_jira_int_import_settings&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="336" y="1028" width="283" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-47" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" edge="1" parent="1" source="hy2QDzCqtzv86f-rD2Z0-40" target="hy2QDzCqtzv86f-rD2Z0-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="730" as="sourcePoint" />
+            <mxPoint x="371" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-48" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" edge="1" parent="1" source="hy2QDzCqtzv86f-rD2Z0-45" target="hy2QDzCqtzv86f-rD2Z0-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="675" y="882" as="sourcePoint" />
+            <mxPoint x="491" y="882" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-49" value="User Group&lt;div&gt;sys_user_group&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="176" y="931" width="148" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-50" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" edge="1" parent="1" source="hy2QDzCqtzv86f-rD2Z0-49" target="hy2QDzCqtzv86f-rD2Z0-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="337" y="1077" as="sourcePoint" />
+            <mxPoint x="394" y="1124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
