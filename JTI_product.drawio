@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.2.0" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6" pages="10">
   <diagram name="conceptV0" id="0_d2-0QWLJCPwaN1BvL7">
     <mxGraphModel dx="1033" dy="3152" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2254,15 +2254,15 @@
     </mxGraphModel>
   </diagram>
   <diagram name="parentProduct" id="W8yu_a4n5wBhyjvwb6gU">
-    <mxGraphModel grid="0" page="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="974" dy="2321" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="BHgSwumkQWQFD8u2RNnu-0" />
         <mxCell id="BHgSwumkQWQFD8u2RNnu-1" parent="BHgSwumkQWQFD8u2RNnu-0" />
-        <mxCell id="BHgSwumkQWQFD8u2RNnu-2" value="&lt;div&gt;cmdb_consumable_product_model&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;u_market (GCC column)&lt;/div&gt;&lt;div&gt;u_sub_brand (GCC column)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(255, 51, 51), rgb(237, 237, 237));&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;b&gt;u_parent&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; (new MnS column) ???&lt;/div&gt;&lt;div&gt;u_level (1,2,3) (new MnS column) ???&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;u_category (MnS / GCC / GBS) ???&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="BHgSwumkQWQFD8u2RNnu-1" vertex="1">
-          <mxGeometry x="382" y="-1519" width="219" height="183" as="geometry" />
+        <mxCell id="BHgSwumkQWQFD8u2RNnu-2" value="&lt;div&gt;cmdb_consumable_product_model&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;u_market (GCC column)&lt;/div&gt;&lt;div&gt;u_sub_brand (GCC column)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;u_top_product&lt;/b&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: transparent;&quot;&gt;(new column: self reference)&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="BHgSwumkQWQFD8u2RNnu-1" vertex="1">
+          <mxGeometry x="351" y="-1517" width="250" height="107" as="geometry" />
         </mxCell>
-        <mxCell id="BHgSwumkQWQFD8u2RNnu-5" value="cmdb_model" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="BHgSwumkQWQFD8u2RNnu-1" vertex="1">
-          <mxGeometry x="704" y="-1516" width="304" height="50" as="geometry" />
+        <mxCell id="BHgSwumkQWQFD8u2RNnu-5" value="cmdb_model&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;u_parent&lt;/b&gt; (new column: self reference)&lt;/font&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="BHgSwumkQWQFD8u2RNnu-1" vertex="1">
+          <mxGeometry x="704" y="-1516" width="304" height="72" as="geometry" />
         </mxCell>
         <mxCell id="BHgSwumkQWQFD8u2RNnu-6" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="BHgSwumkQWQFD8u2RNnu-1" source="BHgSwumkQWQFD8u2RNnu-5" target="BHgSwumkQWQFD8u2RNnu-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2311,26 +2311,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D05ecgKtBKhEEWfAZyXa-0" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" parent="BHgSwumkQWQFD8u2RNnu-1" source="BHgSwumkQWQFD8u2RNnu-2" target="BHgSwumkQWQFD8u2RNnu-2" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="870" y="-1456" as="sourcePoint" />
-            <mxPoint x="800" y="-1322" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="442" y="-1553" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="D05ecgKtBKhEEWfAZyXa-1" value="u_parent" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="D05ecgKtBKhEEWfAZyXa-0" vertex="1" connectable="0">
-          <mxGeometry x="-0.1616" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="GH4ZqTlk4BdSwgXZg8sP-0" value="MnS_product_model ???&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;u_parent&lt;/b&gt; (new MnS column) ???&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;u_level (1,2,3) (new MnS column) ???&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d6b656;" parent="BHgSwumkQWQFD8u2RNnu-1" vertex="1">
           <mxGeometry x="38" y="-1156" width="219" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="GH4ZqTlk4BdSwgXZg8sP-1" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="BHgSwumkQWQFD8u2RNnu-1" source="BHgSwumkQWQFD8u2RNnu-2" target="GH4ZqTlk4BdSwgXZg8sP-0" edge="1">
+        <mxCell id="GH4ZqTlk4BdSwgXZg8sP-1" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="BHgSwumkQWQFD8u2RNnu-1" target="GH4ZqTlk4BdSwgXZg8sP-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="731" y="-1453" as="sourcePoint" />
+            <mxPoint x="450" y="-1074" as="sourcePoint" />
             <mxPoint x="604" y="-1433" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -2349,6 +2335,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GH4ZqTlk4BdSwgXZg8sP-4" value="u_parent" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GH4ZqTlk4BdSwgXZg8sP-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.1616" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QAEPwLA6rSNq-0BDDQD3-0" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="BHgSwumkQWQFD8u2RNnu-1" source="BHgSwumkQWQFD8u2RNnu-5" target="BHgSwumkQWQFD8u2RNnu-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="523" y="-1524" as="sourcePoint" />
+            <mxPoint x="596" y="-1524" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="809" y="-1543" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QAEPwLA6rSNq-0BDDQD3-1" value="u_parent" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QAEPwLA6rSNq-0BDDQD3-0">
           <mxGeometry x="-0.1616" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
