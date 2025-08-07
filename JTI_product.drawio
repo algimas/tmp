@@ -2259,7 +2259,7 @@
         <mxCell id="BHgSwumkQWQFD8u2RNnu-0" />
         <mxCell id="BHgSwumkQWQFD8u2RNnu-1" parent="BHgSwumkQWQFD8u2RNnu-0" />
         <mxCell id="BHgSwumkQWQFD8u2RNnu-2" value="&lt;div&gt;cmdb_consumable_product_model&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;u_market (GCC column)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;u_sub_brand (GCC column)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: transparent;&quot;&gt;u_level1_product – sys_id of the top-level ancestor&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(255, 0, 0);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;u_level2_product – sys_id of the 2nd-level ancestor&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;u_level3_product – sys_id of the 3rd-level ancestor&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;u_hierarchy_level – integer (1 = top, 2 = child, 3 = grandchild, …)&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="BHgSwumkQWQFD8u2RNnu-1" vertex="1">
-          <mxGeometry x="351" y="-1517" width="250" height="107" as="geometry" />
+          <mxGeometry x="245" y="-1517" width="356" height="155" as="geometry" />
         </mxCell>
         <mxCell id="BHgSwumkQWQFD8u2RNnu-5" value="cmdb_model&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;u_parent&lt;/b&gt; (new column: self reference)&lt;/font&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="BHgSwumkQWQFD8u2RNnu-1" vertex="1">
           <mxGeometry x="704" y="-1516" width="304" height="72" as="geometry" />
@@ -2293,7 +2293,7 @@
           <mxGeometry x="862" y="-1340" width="176" height="79" as="geometry" />
         </mxCell>
         <mxCell id="BHgSwumkQWQFD8u2RNnu-20" value="Data &lt;br&gt;&lt;div&gt;exported&lt;/div&gt;&lt;div&gt;from GCC&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="BHgSwumkQWQFD8u2RNnu-1" vertex="1">
-          <mxGeometry x="84" y="-1610" width="89" height="55" as="geometry" />
+          <mxGeometry x="120" y="-1572" width="89" height="55" as="geometry" />
         </mxCell>
         <mxCell id="BHgSwumkQWQFD8u2RNnu-21" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" parent="BHgSwumkQWQFD8u2RNnu-1" source="BHgSwumkQWQFD8u2RNnu-2" target="BHgSwumkQWQFD8u2RNnu-20" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -2349,21 +2349,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QAEPwLA6rSNq-0BDDQD3-1" value="u_parent" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QAEPwLA6rSNq-0BDDQD3-0">
-          <mxGeometry x="-0.1616" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QAEPwLA6rSNq-0BDDQD3-2" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="BHgSwumkQWQFD8u2RNnu-1" source="BHgSwumkQWQFD8u2RNnu-2" target="BHgSwumkQWQFD8u2RNnu-2">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="937" y="-1500" as="sourcePoint" />
-            <mxPoint x="991" y="-1500" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="411" y="-1549" />
-              <mxPoint x="543" y="-1549" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QAEPwLA6rSNq-0BDDQD3-3" value="u_top_product" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QAEPwLA6rSNq-0BDDQD3-2">
           <mxGeometry x="-0.1616" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
