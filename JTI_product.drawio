@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6" pages="11">
   <diagram name="conceptV0" id="0_d2-0QWLJCPwaN1BvL7">
     <mxGraphModel dx="1033" dy="3152" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2254,7 +2254,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="parentProduct" id="W8yu_a4n5wBhyjvwb6gU">
-    <mxGraphModel dx="1228" dy="2817" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="BHgSwumkQWQFD8u2RNnu-0" />
         <mxCell id="BHgSwumkQWQFD8u2RNnu-1" parent="BHgSwumkQWQFD8u2RNnu-0" />
@@ -2352,6 +2352,26 @@
           <mxGeometry x="-0.1616" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="department" id="Pzjh7akhBjAjjfllO6Kh">
+    <mxGraphModel dx="1265" dy="2817" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0mSkyb82sx0hSz-hQ031-0" />
+        <mxCell id="0mSkyb82sx0hSz-hQ031-1" parent="0mSkyb82sx0hSz-hQ031-0" />
+        <mxCell id="0mSkyb82sx0hSz-hQ031-9" value="&lt;div&gt;cmn_department&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="0mSkyb82sx0hSz-hQ031-1">
+          <mxGeometry x="397" y="-1374" width="176" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="0mSkyb82sx0hSz-hQ031-12" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="0mSkyb82sx0hSz-hQ031-1" source="gZGRMQnZujrrIVGiJPOI-0" target="0mSkyb82sx0hSz-hQ031-9">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="874.8523676880222" y="-1444" as="sourcePoint" />
+            <mxPoint x="803" y="-1322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZGRMQnZujrrIVGiJPOI-0" value="&lt;div&gt;business_unit&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="0mSkyb82sx0hSz-hQ031-1">
+          <mxGeometry x="666" y="-1568" width="176" height="79" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
