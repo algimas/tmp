@@ -26,10 +26,10 @@
           <mxGeometry x="457" y="412" width="211" height="63" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-7" value="&lt;div&gt;Enterprise agile calendar entry&lt;/div&gt;sn_apw_advanced_eap_calendar_span" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="679" y="560" width="238" height="55" as="geometry" />
+          <mxGeometry x="710" y="632" width="238" height="55" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-8" value="&lt;div&gt;Business calendar entry&lt;/div&gt;business_calendar_span" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="948" y="484" width="172" height="53" as="geometry" />
+          <mxGeometry x="1004" y="634" width="172" height="53" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-9" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="hy2QDzCqtzv86f-rD2Z0-8" target="hy2QDzCqtzv86f-rD2Z0-7" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -285,7 +285,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KYZBzOiVd4x93WxxePfa-5" value="&lt;div&gt;Business Calendar Entry Name&lt;/div&gt;business_calendar_span_name" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="947" y="561" width="172" height="53" as="geometry" />
+          <mxGeometry x="1003" y="718" width="172" height="53" as="geometry" />
         </mxCell>
         <mxCell id="KYZBzOiVd4x93WxxePfa-6" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" edge="1" parent="1" source="KYZBzOiVd4x93WxxePfa-5" target="hy2QDzCqtzv86f-rD2Z0-7">
           <mxGeometry relative="1" as="geometry">
@@ -294,12 +294,26 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KYZBzOiVd4x93WxxePfa-7" value="&lt;div&gt;Business Calendar&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;business_calendar&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="949" y="634" width="172" height="53" as="geometry" />
+          <mxGeometry x="1007" y="542" width="172" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="KYZBzOiVd4x93WxxePfa-8" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" edge="1" parent="1" source="KYZBzOiVd4x93WxxePfa-7" target="hy2QDzCqtzv86f-rD2Z0-7">
+        <mxCell id="KYZBzOiVd4x93WxxePfa-8" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" edge="1" parent="1" source="KYZBzOiVd4x93WxxePfa-9" target="hy2QDzCqtzv86f-rD2Z0-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="953" y="582" as="sourcePoint" />
             <mxPoint x="923" y="582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KYZBzOiVd4x93WxxePfa-9" value="&lt;div&gt;Enterprise agile calendar&lt;/div&gt;sn_apw_advanced_eap_calendar" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="710" y="545" width="238" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KYZBzOiVd4x93WxxePfa-10" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KYZBzOiVd4x93WxxePfa-7" target="KYZBzOiVd4x93WxxePfa-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1048" y="361" as="sourcePoint" />
+            <mxPoint x="967" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KYZBzOiVd4x93WxxePfa-11" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KYZBzOiVd4x93WxxePfa-10">
+          <mxGeometry x="0.0817" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
