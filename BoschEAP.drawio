@@ -8,7 +8,7 @@
           <mxGeometry x="472" y="819" width="177" height="59" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-2" value="Enterprise agile planning item sn_align_core_eap_planning_item" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="111" y="614" width="189" height="58" as="geometry" />
+          <mxGeometry x="103" y="614" width="189" height="58" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-3" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" parent="1" source="hy2QDzCqtzv86f-rD2Z0-5" target="hy2QDzCqtzv86f-rD2Z0-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -84,7 +84,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-17" value="rm_epic" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#e1d5e7;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="111" y="1045" width="177" height="51" as="geometry" />
+          <mxGeometry x="109" y="1045" width="177" height="51" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-18" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" parent="1" source="hy2QDzCqtzv86f-rD2Z0-17" target="hy2QDzCqtzv86f-rD2Z0-4" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -340,9 +340,6 @@
             <mxPoint x="654" y="237" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KYZBzOiVd4x93WxxePfa-21" value="&lt;b&gt;Board Webhook:&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;id = 7&lt;br&gt;name = ITP board&lt;br&gt;type = scrum&lt;br&gt;projectKey = ITP&lt;br&gt;displayName = IGPM - Test project (ITP)&lt;br&gt;isPrivate = false&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;html=1;textShadow=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="921" y="143" width="311" height="169" as="geometry" />
-        </mxCell>
         <mxCell id="KYZBzOiVd4x93WxxePfa-25" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;rounded=0;endSize=8;startSize=8;startArrow=block;startFill=1;" edge="1" parent="1" source="hy2QDzCqtzv86f-rD2Z0-4" target="KYZBzOiVd4x93WxxePfa-24">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="987" y="1098" as="sourcePoint" />
@@ -355,6 +352,14 @@
         <mxCell id="KYZBzOiVd4x93WxxePfa-27" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="KYZBzOiVd4x93WxxePfa-26" parent="1" source="hy2QDzCqtzv86f-rD2Z0-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1091" y="759" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KYZBzOiVd4x93WxxePfa-28" value="&lt;div&gt;&lt;b&gt;Board Webhook:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;id = 7&lt;/div&gt;&lt;div&gt;name = ITP board&lt;/div&gt;&lt;div&gt;type = scrum&lt;/div&gt;&lt;div&gt;projectKey = ITP&lt;/div&gt;&lt;div&gt;displayName = IGPM&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1047" y="23" width="153" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="KYZBzOiVd4x93WxxePfa-29" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="1" target="KYZBzOiVd4x93WxxePfa-28" source="hy2QDzCqtzv86f-rD2Z0-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1234" y="164" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
