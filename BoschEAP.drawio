@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="Page-1" id="IhMQIxFYWQhUG57-XFcb">
-    <mxGraphModel dx="1592" dy="1240" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1976" dy="1240" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,7 +120,7 @@
           <mxGeometry x="28" y="54" width="214" height="1045" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-26" value="Board" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="hy2QDzCqtzv86f-rD2Z0-24" vertex="1">
-          <mxGeometry x="46" y="76" width="177" height="50" as="geometry" />
+          <mxGeometry x="53" y="143" width="177" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-27" value="Sprint" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" parent="hy2QDzCqtzv86f-rD2Z0-24" vertex="1">
           <mxGeometry x="51" y="787" width="177" height="50" as="geometry" />
@@ -146,7 +146,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-31" value="User Group&lt;div&gt;sys_user_group&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="160" y="283" width="211" height="45" as="geometry" />
+          <mxGeometry x="160" y="289" width="211" height="45" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-32" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" parent="1" source="hy2QDzCqtzv86f-rD2Z0-31" target="hy2QDzCqtzv86f-rD2Z0-28" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -184,7 +184,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-40" value="Board&lt;div&gt;sn_jira_int_board&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="613" y="117" width="177" height="52" as="geometry" />
+          <mxGeometry x="804" y="149" width="181" height="52" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-41" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;rounded=0;" parent="1" source="hy2QDzCqtzv86f-rD2Z0-26" target="hy2QDzCqtzv86f-rD2Z0-40" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -207,12 +207,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-45" value="Jira Project&lt;div&gt;sn_jira_int_project&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="365" y="115" width="177" height="52" as="geometry" />
+          <mxGeometry x="343" y="103" width="177" height="52" as="geometry" />
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-46" value="Team Integration Settings&lt;br&gt;&lt;div&gt;sn_agile_jira_int_import_settings&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="469" y="199" width="186" height="52" as="geometry" />
+          <mxGeometry x="164" y="195" width="208" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="hy2QDzCqtzv86f-rD2Z0-47" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" parent="1" source="hy2QDzCqtzv86f-rD2Z0-40" target="hy2QDzCqtzv86f-rD2Z0-46" edge="1">
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-47" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" parent="1" source="hy2QDzCqtzv86f-rD2Z0-40" target="KYZBzOiVd4x93WxxePfa-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="523" y="-215" as="sourcePoint" />
             <mxPoint x="339" y="-215" as="targetPoint" />
@@ -236,30 +236,10 @@
             <mxPoint x="737" y="868" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hy2QDzCqtzv86f-rD2Z0-53" value="m2m_Board_Team" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="627" y="276" width="148" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="hy2QDzCqtzv86f-rD2Z0-54" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" parent="1" source="hy2QDzCqtzv86f-rD2Z0-31" target="hy2QDzCqtzv86f-rD2Z0-53" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="341" y="40" as="sourcePoint" />
-            <mxPoint x="574" y="110" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hy2QDzCqtzv86f-rD2Z0-56" value="&lt;font style=&quot;color: rgb(234, 107, 102); font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;?&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hy2QDzCqtzv86f-rD2Z0-54" vertex="1" connectable="0">
-          <mxGeometry x="0.2025" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hy2QDzCqtzv86f-rD2Z0-55" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" parent="1" source="hy2QDzCqtzv86f-rD2Z0-40" target="hy2QDzCqtzv86f-rD2Z0-53" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="334" y="60" as="sourcePoint" />
-            <mxPoint x="877" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hy2QDzCqtzv86f-rD2Z0-57" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" parent="1" source="hy2QDzCqtzv86f-rD2Z0-6" target="hy2QDzCqtzv86f-rD2Z0-53" edge="1">
+        <mxCell id="hy2QDzCqtzv86f-rD2Z0-57" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" parent="1" source="hy2QDzCqtzv86f-rD2Z0-28" target="hy2QDzCqtzv86f-rD2Z0-40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="681" y="329" as="sourcePoint" />
-            <mxPoint x="1057" y="329" as="targetPoint" />
+            <mxPoint x="675.5512367491165" y="328" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hy2QDzCqtzv86f-rD2Z0-58" value="&lt;font style=&quot;color: rgb(234, 107, 102); font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;?&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hy2QDzCqtzv86f-rD2Z0-57" vertex="1" connectable="0">
@@ -363,7 +343,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KYZBzOiVd4x93WxxePfa-30" value="Jira Component&lt;div&gt;u_bbm_jira_component&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="160" y="196" width="208" height="52" as="geometry" />
+          <mxGeometry x="476" y="194" width="175" height="52" as="geometry" />
         </mxCell>
         <mxCell id="KYZBzOiVd4x93WxxePfa-31" style="html=1;dashed=1;labelBackgroundColor=none;startArrow=none;endArrow=ERzeroToMany;fontFamily=Verdana;fontSize=12;align=left;startFill=0;endFill=0;" edge="1" parent="1" source="hy2QDzCqtzv86f-rD2Z0-31" target="KYZBzOiVd4x93WxxePfa-30">
           <mxGeometry relative="1" as="geometry">
