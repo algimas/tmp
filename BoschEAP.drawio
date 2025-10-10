@@ -371,7 +371,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="h8jjmB4YTBV6k2UKhyvp" name="Page-2">
-    <mxGraphModel dx="1506" dy="1240" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1819" dy="1240" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -416,8 +416,8 @@
             <mxPoint x="1157" y="768.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n3bD4vTialIsHXjc-WZ0-13" value="Sys Job&lt;div&gt;Daily&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="69" y="104" width="135" height="57" as="geometry" />
+        <mxCell id="n3bD4vTialIsHXjc-WZ0-13" value="Sys Job&lt;div&gt;Daily: &amp;lt;todo&amp;gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="61" y="184" width="135" height="57" as="geometry" />
         </mxCell>
         <mxCell id="93oO7sfrkML8BXN3FdFC-2" value="Initiate" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="230" y="97" width="220" height="147" as="geometry" />
@@ -426,10 +426,34 @@
           <mxGeometry x="267" y="147" width="149" height="63" as="geometry" />
         </mxCell>
         <mxCell id="93oO7sfrkML8BXN3FdFC-4" value="Process" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="501" y="94" width="441" height="439" as="geometry" />
+          <mxGeometry x="501" y="94" width="676" height="439" as="geometry" />
         </mxCell>
         <mxCell id="93oO7sfrkML8BXN3FdFC-5" value="Flow: &amp;lt;BBM Sync Jira issues&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#82b366;verticalAlign=top;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="533" y="124" width="362" height="379" as="geometry" />
+          <mxGeometry x="533" y="124" width="276" height="379" as="geometry" />
+        </mxCell>
+        <mxCell id="93oO7sfrkML8BXN3FdFC-6" value="UI Action:&amp;nbsp;&lt;div&gt;&amp;lt;Sync Issues&amp;gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="63" y="97" width="135" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="93oO7sfrkML8BXN3FdFC-7" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;fontStyle=0" edge="1" parent="1" source="93oO7sfrkML8BXN3FdFC-6" target="93oO7sfrkML8BXN3FdFC-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="763" as="sourcePoint" />
+            <mxPoint x="843" y="763" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93oO7sfrkML8BXN3FdFC-8" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;fontStyle=0" edge="1" parent="1" source="n3bD4vTialIsHXjc-WZ0-13" target="93oO7sfrkML8BXN3FdFC-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="217" y="328" as="sourcePoint" />
+            <mxPoint x="249" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93oO7sfrkML8BXN3FdFC-9" value="" style="html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;rounded=0;fontSize=12;fontStyle=0" edge="1" parent="1" source="93oO7sfrkML8BXN3FdFC-2" target="93oO7sfrkML8BXN3FdFC-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1115" y="765" as="sourcePoint" />
+            <mxPoint x="1307" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93oO7sfrkML8BXN3FdFC-10" value="SI: &amp;lt;BBM Sync Jira issues&amp;gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=comp;archiType=rounded;strokeColor=#82b366;verticalAlign=top;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="861" y="124" width="276" height="379" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
