@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:144.0) Gecko/20100101 Firefox/144.0" version="28.2.8">
   <diagram name="Page-1" id="7Vo21uNZuGXs3A1Jq9vq">
-    <mxGraphModel dx="1480" dy="1175" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1518" dy="1175" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MiZWgEqO4rMB6_VkRUwK-1" value="&lt;div&gt;sys_user&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="29" y="335" width="140" height="53" as="geometry" />
+        <mxCell id="MiZWgEqO4rMB6_VkRUwK-1" value="&lt;div&gt;sys_user&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="133" y="514" width="140" height="53" as="geometry" />
         </mxCell>
         <mxCell id="MiZWgEqO4rMB6_VkRUwK-2" value="" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fontStyle=1;strokeWidth=2;" edge="1" parent="1" source="MiZWgEqO4rMB6_VkRUwK-1" target="MiZWgEqO4rMB6_VkRUwK-7">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -34,11 +34,8 @@
         <mxCell id="MiZWgEqO4rMB6_VkRUwK-7" value="&lt;div&gt;sn_employee_profile&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Primary Group&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Primary Role&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Primary Skill&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="387" y="499" width="140" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="MiZWgEqO4rMB6_VkRUwK-8" value="&lt;div&gt;resource_role&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Architect&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="666" y="336.5" width="140" height="69.5" as="geometry" />
-        </mxCell>
-        <mxCell id="MiZWgEqO4rMB6_VkRUwK-9" value="sn_hr_core_profile" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="30" y="512" width="140" height="50" as="geometry" />
+        <mxCell id="MiZWgEqO4rMB6_VkRUwK-8" value="&lt;div&gt;resource_role&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="666" y="336.5" width="140" height="50.5" as="geometry" />
         </mxCell>
         <mxCell id="MiZWgEqO4rMB6_VkRUwK-10" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="MiZWgEqO4rMB6_VkRUwK-8" target="MiZWgEqO4rMB6_VkRUwK-7">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -122,7 +119,7 @@
           <mxGeometry x="644" y="94" width="150" height="44" as="geometry" />
         </mxCell>
         <mxCell id="MiZWgEqO4rMB6_VkRUwK-28" value="&lt;div&gt;SI: &lt;br&gt;&lt;/div&gt;&lt;div&gt;ResourceProfileServiceSNC&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.application;appType=comp;archiType=square;strokeColor=#d6b656;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="423" y="63" width="187" height="45" as="geometry" />
+          <mxGeometry x="841" y="55" width="187" height="45" as="geometry" />
         </mxCell>
         <mxCell id="MiZWgEqO4rMB6_VkRUwK-29" value="" style="html=1;endArrow=open;elbow=horizontal;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="1" source="MiZWgEqO4rMB6_VkRUwK-19" target="MiZWgEqO4rMB6_VkRUwK-27">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -134,18 +131,6 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="739" y="184" as="sourcePoint" />
             <mxPoint x="708" y="127" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MiZWgEqO4rMB6_VkRUwK-31" value="" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fontStyle=1;strokeWidth=2;" edge="1" parent="1" source="MiZWgEqO4rMB6_VkRUwK-9" target="MiZWgEqO4rMB6_VkRUwK-7">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="102" y="547" as="sourcePoint" />
-            <mxPoint x="337" y="665" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MiZWgEqO4rMB6_VkRUwK-32" value="" style="fontSize=12;html=1;endArrow=ERzeroToOne;endFill=0;rounded=0;fontStyle=1;strokeWidth=2;" edge="1" parent="1" source="MiZWgEqO4rMB6_VkRUwK-1" target="MiZWgEqO4rMB6_VkRUwK-9">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="226" y="601" as="sourcePoint" />
-            <mxPoint x="461" y="719" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
