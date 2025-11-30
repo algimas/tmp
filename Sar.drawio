@@ -490,203 +490,203 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dDBRAcFYYuXY8Oyu08HM" name="seg01">
-    <mxGraphModel dx="2284" dy="2187" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="2529" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-5" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;resource_allocation&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;resource_plan.top_task.&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="417" y="173" width="180" height="50" as="geometry" />
+          <mxGeometry x="405" y="-285" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-6" value="pm_portfolio_goal" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="45" y="-508" width="160" height="50" as="geometry" />
+          <mxGeometry x="29" y="-860" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-7" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-18" target="TkKUWGPDg_0XMoD1SL2g-6">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="509" y="322" as="sourcePoint" />
-            <mxPoint x="-236" y="461" as="targetPoint" />
+            <mxPoint x="493" y="-30" as="sourcePoint" />
+            <mxPoint x="-252" y="109" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-8" value="pm_project" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="548" y="-489" width="160" height="50" as="geometry" />
+          <mxGeometry x="532" y="-841" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-9" value="project_template" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="53" y="-158" width="160" height="50" as="geometry" />
+          <mxGeometry x="37" y="-510" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-10" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-8" target="TkKUWGPDg_0XMoD1SL2g-9">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="307" y="698" as="sourcePoint" />
-            <mxPoint x="262" y="686" as="targetPoint" />
+            <mxPoint x="291" y="346" as="sourcePoint" />
+            <mxPoint x="246" y="334" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-11" value="dmn_demand" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="710" y="213" width="160" height="50" as="geometry" />
+          <mxGeometry x="698" y="-245" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-12" value="pm_program_task" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1188" y="-67" width="160" height="50" as="geometry" />
+          <mxGeometry x="1172" y="-419" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-13" value="&lt;span&gt;pm_portfolio&lt;/span&gt;&lt;div&gt;ref: business_unit&lt;/div&gt;&lt;div&gt;ref: cmn_department&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="791" y="-805" width="160" height="50" as="geometry" />
+          <mxGeometry x="775" y="-1157" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-14" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-13" target="TkKUWGPDg_0XMoD1SL2g-12">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="998" y="233" as="sourcePoint" />
-            <mxPoint x="953" y="233" as="targetPoint" />
+            <mxPoint x="982" y="-119" as="sourcePoint" />
+            <mxPoint x="937" y="-119" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-15" value="project_status" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="67" y="132" width="160" height="50" as="geometry" />
+          <mxGeometry x="51" y="-220" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-16" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-8" target="TkKUWGPDg_0XMoD1SL2g-15">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="307" y="894" as="sourcePoint" />
-            <mxPoint x="262" y="894" as="targetPoint" />
+            <mxPoint x="291" y="542" as="sourcePoint" />
+            <mxPoint x="246" y="542" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-17" value="pm_portfolio_issue" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="32" y="-359" width="160" height="50" as="geometry" />
+          <mxGeometry x="16" y="-711" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-18" value="pm_portfolio_project" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="332" y="-452" width="160" height="50" as="geometry" />
+          <mxGeometry x="316" y="-804" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-19" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-18" target="TkKUWGPDg_0XMoD1SL2g-17">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="240" y="147.14814814814827" as="sourcePoint" />
-            <mxPoint x="416" y="-217" as="targetPoint" />
+            <mxPoint x="224" y="-204.85185185185173" as="sourcePoint" />
+            <mxPoint x="400" y="-569" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-20" value="pm_project_task" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1388" y="-331" width="160" height="50" as="geometry" />
+          <mxGeometry x="1372" y="-683" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-21" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-8" target="TkKUWGPDg_0XMoD1SL2g-18">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="888" y="234" as="sourcePoint" />
-            <mxPoint x="527" y="303" as="targetPoint" />
+            <mxPoint x="872" y="-118" as="sourcePoint" />
+            <mxPoint x="511" y="-49" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-22" value="dmn_demand_task" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="757" y="388" width="160" height="50" as="geometry" />
+          <mxGeometry x="745" y="-70" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-23" value="parent" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-11" target="TkKUWGPDg_0XMoD1SL2g-22">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1076" y="167" as="sourcePoint" />
-            <mxPoint x="1076" y="209" as="targetPoint" />
+            <mxPoint x="1064" y="-291" as="sourcePoint" />
+            <mxPoint x="1064" y="-249" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-24" value="project_template_task" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="49" y="-50" width="160" height="50" as="geometry" />
+          <mxGeometry x="33" y="-402" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-25" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-9" target="TkKUWGPDg_0XMoD1SL2g-24">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="724" y="307" as="sourcePoint" />
-            <mxPoint x="264" y="364" as="targetPoint" />
+            <mxPoint x="708" y="-45" as="sourcePoint" />
+            <mxPoint x="248" y="12" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-26" value="idea" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="994" y="296" width="160" height="50" as="geometry" />
+          <mxGeometry x="982" y="-162" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-27" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-26" target="TkKUWGPDg_0XMoD1SL2g-11">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1396" y="38" as="sourcePoint" />
-            <mxPoint x="1396" y="80" as="targetPoint" />
+            <mxPoint x="1384" y="-420" as="sourcePoint" />
+            <mxPoint x="1384" y="-378" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-28" value="dmn_stakeholder_register" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="505" y="272" width="160" height="50" as="geometry" />
+          <mxGeometry x="493" y="-186" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-29" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-13" target="TkKUWGPDg_0XMoD1SL2g-28">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1112" y="154" as="sourcePoint" />
-            <mxPoint x="1112" y="196" as="targetPoint" />
+            <mxPoint x="1096" y="-198" as="sourcePoint" />
+            <mxPoint x="1096" y="-156" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-32" value="pm_program" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="-619" width="160" height="50" as="geometry" />
+          <mxGeometry x="1234" y="-971" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-33" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-13" target="TkKUWGPDg_0XMoD1SL2g-32">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="828" y="1064" as="sourcePoint" />
-            <mxPoint x="717" y="1148" as="targetPoint" />
+            <mxPoint x="812" y="712" as="sourcePoint" />
+            <mxPoint x="701" y="796" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-34" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-32" target="TkKUWGPDg_0XMoD1SL2g-8">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="883" y="988" as="sourcePoint" />
-            <mxPoint x="903" y="826" as="targetPoint" />
+            <mxPoint x="867" y="636" as="sourcePoint" />
+            <mxPoint x="887" y="474" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-35" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-11" target="TkKUWGPDg_0XMoD1SL2g-8">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="538" y="587" as="sourcePoint" />
-            <mxPoint x="490" y="616" as="targetPoint" />
+            <mxPoint x="522" y="235" as="sourcePoint" />
+            <mxPoint x="474" y="264" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-36" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-32" target="TkKUWGPDg_0XMoD1SL2g-11">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="996" y="430" as="sourcePoint" />
-            <mxPoint x="909" y="431" as="targetPoint" />
+            <mxPoint x="980" y="78" as="sourcePoint" />
+            <mxPoint x="893" y="79" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-37" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-13" target="TkKUWGPDg_0XMoD1SL2g-11">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1006" y="440" as="sourcePoint" />
-            <mxPoint x="919" y="441" as="targetPoint" />
+            <mxPoint x="990" y="88" as="sourcePoint" />
+            <mxPoint x="903" y="89" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-38" value="goal" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="102" y="-598" width="160" height="50" as="geometry" />
+          <mxGeometry x="86" y="-950" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-39" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-38" target="TkKUWGPDg_0XMoD1SL2g-11">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="817" y="408" as="sourcePoint" />
-            <mxPoint x="756" y="274" as="targetPoint" />
+            <mxPoint x="801" y="56" as="sourcePoint" />
+            <mxPoint x="740" y="-78" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-40" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-38" target="TkKUWGPDg_0XMoD1SL2g-6">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="827" y="418" as="sourcePoint" />
-            <mxPoint x="766" y="284" as="targetPoint" />
+            <mxPoint x="811" y="66" as="sourcePoint" />
+            <mxPoint x="750" y="-68" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-41" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-38" target="TkKUWGPDg_0XMoD1SL2g-32">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="837" y="428" as="sourcePoint" />
-            <mxPoint x="776" y="294" as="targetPoint" />
+            <mxPoint x="821" y="76" as="sourcePoint" />
+            <mxPoint x="760" y="-58" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-42" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-38" target="TkKUWGPDg_0XMoD1SL2g-8">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="847" y="438" as="sourcePoint" />
-            <mxPoint x="786" y="304" as="targetPoint" />
+            <mxPoint x="831" y="86" as="sourcePoint" />
+            <mxPoint x="770" y="-48" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-43" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-13" target="TkKUWGPDg_0XMoD1SL2g-38">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="933" y="37" as="sourcePoint" />
-            <mxPoint x="1034" y="322" as="targetPoint" />
+            <mxPoint x="917" y="-315" as="sourcePoint" />
+            <mxPoint x="1018" y="-30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-44" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-13" target="TkKUWGPDg_0XMoD1SL2g-26">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1371" y="219" as="sourcePoint" />
-            <mxPoint x="916" y="602" as="targetPoint" />
+            <mxPoint x="1355" y="-133" as="sourcePoint" />
+            <mxPoint x="900" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-45" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-13" target="TkKUWGPDg_0XMoD1SL2g-20">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1404" y="219" as="sourcePoint" />
-            <mxPoint x="1427" y="445" as="targetPoint" />
+            <mxPoint x="1388" y="-133" as="sourcePoint" />
+            <mxPoint x="1411" y="93" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-46" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-32" target="TkKUWGPDg_0XMoD1SL2g-20">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1414" y="229" as="sourcePoint" />
-            <mxPoint x="1437" y="455" as="targetPoint" />
+            <mxPoint x="1398" y="-123" as="sourcePoint" />
+            <mxPoint x="1421" y="103" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-47" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-8" target="TkKUWGPDg_0XMoD1SL2g-20">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1064" y="326" as="sourcePoint" />
-            <mxPoint x="1351" y="683" as="targetPoint" />
+            <mxPoint x="1048" y="-26" as="sourcePoint" />
+            <mxPoint x="1335" y="331" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-48" value="parent" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TkKUWGPDg_0XMoD1SL2g-47">
@@ -696,159 +696,159 @@
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-49" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-32" target="TkKUWGPDg_0XMoD1SL2g-12">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1423" y="219" as="sourcePoint" />
-            <mxPoint x="1504" y="311" as="targetPoint" />
+            <mxPoint x="1407" y="-133" as="sourcePoint" />
+            <mxPoint x="1488" y="-41" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-50" value="cost_plan" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;fontStyle=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1246" y="-212" width="160" height="50" as="geometry" />
+          <mxGeometry x="1230" y="-564" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-51" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-13" target="TkKUWGPDg_0XMoD1SL2g-50">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1335" y="169" as="sourcePoint" />
-            <mxPoint x="990" y="37" as="targetPoint" />
+            <mxPoint x="1319" y="-183" as="sourcePoint" />
+            <mxPoint x="974" y="-315" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-52" value="&lt;div&gt;risk&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;top_task.&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1058" y="-216" width="160" height="50" as="geometry" />
+          <mxGeometry x="1042" y="-568" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-53" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-13" target="TkKUWGPDg_0XMoD1SL2g-52">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1416" y="169" as="sourcePoint" />
-            <mxPoint x="1465" y="89" as="targetPoint" />
+            <mxPoint x="1400" y="-183" as="sourcePoint" />
+            <mxPoint x="1449" y="-263" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-54" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-13" target="TkKUWGPDg_0XMoD1SL2g-8">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1426" y="179" as="sourcePoint" />
-            <mxPoint x="1475" y="99" as="targetPoint" />
+            <mxPoint x="1410" y="-173" as="sourcePoint" />
+            <mxPoint x="1459" y="-253" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-55" value="&lt;div&gt;issue&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;top_task.&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="838" y="-226" width="160" height="50" as="geometry" />
+          <mxGeometry x="822" y="-578" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-56" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-13" target="TkKUWGPDg_0XMoD1SL2g-55">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1408" y="191" as="sourcePoint" />
-            <mxPoint x="1362" y="13" as="targetPoint" />
+            <mxPoint x="1392" y="-161" as="sourcePoint" />
+            <mxPoint x="1346" y="-339" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-57" value="dmn_m2m_demand_stakeholder" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="505" y="392" width="200" height="50" as="geometry" />
+          <mxGeometry x="493" y="-66" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-58" value="&lt;div&gt;pm_m2m_project_stakeholder&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;project.top_task.&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="241" y="294" width="200" height="50" as="geometry" />
+          <mxGeometry x="229" y="-164" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-59" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-28" target="TkKUWGPDg_0XMoD1SL2g-57">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="620" y="538" as="sourcePoint" />
-            <mxPoint x="611" y="331" as="targetPoint" />
+            <mxPoint x="608" y="80" as="sourcePoint" />
+            <mxPoint x="599" y="-127" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-60" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-28" target="TkKUWGPDg_0XMoD1SL2g-58">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1566" y="-181" as="sourcePoint" />
-            <mxPoint x="621" y="341" as="targetPoint" />
+            <mxPoint x="1554" y="-639" as="sourcePoint" />
+            <mxPoint x="609" y="-117" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-61" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-11" target="TkKUWGPDg_0XMoD1SL2g-57">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="555" y="381" as="sourcePoint" />
-            <mxPoint x="537" y="421" as="targetPoint" />
+            <mxPoint x="543" y="-77" as="sourcePoint" />
+            <mxPoint x="525" y="-37" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-62" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-8" target="TkKUWGPDg_0XMoD1SL2g-58">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="378" y="823" as="sourcePoint" />
-            <mxPoint x="360" y="863" as="targetPoint" />
+            <mxPoint x="362" y="471" as="sourcePoint" />
+            <mxPoint x="344" y="511" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-63" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-32" target="TkKUWGPDg_0XMoD1SL2g-50">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1425" y="191" as="sourcePoint" />
-            <mxPoint x="1469" y="89" as="targetPoint" />
+            <mxPoint x="1409" y="-161" as="sourcePoint" />
+            <mxPoint x="1453" y="-263" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-64" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-32" target="TkKUWGPDg_0XMoD1SL2g-52">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1049" y="182" as="sourcePoint" />
-            <mxPoint x="1400" y="86" as="targetPoint" />
+            <mxPoint x="1033" y="-170" as="sourcePoint" />
+            <mxPoint x="1384" y="-266" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-65" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-32" target="TkKUWGPDg_0XMoD1SL2g-55">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1059" y="192" as="sourcePoint" />
-            <mxPoint x="1410" y="96" as="targetPoint" />
+            <mxPoint x="1043" y="-160" as="sourcePoint" />
+            <mxPoint x="1394" y="-256" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-73" value="fm_expense_line" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1498" y="-220" width="160" height="50" as="geometry" />
+          <mxGeometry x="1482" y="-572" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-74" value="cost_plan_breakdown" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1502" y="-66" width="160" height="50" as="geometry" />
+          <mxGeometry x="1486" y="-418" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-75" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-50" target="TkKUWGPDg_0XMoD1SL2g-73">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1418" y="191" as="sourcePoint" />
-            <mxPoint x="1480" y="-156" as="targetPoint" />
+            <mxPoint x="1402" y="-161" as="sourcePoint" />
+            <mxPoint x="1464" y="-508" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-76" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-50" target="TkKUWGPDg_0XMoD1SL2g-74">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1428" y="201" as="sourcePoint" />
-            <mxPoint x="1490" y="-146" as="targetPoint" />
+            <mxPoint x="1412" y="-151" as="sourcePoint" />
+            <mxPoint x="1474" y="-498" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-83" value="resource_plan" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="572" y="-68" width="160" height="50" as="geometry" />
+          <mxGeometry x="636" y="-488" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-84" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-83" target="TkKUWGPDg_0XMoD1SL2g-50">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="995" y="179" as="sourcePoint" />
-            <mxPoint x="1353" y="-160" as="targetPoint" />
+            <mxPoint x="979" y="-173" as="sourcePoint" />
+            <mxPoint x="1337" y="-512" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-87" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-32" target="TkKUWGPDg_0XMoD1SL2g-83">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1334" y="214" as="sourcePoint" />
-            <mxPoint x="1049" y="206" as="targetPoint" />
+            <mxPoint x="1318" y="-138" as="sourcePoint" />
+            <mxPoint x="1033" y="-146" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-88" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-13" target="TkKUWGPDg_0XMoD1SL2g-83">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1344" y="224" as="sourcePoint" />
-            <mxPoint x="1059" y="216" as="targetPoint" />
+            <mxPoint x="1328" y="-128" as="sourcePoint" />
+            <mxPoint x="1043" y="-136" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-102" value="program_status" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f8cecc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1457" y="-568" width="160" height="50" as="geometry" />
+          <mxGeometry x="1441" y="-920" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-103" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-32" target="TkKUWGPDg_0XMoD1SL2g-102">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="408" y="496" as="sourcePoint" />
-            <mxPoint x="178" y="606" as="targetPoint" />
+            <mxPoint x="392" y="144" as="sourcePoint" />
+            <mxPoint x="162" y="254" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-109" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;project_action&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;parent&lt;/span&gt;.&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="534" y="-237" width="160" height="50" as="geometry" />
+          <mxGeometry x="512" y="-585" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-110" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-8" target="TkKUWGPDg_0XMoD1SL2g-109">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="481" y="466" as="sourcePoint" />
-            <mxPoint x="296" y="421" as="targetPoint" />
+            <mxPoint x="465" y="114" as="sourcePoint" />
+            <mxPoint x="280" y="69" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TkKUWGPDg_0XMoD1SL2g-113" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1" source="TkKUWGPDg_0XMoD1SL2g-83" target="TkKUWGPDg_0XMoD1SL2g-5">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="555" y="3" as="sourcePoint" />
-            <mxPoint x="752" y="225" as="targetPoint" />
+            <mxPoint x="539" y="-349" as="sourcePoint" />
+            <mxPoint x="736" y="-127" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="seg02" id="fU0aDtS2RxrwcQl7vduN">
-    <mxGraphModel dx="1631" dy="971" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1903" dy="1133" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="W0PVgTol7i6xwOBtLo0c-0" />
         <mxCell id="W0PVgTol7i6xwOBtLo0c-1" parent="W0PVgTol7i6xwOBtLo0c-0" />
