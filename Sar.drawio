@@ -1533,20 +1533,20 @@
     </mxGraphModel>
   </diagram>
   <diagram name="BR" id="kxW9cIT1z4ND3qs1Wd0X">
-    <mxGraphModel dx="1631" dy="971" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1586" dy="1153" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="nsnO5klVVcxi0e8GRlrH-0" />
         <mxCell id="nsnO5klVVcxi0e8GRlrH-1" parent="nsnO5klVVcxi0e8GRlrH-0" />
-        <mxCell id="zoodLAoyhguwlhTHHXDA-0" value="&lt;b&gt;Business Rule: Before Insert&lt;br&gt;&lt;/b&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=grouping;archiType=square;dashed=1;fillColor=none;verticalAlign=top;align=left;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+        <mxCell id="zoodLAoyhguwlhTHHXDA-0" value="&lt;b&gt;Business Rule: Before Insert&lt;br&gt;&lt;/b&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=grouping;archiType=square;dashed=1;fillColor=none;verticalAlign=top;align=left;fontSize=17;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="234" y="39" width="833" height="737" as="geometry" />
         </mxCell>
-        <mxCell id="zoodLAoyhguwlhTHHXDA-18" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;strokeColor=#82b366;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+        <mxCell id="zoodLAoyhguwlhTHHXDA-18" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#e1d5e7;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;strokeColor=#9673a6;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="94" y="211" width="26.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zoodLAoyhguwlhTHHXDA-19" value="&lt;div&gt;&lt;b&gt;Decision 2&lt;/b&gt;:&lt;/div&gt;&lt;div&gt;Is Context explicitly provided (e.g., from URL or Form)?&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="475" y="381" width="181" height="124" as="geometry" />
         </mxCell>
-        <mxCell id="zoodLAoyhguwlhTHHXDA-20" value="&lt;div&gt;&lt;b&gt;Decision 3:&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Does the user have&amp;nbsp;&lt;/div&gt;&lt;div&gt;a Context role?&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+        <mxCell id="zoodLAoyhguwlhTHHXDA-20" value="&lt;div&gt;&lt;b&gt;Decision 3:&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Does the user have&amp;nbsp;&lt;/div&gt;&lt;div&gt;a &lt;b&gt;Context&lt;/b&gt; role?&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#e1d5e7;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="696" y="528" width="176" height="122" as="geometry" />
         </mxCell>
         <mxCell id="zoodLAoyhguwlhTHHXDA-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="nsnO5klVVcxi0e8GRlrH-1" source="zoodLAoyhguwlhTHHXDA-19">
@@ -1599,31 +1599,31 @@
             <mxPoint x="647" y="471" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zoodLAoyhguwlhTHHXDA-30" value="&lt;div&gt;User submits&lt;/div&gt;&lt;div&gt;record creation&amp;nbsp;&lt;/div&gt;&lt;div&gt;e.g.: &lt;b&gt;Demand Task&lt;/b&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+        <mxCell id="zoodLAoyhguwlhTHHXDA-30" value="&lt;div&gt;User submits&lt;/div&gt;&lt;div&gt;record creation&amp;nbsp;&lt;/div&gt;&lt;div&gt;e.g.: &lt;b&gt;Project&amp;nbsp;Task&lt;/b&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="31" y="269" width="160" height="66" as="geometry" />
         </mxCell>
         <mxCell id="zoodLAoyhguwlhTHHXDA-31" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.equipment;strokeColor=#82b366;strokeWidth=3;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="534" y="442" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zoodLAoyhguwlhTHHXDA-32" value="&lt;div&gt;Use provided&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;&lt;b&gt;Context&lt;/b&gt;&quot;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;e.g.: &quot;&lt;b&gt;A&lt;/b&gt;&quot;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.service;strokeColor=#82b366;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+        <mxCell id="zoodLAoyhguwlhTHHXDA-32" value="&lt;div&gt;Use provided&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;&lt;b&gt;Context&lt;/b&gt;&quot; value&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.service;strokeColor=#82b366;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="881" y="225" width="183" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="zoodLAoyhguwlhTHHXDA-33" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.equipment;strokeColor=#6c8ebf;strokeWidth=3;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+        <mxCell id="zoodLAoyhguwlhTHHXDA-33" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#e1d5e7;shape=mxgraph.archimate3.equipment;strokeColor=#9673a6;strokeWidth=3;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="753" y="587" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zoodLAoyhguwlhTHHXDA-34" value="Use the &quot;first&quot; available &lt;b&gt;&quot;Context&quot;&lt;/b&gt; role,&amp;nbsp;&lt;div&gt;e.g.: &quot;&lt;b&gt;B&lt;/b&gt;&quot;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.service;strokeColor=#6c8ebf;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
-          <mxGeometry x="887" y="418" width="183" height="87" as="geometry" />
+        <mxCell id="zoodLAoyhguwlhTHHXDA-34" value="Use the first available &lt;b&gt;&quot;Context&quot;&lt;/b&gt; role and map to &quot;&lt;b&gt;Context Value&lt;/b&gt;&quot; e.g. PURPLE" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#e1d5e7;shape=mxgraph.archimate3.service;strokeColor=#9673a6;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+          <mxGeometry x="887" y="418" width="172" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="zoodLAoyhguwlhTHHXDA-35" value="&lt;div&gt;Use the default &lt;b&gt;&quot;Context&quot;&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;from &lt;b&gt;sys_properties&lt;/b&gt;,&amp;nbsp;&lt;div&gt;e.g.: &quot;&lt;b&gt;X&lt;/b&gt;&quot;&lt;/div&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.service;strokeColor=#6c8ebf;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
-          <mxGeometry x="884" y="676" width="183" height="87" as="geometry" />
+        <mxCell id="zoodLAoyhguwlhTHHXDA-35" value="&lt;div&gt;As an &quot;&lt;b&gt;Else&lt;/b&gt;&quot; exception, use the default &lt;b&gt;&quot;Context&quot; &lt;/b&gt;value&amp;nbsp;&lt;/div&gt;&lt;div&gt;from &lt;b&gt;sys_properties&lt;/b&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.service;strokeColor=#6c8ebf;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+          <mxGeometry x="875" y="676" width="183" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="zoodLAoyhguwlhTHHXDA-36" value="&lt;div&gt;&lt;b&gt;Decision 1:&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Does the Table has a rule to use &lt;b&gt;Context&lt;/b&gt; from &lt;b&gt;Parent&lt;/b&gt;?&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+        <mxCell id="zoodLAoyhguwlhTHHXDA-36" value="&lt;div&gt;&lt;b&gt;Decision 1:&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Does the Table has a rule to use &lt;b&gt;Context&lt;/b&gt; from &lt;b&gt;Parent&lt;/b&gt;&amp;nbsp;table?&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#d6b656;verticalAlign=top;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="253" y="240" width="176" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="zoodLAoyhguwlhTHHXDA-37" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.equipment;strokeColor=#6c8ebf;strokeWidth=3;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+        <mxCell id="zoodLAoyhguwlhTHHXDA-37" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.equipment;strokeColor=#d6b656;strokeWidth=3;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="310" y="299" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zoodLAoyhguwlhTHHXDA-38" value="&lt;div&gt;Use&lt;b&gt; &quot;Context&quot;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;from Parent Table &lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;e.g.: &quot;&lt;b&gt;B&lt;/b&gt;&quot; from &lt;b&gt;Demand&lt;/b&gt; table&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.service;strokeColor=#6c8ebf;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+        <mxCell id="zoodLAoyhguwlhTHHXDA-38" value="&lt;div&gt;Use&lt;b&gt; &quot;Context&quot;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;from Parent Table &lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;e.g.: &quot;&lt;b&gt;YELLOW&lt;/b&gt;&quot; from&amp;nbsp;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Project&lt;/b&gt;&amp;nbsp;table&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.service;strokeColor=#d6b656;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="878" y="69" width="183" height="87" as="geometry" />
         </mxCell>
         <mxCell id="zoodLAoyhguwlhTHHXDA-39" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="nsnO5klVVcxi0e8GRlrH-1" source="zoodLAoyhguwlhTHHXDA-36">
