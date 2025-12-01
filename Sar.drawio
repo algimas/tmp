@@ -10,6 +10,9 @@
         <mxCell id="UXvkGzr4esxgjUgaUEmg-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;SPM Record Access&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;As an SPM User, I want access to SPM records to be automatically controlled by visibility context. If I have the required visibility context role “&lt;b&gt;A&lt;/b&gt;”, then I should be able to access all records whose &lt;b&gt;Visibility Context = A&lt;/b&gt;. Records with other visibility contexts must remain hidden, ensuring proper access control and data separation.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="ngkdgr7mT4ZlOIiruCUl-1">
           <mxGeometry x="151" y="270" width="834" height="161" as="geometry" />
         </mxCell>
+        <mxCell id="UXvkGzr4esxgjUgaUEmg-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;SPM Top Secret Records&lt;/h1&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;As an SPM User with elevated permissions (such as SPM Admin, Project Owner, or Project Manager), I need the ability to control who can access a specific record (e.g. project, program, portfolio) and all of its child records. I should be able to assign an Access User Group to the top record, and this setting must cascade down the entire record hierarchy.&lt;br&gt;This allows me to restrict visibility when needed—for example, marking a project as confidential: I create a temporary user group, add the authorized members, assign the group to the project, and automatically ensure that only users in that group can see the project and all related child records.&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="ngkdgr7mT4ZlOIiruCUl-1">
+          <mxGeometry x="151" y="447" width="834" height="229" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
