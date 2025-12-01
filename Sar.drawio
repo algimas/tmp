@@ -998,7 +998,7 @@
         <mxCell id="aF8vTIKidb7hnHnv5pD_-0" />
         <mxCell id="aF8vTIKidb7hnHnv5pD_-1" parent="aF8vTIKidb7hnHnv5pD_-0" />
         <mxCell id="3rq_zbMCc6grlM_zqQOI-0" value="Project Table" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0;gradientColor=none;shadow=0;fontSize=12;" vertex="1" parent="aF8vTIKidb7hnHnv5pD_-1">
-          <mxGeometry x="459" y="201" width="202" height="283" as="geometry" />
+          <mxGeometry x="459" y="201" width="202" height="341" as="geometry" />
         </mxCell>
         <mxCell id="3rq_zbMCc6grlM_zqQOI-1" value="&lt;div align=&quot;left&quot;&gt;Project name: AAA&lt;br&gt;Project state: Pending&lt;br&gt;Visibility Context: &lt;b&gt;YELLOW&lt;/b&gt;&lt;/div&gt;" style="rounded=0;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacing=3;whiteSpace=wrap;" vertex="1" parent="aF8vTIKidb7hnHnv5pD_-1">
           <mxGeometry x="496.5" y="225" width="127" height="47" as="geometry" />
@@ -1039,14 +1039,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3rq_zbMCc6grlM_zqQOI-10" value="User2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="aF8vTIKidb7hnHnv5pD_-1">
-          <mxGeometry x="353" y="382" width="30" height="60" as="geometry" />
+          <mxGeometry x="350" y="405" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3rq_zbMCc6grlM_zqQOI-11" value="I have GREEN context visibility &lt;b&gt;Role&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="aF8vTIKidb7hnHnv5pD_-1">
-          <mxGeometry x="171" y="331" width="153" height="64" as="geometry" />
+          <mxGeometry x="168" y="354" width="153" height="64" as="geometry" />
         </mxCell>
         <mxCell id="3rq_zbMCc6grlM_zqQOI-12" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="aF8vTIKidb7hnHnv5pD_-1" source="3rq_zbMCc6grlM_zqQOI-10" target="3rq_zbMCc6grlM_zqQOI-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="148" y="400" as="sourcePoint" />
+            <mxPoint x="145" y="423" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3rq_zbMCc6grlM_zqQOI-13" value="&lt;div align=&quot;left&quot;&gt;Project name: DDD&lt;br&gt;Project state: Pending&lt;br&gt;Visibility Context: &lt;b&gt;GREEN&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;align=left;spacing=3;fontStyle=0" vertex="1" parent="aF8vTIKidb7hnHnv5pD_-1">
@@ -1059,7 +1059,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3rq_zbMCc6grlM_zqQOI-15" value="VIP / Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="aF8vTIKidb7hnHnv5pD_-1">
-          <mxGeometry x="732" y="308" width="30" height="60" as="geometry" />
+          <mxGeometry x="742" y="332" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3rq_zbMCc6grlM_zqQOI-16" value="I have all / BLACK context visibility &lt;b&gt;Role/s&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="aF8vTIKidb7hnHnv5pD_-1">
           <mxGeometry x="802" y="254" width="174" height="63" as="geometry" />
@@ -1091,6 +1091,15 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="675" y="416" as="sourcePoint" />
             <mxPoint x="789" y="429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4nqg5kOvUHr3-yk8mNpI-0" value="&lt;div align=&quot;left&quot;&gt;Project name: EEE&lt;br&gt;Project state: Pending&lt;br&gt;Visibility Context:&lt;b&gt;&amp;nbsp;PURPLE&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=left;spacing=3;fontStyle=0" vertex="1" parent="aF8vTIKidb7hnHnv5pD_-1">
+          <mxGeometry x="496" y="477" width="127" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="4nqg5kOvUHr3-yk8mNpI-1" value="" style="html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;" edge="1" parent="aF8vTIKidb7hnHnv5pD_-1" source="3rq_zbMCc6grlM_zqQOI-15" target="4nqg5kOvUHr3-yk8mNpI-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="820" y="514" as="sourcePoint" />
+            <mxPoint x="694" y="579" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
