@@ -102,14 +102,14 @@
     </mxGraphModel>
   </diagram>
   <diagram name="req" id="my4J0jrEkflUZ7J5RC6q">
-    <mxGraphModel dx="1367" dy="1153" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1780" dy="1175" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="ngkdgr7mT4ZlOIiruCUl-0" />
         <mxCell id="ngkdgr7mT4ZlOIiruCUl-1" parent="ngkdgr7mT4ZlOIiruCUl-0" />
         <mxCell id="UXvkGzr4esxgjUgaUEmg-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;SPM Record View&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;As an SPM User, I want all SPM records to automatically open in the correct form view based on their &lt;b&gt;Portfolio Category&lt;/b&gt;. If the record’s category is &lt;b&gt;A&lt;/b&gt;, the system should display the corresponding &lt;b&gt;Category A Form View&lt;/b&gt;, so I always see the right information for that category.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="ngkdgr7mT4ZlOIiruCUl-1">
           <mxGeometry x="148" y="100" width="837" height="161" as="geometry" />
         </mxCell>
-        <mxCell id="UXvkGzr4esxgjUgaUEmg-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;SPM Record Access&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;As an SPM User, I want access to SPM records to be automatically controlled by visibility context. If I have the required visibility context role “&lt;b&gt;A&lt;/b&gt;”, then I should be able to access all records whose &lt;b&gt;Visibility Context = A&lt;/b&gt;. Records with other visibility contexts must remain hidden, ensuring proper access control and data separation.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="ngkdgr7mT4ZlOIiruCUl-1">
+        <mxCell id="UXvkGzr4esxgjUgaUEmg-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;SPM Record Access&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;As an SPM User, I want access to SPM records to be automatically controlled by visibility context. If I have the required visibility context role “&lt;b&gt;A&lt;/b&gt;”, then I should be able to access all records whose &lt;b&gt;Visibility Context is A&lt;/b&gt;. Records with other visibility contexts must remain hidden, ensuring proper access control and data separation.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="ngkdgr7mT4ZlOIiruCUl-1">
           <mxGeometry x="151" y="270" width="834" height="161" as="geometry" />
         </mxCell>
         <mxCell id="UXvkGzr4esxgjUgaUEmg-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;SPM Top Secret Records&lt;/h1&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;As an SPM User with elevated permissions (such as SPM Admin, Project Owner, or Project Manager), I need the ability to control who can access a specific record (e.g. project, program, portfolio) and all of its child records. I should be able to assign an Access User Group to the top record, and this setting must cascade down the entire record hierarchy.&lt;br&gt;This allows me to restrict visibility when needed—for example, marking a project as confidential: I create a temporary user group, add the authorized members, assign the group to the project, and automatically ensure that only users in that group can see the project and all related child records.&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="ngkdgr7mT4ZlOIiruCUl-1">
@@ -678,7 +678,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="hier1" id="WWdHkT8JV70shB8ME8X7">
-    <mxGraphModel dx="1586" dy="2807" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1780" dy="2829" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="XsTAIA48YGau2IWYoDQA-0" />
         <mxCell id="XsTAIA48YGau2IWYoDQA-1" parent="XsTAIA48YGau2IWYoDQA-0" />
@@ -763,8 +763,8 @@
             <mxPoint x="1515" y="-561" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dGtQNSim-A-o3nh4c_gx-0" value="&lt;div&gt;All SPM&amp;nbsp;&lt;/div&gt;&lt;div&gt;impacted tables&amp;nbsp;&lt;/div&gt;&lt;div&gt;would get&amp;nbsp;&lt;/div&gt;&lt;div&gt;a new (read only)&amp;nbsp;&lt;/div&gt;&lt;div&gt;column added, e.g.:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Visibility Context&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;with choice values, e.g.:&lt;/div&gt;&lt;div&gt;&lt;i&gt;GREEN&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;YELLOW&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;PURPLE&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;or&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;10&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;20&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;30&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;or&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;A&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;B&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;C&lt;/i&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=17;" vertex="1" parent="XsTAIA48YGau2IWYoDQA-1">
-          <mxGeometry x="18" y="-1541" width="219" height="506" as="geometry" />
+        <mxCell id="dGtQNSim-A-o3nh4c_gx-0" value="&lt;div&gt;All SPM&amp;nbsp;&lt;/div&gt;&lt;div&gt;impacted tables&amp;nbsp;&lt;/div&gt;&lt;div&gt;would get&amp;nbsp;&lt;/div&gt;&lt;div&gt;a new&amp;nbsp;column added, e.g.:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Visibility Context&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;with choice values, e.g.:&lt;/div&gt;&lt;div&gt;&lt;i&gt;GREEN&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;YELLOW&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;PURPLE&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;or&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;10&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;20&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;30&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;or&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;A&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;B&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;C&lt;/i&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=17;" vertex="1" parent="XsTAIA48YGau2IWYoDQA-1">
+          <mxGeometry x="9" y="-1530" width="238" height="485" as="geometry" />
         </mxCell>
         <mxCell id="dGtQNSim-A-o3nh4c_gx-1" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;labelBackgroundColor=default;dashed=1;" edge="1" parent="XsTAIA48YGau2IWYoDQA-1" target="dGtQNSim-A-o3nh4c_gx-0" source="XsTAIA48YGau2IWYoDQA-2">
           <mxGeometry relative="1" as="geometry">
@@ -839,7 +839,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="BR" id="kxW9cIT1z4ND3qs1Wd0X">
-    <mxGraphModel dx="1586" dy="1153" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1780" dy="1175" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="nsnO5klVVcxi0e8GRlrH-0" />
         <mxCell id="nsnO5klVVcxi0e8GRlrH-1" parent="nsnO5klVVcxi0e8GRlrH-0" />
@@ -849,7 +849,7 @@
         <mxCell id="zoodLAoyhguwlhTHHXDA-18" value="User" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#e1d5e7;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;strokeColor=#9673a6;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="154" y="178" width="26.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zoodLAoyhguwlhTHHXDA-19" value="&lt;div&gt;&lt;b&gt;Decision 2&lt;/b&gt;:&lt;/div&gt;&lt;div&gt;Does Context explicitly provided by User (e.g., from URL or Form)?&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+        <mxCell id="zoodLAoyhguwlhTHHXDA-19" value="&lt;div&gt;&lt;b&gt;Decision 2:&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Does the Table has a &lt;b&gt;Hierarchy Rule&lt;/b&gt; to use &lt;b&gt;Context&lt;/b&gt; from &lt;b&gt;Parent&lt;/b&gt;&amp;nbsp;table?&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#d6b656;verticalAlign=top;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="535" y="370" width="181" height="124" as="geometry" />
         </mxCell>
         <mxCell id="zoodLAoyhguwlhTHHXDA-20" value="&lt;div&gt;&lt;b&gt;Decision 3:&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Does the User have&amp;nbsp;&lt;/div&gt;&lt;div&gt;a &lt;b&gt;Context&lt;/b&gt; role?&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#e1d5e7;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
@@ -908,10 +908,10 @@
         <mxCell id="zoodLAoyhguwlhTHHXDA-30" value="&lt;div&gt;User submits&lt;/div&gt;&lt;div&gt;record creation&amp;nbsp;&lt;/div&gt;&lt;div&gt;e.g.: &lt;b&gt;Project&amp;nbsp;Task&lt;/b&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.event;strokeColor=#82b366;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="91" y="258" width="160" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="zoodLAoyhguwlhTHHXDA-31" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.equipment;strokeColor=#82b366;strokeWidth=3;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+        <mxCell id="zoodLAoyhguwlhTHHXDA-31" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.equipment;strokeColor=#d6b656;strokeWidth=3;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="593" y="437" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zoodLAoyhguwlhTHHXDA-32" value="&lt;div&gt;Use provided&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;&lt;b&gt;Context&lt;/b&gt;&quot; value&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.service;strokeColor=#82b366;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+        <mxCell id="zoodLAoyhguwlhTHHXDA-32" value="&lt;div&gt;Use&lt;b&gt; &quot;Context&quot;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;from Parent Table &lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;e.g.: &quot;&lt;b&gt;YELLOW&lt;/b&gt;&quot; from&amp;nbsp;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Project&lt;/b&gt;&amp;nbsp;table&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.service;strokeColor=#d6b656;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="941" y="214" width="183" height="87" as="geometry" />
         </mxCell>
         <mxCell id="zoodLAoyhguwlhTHHXDA-33" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#e1d5e7;shape=mxgraph.archimate3.equipment;strokeColor=#9673a6;strokeWidth=3;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
@@ -923,13 +923,13 @@
         <mxCell id="zoodLAoyhguwlhTHHXDA-35" value="&lt;div&gt;As an &quot;&lt;b&gt;Else&lt;/b&gt;&quot; exception, use the default &lt;b&gt;&quot;Context&quot; &lt;/b&gt;value&amp;nbsp;&lt;/div&gt;&lt;div&gt;from &lt;b&gt;sys_properties&lt;/b&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.service;strokeColor=#6c8ebf;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="935" y="665" width="183" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="zoodLAoyhguwlhTHHXDA-36" value="&lt;div&gt;&lt;b&gt;Decision 1:&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Does the Table has a &lt;b&gt;Hierarchy Rule&lt;/b&gt; to use &lt;b&gt;Context&lt;/b&gt; from &lt;b&gt;Parent&lt;/b&gt;&amp;nbsp;table?&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#d6b656;verticalAlign=top;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+        <mxCell id="zoodLAoyhguwlhTHHXDA-36" value="&lt;div&gt;&lt;b&gt;Decision 1&lt;/b&gt;:&lt;/div&gt;&lt;div&gt;Does Context explicitly provided by User?&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;strokeColor=#82b366;verticalAlign=top;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="313" y="229" width="176" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="zoodLAoyhguwlhTHHXDA-37" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.equipment;strokeColor=#d6b656;strokeWidth=3;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+        <mxCell id="zoodLAoyhguwlhTHHXDA-37" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.equipment;strokeColor=#82b366;strokeWidth=3;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="370" y="294" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zoodLAoyhguwlhTHHXDA-38" value="&lt;div&gt;Use&lt;b&gt; &quot;Context&quot;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;from Parent Table &lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;e.g.: &quot;&lt;b&gt;YELLOW&lt;/b&gt;&quot; from&amp;nbsp;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Project&lt;/b&gt;&amp;nbsp;table&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#fff2cc;shape=mxgraph.archimate3.service;strokeColor=#d6b656;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
+        <mxCell id="zoodLAoyhguwlhTHHXDA-38" value="&lt;div&gt;Use provided&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;&lt;b&gt;Context&lt;/b&gt;&quot; value&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.service;strokeColor=#82b366;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
           <mxGeometry x="938" y="58" width="183" height="87" as="geometry" />
         </mxCell>
         <mxCell id="zoodLAoyhguwlhTHHXDA-39" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="nsnO5klVVcxi0e8GRlrH-1" source="zoodLAoyhguwlhTHHXDA-36">
@@ -952,14 +952,6 @@
         <mxCell id="zoodLAoyhguwlhTHHXDA-42" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;No&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zoodLAoyhguwlhTHHXDA-41">
           <mxGeometry x="-0.2592" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KepNBu8EKfVDEDc9k3xx-0" value="&lt;div&gt;&lt;b&gt;Open topic:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;What is stronger,&amp;nbsp;&lt;/div&gt;&lt;div&gt;Hierarchy Rule or&amp;nbsp;&lt;/div&gt;&lt;div&gt;value send by User?&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=17;" vertex="1" parent="nsnO5klVVcxi0e8GRlrH-1">
-          <mxGeometry x="78" y="409" width="194" height="118" as="geometry" />
-        </mxCell>
-        <mxCell id="KepNBu8EKfVDEDc9k3xx-1" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;labelBackgroundColor=default;dashed=1;" edge="1" parent="nsnO5klVVcxi0e8GRlrH-1" target="KepNBu8EKfVDEDc9k3xx-0" source="zoodLAoyhguwlhTHHXDA-19">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="385" y="686" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
