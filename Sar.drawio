@@ -1784,7 +1784,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="secFilter" id="YuUFv7MfY98A1vSewm3H">
-    <mxGraphModel dx="2160" dy="2002" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1941" dy="2002" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="cVDg9L8ezkFtmlaJ9a7P-0" />
         <mxCell id="cVDg9L8ezkFtmlaJ9a7P-1" parent="cVDg9L8ezkFtmlaJ9a7P-0" />
@@ -1955,11 +1955,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PTqDk1NFEz8I1Z6d7yt0-0" value="e.g. Filter 1:&lt;div&gt;User with &lt;b&gt;Role_A&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;can read &lt;b&gt;pm_project&lt;/b&gt; records&amp;nbsp;&lt;/div&gt;&lt;div&gt;with Context=&lt;b&gt;A&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Filter 2:&lt;div&gt;User that is member of&amp;nbsp;&lt;b&gt;Group_B&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;can read&amp;nbsp;&lt;b style=&quot;background-color: initial;&quot;&gt;pm_project&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;records with&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Context=&lt;b&gt;xyz and ...&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=17;" vertex="1" parent="cVDg9L8ezkFtmlaJ9a7P-1">
-          <mxGeometry x="235" y="-785" width="293" height="220" as="geometry" />
+          <mxGeometry x="313" y="-785" width="293" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="PTqDk1NFEz8I1Z6d7yt0-1" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;labelBackgroundColor=default;dashed=1;" edge="1" parent="cVDg9L8ezkFtmlaJ9a7P-1" target="PTqDk1NFEz8I1Z6d7yt0-0" source="An_k1Kx6CRCDj5EsaY4H-30">
+        <mxCell id="PTqDk1NFEz8I1Z6d7yt0-1" value="" style="edgeStyle=elbowEdgeStyle;startArrow=classic;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;labelBackgroundColor=default;dashed=1;elbow=vertical;startFill=1;" edge="1" parent="cVDg9L8ezkFtmlaJ9a7P-1" target="PTqDk1NFEz8I1Z6d7yt0-0" source="An_k1Kx6CRCDj5EsaY4H-30">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="197" y="-649" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PTqDk1NFEz8I1Z6d7yt0-3" value="&lt;div&gt;Increase security with:&lt;/div&gt;&lt;div&gt;Deny Unless&lt;/div&gt;&lt;div&gt;on table: &lt;b&gt;planned_task&lt;/b&gt;&lt;/div&gt;&lt;div&gt;User has&amp;nbsp;&lt;b&gt;Role_A&lt;/b&gt;&amp;nbsp;and&amp;nbsp;&lt;/div&gt;&lt;div&gt;records&amp;nbsp;with Context=&lt;b&gt;A&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=17;" vertex="1" parent="cVDg9L8ezkFtmlaJ9a7P-1">
+          <mxGeometry x="703" y="-778" width="218" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="PTqDk1NFEz8I1Z6d7yt0-4" value="" style="edgeStyle=elbowEdgeStyle;startArrow=classic;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;labelBackgroundColor=default;dashed=1;elbow=vertical;startFill=1;" edge="1" parent="cVDg9L8ezkFtmlaJ9a7P-1" target="PTqDk1NFEz8I1Z6d7yt0-3" source="An_k1Kx6CRCDj5EsaY4H-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1086" y="-500" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
