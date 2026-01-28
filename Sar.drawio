@@ -119,7 +119,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="allTables" id="fU0aDtS2RxrwcQl7vduN">
-    <mxGraphModel dx="1803" dy="1203" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2235" dy="1203" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="W0PVgTol7i6xwOBtLo0c-0" />
         <mxCell id="W0PVgTol7i6xwOBtLo0c-1" parent="W0PVgTol7i6xwOBtLo0c-0" />
@@ -135,14 +135,11 @@
             <mxPoint x="1284" y="503" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FGcePe4fIGTBAvNqlpE7-121" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;resource_allocation_daily&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;top_task&lt;/span&gt;.&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="51" width="160" x="188" y="475" as="geometry" />
-        </mxCell>
-        <mxCell id="FGcePe4fIGTBAvNqlpE7-122" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;resource_allocation&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;resource_plan.top_task.&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="180" x="468" y="360" as="geometry" />
+        <mxCell id="FGcePe4fIGTBAvNqlpE7-121" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;resource_allocation_daily&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;top_task&lt;/span&gt;.&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="51" width="160" x="193" y="492" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-123" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" value="pm_portfolio_goal" vertex="1">
-          <mxGeometry height="50" width="160" x="14" y="185" as="geometry" />
+          <mxGeometry height="50" width="129" x="45" y="185" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-124" edge="1" parent="W0PVgTol7i6xwOBtLo0c-1" source="FGcePe4fIGTBAvNqlpE7-135" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" target="FGcePe4fIGTBAvNqlpE7-123" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -162,7 +159,7 @@
             <mxPoint x="243" y="924" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FGcePe4fIGTBAvNqlpE7-128" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="dmn_demand" vertex="1">
+        <mxCell id="FGcePe4fIGTBAvNqlpE7-128" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#666666;fontStyle=1;fontSize=14;fontColor=#333333;" value="dmn_demand" vertex="1">
           <mxGeometry height="50" width="160" x="554" y="963" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-129" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;" value="pm_program_task" vertex="1">
@@ -187,7 +184,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-134" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" value="pm_portfolio_issue" vertex="1">
-          <mxGeometry height="50" width="160" x="6" y="308" as="geometry" />
+          <mxGeometry height="50" width="129" x="37" y="308" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-135" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;" value="pm_portfolio_project" vertex="1">
           <mxGeometry height="50" width="160" x="234" y="309" as="geometry" />
@@ -207,10 +204,10 @@
             <mxPoint x="508" y="541" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FGcePe4fIGTBAvNqlpE7-139" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1;" value="dmn_demand_task" vertex="1">
+        <mxCell id="FGcePe4fIGTBAvNqlpE7-139" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#666666;fontStyle=1;fontColor=#333333;" value="dmn_demand_task" vertex="1">
           <mxGeometry height="50" width="160" x="551" y="1058" as="geometry" />
         </mxCell>
-        <mxCell id="FGcePe4fIGTBAvNqlpE7-140" edge="1" parent="W0PVgTol7i6xwOBtLo0c-1" source="FGcePe4fIGTBAvNqlpE7-128" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" target="FGcePe4fIGTBAvNqlpE7-139" value="parent">
+        <mxCell id="FGcePe4fIGTBAvNqlpE7-140" edge="1" parent="W0PVgTol7i6xwOBtLo0c-1" source="FGcePe4fIGTBAvNqlpE7-128" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;" target="FGcePe4fIGTBAvNqlpE7-139" value="parent">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <mxPoint x="870" y="837" as="sourcePoint" />
             <mxPoint x="870" y="879" as="targetPoint" />
@@ -225,10 +222,10 @@
             <mxPoint x="245" y="602" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FGcePe4fIGTBAvNqlpE7-143" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="idea" vertex="1">
-          <mxGeometry height="50" width="160" x="788" y="966" as="geometry" />
+        <mxCell id="FGcePe4fIGTBAvNqlpE7-143" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#666666;fontStyle=1;fontSize=14;fontColor=#333333;" value="idea" vertex="1">
+          <mxGeometry height="42" width="74" x="788" y="966" as="geometry" />
         </mxCell>
-        <mxCell id="FGcePe4fIGTBAvNqlpE7-144" edge="1" parent="W0PVgTol7i6xwOBtLo0c-1" source="FGcePe4fIGTBAvNqlpE7-143" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;startArrow=ERzeroToMany;startFill=0;" target="FGcePe4fIGTBAvNqlpE7-128" value="">
+        <mxCell id="FGcePe4fIGTBAvNqlpE7-144" edge="1" parent="W0PVgTol7i6xwOBtLo0c-1" source="FGcePe4fIGTBAvNqlpE7-143" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;startArrow=ERzeroToMany;startFill=0;fillColor=#f5f5f5;strokeColor=#666666;" target="FGcePe4fIGTBAvNqlpE7-128" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <mxPoint x="1190" y="708" as="sourcePoint" />
             <mxPoint x="1190" y="750" as="targetPoint" />
@@ -244,7 +241,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-147" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" value="pm_portfolio_risk" vertex="1">
-          <mxGeometry height="50" width="160" x="4" y="486" as="geometry" />
+          <mxGeometry height="50" width="129" x="20" y="480" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-148" edge="1" parent="W0PVgTol7i6xwOBtLo0c-1" source="FGcePe4fIGTBAvNqlpE7-135" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" target="FGcePe4fIGTBAvNqlpE7-147" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -286,7 +283,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-155" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" value="goal" vertex="1">
-          <mxGeometry height="50" width="160" x="408" y="88" as="geometry" />
+          <mxGeometry height="50" width="82" x="461" y="79" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-156" edge="1" parent="W0PVgTol7i6xwOBtLo0c-1" source="FGcePe4fIGTBAvNqlpE7-155" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" target="FGcePe4fIGTBAvNqlpE7-128" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -456,7 +453,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-187" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" value="ridac_m2m" vertex="1">
-          <mxGeometry height="50" width="160" x="629" y="102" as="geometry" />
+          <mxGeometry height="50" width="106" x="683" y="102" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-188" edge="1" parent="W0PVgTol7i6xwOBtLo0c-1" source="FGcePe4fIGTBAvNqlpE7-172" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" target="FGcePe4fIGTBAvNqlpE7-187" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -473,7 +470,7 @@
         <mxCell id="FGcePe4fIGTBAvNqlpE7-190" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;" value="&lt;div&gt;fm_expense_line&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="160" x="1451" y="41" as="geometry" />
         </mxCell>
-        <mxCell id="FGcePe4fIGTBAvNqlpE7-191" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;" value="cost_plan_breakdown" vertex="1">
+        <mxCell id="FGcePe4fIGTBAvNqlpE7-191" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;" value="cost_plan_breakdown" vertex="1">
           <mxGeometry height="50" width="160" x="1418" y="147" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-192" edge="1" parent="W0PVgTol7i6xwOBtLo0c-1" source="FGcePe4fIGTBAvNqlpE7-167" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" target="FGcePe4fIGTBAvNqlpE7-190" value="">
@@ -488,7 +485,7 @@
             <mxPoint x="1471" y="92" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FGcePe4fIGTBAvNqlpE7-194" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1;" value="dmn_requirement" vertex="1">
+        <mxCell id="FGcePe4fIGTBAvNqlpE7-194" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;" value="dmn_requirement" vertex="1">
           <mxGeometry height="35" width="131" x="1089" y="307" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-195" edge="1" parent="W0PVgTol7i6xwOBtLo0c-1" source="FGcePe4fIGTBAvNqlpE7-130" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" target="FGcePe4fIGTBAvNqlpE7-194" value="">
@@ -528,7 +525,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-202" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" value="&lt;div&gt;time_card&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;top_task&lt;/span&gt;.&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="115" x="666" y="427" as="geometry" />
+          <mxGeometry height="52" width="95" x="666" y="427" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-203" edge="1" parent="W0PVgTol7i6xwOBtLo0c-1" source="FGcePe4fIGTBAvNqlpE7-200" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" target="FGcePe4fIGTBAvNqlpE7-202" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -555,7 +552,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-207" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" value="time_sheet" vertex="1">
-          <mxGeometry height="50" width="107" x="606" y="522" as="geometry" />
+          <mxGeometry height="35" width="86" x="606" y="522" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-208" edge="1" parent="W0PVgTol7i6xwOBtLo0c-1" source="FGcePe4fIGTBAvNqlpE7-207" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" target="FGcePe4fIGTBAvNqlpE7-202" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -579,10 +576,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-212" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" value="baseline_core" vertex="1">
-          <mxGeometry height="50" width="160" x="588" y="9" as="geometry" />
+          <mxGeometry height="50" width="101" x="588" y="9" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-213" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" value="baseline_config" vertex="1">
-          <mxGeometry height="50" width="160" x="402" y="9" as="geometry" />
+          <mxGeometry height="50" width="123" x="439" y="9" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-214" edge="1" parent="W0PVgTol7i6xwOBtLo0c-1" source="FGcePe4fIGTBAvNqlpE7-213" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" target="FGcePe4fIGTBAvNqlpE7-212" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -591,7 +588,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-215" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1" value="strategic_objective" vertex="1">
-          <mxGeometry height="50" width="160" x="604" y="669" as="geometry" />
+          <mxGeometry height="38" width="120" x="601" y="681" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-216" edge="1" parent="W0PVgTol7i6xwOBtLo0c-1" source="FGcePe4fIGTBAvNqlpE7-215" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" target="FGcePe4fIGTBAvNqlpE7-128" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -626,10 +623,10 @@
         <mxCell id="FGcePe4fIGTBAvNqlpE7-223" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;dmn_decision&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;top_task.project&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="160" x="206" y="6" as="geometry" />
         </mxCell>
-        <mxCell id="FGcePe4fIGTBAvNqlpE7-224" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1;shadow=0;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;rm_story&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;top_task.&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="FGcePe4fIGTBAvNqlpE7-224" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#666666;fontStyle=1;shadow=0;fontColor=#333333;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;rm_story&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;top_task.&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="160" x="748" y="1063" as="geometry" />
         </mxCell>
-        <mxCell id="FGcePe4fIGTBAvNqlpE7-225" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1;shadow=0;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;rm_epic&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;top_task.&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="FGcePe4fIGTBAvNqlpE7-225" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#f5f5f5;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#666666;fontStyle=1;shadow=0;fontColor=#333333;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;rm_epic&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;top_task.&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="160" x="942" y="1063" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-226" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;" value="&lt;div&gt;project_action&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;parent&lt;/span&gt;.&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;" vertex="1">
@@ -641,7 +638,7 @@
             <mxPoint x="277" y="659" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FGcePe4fIGTBAvNqlpE7-228" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;project_change_request&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;parent&lt;/span&gt;.&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="FGcePe4fIGTBAvNqlpE7-228" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;project_change_request&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;parent&lt;/span&gt;.&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="164" x="332" y="819" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-229" edge="1" parent="W0PVgTol7i6xwOBtLo0c-1" source="FGcePe4fIGTBAvNqlpE7-125" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" target="FGcePe4fIGTBAvNqlpE7-228" value="">
@@ -663,13 +660,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-232" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;sn_invst_pln_invst_investment&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span aria-label=&quot;Columns Section&quot; aria-hidden=&quot;false&quot; role=&quot;tabpanel&quot; style=&quot;display: block;&quot; data-section-id=&quot;057f7a12bf7021007de108f7ff073947&quot; id=&quot;section_tab.057f7a12bf7021007de108f7ff073947&quot; data-header-only=&quot;false&quot; class=&quot;tabs2_section tabs2_section_1 tabs2_section1 tab_section&quot;&gt;&lt;span class=&quot;section&quot; data-header-only=&quot;false&quot; id=&quot;section-057f7a12bf7021007de108f7ff073947&quot;&gt;&lt;span class=&quot;list_span_related embedded -tab-body&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;funding_entity.table=pm_project&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="57" width="183" x="1405" y="285" as="geometry" />
+          <mxGeometry height="57" width="183" x="1441" y="284" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-233" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;" value="&lt;div&gt;sn_align_core_project&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span aria-label=&quot;Columns Section&quot; aria-hidden=&quot;false&quot; role=&quot;tabpanel&quot; style=&quot;display: block;&quot; data-section-id=&quot;057f7a12bf7021007de108f7ff073947&quot; id=&quot;section_tab.057f7a12bf7021007de108f7ff073947&quot; data-header-only=&quot;false&quot; class=&quot;tabs2_section tabs2_section_1 tabs2_section1 tab_section&quot;&gt;&lt;span class=&quot;section&quot; data-header-only=&quot;false&quot; id=&quot;section-057f7a12bf7021007de108f7ff073947&quot;&gt;&lt;span class=&quot;list_span_related embedded -tab-body&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;execution_entity_table=pm_project&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="49" width="189" x="1443" y="949" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-234" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=1;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;project_funding&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;t&lt;span style=&quot;font-weight: normal;&quot;&gt;ask.planned_task.top_task.project&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="55" width="192" x="1395" y="214" as="geometry" />
+          <mxGeometry height="55" width="192" x="1415" y="212" as="geometry" />
         </mxCell>
         <mxCell id="FGcePe4fIGTBAvNqlpE7-235" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=0;" value="&lt;div&gt;&lt;b&gt;sn_milestones_milestone&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;execution_entity_item&lt;br&gt;execution_entity_table&lt;/div&gt;" vertex="1">
           <mxGeometry height="64" width="160" x="1255" y="825" as="geometry" />
@@ -680,11 +677,14 @@
             <mxPoint x="597" y="447" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="FGcePe4fIGTBAvNqlpE7-122" parent="W0PVgTol7i6xwOBtLo0c-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=1;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;resource_allocation&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;resource_plan.top_task.&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;project&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="180" x="468" y="360" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="hier1" id="WWdHkT8JV70shB8ME8X7">
-    <mxGraphModel dx="2235" dy="2857" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="XsTAIA48YGau2IWYoDQA-0" />
         <mxCell id="XsTAIA48YGau2IWYoDQA-1" parent="XsTAIA48YGau2IWYoDQA-0" />
