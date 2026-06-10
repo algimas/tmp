@@ -678,7 +678,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="context" id="oBH2VibJyhFFlMwR06VC">
-    <mxGraphModel dx="1562" dy="1156" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1412" dy="1156" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="yAMU9oWsXEgsgrF7OLYH-0" />
         <mxCell id="yAMU9oWsXEgsgrF7OLYH-1" parent="yAMU9oWsXEgsgrF7OLYH-0" />
@@ -791,6 +791,21 @@
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <mxPoint x="1334" y="730" as="sourcePoint" />
             <mxPoint x="1049" y="722" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUe4Jhk42j7Et_Nfb_zF-0" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;gradientColor=none;shadow=0;fontStyle=0;fontSize=12;" value="sn_invst_pln_invst_investment" vertex="1">
+          <mxGeometry height="50" width="202" x="912" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="fUe4Jhk42j7Et_Nfb_zF-1" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="fUe4Jhk42j7Et_Nfb_zF-0" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-25" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="862" y="256" as="sourcePoint" />
+            <mxPoint x="932" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fUe4Jhk42j7Et_Nfb_zF-2" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="fUe4Jhk42j7Et_Nfb_zF-0" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-20" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="1011" y="233" as="sourcePoint" />
+            <mxPoint x="972" y="303" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
