@@ -974,9 +974,10 @@
         <mxCell id="gF7QGIxsiwiKZlhsECcw-0" edge="1" parent="GwnuOsIbgpG3eR8iRJvS-1" source="GwnuOsIbgpG3eR8iRJvS-7" style="html=1;endArrow=open;endFill=0;dashed=1;dashPattern=1 4;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" target="d696kqCxZHvIf8FTNoYA-0" value="">
           <mxGeometry relative="1" width="160" as="geometry">
             <Array as="points">
-              <mxPoint x="373" y="127" />
-              <mxPoint x="265" y="127" />
-              <mxPoint x="265" y="249" />
+              <mxPoint x="238" y="58" />
+              <mxPoint x="238" y="127" />
+              <mxPoint x="206" y="127" />
+              <mxPoint x="206" y="249" />
               <mxPoint x="137" y="249" />
               <mxPoint x="137" y="362" />
               <mxPoint x="167" y="362" />
@@ -1074,7 +1075,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="programFlow" id="70snwM10G9RLVR_uvg1D">
-    <mxGraphModel grid="0" page="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1694" dy="1158" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="nBl53nkbAcUGUDDzAYkc-0" />
         <mxCell id="nBl53nkbAcUGUDDzAYkc-1" parent="nBl53nkbAcUGUDDzAYkc-0" />
@@ -1099,7 +1100,7 @@
         <mxCell id="N-HyPJQooLoAW7u7NQw_-34" parent="nBl53nkbAcUGUDDzAYkc-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="STEP 2 - copy the 6 fields&lt;br&gt;pm_program &amp;gt;&amp;gt; project_funding (FY26 line):&lt;br&gt;umbrella BC calc., required data for SAP,&lt;br&gt;business requirement, external + internal budget,&lt;br&gt;u_total_budget = external + internal" vertex="1">
           <mxGeometry height="100" width="300" x="449" y="652" as="geometry" />
         </mxCell>
-        <mxCell id="N-HyPJQooLoAW7u7NQw_-35" parent="nBl53nkbAcUGUDDzAYkc-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="STEP 3 — freeze stamp&#xa;u_frozen_on = now, u_frozen_by = user&#xa;→ from this moment ACL + before-BR&#xa;block edits on this Budget Line" vertex="1">
+        <mxCell id="N-HyPJQooLoAW7u7NQw_-35" parent="nBl53nkbAcUGUDDzAYkc-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="STEP 3 - freeze stamp&lt;br&gt;u_frozen_on = now, u_frozen_by = user&lt;br&gt;&amp;gt;&amp;gt; from this moment ACL + before-BR&lt;br&gt;block edits on this Budget Line" vertex="1">
           <mxGeometry height="90" width="300" x="449" y="792" as="geometry" />
         </mxCell>
         <mxCell id="N-HyPJQooLoAW7u7NQw_-36" parent="nBl53nkbAcUGUDDzAYkc-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;spacingLeft=8;" value="STEP 4 — program revision snapshot&#xa;OOTB BaselineAPI.createBaseline({&#xa;baselineConfig: Program Baseline [WACKER],&#xa;primarySysId: programId,&#xa;name: &#39;FY26 Revision&#39;,&#xa;additionalQueryDetails:&#xa;{ project_funding: &#39;fiscal_period=FY26&#39; } })" vertex="1">
