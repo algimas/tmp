@@ -698,7 +698,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xctbcC7DyAllS1oK6kkn-7" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0;gradientColor=none;shadow=0;fontSize=12;" value="pm_project_task" vertex="1">
-          <mxGeometry height="50" width="160" x="509" y="274" as="geometry" />
+          <mxGeometry height="50" width="114" x="509" y="274" as="geometry" />
         </mxCell>
         <mxCell id="xctbcC7DyAllS1oK6kkn-10" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0;fontSize=12;gradientColor=none;shadow=0;" value="pm_program" vertex="1">
           <mxGeometry height="50" width="160" x="175" y="224" as="geometry" />
@@ -740,7 +740,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xctbcC7DyAllS1oK6kkn-20" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0;shadow=0;gradientColor=none;fontSize=12;" value="cost_plan" vertex="1">
-          <mxGeometry height="50" width="160" x="690" y="192" as="geometry" />
+          <mxGeometry height="50" width="126" x="654" y="192" as="geometry" />
         </mxCell>
         <mxCell id="xctbcC7DyAllS1oK6kkn-21" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-20" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -755,10 +755,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xctbcC7DyAllS1oK6kkn-24" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0;gradientColor=none;shadow=0;fontSize=12;" value="fm_expense_line" vertex="1">
-          <mxGeometry height="50" width="160" x="691" y="273" as="geometry" />
+          <mxGeometry height="50" width="124" x="655" y="264" as="geometry" />
         </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-25" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;gradientColor=none;shadow=0;fontStyle=0;fontSize=12;" value="cost_plan_breakdown" vertex="1">
-          <mxGeometry height="50" width="160" x="866" y="275" as="geometry" />
+        <mxCell id="xctbcC7DyAllS1oK6kkn-25" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;gradientColor=none;shadow=0;fontStyle=0;fontSize=12;" value="cost_plan_breakdown&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;requirement rows (detail)&lt;/div&gt;&lt;div&gt;task rows (summary)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="67" width="160" x="920" y="290" as="geometry" />
         </mxCell>
         <mxCell id="xctbcC7DyAllS1oK6kkn-26" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="xctbcC7DyAllS1oK6kkn-20" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-24" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -770,6 +770,11 @@
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <mxPoint x="1153" y="537" as="sourcePoint" />
             <mxPoint x="1215" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2deOG3LLWI3k1rhQun3f-0" connectable="0" parent="xctbcC7DyAllS1oK6kkn-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;gt;&amp;gt;requirement" vertex="1">
+          <mxGeometry relative="1" x="0.0419" y="-1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xctbcC7DyAllS1oK6kkn-31" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0;gradientColor=none;shadow=0;fontSize=12;" value="resource_plan" vertex="1">
