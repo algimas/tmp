@@ -826,7 +826,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="investment" id="TewVg1G6zgGYQrNou0n8">
-    <mxGraphModel dx="1000" dy="662" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="988" dy="662" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="wOXz0fo1hnSl81CoWM9f-0" />
         <mxCell id="wOXz0fo1hnSl81CoWM9f-1" parent="wOXz0fo1hnSl81CoWM9f-0" />
@@ -834,10 +834,10 @@
           <mxGeometry height="37" width="96" x="618" y="21" as="geometry" />
         </mxCell>
         <mxCell id="wOXz0fo1hnSl81CoWM9f-14" parent="wOXz0fo1hnSl81CoWM9f-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=0;shadow=0;fontSize=12;" value="cost_plan" vertex="1">
-          <mxGeometry height="42" width="101" x="426" y="241" as="geometry" />
+          <mxGeometry height="42" width="101" x="427" y="254" as="geometry" />
         </mxCell>
-        <mxCell id="wOXz0fo1hnSl81CoWM9f-18" parent="wOXz0fo1hnSl81CoWM9f-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;shadow=0;fontStyle=0;fontSize=12;" value="cost_plan_breakdown&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;requirement rows (detail)&lt;/div&gt;&lt;div&gt;task rows (summary)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="67" width="160" x="686" y="360" as="geometry" />
+        <mxCell id="wOXz0fo1hnSl81CoWM9f-18" parent="wOXz0fo1hnSl81CoWM9f-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;shadow=0;fontStyle=0;fontSize=12;" value="cost_plan_breakdown&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;requirement rows (detail)&lt;/div&gt;&lt;div&gt;task rows (summary)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="67" width="160" x="688" y="394" as="geometry" />
         </mxCell>
         <mxCell id="wOXz0fo1hnSl81CoWM9f-20" edge="1" parent="wOXz0fo1hnSl81CoWM9f-1" source="wOXz0fo1hnSl81CoWM9f-14" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="wOXz0fo1hnSl81CoWM9f-18" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -851,7 +851,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wOXz0fo1hnSl81CoWM9f-26" parent="wOXz0fo1hnSl81CoWM9f-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;shadow=0;fontStyle=0;fontSize=12;" value="sn_invst_pln_invst_investment&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;1) funding_entity_id&lt;/code&gt; → its demand/projec&lt;/div&gt;&lt;div&gt;(NOT unique !!!)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="64" width="263" x="639" y="201" as="geometry" />
+          <mxGeometry height="64" width="263" x="638" y="186" as="geometry" />
         </mxCell>
         <mxCell id="wOXz0fo1hnSl81CoWM9f-27" edge="1" parent="wOXz0fo1hnSl81CoWM9f-1" source="wOXz0fo1hnSl81CoWM9f-26" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="wOXz0fo1hnSl81CoWM9f-18" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -876,7 +876,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wOXz0fo1hnSl81CoWM9f-30" parent="wOXz0fo1hnSl81CoWM9f-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;shadow=0;fontStyle=0;fontSize=12;" value="sn_align_core_planning_item&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;planned_cost&lt;/div&gt;&lt;div&gt;execution_entity_item&lt;/div&gt;" vertex="1">
-          <mxGeometry height="65" width="175" x="976" y="229" as="geometry" />
+          <mxGeometry height="65" width="175" x="978" y="240" as="geometry" />
         </mxCell>
         <mxCell id="cnYY82_M5sguFFtdWVAH-1" edge="1" parent="wOXz0fo1hnSl81CoWM9f-1" source="wOXz0fo1hnSl81CoWM9f-2" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="wOXz0fo1hnSl81CoWM9f-14" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
