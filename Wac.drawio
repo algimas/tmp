@@ -831,7 +831,7 @@
         <mxCell id="wOXz0fo1hnSl81CoWM9f-0" />
         <mxCell id="wOXz0fo1hnSl81CoWM9f-1" parent="wOXz0fo1hnSl81CoWM9f-0" />
         <mxCell id="wOXz0fo1hnSl81CoWM9f-2" parent="wOXz0fo1hnSl81CoWM9f-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;fontStyle=0;fontSize=12;shadow=0;" value="pm_project" vertex="1">
-          <mxGeometry height="37" width="96" x="532" y="35" as="geometry" />
+          <mxGeometry height="37" width="96" x="566" y="30" as="geometry" />
         </mxCell>
         <mxCell id="wOXz0fo1hnSl81CoWM9f-4" parent="wOXz0fo1hnSl81CoWM9f-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0;gradientColor=none;shadow=0;fontSize=12;" value="&lt;span&gt;pm_portfolio&lt;/span&gt;" vertex="1">
           <mxGeometry height="35" width="85" x="291" y="10" as="geometry" />
@@ -925,8 +925,8 @@
             <mxPoint x="721" y="556" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wOXz0fo1hnSl81CoWM9f-30" parent="wOXz0fo1hnSl81CoWM9f-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;shadow=0;fontStyle=0;fontSize=12;" value="sn_align_core_planning_item&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;planned_cost&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="175" x="964" y="232" as="geometry" />
+        <mxCell id="wOXz0fo1hnSl81CoWM9f-30" parent="wOXz0fo1hnSl81CoWM9f-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;shadow=0;fontStyle=0;fontSize=12;" value="sn_align_core_planning_item&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;planned_cost&lt;/div&gt;&lt;div&gt;execution_entity_item&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="175" x="973" y="206" as="geometry" />
         </mxCell>
         <mxCell id="cnYY82_M5sguFFtdWVAH-1" edge="1" parent="wOXz0fo1hnSl81CoWM9f-1" source="wOXz0fo1hnSl81CoWM9f-2" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="wOXz0fo1hnSl81CoWM9f-14" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -940,7 +940,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cnYY82_M5sguFFtdWVAH-2" parent="wOXz0fo1hnSl81CoWM9f-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffe6cc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#d79b00;fontStyle=0;fontSize=12;shadow=0;" value="dmn_demand" vertex="1">
-          <mxGeometry height="37" width="96" x="732" y="26" as="geometry" />
+          <mxGeometry height="37" width="96" x="739" y="29" as="geometry" />
         </mxCell>
         <mxCell id="cnYY82_M5sguFFtdWVAH-3" edge="1" parent="wOXz0fo1hnSl81CoWM9f-1" source="cnYY82_M5sguFFtdWVAH-2" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="wOXz0fo1hnSl81CoWM9f-14" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -979,6 +979,17 @@
         <mxCell id="cnYY82_M5sguFFtdWVAH-9" connectable="0" parent="cnYY82_M5sguFFtdWVAH-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="funding_entity_id" vertex="1">
           <mxGeometry relative="1" x="-0.1271" y="1" as="geometry">
             <mxPoint x="7" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnYY82_M5sguFFtdWVAH-11" edge="1" parent="wOXz0fo1hnSl81CoWM9f-1" source="cnYY82_M5sguFFtdWVAH-2" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="wOXz0fo1hnSl81CoWM9f-30" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="987" y="92" as="sourcePoint" />
+            <mxPoint x="713" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnYY82_M5sguFFtdWVAH-12" connectable="0" parent="cnYY82_M5sguFFtdWVAH-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="execution_entity_item" vertex="1">
+          <mxGeometry relative="1" x="-0.1624" y="1" as="geometry">
+            <mxPoint x="17" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
