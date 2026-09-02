@@ -1115,7 +1115,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="mProgram1" id="2oAy7a6dajGnqpOlfZGA">
-    <mxGraphModel dx="1243" dy="968" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1024" dy="968" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="GwnuOsIbgpG3eR8iRJvS-0" />
         <mxCell id="GwnuOsIbgpG3eR8iRJvS-1" parent="GwnuOsIbgpG3eR8iRJvS-0" />
@@ -1649,8 +1649,136 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="seqNmxLiUtkBd6Vnm8av" name="mProgramFlow6">
+    <mxGraphModel dx="1824" dy="968" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;align=left;verticalAlign=top;fontSize=11;" value="green = WACKER custom logic&#xa;blue = OOTB API call&#xa;yellow = records created / data outcome&#xa;red = abort / cancel" vertex="1">
+          <mxGeometry height="80" width="280" x="-520" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="PMO clicks &quot;Close Fiscal Year&quot;&#xa;on Program form&#xa;(closing year = pm_program.u_fiscal_period, e.g. FY26)" vertex="1">
+          <mxGeometry height="90" width="300" x="-160" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;spacingLeft=8;" value="Server pre-check (feeds the modal):&#xa;collect the Cost Distributions of the closing year&#xa;- fully inside FY26 → close candidates&#xa;- reaching beyond FY26 / empty window →&#xa;proposed SPLIT (end at FY26: M12 +&#xa;continuation row from FY27: M01)" vertex="1">
+          <mxGeometry height="110" width="300" x="-160" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;spacingLeft=8;" value="Modal: CD review list&#xa;&quot;The following Cost Distributions will be CLOSED&#xa;with FY26 - they stay in the calculations of the&#xa;linked demands/projects, but can no longer be&#xa;changed. Review the list and adjust start/end&#xa;periods for rows that belong to the closing year.&quot;&#xa;PMO reviews / tunes windows per row" vertex="1">
+          <mxGeometry height="130" width="300" x="-160" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="PMO confirms&#xa;the reviewed list?" vertex="1">
+          <mxGeometry height="90" width="320" x="-170" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="Cancelled -&#xa;nothing written" vertex="1">
+          <mxGeometry height="60" width="200" x="-470" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Server: WackerProgramRevisionUtil&#xa;.closeFiscalYear(programGr, reviewedSet)&#xa;(one-line delegation from UI Action)" vertex="1">
+          <mxGeometry height="70" width="300" x="-160" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Guard checks:&#xa;u_fiscal_period set? FY not already closed?&#xa;next FY period exists?&#xa;FAIL → abort + error message, nothing written" vertex="1">
+          <mxGeometry height="110" width="340" x="-180" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="Abort: error message,&#xa;no writes performed" vertex="1">
+          <mxGeometry height="60" width="200" x="-470" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="STEP 1 - resolve Budget Line for FY26&#xa;OOTB PPMProjectFunding&#xa;.findOrCreateFundingRecordForEntity(&#xa;&#39;program&#39;, programId, FY26)" vertex="1">
+          <mxGeometry height="90" width="300" x="-160" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="STEP 2 - copy the 6 fields&#xa;pm_program → project_funding (FY26 line):&#xa;umbrella BC calc., required data for SAP,&#xa;business requirement, external + internal budget,&#xa;u_total_budget = external + internal" vertex="1">
+          <mxGeometry height="100" width="300" x="-160" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="STEP 3 - close stamp on the Budget Line&#xa;u_fy_closed_on = now, u_fy_closed_by = user&#xa;→ from this moment ACL + before-BR&#xa;block edits on this Budget Line" vertex="1">
+          <mxGeometry height="90" width="300" x="-160" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;spacingLeft=8;" value="STEP 3b - close the Cost Distributions&#xa;apply the reviewed window changes + splits&#xa;(rules suppressed), then STAMP the approved rows:&#xa;u_cost_distribution.u_closed_with_budget_line&#xa;= FY26 Budget Line&#xa;→ ACL blocks change + delete on stamped rows" vertex="1">
+          <mxGeometry height="120" width="300" x="-160" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-14" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;spacingLeft=8;" value="CDs of FY26 are now CLOSED.&#xa;No separate photo table (customer decision:&#xa;u_cost_distribution_baseline dropped) -&#xa;the closed rows themselves are the history,&#xa;still feeding the calculations." vertex="1">
+          <mxGeometry height="100" width="310" x="210" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;spacingLeft=8;" value="STEP 4 - program revision snapshot&#xa;OOTB BaselineAPI.createBaseline({&#xa;baselineConfig: Program Baseline [WACKER],&#xa;primarySysId: programId,&#xa;name: &#39;FY26 Revision&#39;,&#xa;additionalQueryDetails:&#xa;{ project_funding: &#39;fiscal_period=FY26&#39; } })" vertex="1">
+          <mxGeometry height="130" width="300" x="-160" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-16" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;spacingLeft=8;" value="CREATED:&#xa;1× u_pm_program_baseline (revision header)&#xa;+ project_funding_baseline row(s) for FY26 only,&#xa;fields copied per baseline_config_field_map&#xa;(incl. the 6 new u_ fields)" vertex="1">
+          <mxGeometry height="110" width="310" x="210" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;spacingLeft=8;" value="STEP 5 - related documents&#xa;for each Demand / Project with&#xa;primary_program = this program:&#xa;OOTB BaselineAPI.createBaseline&#xa;(&quot;Demand Baseline&quot; / &quot;Project Financial Baseline&quot;)&#xa;per-document try/catch - one failure&#xa;does not abort the revision" vertex="1">
+          <mxGeometry height="130" width="300" x="-160" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-18" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;spacingLeft=8;" value="CREATED per document:&#xa;dmn_demand_baseline / pm_project_baseline&#xa;+ cost plan / breakdown / benefit plan /&#xa;funding baselines (OOTB config trees)" vertex="1">
+          <mxGeometry height="100" width="310" x="210" y="1585" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;spacingLeft=8;" value="&lt;div&gt;STEP 5b - mirror the close onto the linked demands / projects&lt;/div&gt;&lt;div&gt;(silent: rules off, no cascade, no recalculation)&lt;/div&gt;&lt;div&gt;confirmed rows: set &quot;Closed with Budget Line&quot; on the&lt;/div&gt;&lt;div&gt;member copies → FY26 rows locked on the demand/project too;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="116" width="300" x="-160" y="1746" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="STEP 6 - program tail updates&#xa;u_ready_for_sap_setup = &#39;no&#39;&#xa;u_fiscal_period → next year (FY27)" vertex="1">
+          <mxGeometry height="80" width="300" x="-160" y="1910" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="DONE - info message to PMO +&#xa;one summary log line (counts, errors,&#xa;N Cost Distributions closed with FY26).&#xa;Program now plans FY27;&#xa;FY26 history is closed and locked." vertex="1">
+          <mxGeometry height="100" width="300" x="-160" y="2030" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-22" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-23" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-24" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-25" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-7" value="Confirm&#xa;(gsftSubmit → server)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-26" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#b85450;" target="xdRl-UxmptyKiTS3P3vw-6" value="Cancel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-27" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-28" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-10" value="OK">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-29" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#b85450;" target="xdRl-UxmptyKiTS3P3vw-9" value="FAIL">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-30" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-31" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-32" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-33" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;" target="xdRl-UxmptyKiTS3P3vw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-34" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-35" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-36" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;" target="xdRl-UxmptyKiTS3P3vw-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-37" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-38" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;" target="xdRl-UxmptyKiTS3P3vw-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-39" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdRl-UxmptyKiTS3P3vw-40" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="mProgramFlow5" id="70snwM10G9RLVR_uvg1D">
-    <mxGraphModel dx="2220" dy="1729" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1849" dy="1729" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="nBl53nkbAcUGUDDzAYkc-0" />
         <mxCell id="nBl53nkbAcUGUDDzAYkc-1" parent="nBl53nkbAcUGUDDzAYkc-0" />
@@ -1737,134 +1865,6 @@
         </mxCell>
         <mxCell id="N-HyPJQooLoAW7u7NQw_-55" parent="nBl53nkbAcUGUDDzAYkc-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="Abort: error message,&#xa;no writes performed" vertex="1">
           <mxGeometry height="60" width="200" x="139" y="397" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="seqNmxLiUtkBd6Vnm8av" name="mProgramFlow6">
-    <mxGraphModel dx="2043" dy="968" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;align=left;verticalAlign=top;fontSize=11;" value="green = WACKER custom logic&#xa;blue = OOTB API call&#xa;yellow = records created / data outcome&#xa;red = abort / cancel" vertex="1">
-          <mxGeometry height="80" width="280" x="-520" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="PMO clicks &quot;Close Fiscal Year&quot;&#xa;on Program form&#xa;(closing year = pm_program.u_fiscal_period, e.g. FY26)" vertex="1">
-          <mxGeometry height="90" width="300" x="-160" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;spacingLeft=8;" value="Server pre-check (feeds the modal):&#xa;collect the Cost Distributions of the closing year&#xa;- fully inside FY26 → close candidates&#xa;- reaching beyond FY26 / empty window →&#xa;proposed SPLIT (end at FY26: M12 +&#xa;continuation row from FY27: M01)" vertex="1">
-          <mxGeometry height="110" width="300" x="-160" y="130" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;spacingLeft=8;" value="Modal: CD review list&#xa;&quot;The following Cost Distributions will be CLOSED&#xa;with FY26 - they stay in the calculations of the&#xa;linked demands/projects, but can no longer be&#xa;changed. Review the list and adjust start/end&#xa;periods for rows that belong to the closing year.&quot;&#xa;PMO reviews / tunes windows per row" vertex="1">
-          <mxGeometry height="130" width="300" x="-160" y="280" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="PMO confirms&#xa;the reviewed list?" vertex="1">
-          <mxGeometry height="90" width="320" x="-170" y="450" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="Cancelled -&#xa;nothing written" vertex="1">
-          <mxGeometry height="60" width="200" x="-470" y="465" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Server: WackerProgramRevisionUtil&#xa;.closeFiscalYear(programGr, reviewedSet)&#xa;(one-line delegation from UI Action)" vertex="1">
-          <mxGeometry height="70" width="300" x="-160" y="580" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Guard checks:&#xa;u_fiscal_period set? FY not already closed?&#xa;next FY period exists?&#xa;FAIL → abort + error message, nothing written" vertex="1">
-          <mxGeometry height="110" width="340" x="-180" y="690" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="Abort: error message,&#xa;no writes performed" vertex="1">
-          <mxGeometry height="60" width="200" x="-470" y="715" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="STEP 1 - resolve Budget Line for FY26&#xa;OOTB PPMProjectFunding&#xa;.findOrCreateFundingRecordForEntity(&#xa;&#39;program&#39;, programId, FY26)" vertex="1">
-          <mxGeometry height="90" width="300" x="-160" y="840" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="STEP 2 - copy the 6 fields&#xa;pm_program → project_funding (FY26 line):&#xa;umbrella BC calc., required data for SAP,&#xa;business requirement, external + internal budget,&#xa;u_total_budget = external + internal" vertex="1">
-          <mxGeometry height="100" width="300" x="-160" y="970" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="STEP 3 - close stamp on the Budget Line&#xa;u_fy_closed_on = now, u_fy_closed_by = user&#xa;→ from this moment ACL + before-BR&#xa;block edits on this Budget Line" vertex="1">
-          <mxGeometry height="90" width="300" x="-160" y="1110" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;spacingLeft=8;" value="STEP 3b - close the Cost Distributions&#xa;apply the reviewed window changes + splits&#xa;(rules suppressed), then STAMP the approved rows:&#xa;u_cost_distribution.u_closed_with_budget_line&#xa;= FY26 Budget Line&#xa;→ ACL blocks change + delete on stamped rows" vertex="1">
-          <mxGeometry height="120" width="300" x="-160" y="1240" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-14" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;spacingLeft=8;" value="CDs of FY26 are now CLOSED.&#xa;No separate photo table (customer decision:&#xa;u_cost_distribution_baseline dropped) -&#xa;the closed rows themselves are the history,&#xa;still feeding the calculations." vertex="1">
-          <mxGeometry height="100" width="310" x="210" y="1250" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;spacingLeft=8;" value="STEP 4 - program revision snapshot&#xa;OOTB BaselineAPI.createBaseline({&#xa;baselineConfig: Program Baseline [WACKER],&#xa;primarySysId: programId,&#xa;name: &#39;FY26 Revision&#39;,&#xa;additionalQueryDetails:&#xa;{ project_funding: &#39;fiscal_period=FY26&#39; } })" vertex="1">
-          <mxGeometry height="130" width="300" x="-160" y="1400" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-16" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;spacingLeft=8;" value="CREATED:&#xa;1× u_pm_program_baseline (revision header)&#xa;+ project_funding_baseline row(s) for FY26 only,&#xa;fields copied per baseline_config_field_map&#xa;(incl. the 6 new u_ fields)" vertex="1">
-          <mxGeometry height="110" width="310" x="210" y="1410" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;spacingLeft=8;" value="STEP 5 - related documents&#xa;for each Demand / Project with&#xa;primary_program = this program:&#xa;OOTB BaselineAPI.createBaseline&#xa;(&quot;Demand Baseline&quot; / &quot;Project Financial Baseline&quot;)&#xa;per-document try/catch - one failure&#xa;does not abort the revision" vertex="1">
-          <mxGeometry height="130" width="300" x="-160" y="1570" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-18" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;spacingLeft=8;" value="CREATED per document:&#xa;dmn_demand_baseline / pm_project_baseline&#xa;+ cost plan / breakdown / benefit plan /&#xa;funding baselines (OOTB config trees)" vertex="1">
-          <mxGeometry height="100" width="310" x="210" y="1585" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;spacingLeft=8;" value="STEP 5b - ONE member refresh&#xa;for each linked Demand / Project:&#xa;wipe + re-copy from the program&#xa;(the stamp TRAVELS WITH THE COPY -&#xa;u_closed_with_budget_line is part of the copy set)&#xa;+ one recalculation per member.&#xa;Coverage identical → amounts unchanged" vertex="1">
-          <mxGeometry height="130" width="300" x="-160" y="1740" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="STEP 6 - program tail updates&#xa;u_ready_for_sap_setup = &#39;no&#39;&#xa;u_fiscal_period → next year (FY27)" vertex="1">
-          <mxGeometry height="80" width="300" x="-160" y="1910" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="DONE - info message to PMO +&#xa;one summary log line (counts, errors,&#xa;N Cost Distributions closed with FY26).&#xa;Program now plans FY27;&#xa;FY26 history is closed and locked." vertex="1">
-          <mxGeometry height="100" width="300" x="-160" y="2030" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-22" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-23" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-24" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-25" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-7" value="Confirm&#xa;(gsftSubmit → server)">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-26" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#b85450;" target="xdRl-UxmptyKiTS3P3vw-6" value="Cancel">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-27" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-28" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-10" value="OK">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-29" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#b85450;" target="xdRl-UxmptyKiTS3P3vw-9" value="FAIL">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-30" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-31" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-32" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-33" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;" target="xdRl-UxmptyKiTS3P3vw-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-34" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-35" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-36" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;" target="xdRl-UxmptyKiTS3P3vw-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-37" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-38" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;" target="xdRl-UxmptyKiTS3P3vw-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-39" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xdRl-UxmptyKiTS3P3vw-40" edge="1" parent="1" source="xdRl-UxmptyKiTS3P3vw-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="xdRl-UxmptyKiTS3P3vw-21">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
