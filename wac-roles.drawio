@@ -479,12 +479,12 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ITBM_Readers" id="NC4m3mAwf7tvXMasxLEs">
-    <mxGraphModel dx="1507" dy="799" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1342" dy="799" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="DPDrP7-kFXSetGJKnKpo-0" />
         <mxCell id="DPDrP7-kFXSetGJKnKpo-1" parent="DPDrP7-kFXSetGJKnKpo-0" />
-        <mxCell id="rsvPj1cRMHHYBMWNH137-0" parent="DPDrP7-kFXSetGJKnKpo-1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;" value="&lt;b&gt;Proposal P1 - read-only reader group (nothing built yet)&lt;/b&gt;&lt;br&gt;Group ITBM_Readers grants sn_ppm_read and sn_ppm_finance_read. The full closure of the two roles is shown; no write, create or delete ACL of an SPM table lists any of these roles on DEV." vertex="1">
-          <mxGeometry height="50" width="1108" x="865" y="9" as="geometry" />
+        <mxCell id="rsvPj1cRMHHYBMWNH137-0" parent="DPDrP7-kFXSetGJKnKpo-1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;" value="&lt;b&gt;Proposal P1 - read-only reader group&lt;/b&gt;&lt;br&gt;Group ITBM_Readers grants sn_ppm_finance_read.&lt;div&gt;Q1:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- We want to have a &quot;reading Demand Requester for all Demands and Projects&quot;, but read-only. He should not be allowed to create or update anything. Without getting the Demand Manager Role.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="59" width="1015" x="21" y="10" as="geometry" />
         </mxCell>
         <mxCell id="rsvPj1cRMHHYBMWNH137-1" parent="DPDrP7-kFXSetGJKnKpo-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=actor;archiType=square;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1" value="&lt;b&gt;ITBM_Readers&lt;/b&gt;" vertex="1">
           <mxGeometry height="92" width="244" x="19" y="84" as="geometry" />
@@ -549,11 +549,11 @@
         <mxCell id="rsvPj1cRMHHYBMWNH137-23" edge="1" parent="DPDrP7-kFXSetGJKnKpo-1" source="rsvPj1cRMHHYBMWNH137-13" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="rsvPj1cRMHHYBMWNH137-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rsvPj1cRMHHYBMWNH137-24" parent="DPDrP7-kFXSetGJKnKpo-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=11;size=20;" value="&lt;b&gt;What the reader gets on the SPM tables (record ACLs, DEV)&lt;/b&gt;&lt;br&gt;dmn_demand: read all (unconditional)&lt;br&gt;pm_project: read all&lt;br&gt;pm_program: read all&lt;br&gt;pm_portfolio: read all (OOTB script answers true for users without project_portfolio_user)&lt;br&gt;resource_plan: read all&lt;br&gt;cost_plan, cost_plan_breakdown, project_funding: read all (sn_ppm_finance_read)&lt;br&gt;sn_align_core_planning_item, sn_gf_goal: no read (needs sn_align_core.ap_read_only / spw_goal_user_read, i.e. the Workspace Viewer group)&lt;br&gt;No write, create or delete on any of these tables." vertex="1">
-          <mxGeometry height="190" width="560" x="1227" y="165" as="geometry" />
+        <mxCell id="rsvPj1cRMHHYBMWNH137-24" parent="DPDrP7-kFXSetGJKnKpo-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontSize=11;size=20;" value="&lt;b&gt;What the reader gets on the SPM tables (record ACLs, DEV)&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;dmn_demand: read all (unconditional)&lt;/li&gt;&lt;li&gt;pm_project: read all&lt;/li&gt;&lt;li&gt;pm_program: read all&lt;/li&gt;&lt;li&gt;pm_portfolio: read all (OOTB script answers true for users without project_portfolio_user)&lt;/li&gt;&lt;li&gt;resource_plan: read all&lt;/li&gt;&lt;li&gt;cost_plan, cost_plan_breakdown, project_funding: read all (sn_ppm_finance_read)&lt;/li&gt;&lt;li&gt;sn_align_core_planning_item, sn_gf_goal: no read (needs sn_align_core.ap_read_only / spw_goal_user_read, i.e. the Workspace Viewer group)&lt;/li&gt;&lt;li&gt;No write, create or delete on any of these tables.&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="190" width="456" x="24" y="477" as="geometry" />
         </mxCell>
         <mxCell id="rsvPj1cRMHHYBMWNH137-25" parent="DPDrP7-kFXSetGJKnKpo-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;fontSize=11;size=20;" value="&lt;b&gt;Gaps to decide (P2, P3)&lt;/b&gt;&lt;br&gt;P2: custom field ACL cost_plan.* (read, 2019) lists only it_demand_manager, it_demand_user, portfolio_manager, program_manager, project_manager: the reader opens a cost plan and sees empty fields. Add sn_ppm_finance_read.&lt;br&gt;P3: u_cost_distribution read ACL lists only it_project_user (not read-only, contains it_demand_user). Add sn_ppm_finance_read if cost distributions are in scope.&lt;br&gt;Outside SPM records the closure allows: own time cards and time sheets (timecard_user), time card approval (timecard_approver), own PA notes, targets and thresholds (pa_viewer), own planning console configurations (sn_ppm_finance_read), approvals addressed to the user (sn_demand_approver)." vertex="1">
-          <mxGeometry height="200" width="560" x="1162" y="477" as="geometry" />
+          <mxGeometry height="159" width="560" x="512" y="475" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
