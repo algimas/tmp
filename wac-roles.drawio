@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" pages="8">
   <diagram name="all" id="70snwM10G9RLVR_uvg1D">
     <mxGraphModel dx="1946" dy="1158" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1274,7 +1274,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="A3 Viewer scope" id="6OHapmFd7xcAPcO79SYQ">
+  <diagram name="Q3 Viewer scope" id="6OHapmFd7xcAPcO79SYQ">
     <mxGraphModel dx="2791" dy="965" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="EtLR9b95IYh6tztjF3i--0" />
@@ -1341,6 +1341,182 @@
         </mxCell>
         <mxCell id="pFw31T5AQ8Kh2f5u5L0b-27" parent="EtLR9b95IYh6tztjF3i--1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=passive;archiType=square;verticalAlign=top;align=left;spacingLeft=6;spacingRight=24;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;To do for Q3&lt;/b&gt; - Workspace Viewer sees all goals, costs, demands and projects published to him, read-only&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Roles and group: nothing to change. The group Strategic Planning Workspace Viewer keeps its three roles; no new role, no new group.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;New field ACL &quot;dmn_demand.*&quot;&lt;/b&gt;, operation read, type record, roles &lt;b&gt;sn_ppm_read&lt;/b&gt;, admin overrides true.&lt;/li&gt;&lt;li&gt;Add &lt;b&gt;sn_ppm_finance_read&lt;/b&gt; to the roles of the existing field ACL &quot;&lt;b&gt;cost_plan.*&lt;/b&gt;&quot;, operation read. Effect: cost plan rows show their field values.&lt;/li&gt;&lt;li&gt;Add &lt;b&gt;sn_ppm_finance_read&lt;/b&gt; to the roles of the read ACL &quot;&lt;b&gt;u_cost_distribution&lt;/b&gt;&quot; (today it_project_user only). Only if cost distributions belong to what a viewer may see.&lt;/li&gt;&lt;li&gt;Add &lt;b&gt;sn_ppm_read&lt;/b&gt; to the roles of the read ACLs &quot;&lt;b&gt;u_related_link&lt;/b&gt;&quot; (record) and &quot;&lt;b&gt;u_related_link.*&lt;/b&gt;&quot; (field) (today it_demand_user and it_project_user).&amp;nbsp; Only if the WACKER related links belong to what a viewer may see.&lt;/li&gt;&lt;li&gt;On every portfolio plan the viewers should see: open Manage Access and add the group Strategic Planning Workspace Viewer as Group viewer.&amp;nbsp;&lt;/li&gt;&lt;li&gt;On those plans set &quot;Goals module enabled&quot; and, if only some goals should show, the &quot;Goals filter condition&quot;.&lt;/li&gt;&lt;li&gt;Set the description of the group Strategic Planning Workspace Viewer so that the IAM catalogue says what it gives, for example: &quot;SPM: read-only access to demands, projects, programs, portfolios, cost plans, planning items and goals. No create, no update.&quot;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="185" width="777" x="-1135" y="602" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Q5-merge" id="YGoSf5c1ENoVnQL_BqvW">
+    <mxGraphModel dx="1342" dy="799" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="RGOiq4gey57imG2aMLxf-0" />
+        <mxCell id="RGOiq4gey57imG2aMLxf-1" parent="RGOiq4gey57imG2aMLxf-0" />
+        <mxCell id="y578fc2lkKVI6xUaZfkh-62" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=actor;archiType=square;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;ITBM_Demand_Project_Managers&lt;/b&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="366" width="244" x="17" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-63" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#b9e0a5;strokeColor=#2e6b2e;fontStyle=1;" value="it_portfolio_manager" vertex="1">
+          <mxGeometry height="40" width="204" x="37" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-64" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="it_demand_manager" vertex="1">
+          <mxGeometry height="40" width="204" x="37" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-65" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="it_project_portfolio_user" vertex="1">
+          <mxGeometry height="40" width="204" x="37" y="127" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-66" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="approver_user" vertex="1">
+          <mxGeometry height="40" width="204" x="37" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-67" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="pps_resource" vertex="1">
+          <mxGeometry height="40" width="204" x="37" y="207" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-68" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="sn_align_core.ap_read_only" vertex="1">
+          <mxGeometry height="40" width="204" x="37" y="247" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-69" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="sn_apw_advanced.spw_goal_user_read" vertex="1">
+          <mxGeometry height="40" width="204" x="37" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-70" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="sn_ppm_finance_read" vertex="1">
+          <mxGeometry height="40" width="204" x="37" y="327" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-71" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=actor;archiType=square;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;b&gt;ITBM_Project_Managers&lt;/b&gt;" vertex="1">
+          <mxGeometry height="326" width="244" x="17" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-72" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="it_project_manager" vertex="1">
+          <mxGeometry height="40" width="204" x="37" y="447" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-73" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="task_editor" vertex="1">
+          <mxGeometry height="40" width="204" x="37" y="687" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-74" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="approver_user" vertex="1">
+          <mxGeometry height="40" width="204" x="37" y="527" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-75" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="pps_resource" vertex="1">
+          <mxGeometry height="40" width="204" x="37" y="567" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-76" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="sn_align_core.ap_read_only" vertex="1">
+          <mxGeometry height="40" width="204" x="37" y="607" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-77" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="sn_apw_advanced.spw_goal_user_read" vertex="1">
+          <mxGeometry height="40" width="204" x="37" y="647" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-78" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="sn_ppm_finance_read" vertex="1">
+          <mxGeometry height="40" width="204" x="37" y="487" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-79" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#b9e0a5;strokeColor=#2e6b2e;fontStyle=1;" value="&lt;b&gt;it_portfolio_manager&lt;/b&gt;&lt;br&gt;392 users" vertex="1">
+          <mxGeometry height="366" width="244" x="317" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-80" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="it_demand_manager" vertex="1">
+          <mxGeometry height="40" width="204" x="337" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-81" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="it_demand_user" vertex="1">
+          <mxGeometry height="40" width="204" x="337" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-82" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="it_project_portfolio_user" vertex="1">
+          <mxGeometry height="40" width="204" x="337" y="127" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-83" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="it_project_user" vertex="1">
+          <mxGeometry height="40" width="204" x="337" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-84" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;" value="pa_viewer" vertex="1">
+          <mxGeometry height="40" width="204" x="337" y="207" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-85" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;" value="resource_user" vertex="1">
+          <mxGeometry height="40" width="204" x="337" y="247" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-86" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#b9e0a5;strokeColor=#2e6b2e;fontStyle=1;" value="portfolio_manager" vertex="1">
+          <mxGeometry height="40" width="204" x="337" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-87" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="it_project_manager" vertex="1">
+          <mxGeometry height="40" width="204" x="337" y="327" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-88" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;it_project_manager&lt;/b&gt;" vertex="1">
+          <mxGeometry height="286" width="244" x="317" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-89" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;" value="idea_manager" vertex="1">
+          <mxGeometry height="40" width="204" x="337" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-90" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="it_demand_manager" vertex="1">
+          <mxGeometry height="40" width="204" x="337" y="478" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-91" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="it_project_user" vertex="1">
+          <mxGeometry height="40" width="204" x="337" y="518" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-92" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;" value="pa_viewer" vertex="1">
+          <mxGeometry height="40" width="204" x="337" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-93" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;" value="project_manager" vertex="1">
+          <mxGeometry height="40" width="204" x="337" y="598" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-94" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;" value="resource_user" vertex="1">
+          <mxGeometry height="40" width="204" x="337" y="638" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-95" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="&lt;b&gt;task_editor&lt;/b&gt;" vertex="1">
+          <mxGeometry height="48" width="244" x="317" y="716" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-96" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#b9e0a5;strokeColor=#2e6b2e;fontStyle=1;" value="&lt;b&gt;portfolio_manager&lt;/b&gt;" vertex="1">
+          <mxGeometry height="326" width="244" x="626" y="314" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-97" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#b9e0a5;strokeColor=#2e6b2e;fontStyle=1;" value="itfm_planner" vertex="1">
+          <mxGeometry height="40" width="204" x="646" y="347" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-98" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;" value="pa_viewer" vertex="1">
+          <mxGeometry height="40" width="204" x="646" y="387" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-99" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;" value="project_portfolio_user" vertex="1">
+          <mxGeometry height="40" width="204" x="646" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-100" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="sn_gf.goal_user" vertex="1">
+          <mxGeometry height="40" width="204" x="646" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-101" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="sn_gf.strategy_planner" vertex="1">
+          <mxGeometry height="40" width="204" x="646" y="507" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-102" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#b9e0a5;strokeColor=#2e6b2e;fontStyle=1;" value="sn_invst_pln.sn_spm_funding_user" vertex="1">
+          <mxGeometry height="40" width="204" x="646" y="586" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-103" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="sn_invst_pln_v2.investment_user" vertex="1">
+          <mxGeometry height="40" width="204" x="646" y="546" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-104" edge="1" parent="RGOiq4gey57imG2aMLxf-1" source="y578fc2lkKVI6xUaZfkh-63" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="y578fc2lkKVI6xUaZfkh-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-105" edge="1" parent="RGOiq4gey57imG2aMLxf-1" source="y578fc2lkKVI6xUaZfkh-72" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="y578fc2lkKVI6xUaZfkh-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-106" edge="1" parent="RGOiq4gey57imG2aMLxf-1" source="y578fc2lkKVI6xUaZfkh-73" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="y578fc2lkKVI6xUaZfkh-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-107" edge="1" parent="RGOiq4gey57imG2aMLxf-1" source="y578fc2lkKVI6xUaZfkh-86" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="y578fc2lkKVI6xUaZfkh-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-108" edge="1" parent="RGOiq4gey57imG2aMLxf-1" source="y578fc2lkKVI6xUaZfkh-87" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="y578fc2lkKVI6xUaZfkh-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-109" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=passive;archiType=square;verticalAlign=top;align=left;spacingLeft=6;spacingRight=24;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;IT financial plans (itfm_plan, itfm_plan_item ...): create, write, delete&lt;/b&gt;" vertex="1">
+          <mxGeometry height="51" width="196" x="891" y="396" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-110" edge="1" parent="RGOiq4gey57imG2aMLxf-1" source="y578fc2lkKVI6xUaZfkh-97" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="y578fc2lkKVI6xUaZfkh-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-111" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=passive;archiType=square;verticalAlign=top;align=left;spacingLeft=6;spacingRight=24;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Budget lines of portfolios (project_funding): create, write, delete&lt;/b&gt;&lt;br&gt;Fields allocated, capex and opex budget and target, fiscal period, planned.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Planned flag of demands and projects: read, write&lt;/b&gt; (dmn_demand.planned, pm_project.planned)&lt;br&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Portfolio of programs, primary portfolio of projects: write&lt;/b&gt; (pm_program.portfolio, pm_project.primary_portfolio)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Cost plan breakdowns: budget and target: write. Decisions (dmn_decision), portfolio scenarios, planning windows: create, write, delete.&lt;/b&gt;&lt;br&gt;Portfolio and program records themselves stay with wacker_dcm and wacker_pmo (custom ACLs), the merge does not touch them.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="198" width="337" x="620" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-112" edge="1" parent="RGOiq4gey57imG2aMLxf-1" source="y578fc2lkKVI6xUaZfkh-96" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="y578fc2lkKVI6xUaZfkh-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-117" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=passive;archiType=square;verticalAlign=top;align=left;spacingLeft=6;spacingRight=24;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Investment budgets (sn_invst_pln_invst_budget): create, write, delete&lt;/b&gt;" vertex="1">
+          <mxGeometry height="49" width="161" x="908" y="608" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-118" edge="1" parent="RGOiq4gey57imG2aMLxf-1" source="y578fc2lkKVI6xUaZfkh-102" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="y578fc2lkKVI6xUaZfkh-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-119" parent="RGOiq4gey57imG2aMLxf-1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=passive;archiType=square;verticalAlign=top;align=left;spacingLeft=6;spacingRight=24;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;b&gt;Any task: state, assigned to, priority, impact, urgency, due date, description, comments, work notes: write&lt;/b&gt;&lt;br&gt;Lost with the merge but for SPM it is not needed, project tasks are covered by project_manager." vertex="1">
+          <mxGeometry height="62" width="340" x="590" y="709" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-120" edge="1" parent="RGOiq4gey57imG2aMLxf-1" source="y578fc2lkKVI6xUaZfkh-95" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="y578fc2lkKVI6xUaZfkh-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y578fc2lkKVI6xUaZfkh-121" parent="RGOiq4gey57imG2aMLxf-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;fontSize=11;size=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Answer to Q5.&lt;/b&gt; No blocker: the merged group can carry both roles and nothing on the instance refers to either group. But on DEV the merge is only half done, and the half that is done has changed no right yet.&lt;br&gt;&lt;br&gt;&lt;b&gt;What happened on 2026-06-12.&lt;/b&gt; ITBM_Demand_Managers was renamed to ITBM_Demand_Project_Managers (LDAP name still cn=ITBM_Demand_Managers); its roles were not touched, it_portfolio_manager and it_project_portfolio_user are in it since 2021-07-12, so every demand manager has been a project manager (and portfolio_manager) for four years. ITBM_Project_Managers was set inactive; its 342 members were not moved. On 2026-07-01 all three manager groups, the inactive one included, received the workspace read roles (ap_read_only, spw_goal_user_read, sn_ppm_finance_read): every manager is a Workspace Viewer already.&lt;br&gt;&lt;br&gt;&lt;b&gt;Inactive does not mean retired.&lt;/b&gt; On this instance an inactive group still grants its roles: 80 active users are project managers only through ITBM_Project_Managers (4 more through DCM or PMO), and all 80 hold it_project_manager today (sys_user_has_role, inherited, recalculated by the system on 2026-09-12; no direct role, no other group). The same holds for four more inactive ITBM groups: ITBM_Requirements_Engineers (174 active members, it_project_manager), ITBM_Requirements_Managers (11), ITBM_Project_Users (44, it_project_user), ITBM_Resource_Managers (39, resource_manager - a role that no active group grants at all). Whether IAM still offers these groups is to be checked (their LDAP entries exist); 96 users are project managers only through them.&lt;br&gt;&lt;br&gt;&lt;b&gt;Rights, old Project Managers group against the merged group&lt;/b&gt; (closures 59 and 62 roles). The merged group contains every role of the old one except task_editor. It adds it_portfolio_manager and through it portfolio_manager, itfm_planner and sn_invst_pln.sn_spm_funding_user; what those open is drawn on the left: budget lines, the planned flag, the portfolio field of programs and projects, budget and target of cost plan breakdowns, decisions and portfolio scenarios, investment budgets, ITFM plans (not in use). Demand rights do not change (it_project_manager contains it_demand_manager). Portfolio and program maintenance stays with wacker_dcm and wacker_pmo. Lost: task_editor, writing state, assignee and priority of any task; not needed for SPM.&lt;br&gt;&lt;b&gt;References.&lt;/b&gt; No business rule, script include, UI action, client script, notification, assignment rule, flow, approval rule or ACL script names either group or its sys_id. Nothing breaks.&lt;br&gt;&lt;b&gt;License.&lt;/b&gt; it_project_manager and it_portfolio_manager are both full SPM roles; no change of class expected, to be confirmed with the license owner.&lt;br&gt;&lt;br&gt;&lt;b&gt;To do to finish the merge.&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-family:Courier New;font-size:10px;white-space:pre&quot;&gt;1. PMO decision: may every member of the merged group create and delete budget lines and set the planned&lt;br&gt;   flag (portfolio_manager)? If not: replace it_portfolio_manager in the group by it_project_manager;&lt;br&gt;   portfolio rights stay in ITBM_Demand_Coordination_Managers and ITBM_PMO, which hold it_portfolio_manager.&lt;br&gt;2. Add the 84 active members of ITBM_Project_Managers that are not in ITBM_Demand_Project_Managers to the&lt;br&gt;   merged group (through IAM, so that LDAP carries it), or confirm per person that the role is no longer needed.&lt;br&gt;3. Remove all members from ITBM_Project_Managers (or delete the group). Only then the roles drop.&lt;br&gt;4. Same for the other inactive ITBM groups: members that still need the role go to the active group that&lt;br&gt;   carries it (Requirements Engineers and Managers: merged group; Project Users: merged group or&lt;br&gt;   ITBM_Demand_Requesters; Resource Managers: decide where resource_manager lives), then empty the groups.&lt;br&gt;5. Rename the LDAP entry cn=ITBM_Demand_Managers to the new group name, so that IAM and ServiceNow agree.&lt;br&gt;6. Description of the merged group for IAM, for example: &quot;SPM: demand manager and project manager. Create and&lt;br&gt;   edit demands, projects, cost plans and resource plans; read portfolios and the Strategic Planning Workspace.&quot;&lt;br&gt;7. Retest with one former project-manager-only user after his move: his projects open and save as before;&lt;br&gt;   budget line New only if decided in 1.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="860" width="760" x="1287" y="14" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
