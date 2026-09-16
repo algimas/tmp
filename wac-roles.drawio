@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" pages="7">
   <diagram name="all" id="70snwM10G9RLVR_uvg1D">
     <mxGraphModel dx="1946" dy="1158" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1135,7 +1135,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Group Goal Admin" id="wZjSlZZftzW7gR91Ighm">
-    <mxGraphModel dx="1622" dy="138" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="dkSC0maqcZLFTQT4VlpO-0" />
         <mxCell id="dkSC0maqcZLFTQT4VlpO-1" parent="dkSC0maqcZLFTQT4VlpO-0" />
@@ -1270,6 +1270,83 @@
         </mxCell>
         <mxCell id="6aMUmCpfSBnF4YKSjrgM-44" parent="dkSC0maqcZLFTQT4VlpO-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;fontSize=11;size=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;What a member of Strategic Planning Goal Admin may do&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 10px; white-space: pre;&quot;&gt;  x  Open Strategic Planning Workspace                                        (ap_read_only)&lt;br&gt;  x  Portfolio plans shared with the user: read                               (ap_read_only)&lt;br&gt;  x  Work notes on shared plans and scenarios                                 (ap_read_only)&lt;br&gt;  x  Planning items of shared plans: read                                     (ap_read_only)&lt;br&gt;  x  Scenarios: read                                                          (ap_read_only)&lt;br&gt;  x  Goals and targets: read; Goals page in the workspace                     (sn_gf.goal_user_read; the page is shown to spw_goal_user_read, spw_goal_user, business_stakeholder)&lt;br&gt;  x  Goals and targets: create; edit or delete goals that are own, contribute (sn_gf.goal_user; ACL conditions sn_gf_goal write/delete)&lt;br&gt;  x  Demands, projects, programs, portfolios, resource plans: read            (sn_ppm_read; demand fields need the &lt;b&gt;NEW&lt;/b&gt; field ACL)&lt;br&gt;  x  Plan document pages: edit content                                        (OOTB ACLs on ap_read_only and sn_ppm_read)&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;b&gt;What this group does NOT have (and which of the other two has it: V = Viewer, U = User)&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 10px; white-space: pre;&quot;&gt;  U   Portfolio plans: create, delete, edit fields                             (apw_user, owner or editor)&lt;br&gt;  U   Planning items: create, update, delete                                   (apw_user)&lt;br&gt;  V U Planning item cost fields (planned/actual cost, capex, opex, benefit, RO (sn_ppm_finance_read)&lt;br&gt;  U   Planning item planned capex, opex, benefit: write                        (spw_financial_user)&lt;br&gt;  U   Scenarios: create, edit, delete                                          (apw_user, owner or editor)&lt;br&gt;  U   Scenarios: approve                                                       (scenario_approver)&lt;br&gt;  V U Cost plans, breakdowns, budget lines, expense lines: read                (sn_ppm_finance_read)&lt;br&gt;  U   Cost plans, breakdowns, expense lines: create, edit                      (sn_spm_financial_user, write conditional)&lt;br&gt;  U   Fund allocation to planning items                                        (spw_funding_user)&lt;br&gt;  U   Plan document pages: create, delete                                      (apw_user)&lt;br&gt;  U   Import/export planning items to Agile and PPM, strategies CRUD, mileston (role descriptions of sn_align_cmn_int.user, strategy_planner, milestone_editor, pf_basic)&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;b&gt;ServiceNow intent.&lt;/b&gt;&amp;nbsp;&lt;div&gt;&lt;b&gt;spw_goal_user&lt;/b&gt; is the vendor role &quot;Can view the Goals page in Strategic Planning Workspace and edit goals and targets&quot;;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;spw_goal_user_read&lt;/b&gt; &quot;Can view the Goals page&quot;.&lt;/div&gt;&lt;div&gt;Both carry no ACL of their own: the Goals page of the workspace is shown to holders of these roles (or business_stakeholder), and the record rights come from the contained &lt;b&gt;sn_gf.goal_user &lt;/b&gt;(&quot;create, read, edit, archive and delete goals&quot;, limited by ACL conditions to own, contributed, sub-goals of those, or ownerless goals) and &lt;b&gt;sn_gf.goal_user_read&lt;/b&gt;.&amp;nbsp;&lt;/div&gt;&lt;div&gt;The vendor administrator role is &lt;b&gt;sn_gf.goal_admin&lt;/b&gt; (&quot;can update the goal preferences&quot;, plus unconditional write and delete on goals and targets);&lt;br&gt;&lt;span style=&quot;font-family:Courier New;font-size:10px;white-space:pre&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="431" width="1091" x="18" y="1588" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="A3 Viewer scope" id="6OHapmFd7xcAPcO79SYQ">
+    <mxGraphModel dx="2791" dy="965" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="EtLR9b95IYh6tztjF3i--0" />
+        <mxCell id="EtLR9b95IYh6tztjF3i--1" parent="EtLR9b95IYh6tztjF3i--0" />
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-1" parent="EtLR9b95IYh6tztjF3i--1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=actor;archiType=square;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Strategic Planning Workspace Viewer&lt;/b&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="166" width="244" x="135" y="387" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-2" parent="EtLR9b95IYh6tztjF3i--1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="sn_align_core.ap_read_only" vertex="1">
+          <mxGeometry height="40" width="204" x="155" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-3" parent="EtLR9b95IYh6tztjF3i--1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="sn_ppm_finance_read" vertex="1">
+          <mxGeometry height="40" width="204" x="155" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-4" parent="EtLR9b95IYh6tztjF3i--1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="sn_apw_advanced.spw_goal_user_read" vertex="1">
+          <mxGeometry height="40" width="204" x="155" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-5" parent="EtLR9b95IYh6tztjF3i--1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;sn_align_core.ap_read_only&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="244" x="135" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-6" parent="EtLR9b95IYh6tztjF3i--1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;sn_ppm_read&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:9px&quot;&gt;inside ap_read_only&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="244" x="494" y="642" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-7" parent="EtLR9b95IYh6tztjF3i--1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;sn_ppm_finance_read&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="244" x="446" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-8" parent="EtLR9b95IYh6tztjF3i--1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=role;archiType=square;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;sn_gf.goal_user_read&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:9px&quot;&gt;inside spw_goal_user_read&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="244" x="-223" y="506" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-9" edge="1" parent="EtLR9b95IYh6tztjF3i--1" source="pFw31T5AQ8Kh2f5u5L0b-2" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="pFw31T5AQ8Kh2f5u5L0b-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-10" edge="1" parent="EtLR9b95IYh6tztjF3i--1" source="pFw31T5AQ8Kh2f5u5L0b-3" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="pFw31T5AQ8Kh2f5u5L0b-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-11" edge="1" parent="EtLR9b95IYh6tztjF3i--1" source="pFw31T5AQ8Kh2f5u5L0b-4" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="pFw31T5AQ8Kh2f5u5L0b-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-12" edge="1" parent="EtLR9b95IYh6tztjF3i--1" source="pFw31T5AQ8Kh2f5u5L0b-5" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="pFw31T5AQ8Kh2f5u5L0b-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-13" parent="EtLR9b95IYh6tztjF3i--1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=passive;archiType=square;verticalAlign=top;align=left;spacingLeft=6;spacingRight=24;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Portfolio plans&lt;/b&gt;&lt;br&gt;Visible only when the plan is shared with the member: the plan&#39;s Owned by, Editors, Viewers, Group editors or Group viewers contain the user or one of his groups (Manage Access on the plan). A plan that is not shared is not visible.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Scenarios and scenario items&lt;/b&gt;&lt;br&gt;Same sharing as the plan they belong to (owner, viewers, editors, group viewers, group editors).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Planning items of those plans&lt;/b&gt;&lt;br&gt;In the workspace: the items of the shared plans (navigation goes through the plan). In lists, reports and APIs: every planning item, the record read ACL for &lt;b&gt;ap_read_only&lt;/b&gt; has no condition.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="184" width="330" x="92" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-14" edge="1" parent="EtLR9b95IYh6tztjF3i--1" source="pFw31T5AQ8Kh2f5u5L0b-5" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="pFw31T5AQ8Kh2f5u5L0b-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-19" parent="EtLR9b95IYh6tztjF3i--1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=passive;archiType=square;verticalAlign=top;align=left;spacingLeft=6;spacingRight=24;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Demands, projects, programs, portfolios, resource plans behind the planning items&lt;/b&gt;&lt;br&gt;All rows, no condition. Demand field values only with the &lt;b&gt;NEW&lt;/b&gt; field ACL (dmn_demand.* read for sn_ppm_read). Project field values pass through timecard_user. Cost distributions and related links: not readable (&lt;b&gt;NEW ACL needed&lt;/b&gt;)." vertex="1">
+          <mxGeometry height="89" width="330" x="451" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-20" edge="1" parent="EtLR9b95IYh6tztjF3i--1" source="pFw31T5AQ8Kh2f5u5L0b-6" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="pFw31T5AQ8Kh2f5u5L0b-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-21" parent="EtLR9b95IYh6tztjF3i--1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=passive;archiType=square;verticalAlign=top;align=left;spacingLeft=6;spacingRight=24;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Cost figures of the planning items&lt;/b&gt;&lt;br&gt;Planned and actual cost, capex, opex, benefit, ROI: nine field ACLs that list &lt;b&gt;sn_ppm_finance_read&lt;/b&gt;. Without this role the item is shown without figures (the Goal Admin case).&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Cost plans, breakdowns, budget lines, expense lines of demands and projects&lt;/b&gt;&lt;br&gt;All rows, no condition. Cost plan field values only with &lt;b&gt;NEW&lt;/b&gt; (custom field ACL cost_plan.* read lists only demand and project roles).&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138" width="330" x="728" y="451" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-22" edge="1" parent="EtLR9b95IYh6tztjF3i--1" source="pFw31T5AQ8Kh2f5u5L0b-7" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="pFw31T5AQ8Kh2f5u5L0b-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-25" parent="EtLR9b95IYh6tztjF3i--1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=passive;archiType=square;verticalAlign=top;align=left;spacingLeft=6;spacingRight=24;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Goals and targets&lt;/b&gt;&lt;br&gt;Goals page of the workspace shown to &lt;b&gt;spw_goal_user_read&lt;/b&gt;;&lt;div&gt;Goals of a plan appear when the plan&#39;s &quot;Goals module enabled&quot; is set, filtered by the plan&#39;s Goals filter condition.&amp;nbsp;&lt;/div&gt;&lt;div&gt;All goals readable (no condition);&lt;/div&gt;" vertex="1">
+          <mxGeometry height="92" width="298" x="-250" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-26" edge="1" parent="EtLR9b95IYh6tztjF3i--1" source="pFw31T5AQ8Kh2f5u5L0b-8" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" target="pFw31T5AQ8Kh2f5u5L0b-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-27" parent="EtLR9b95IYh6tztjF3i--1" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=passive;archiType=square;verticalAlign=top;align=left;spacingLeft=6;spacingRight=24;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;b&gt;Not readable today&lt;/b&gt;&lt;br&gt;Cost distributions (u_cost_distribution: read only with it_project_user) and WACKER related links (u_related_link: it_demand_user, it_project_user). Fix: add sn_ppm_finance_read or sn_ppm_read to those read ACLs if in scope (P3, P3b)." vertex="1">
+          <mxGeometry height="100" width="330" x="625" y="1854" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-28" parent="EtLR9b95IYh6tztjF3i--1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;fontSize=11;size=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Read-only, how it is enforced&lt;/b&gt;&lt;br&gt;Not by a switch: no write, create or delete ACL of any of these tables lists a role of the Viewer closure (29 roles). The three exceptions, all vendor ACLs: work notes on shared plans and scenarios (ap_read_only, condition owner, editor or viewer), the content of plan document pages (sn_plng_att_core_doc_page, 2026-04, ap_read_only and sn_ppm_read), and personal plan views. The WACKER New buttons on demand and project related lists check roles the Viewer does not have (WackerPPMAccessUtils)." vertex="1">
+          <mxGeometry height="190" width="420" x="1570" y="1161" as="geometry" />
+        </mxCell>
+        <mxCell id="pFw31T5AQ8Kh2f5u5L0b-29" parent="EtLR9b95IYh6tztjF3i--1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;fontSize=11;size=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Answer to A3&lt;/b&gt;&lt;br&gt;Already true by the roles of the group; nothing to add on the role side. What the member sees is decided by two things outside the group: (1) the sharing of each plan (Manage Access: users or groups as Viewer), which is what &quot;published to him&quot; means, and (2) the two field ACL gaps P2a (demand fields) and P2b (cost plan fields), which today leave rows without values.&lt;br&gt;&lt;b&gt;Why the customer test saw no demands:&lt;/b&gt; the field ACL gap P2a, reproduced on DEV with a test user in this group only; not a missing role.&lt;br&gt;&lt;b&gt;To do:&lt;/b&gt; P2a and P2b (two field ACL records); share the plans with the group Strategic Planning Workspace Viewer as Group viewer (one entry per plan instead of 49 users); set &quot;Goals module enabled&quot; on the plans whose goals should show; P3 and P3b only if cost distributions and related links belong to the reader scope.&lt;br&gt;&lt;b&gt;Sources on DEV:&lt;/b&gt; ACLs sn_align_ws_portfolio_plan read (owner, editors, viewers, group editors, group viewers), sn_align_ws_scenario and scenario_item read (same conditions via the plan), sn_align_core_planning_item read (no condition), nine field ACLs sn_align_core_planning_item.* read (sn_ppm_finance_read), sn_gf_goal read (no condition), sn_gf_goal_target read (classification condition), dmn_demand.* read (seven records without sn_ppm_read), cost_plan.* read (custom 2019); plan fields owner, user_editors, user_viewers, group_editors, group_viewers, is_goals_module_enabled, goals_filter_condition." vertex="1">
+          <mxGeometry height="520" width="420" x="1070" y="1382" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
