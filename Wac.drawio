@@ -1865,30 +1865,27 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KzrGvUgD-kop3u9-z9k8" name="Page-13">
-    <mxGraphModel dx="2094" dy="1654" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1725" dy="1362" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9YnWEq-gxF7hQnkSDIxt-1" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;" value="&lt;b&gt;STRY0181130 - data model as built (router version 3)&lt;/b&gt;&lt;br&gt;Grey header = delivered table (unchanged), yellow header = configuration; rows: orange = written by the router, blue = taken from the configuration, dark green = the chain the router uses to find its records. Crow&#39;s foot: one side = exactly one, many side = 0..n. Solid = reference field, dashed = logical link. No marker or key field is used anywhere." vertex="1">
-          <mxGeometry height="55" width="1620" x="27" y="40" as="geometry" />
-        </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-2" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" value="sys_properties: wacker.spm.dq.scan.routes (JSON)" vertex="1">
-          <mxGeometry height="136" width="380" x="27" y="115" as="geometry" />
+          <mxGeometry height="136" width="346" x="27" y="115" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-3" parent="9YnWEq-gxF7hQnkSDIxt-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="suite = scan_check_suite.sys_id" vertex="1">
-          <mxGeometry height="22" width="380" y="26" as="geometry" />
+          <mxGeometry height="22" width="346" y="26" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-4" parent="9YnWEq-gxF7hQnkSDIxt-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="incident { caller_id, category, subcategory, contact_type, impact, urgency }" vertex="1">
-          <mxGeometry height="22" width="380" y="48" as="geometry" />
+          <mxGeometry height="22" width="346" y="48" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-5" parent="9YnWEq-gxF7hQnkSDIxt-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="close { close_code (required), close_notes, category_if_empty }" vertex="1">
-          <mxGeometry height="22" width="380" y="70" as="geometry" />
+          <mxGeometry height="22" width="346" y="70" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-6" parent="9YnWEq-gxF7hQnkSDIxt-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="audiences { name: work_item, group, text }" vertex="1">
-          <mxGeometry height="22" width="380" y="92" as="geometry" />
+          <mxGeometry height="22" width="346" y="92" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-7" parent="9YnWEq-gxF7hQnkSDIxt-2" style="text;strokeColor=#2e6b2e;fillColor=#b9e0a5;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="routes { scan_check.sys_id: audience | { audience, label, active } }" vertex="1">
-          <mxGeometry height="22" width="380" y="114" as="geometry" />
+          <mxGeometry height="22" width="346" y="114" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-8" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="scan_check_suite" vertex="1">
           <mxGeometry height="70" width="300" x="467" y="115" as="geometry" />
@@ -1900,7 +1897,7 @@
           <mxGeometry height="22" width="300" y="48" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-11" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="scan_check (scan_script_only_check)" vertex="1">
-          <mxGeometry height="114" width="300" x="827" y="115" as="geometry" />
+          <mxGeometry height="114" width="300" x="905" y="114" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-12" parent="9YnWEq-gxF7hQnkSDIxt-11" style="text;strokeColor=#2e6b2e;fillColor=#b9e0a5;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="sys_id (PK) = key of the route" vertex="1">
           <mxGeometry height="22" width="300" y="26" as="geometry" />
@@ -1913,15 +1910,6 @@
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-15" parent="9YnWEq-gxF7hQnkSDIxt-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="suites (m2m scan_check_suite_check)" vertex="1">
           <mxGeometry height="22" width="300" y="92" as="geometry" />
-        </mxCell>
-        <mxCell id="9YnWEq-gxF7hQnkSDIxt-16" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="source record (any table, e.g. planning item)" vertex="1">
-          <mxGeometry height="70" width="300" x="1227" y="115" as="geometry" />
-        </mxCell>
-        <mxCell id="9YnWEq-gxF7hQnkSDIxt-17" parent="9YnWEq-gxF7hQnkSDIxt-16" style="text;strokeColor=#2e6b2e;fillColor=#b9e0a5;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="sys_id (PK) = identity of a record across runs" vertex="1">
-          <mxGeometry height="22" width="300" y="26" as="geometry" />
-        </mxCell>
-        <mxCell id="9YnWEq-gxF7hQnkSDIxt-18" parent="9YnWEq-gxF7hQnkSDIxt-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="number = PLNI... (shown in the work notes)" vertex="1">
-          <mxGeometry height="22" width="300" y="48" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-19" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="scan_result (one per scan run)" vertex="1">
           <mxGeometry height="114" width="300" x="467" y="275" as="geometry" />
@@ -1939,7 +1927,7 @@
           <mxGeometry height="22" width="300" y="92" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-24" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="scan_check_execution" vertex="1">
-          <mxGeometry height="92" width="300" x="827" y="275" as="geometry" />
+          <mxGeometry height="92" width="300" x="846" y="389" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-25" parent="9YnWEq-gxF7hQnkSDIxt-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="result -&amp;gt; scan_result" vertex="1">
           <mxGeometry height="22" width="300" y="26" as="geometry" />
@@ -1951,7 +1939,7 @@
           <mxGeometry height="22" width="300" y="70" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-28" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="scan_finding (one per record and run)" vertex="1">
-          <mxGeometry height="180" width="300" x="971" y="525" as="geometry" />
+          <mxGeometry height="180" width="300" x="903" y="557" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-29" parent="9YnWEq-gxF7hQnkSDIxt-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="sys_id (PK)" vertex="1">
           <mxGeometry height="22" width="300" y="26" as="geometry" />
@@ -1975,7 +1963,7 @@
           <mxGeometry height="22" width="300" y="158" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-36" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="incident (extends task) - ONE OPEN PER CHECK (max 22)" vertex="1">
-          <mxGeometry height="202" width="380" x="27" y="655" as="geometry" />
+          <mxGeometry height="202" width="380" x="26" y="422" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-37" parent="9YnWEq-gxF7hQnkSDIxt-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="sys_id (PK), number INC..." vertex="1">
           <mxGeometry height="22" width="380" y="26" as="geometry" />
@@ -2002,7 +1990,7 @@
           <mxGeometry height="22" width="380" y="180" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-45" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="scan_task (extends task) - ONE PER SCAN RUN WITH FINDINGS" vertex="1">
-          <mxGeometry height="180" width="380" x="467" y="655" as="geometry" />
+          <mxGeometry height="180" width="380" x="446" y="689" as="geometry" />
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-46" parent="9YnWEq-gxF7hQnkSDIxt-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="sys_id (PK), number ST..." vertex="1">
           <mxGeometry height="22" width="380" y="26" as="geometry" />
@@ -2025,20 +2013,18 @@
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-52" parent="9YnWEq-gxF7hQnkSDIxt-45" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="close_notes = &quot;Superseded by ST...&quot; | &quot;No longer detected ...&quot;" vertex="1">
           <mxGeometry height="22" width="380" y="158" as="geometry" />
         </mxCell>
-        <mxCell id="9YnWEq-gxF7hQnkSDIxt-53" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="sys_user_group" vertex="1">
-          <mxGeometry height="70" width="300" x="136" y="446" as="geometry" />
-        </mxCell>
-        <mxCell id="9YnWEq-gxF7hQnkSDIxt-54" parent="9YnWEq-gxF7hQnkSDIxt-53" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="sys_id (PK)" vertex="1">
-          <mxGeometry height="22" width="300" y="26" as="geometry" />
-        </mxCell>
-        <mxCell id="9YnWEq-gxF7hQnkSDIxt-55" parent="9YnWEq-gxF7hQnkSDIxt-53" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="name = audience group (from audiences.group)" vertex="1">
-          <mxGeometry height="22" width="300" y="48" as="geometry" />
-        </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-56" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-2" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmandOne;endFill=0;labelBackgroundColor=#ffffff;exitX=1;exitY=0.15;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9YnWEq-gxF7hQnkSDIxt-8" value="suite">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9YnWEq-gxF7hQnkSDIxt-57" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-2" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;dashed=1;exitX=1;exitY=0.9;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;" target="9YnWEq-gxF7hQnkSDIxt-11" value="routes: per check sys_id">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-57" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-2" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;dashed=1;libavoidRouting=1;" target="9YnWEq-gxF7hQnkSDIxt-11" value="routes: per check sys_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="183" />
+              <mxPoint x="420" y="201" />
+              <mxPoint x="836" y="201" />
+              <mxPoint x="836" y="171" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-58" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-8" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmany;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;" target="9YnWEq-gxF7hQnkSDIxt-11" value="m2m suite &amp;lt;-&amp;gt; checks">
           <mxGeometry relative="1" as="geometry" />
@@ -2058,23 +2044,16 @@
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-63" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-19" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.35;entryDx=0;entryDy=0;" target="9YnWEq-gxF7hQnkSDIxt-28" value="finding.result">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9YnWEq-gxF7hQnkSDIxt-64" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-16" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="9YnWEq-gxF7hQnkSDIxt-28" value="finding.source (one per run)">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="9YnWEq-gxF7hQnkSDIxt-65" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-45" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToMany;endFill=0;labelBackgroundColor=#ffffff;" target="9YnWEq-gxF7hQnkSDIxt-28" value="finding.task (the findings of that run)">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9YnWEq-gxF7hQnkSDIxt-66" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-36" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;" target="9YnWEq-gxF7hQnkSDIxt-45" value="scan_task.parent  (1 : n, one per run)">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9YnWEq-gxF7hQnkSDIxt-67" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-53" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;entryX=0.498;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;" target="9YnWEq-gxF7hQnkSDIxt-36" value="assignment_group">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9YnWEq-gxF7hQnkSDIxt-68" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-53" style="edgeStyle=elbowEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;" target="9YnWEq-gxF7hQnkSDIxt-45" value="assignment_group">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9YnWEq-gxF7hQnkSDIxt-69" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;fontSize=11;size=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div style=&quot;white-space:pre;font-family:Courier New;font-size:10px&quot;&gt;HOW THE ROUTER FINDS ITS RECORDS (dark green chain), no key field involved&lt;br&gt;  findings of the check from EARLIER results -&amp;gt; their scan task (finding.task) -&amp;gt; its parent incident (scan_task.parent)&lt;br&gt;  the newest such task = the previous run; its records = the &amp;quot;before&amp;quot; set for the work note; its parent = the incident of the check&lt;br&gt;  a task whose only links come from the CURRENT result = the task of a re-run (reused, nothing new)&lt;br&gt;  the delivered helper rule links today&amp;#x27;s findings first and may hang them on a router task: today&amp;#x27;s links are reset and never read&lt;br&gt;&lt;br&gt;CARDINALITIES AS BUILT&lt;br&gt;  incident 1 : n scan_task   one per scan run that found something; at most one task open, the older ones Resolved (history)&lt;br&gt;  scan_task 1 : n finding    exactly the findings of that run; findings are never relinked or unlinked afterwards&lt;br&gt;  check 1 : 0..1 open incident   never more open incidents than routed checks&lt;br&gt;&lt;br&gt;RETENTION (operations): findings ~1,400 rows a night, scan tasks up to 22 a night; cleanup findings &amp;gt; 90 days, resolved tasks &amp;gt; 180 days.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="215" width="1000" x="27" y="875" as="geometry" />
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-66" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-36" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;libavoidRouting=1;" target="9YnWEq-gxF7hQnkSDIxt-45" value="scan_task.parent  (1 : n, one per run)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="426" y="523" />
+              <mxPoint x="426" y="779" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
