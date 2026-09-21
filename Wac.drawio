@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" pages="12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" pages="13">
   <diagram name="allTables" id="fU0aDtS2RxrwcQl7vduN">
     <mxGraphModel dx="1900" dy="1158" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -826,7 +826,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="investment" id="TewVg1G6zgGYQrNou0n8">
-    <mxGraphModel dx="1205" dy="745" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1421" dy="965" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="wOXz0fo1hnSl81CoWM9f-0" />
         <mxCell id="wOXz0fo1hnSl81CoWM9f-1" parent="wOXz0fo1hnSl81CoWM9f-0" />
@@ -1860,6 +1860,221 @@
         </mxCell>
         <mxCell id="N-HyPJQooLoAW7u7NQw_-55" parent="nBl53nkbAcUGUDDzAYkc-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="Abort: error message,&#xa;no writes performed" vertex="1">
           <mxGeometry height="60" width="200" x="139" y="397" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KzrGvUgD-kop3u9-z9k8" name="Page-13">
+    <mxGraphModel dx="2094" dy="1654" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-1" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;" value="&lt;b&gt;STRY0181130 - data model as built (router version 3)&lt;/b&gt;&lt;br&gt;Grey header = delivered table (unchanged), yellow header = configuration; rows: orange = written by the router, blue = taken from the configuration, dark green = the chain the router uses to find its records. Crow&#39;s foot: one side = exactly one, many side = 0..n. Solid = reference field, dashed = logical link. No marker or key field is used anywhere." vertex="1">
+          <mxGeometry height="55" width="1620" x="27" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-2" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" value="sys_properties: wacker.spm.dq.scan.routes (JSON)" vertex="1">
+          <mxGeometry height="136" width="380" x="27" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-3" parent="9YnWEq-gxF7hQnkSDIxt-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="suite = scan_check_suite.sys_id" vertex="1">
+          <mxGeometry height="22" width="380" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-4" parent="9YnWEq-gxF7hQnkSDIxt-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="incident { caller_id, category, subcategory, contact_type, impact, urgency }" vertex="1">
+          <mxGeometry height="22" width="380" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-5" parent="9YnWEq-gxF7hQnkSDIxt-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="close { close_code (required), close_notes, category_if_empty }" vertex="1">
+          <mxGeometry height="22" width="380" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-6" parent="9YnWEq-gxF7hQnkSDIxt-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="audiences { name: work_item, group, text }" vertex="1">
+          <mxGeometry height="22" width="380" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-7" parent="9YnWEq-gxF7hQnkSDIxt-2" style="text;strokeColor=#2e6b2e;fillColor=#b9e0a5;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="routes { scan_check.sys_id: audience | { audience, label, active } }" vertex="1">
+          <mxGeometry height="22" width="380" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-8" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="scan_check_suite" vertex="1">
+          <mxGeometry height="70" width="300" x="467" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-9" parent="9YnWEq-gxF7hQnkSDIxt-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="sys_id (PK)" vertex="1">
+          <mxGeometry height="22" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-10" parent="9YnWEq-gxF7hQnkSDIxt-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="name = WAC SPM Data Quality" vertex="1">
+          <mxGeometry height="22" width="300" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-11" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="scan_check (scan_script_only_check)" vertex="1">
+          <mxGeometry height="114" width="300" x="827" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-12" parent="9YnWEq-gxF7hQnkSDIxt-11" style="text;strokeColor=#2e6b2e;fillColor=#b9e0a5;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="sys_id (PK) = key of the route" vertex="1">
+          <mxGeometry height="22" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-13" parent="9YnWEq-gxF7hQnkSDIxt-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="name = &quot;WAC SPM P5: ...&quot; (label = up to the colon)" vertex="1">
+          <mxGeometry height="22" width="300" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-14" parent="9YnWEq-gxF7hQnkSDIxt-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="short_description, resolution_details (ticket text)" vertex="1">
+          <mxGeometry height="22" width="300" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-15" parent="9YnWEq-gxF7hQnkSDIxt-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="suites (m2m scan_check_suite_check)" vertex="1">
+          <mxGeometry height="22" width="300" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-16" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="source record (any table, e.g. planning item)" vertex="1">
+          <mxGeometry height="70" width="300" x="1227" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-17" parent="9YnWEq-gxF7hQnkSDIxt-16" style="text;strokeColor=#2e6b2e;fillColor=#b9e0a5;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="sys_id (PK) = identity of a record across runs" vertex="1">
+          <mxGeometry height="22" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-18" parent="9YnWEq-gxF7hQnkSDIxt-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="number = PLNI... (shown in the work notes)" vertex="1">
+          <mxGeometry height="22" width="300" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-19" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="scan_result (one per scan run)" vertex="1">
+          <mxGeometry height="114" width="300" x="467" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-20" parent="9YnWEq-gxF7hQnkSDIxt-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="sys_id (PK), number SR..." vertex="1">
+          <mxGeometry height="22" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-21" parent="9YnWEq-gxF7hQnkSDIxt-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="suite -&amp;gt; scan_check_suite (empty on a single &quot;Run scan&quot;)" vertex="1">
+          <mxGeometry height="22" width="300" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-22" parent="9YnWEq-gxF7hQnkSDIxt-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="state = complete  (rule trigger)" vertex="1">
+          <mxGeometry height="22" width="300" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-23" parent="9YnWEq-gxF7hQnkSDIxt-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="sys_updated_on = completion time = the stamp in titles and notes" vertex="1">
+          <mxGeometry height="22" width="300" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-24" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="scan_check_execution" vertex="1">
+          <mxGeometry height="92" width="300" x="827" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-25" parent="9YnWEq-gxF7hQnkSDIxt-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="result -&amp;gt; scan_result" vertex="1">
+          <mxGeometry height="22" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-26" parent="9YnWEq-gxF7hQnkSDIxt-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="check -&amp;gt; scan_check" vertex="1">
+          <mxGeometry height="22" width="300" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-27" parent="9YnWEq-gxF7hQnkSDIxt-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="message (empty = ran without error)" vertex="1">
+          <mxGeometry height="22" width="300" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-28" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="scan_finding (one per record and run)" vertex="1">
+          <mxGeometry height="180" width="300" x="971" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-29" parent="9YnWEq-gxF7hQnkSDIxt-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="sys_id (PK)" vertex="1">
+          <mxGeometry height="22" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-30" parent="9YnWEq-gxF7hQnkSDIxt-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="check -&amp;gt; scan_check" vertex="1">
+          <mxGeometry height="22" width="300" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-31" parent="9YnWEq-gxF7hQnkSDIxt-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="result -&amp;gt; scan_result" vertex="1">
+          <mxGeometry height="22" width="300" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-32" parent="9YnWEq-gxF7hQnkSDIxt-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="source_table + source (sys_id of the record)" vertex="1">
+          <mxGeometry height="22" width="300" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-33" parent="9YnWEq-gxF7hQnkSDIxt-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="muted (true = counts as absent)" vertex="1">
+          <mxGeometry height="22" width="300" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-34" parent="9YnWEq-gxF7hQnkSDIxt-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="finding_details (evidence, FIX/DATA lines)" vertex="1">
+          <mxGeometry height="22" width="300" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-35" parent="9YnWEq-gxF7hQnkSDIxt-28" style="text;strokeColor=#2e6b2e;fillColor=#b9e0a5;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="task -&amp;gt; scan_task of the same run  (set by the router)" vertex="1">
+          <mxGeometry height="22" width="300" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-36" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="incident (extends task) - ONE OPEN PER CHECK (max 22)" vertex="1">
+          <mxGeometry height="202" width="380" x="27" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-37" parent="9YnWEq-gxF7hQnkSDIxt-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="sys_id (PK), number INC..." vertex="1">
+          <mxGeometry height="22" width="380" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-38" parent="9YnWEq-gxF7hQnkSDIxt-36" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="state 1 New / 2 In Progress / 3 On Hold / 6 Resolved / 7 Closed" vertex="1">
+          <mxGeometry height="22" width="380" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-39" parent="9YnWEq-gxF7hQnkSDIxt-36" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="caller_id, opened_by, category, subcategory, contact_type, impact, urgency" vertex="1">
+          <mxGeometry height="22" width="380" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-40" parent="9YnWEq-gxF7hQnkSDIxt-36" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="assignment_group -&amp;gt; sys_user_group" vertex="1">
+          <mxGeometry height="22" width="380" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-41" parent="9YnWEq-gxF7hQnkSDIxt-36" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="short_description = [WAC DQ] &amp;lt;label&amp;gt; - &amp;lt;check&amp;gt;  (written once)" vertex="1">
+          <mxGeometry height="22" width="380" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-42" parent="9YnWEq-gxF7hQnkSDIxt-36" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="description = check, what to do, 2 links (scan tasks, findings)  (written once)" vertex="1">
+          <mxGeometry height="22" width="380" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-43" parent="9YnWEq-gxF7hQnkSDIxt-36" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="work_notes = one note per run that changed the record set" vertex="1">
+          <mxGeometry height="22" width="380" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-44" parent="9YnWEq-gxF7hQnkSDIxt-36" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="close_code, close_notes, resolved_by (when the check finds nothing)" vertex="1">
+          <mxGeometry height="22" width="380" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-45" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="scan_task (extends task) - ONE PER SCAN RUN WITH FINDINGS" vertex="1">
+          <mxGeometry height="180" width="380" x="467" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-46" parent="9YnWEq-gxF7hQnkSDIxt-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="sys_id (PK), number ST..." vertex="1">
+          <mxGeometry height="22" width="380" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-47" parent="9YnWEq-gxF7hQnkSDIxt-45" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="state 1 New (current run) / 4 Resolved (superseded or nothing found), active" vertex="1">
+          <mxGeometry height="22" width="380" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-48" parent="9YnWEq-gxF7hQnkSDIxt-45" style="text;strokeColor=#2e6b2e;fillColor=#b9e0a5;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="parent -&amp;gt; incident  (n : 1)" vertex="1">
+          <mxGeometry height="22" width="380" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-49" parent="9YnWEq-gxF7hQnkSDIxt-45" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="assignment_group -&amp;gt; sys_user_group" vertex="1">
+          <mxGeometry height="22" width="380" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-50" parent="9YnWEq-gxF7hQnkSDIxt-45" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="short_description = [WAC DQ] &amp;lt;label&amp;gt; - &amp;lt;check&amp;gt; - &amp;lt;yyyy-mm-dd HH:MM&amp;gt;" vertex="1">
+          <mxGeometry height="22" width="380" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-51" parent="9YnWEq-gxF7hQnkSDIxt-45" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="description = run, count, link to its findings, what to do  (written once)" vertex="1">
+          <mxGeometry height="22" width="380" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-52" parent="9YnWEq-gxF7hQnkSDIxt-45" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="close_notes = &quot;Superseded by ST...&quot; | &quot;No longer detected ...&quot;" vertex="1">
+          <mxGeometry height="22" width="380" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-53" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;align=center;fillColor=#f5f5f5;strokeColor=#666666;" value="sys_user_group" vertex="1">
+          <mxGeometry height="70" width="300" x="136" y="446" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-54" parent="9YnWEq-gxF7hQnkSDIxt-53" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="sys_id (PK)" vertex="1">
+          <mxGeometry height="22" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-55" parent="9YnWEq-gxF7hQnkSDIxt-53" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" value="name = audience group (from audiences.group)" vertex="1">
+          <mxGeometry height="22" width="300" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-56" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-2" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmandOne;endFill=0;labelBackgroundColor=#ffffff;exitX=1;exitY=0.15;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9YnWEq-gxF7hQnkSDIxt-8" value="suite">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-57" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-2" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;dashed=1;exitX=1;exitY=0.9;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;" target="9YnWEq-gxF7hQnkSDIxt-11" value="routes: per check sys_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-58" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-8" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmany;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;" target="9YnWEq-gxF7hQnkSDIxt-11" value="m2m suite &amp;lt;-&amp;gt; checks">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-59" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-8" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9YnWEq-gxF7hQnkSDIxt-19" value="result.suite">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-60" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-19" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9YnWEq-gxF7hQnkSDIxt-24" value="execution.result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-61" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-11" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9YnWEq-gxF7hQnkSDIxt-24" value="execution.check">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-62" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-11" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;exitX=1;exitY=0.7;exitDx=0;exitDy=0;entryX=1;entryY=0.15;entryDx=0;entryDy=0;" target="9YnWEq-gxF7hQnkSDIxt-28" value="finding.check">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-63" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-19" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.35;entryDx=0;entryDy=0;" target="9YnWEq-gxF7hQnkSDIxt-28" value="finding.result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-64" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-16" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="9YnWEq-gxF7hQnkSDIxt-28" value="finding.source (one per run)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-65" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-45" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToMany;endFill=0;labelBackgroundColor=#ffffff;" target="9YnWEq-gxF7hQnkSDIxt-28" value="finding.task (the findings of that run)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-66" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-36" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;" target="9YnWEq-gxF7hQnkSDIxt-45" value="scan_task.parent  (1 : n, one per run)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-67" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-53" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;entryX=0.498;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;" target="9YnWEq-gxF7hQnkSDIxt-36" value="assignment_group">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-68" edge="1" parent="1" source="9YnWEq-gxF7hQnkSDIxt-53" style="edgeStyle=elbowEdgeStyle;html=1;rounded=0;fontSize=10;strokeColor=#b85450;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;labelBackgroundColor=#ffffff;" target="9YnWEq-gxF7hQnkSDIxt-45" value="assignment_group">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YnWEq-gxF7hQnkSDIxt-69" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;fontSize=11;size=20;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div style=&quot;white-space:pre;font-family:Courier New;font-size:10px&quot;&gt;HOW THE ROUTER FINDS ITS RECORDS (dark green chain), no key field involved&lt;br&gt;  findings of the check from EARLIER results -&amp;gt; their scan task (finding.task) -&amp;gt; its parent incident (scan_task.parent)&lt;br&gt;  the newest such task = the previous run; its records = the &amp;quot;before&amp;quot; set for the work note; its parent = the incident of the check&lt;br&gt;  a task whose only links come from the CURRENT result = the task of a re-run (reused, nothing new)&lt;br&gt;  the delivered helper rule links today&amp;#x27;s findings first and may hang them on a router task: today&amp;#x27;s links are reset and never read&lt;br&gt;&lt;br&gt;CARDINALITIES AS BUILT&lt;br&gt;  incident 1 : n scan_task   one per scan run that found something; at most one task open, the older ones Resolved (history)&lt;br&gt;  scan_task 1 : n finding    exactly the findings of that run; findings are never relinked or unlinked afterwards&lt;br&gt;  check 1 : 0..1 open incident   never more open incidents than routed checks&lt;br&gt;&lt;br&gt;RETENTION (operations): findings ~1,400 rows a night, scan tasks up to 22 a night; cleanup findings &amp;gt; 90 days, resolved tasks &amp;gt; 180 days.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="215" width="1000" x="27" y="875" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
