@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" pages="14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" pages="15">
   <diagram name="allTables" id="fU0aDtS2RxrwcQl7vduN">
     <mxGraphModel dx="1900" dy="1158" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2271,6 +2271,166 @@
           <mxGeometry relative="1" x="-0.026" y="71" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="n5kJQ9bvWgH5cihcpauX" name="AI">
+    <mxGraphModel dx="1993" dy="1158" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-3" parent="1" style="swimlane;horizontal=1;startSize=26;fontStyle=1;fontSize=12;align=left;spacingLeft=8;fillColor=none;strokeColor=#999999;dashed=1;html=1;" value="LAYER 3 - THE STORY: one skill of the SPM app, used in the Project Workspace only (no AI generation on the classic form)" vertex="1">
+          <mxGeometry height="330" width="1920" x="172" y="377" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-5" parent="AcC9NTpXF17FAUmIbzDE-3" style="shape=mxgraph.archimate3.application;appType=comp;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;" value="&lt;b&gt;Project Workspace&lt;/b&gt;&lt;br&gt;project &amp;gt; Status Reports &amp;gt; &amp;quot;Generate status report&amp;quot; (split button)" vertex="1">
+          <mxGeometry height="71" width="193" x="266" y="49" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-10" parent="AcC9NTpXF17FAUmIbzDE-3" style="shape=mxgraph.archimate3.application;appType=passive;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;&lt;b&gt;Project data read by the skill&lt;/b&gt;&lt;br&gt;tasks, milestones, baseline (auto-created at project start since Australia; first baseline is used), cost plans planned vs actual per fiscal period, resource plans, change requests, risks, previous reports&lt;b&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;Health criteria and summary template&lt;/b&gt;&lt;br&gt;AI Admin Hub &amp;gt; skill guided setup: plain-language thresholds per dimension (default: &amp;lt;10% Green, 10-20% Yellow, &amp;gt;20% Red; overall = any Red -&amp;gt; Red), executive summary template with tokens; language of the template = language of the summary frame" vertex="1">
+          <mxGeometry height="150" width="465" x="96" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-4" parent="1" style="shape=mxgraph.archimate3.application;appType=actor;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Project manager&lt;/b&gt;&lt;br&gt;role it_project_manager" vertex="1">
+          <mxGeometry height="65" width="154" x="192" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-6" parent="1" style="shape=mxgraph.archimate3.application;appType=comp;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#b9e0a5;strokeColor=#2e6b2e;" value="&lt;b&gt;Skill: Project Status Generation&lt;/b&gt;&lt;br&gt;sub-skills RAG Health Prediction + Executive summary generation; part of ServiceNow Otto for SPM (store app v8+)" vertex="1">
+          <mxGeometry height="69" width="340" x="862" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-7" parent="1" style="shape=mxgraph.archimate3.application;appType=passive;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Draft status report (same table as today)&lt;/b&gt;&lt;br&gt;AI fields: ai_overall_health, ai_schedule, ai_cost, ai_resources, ai_scope + rationale per dimension (read-only); PM fields: overall_health, schedule, cost ... (editable); executive summary from template" vertex="1">
+          <mxGeometry height="100" width="400" x="1272" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-8" parent="1" style="shape=mxgraph.archimate3.application;appType=passive;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;" value="&lt;b&gt;Status report record&lt;/b&gt;&lt;br&gt;status Draft -&amp;gt; submitted; template &amp;quot;AI Status Report&amp;quot;, flag is_ai_status_report" vertex="1">
+          <mxGeometry height="80" width="320" x="1742" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-11" parent="1" style="shape=mxgraph.archimate3.application;appType=proc;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;" value="&lt;b&gt;Review and edit&lt;/b&gt;&lt;br&gt;the PM corrects the editable fields and submits; the AI proposal stays on the record" vertex="1">
+          <mxGeometry height="70" width="400" x="1272" y="567" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-12" parent="1" style="shape=mxgraph.archimate3.application;appType=comp;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;" value="&lt;b&gt;Sibling: AI Insights page&lt;/b&gt;&lt;br&gt;first menu item of the Project Workspace; continuous view of the same data (tasks, milestones, resources, financials, RIDAC) with severity; the status report is the periodic, signed snapshot" vertex="1">
+          <mxGeometry height="82" width="320" x="1742" y="547" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-13" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;" target="AcC9NTpXF17FAUmIbzDE-5" value="1 opens">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-14" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;" target="AcC9NTpXF17FAUmIbzDE-6" value="2 triggers">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="746.5" y="461.5" />
+              <mxPoint x="746.5" y="452" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-15" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;" target="AcC9NTpXF17FAUmIbzDE-6" value="3 reads&lt;div&gt;applies&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="834" y="601.5" />
+              <mxPoint x="834" y="472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-17" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;" target="AcC9NTpXF17FAUmIbzDE-7" value="6 returns">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-18" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;" target="AcC9NTpXF17FAUmIbzDE-11" value="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-19" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;" target="AcC9NTpXF17FAUmIbzDE-8" value="8 submits">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1718" y="602" />
+              <mxPoint x="1718" y="467" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-20" parent="1" style="swimlane;horizontal=1;startSize=26;fontStyle=1;fontSize=12;align=left;spacingLeft=8;fillColor=none;strokeColor=#999999;dashed=1;html=1;" value="LAYER 2 - SKILLS: packaged per workflow as store applications, licensed on top of the base product" vertex="1">
+          <mxGeometry height="170" width="1920" x="172" y="727" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-21" parent="1" style="shape=mxgraph.archimate3.application;appType=comp;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;" value="&lt;b&gt;Other workflow apps at WACKER&lt;/b&gt;&lt;br&gt;Otto for ITSM, Knowledge, Creator, Virtual Agent, Platform, Process Mining: installed and active on DEV" vertex="1">
+          <mxGeometry height="80" width="340" x="192" y="777" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-22" parent="1" style="shape=mxgraph.archimate3.application;appType=comp;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;b&gt;ServiceNow Otto for Strategic Portfolio Management&lt;/b&gt;&lt;br&gt;store app, current version 9.x; the only missing piece at WACKER" vertex="1">
+          <mxGeometry height="80" width="340" x="862" y="777" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-23" parent="1" style="shape=mxgraph.archimate3.application;appType=passive;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Licence: SPM Pro Plus&lt;/b&gt;&lt;br&gt;subscribed at WACKER until 2028 (250 users); per ServiceNow fact sheet the prerequisite for AI status reports; open: assist consumption per report and whether it is covered" vertex="1">
+          <mxGeometry height="90" width="400" x="1272" y="777" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-24" parent="1" style="shape=mxgraph.archimate3.application;appType=comp;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" value="&lt;b&gt;Own skills and AI agents&lt;/b&gt;&lt;br&gt;build-your-own on the same machinery" vertex="1">
+          <mxGeometry height="60" width="320" x="1742" y="777" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-25" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;" target="AcC9NTpXF17FAUmIbzDE-22" value="contained in">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1032" y="647" />
+              <mxPoint x="1032" y="647" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-26" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;" target="AcC9NTpXF17FAUmIbzDE-22" value="unlocks">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-27" parent="1" style="swimlane;horizontal=1;startSize=26;fontStyle=1;fontSize=12;align=left;spacingLeft=8;fillColor=none;strokeColor=#999999;dashed=1;html=1;" value="LAYER 1 - PLATFORM MACHINERY: generates nothing by itself; already live at WACKER for other workflows" vertex="1">
+          <mxGeometry height="190" width="1920" x="172" y="917" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-28" parent="1" style="shape=mxgraph.archimate3.application;appType=actor;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Platform admin&lt;/b&gt;&lt;br&gt;AI Steward / platform team" vertex="1">
+          <mxGeometry height="60" width="240" x="192" y="967" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-29" parent="1" style="shape=mxgraph.archimate3.application;appType=comp;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;" value="&lt;b&gt;Now Assist Admin / AI Admin Hub&lt;/b&gt;&lt;br&gt;switch skills on and off, roles, criteria and templates, usage and assist metering; AI Control Tower for governance" vertex="1">
+          <mxGeometry height="90" width="300" x="492" y="967" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-30" parent="1" style="shape=mxgraph.archimate3.application;appType=comp;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;" value="&lt;b&gt;Generative AI Controller&lt;/b&gt;&lt;br&gt;connects skills to the model; prompt in, text out" vertex="1">
+          <mxGeometry height="70" width="340" x="862" y="967" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-31" parent="1" style="shape=mxgraph.archimate3.application;appType=comp;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;" value="&lt;b&gt;Model provider&lt;/b&gt;&lt;br&gt;demo instance: Azure OpenAI; WACKER DEV: Now LLM and Azure OpenAI mappings present, active one to confirm" vertex="1">
+          <mxGeometry height="80" width="400" x="1272" y="967" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-32" parent="1" style="shape=mxgraph.archimate3.application;appType=comp;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" value="&lt;b&gt;Now LLM service&lt;/b&gt;&lt;br&gt;hosted by ServiceNow; alternative to a customer-chosen provider" vertex="1">
+          <mxGeometry height="70" width="320" x="1742" y="967" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-33" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;" target="AcC9NTpXF17FAUmIbzDE-29" value="configures">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-34" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;" target="AcC9NTpXF17FAUmIbzDE-22" value="enables">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-35" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;" target="AcC9NTpXF17FAUmIbzDE-30" value="4 prompt with the data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-36" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;" target="AcC9NTpXF17FAUmIbzDE-31" value="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-37" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;dashed=1;" target="AcC9NTpXF17FAUmIbzDE-32" value="or">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-38" parent="1" style="swimlane;horizontal=1;startSize=26;fontStyle=1;fontSize=12;align=left;spacingLeft=8;fillColor=none;strokeColor=#999999;dashed=1;html=1;" value="WHAT WACKER NEEDS TO DO to get the capability (outside this story; nothing installed for STRY0181125)" vertex="1">
+          <mxGeometry height="150" width="1920" x="172" y="1127" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-39" parent="1" style="shape=mxgraph.archimate3.application;appType=passive;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;1 Confirm assists&lt;/b&gt;&lt;br&gt;account team: is Otto for SPM assist consumption covered by SPM Pro Plus or separate" vertex="1">
+          <mxGeometry height="80" width="340" x="192" y="1177" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-40" parent="1" style="shape=mxgraph.archimate3.application;appType=passive;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;2 Confirm the place&lt;/b&gt;&lt;br&gt;project managers work in Project Workspace (Q3); if classic form only, adoption first" vertex="1">
+          <mxGeometry height="80" width="340" x="582" y="1177" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-41" parent="1" style="shape=mxgraph.archimate3.application;appType=comp;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;3 Install and activate on DEV&lt;/b&gt;&lt;br&gt;store install of Otto for SPM; activate Project Status Generation; enter PMO thresholds and template in the guided setup" vertex="1">
+          <mxGeometry height="80" width="380" x="972" y="1177" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-42" parent="1" style="shape=mxgraph.archimate3.application;appType=passive;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;4 Data readiness&lt;/b&gt;&lt;br&gt;baselines, planned and actual cost per fiscal period, resource plans, change requests; no data = Green (silently)" vertex="1">
+          <mxGeometry height="80" width="320" x="1402" y="1177" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-43" parent="1" style="shape=mxgraph.archimate3.application;appType=comp;archiType=square;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;5 Pilot&lt;/b&gt;&lt;br&gt;3-5 projects, compare AI health with the PM&amp;#x27;s own view, measure assists per report, then TEST and PROD" vertex="1">
+          <mxGeometry height="80" width="290" x="1772" y="1177" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-44" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;" target="AcC9NTpXF17FAUmIbzDE-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-45" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;" target="AcC9NTpXF17FAUmIbzDE-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-46" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;" target="AcC9NTpXF17FAUmIbzDE-42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-47" edge="1" parent="1" source="AcC9NTpXF17FAUmIbzDE-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=10;endArrow=block;" target="AcC9NTpXF17FAUmIbzDE-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AcC9NTpXF17FAUmIbzDE-48" parent="1" style="shape=note;whiteSpace=pre;html=1;align=left;verticalAlign=top;fontFamily=Courier New;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;size=20;spacingLeft=6;" value="IN WORDS&#xa;Layer 1: model + controller + admin console. Nothing here writes a report. Already in place at WACKER (used by ITSM, Knowledge, Creator).&#xa;Layer 2: a skill = prepared prompt + record data in, generated text back into the UI; skills ship per workflow as store apps.&#xa;Layer 3: Project Status Generation drafts the report from project data and the PMO&#39;s plain-language criteria;&#xa;         the PM reviews, edits the PM fields and submits. The AI proposal is kept on the record next to the PM&#39;s values.&#xa;&#xa;VERIFIED ON A DEMO INSTANCE (Australia, Otto for SPM 9.8, Azure OpenAI)&#xa;- Works only from the Project Workspace; four health dimensions (schedule, cost, resources, scope) plus overall.&#xa;- Criteria and the executive summary template are edited in the AI Admin Hub guided setup, no code.&#xa;- Missing data is reported as Green, not as unknown -&gt; data readiness is part of the value.&#xa;- Display currency of cost fields follows the user&#39;s session currency.&#xa;&#xa;WACKER TODAY (DEV, read-only check)&#xa;- Australia Patch 6, SPM Pro Plus subscribed, full AI platform installed, Project Workspace 7.0 installed.&#xa;- Missing: the Otto for SPM store app. Open: assists coverage, active model provider, where the PMs work.&#xa;" vertex="1">
+          <mxGeometry height="330" width="1180" x="172" y="1297" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
