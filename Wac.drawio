@@ -2160,14 +2160,14 @@
         <mxCell id="7VRETilZOHFnB1T0Wc80-31" parent="1" style="shape=note;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=8;fontSize=11;fillColor=#ffffff;strokeColor=#666666;size=18;" value="&lt;b&gt;STRY0181133 - SAP actual costs into project expense lines (concept v2, DEV state 2026-09-24)&lt;/b&gt;&lt;br&gt;&lt;b&gt;Question:&lt;/b&gt; actual costs from SAP in ServiceNow, mapped to the correct projects, monthly, the same way as the cost center file import.&lt;br&gt;&lt;b&gt;Answer:&lt;/b&gt; the monthly SAP report is fetched from the MID server folder (transport, orange left), loaded into a staging table and transformed into one expense line per SAP order, cost element and period on the resolved project (mapping, orange middle); the OOTB rules roll the lines up to the project&#39;s Actual cost (green). Grey = platform records used as they are, yellow = data, orange = records of this story, red = not built.&lt;br&gt;&lt;b&gt;Findings:&lt;/b&gt; the same load was done by hand in 2023 and 2024 (lines without key); the report carries the PRJ number in the Alfabet column and the SAP order resolves through the demand; the Excel loader reads displayed values (cents lost with a #,##0 column); re-runs update by key, unchanged lines are skipped, a changed amount updates the line and the project total at once (tested on DEV with the sample file: 17 rows, 11 lines, 3 runs).&lt;br&gt;&lt;b&gt;To do / decisions:&lt;/b&gt; D1 key order A-D, D2 cost plan assignment, D3 cost center granularity, D4 file scope and amount format rule, D5 historic loads (adopt the 2023/2024 lines by key, or start 2025), D6 folder on the MID server and the sender; end-to-end MID test; TEST, PROD." vertex="1">
           <mxGeometry height="150" width="1940" x="-552" y="717" as="geometry" />
         </mxCell>
-        <mxCell id="7VRETilZOHFnB1T0Wc80-32" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-6" value="writes">
+        <mxCell id="7VRETilZOHFnB1T0Wc80-32" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-6" value="1) writes">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7VRETilZOHFnB1T0Wc80-33" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-7" value="placed in the folder">
+        <mxCell id="7VRETilZOHFnB1T0Wc80-33" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-7" value="2) placed in the folder">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7VRETilZOHFnB1T0Wc80-34" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="7VRETilZOHFnB1T0Wc80-8" value="read by">
-          <mxGeometry relative="1" x="0.3137" y="11" as="geometry">
+        <mxCell id="7VRETilZOHFnB1T0Wc80-34" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="7VRETilZOHFnB1T0Wc80-8" value="3) read by">
+          <mxGeometry relative="1" x="0.3133" y="11" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="-172" y="462" />
@@ -2179,46 +2179,46 @@
         <mxCell id="7VRETilZOHFnB1T0Wc80-35" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-10" value="midCommandGetFiles()">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7VRETilZOHFnB1T0Wc80-36" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-11" value="creates command probe">
+        <mxCell id="7VRETilZOHFnB1T0Wc80-36" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-11" value="7) creates command probe">
           <mxGeometry relative="1" x="-0.2803" y="19" as="geometry">
             <mxPoint x="-8" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7VRETilZOHFnB1T0Wc80-37" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-8" value="executed on">
+        <mxCell id="7VRETilZOHFnB1T0Wc80-37" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-8" value="8) executed on">
           <mxGeometry relative="1" x="-0.4378" y="-12" as="geometry">
             <mxPoint x="5" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7VRETilZOHFnB1T0Wc80-38" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-12" value="answer">
-          <mxGeometry relative="1" x="0.5496" y="-19" as="geometry">
+        <mxCell id="7VRETilZOHFnB1T0Wc80-38" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-12" value="4+9) answer">
+          <mxGeometry relative="1" x="0.3649" y="-28" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7VRETilZOHFnB1T0Wc80-39" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0;exitY=0.3;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-13" value="listing answer fires">
+        <mxCell id="7VRETilZOHFnB1T0Wc80-39" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0;exitY=0.3;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-13" value="5) listing answer fires">
           <mxGeometry relative="1" x="-0.0012" y="-29" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7VRETilZOHFnB1T0Wc80-40" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0.3;exitY=0;exitDx=0;exitDy=0;entryX=0.3;entryY=1;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-10" value="processGetFiles()">
+        <mxCell id="7VRETilZOHFnB1T0Wc80-40" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0.3;exitY=0;exitDx=0;exitDy=0;entryX=0.3;entryY=1;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-10" value="6) processGetFiles()">
           <mxGeometry relative="1" x="0.5333" y="-48" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7VRETilZOHFnB1T0Wc80-41" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-14" value="file answer fires">
+        <mxCell id="7VRETilZOHFnB1T0Wc80-41" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-14" value="10) file answer fires">
           <mxGeometry relative="1" x="-0.482" y="-9" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7VRETilZOHFnB1T0Wc80-42" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-10" value="processGetFileBase64()">
-          <mxGeometry relative="1" x="-0.7053" y="-59" as="geometry">
+        <mxCell id="7VRETilZOHFnB1T0Wc80-42" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-10" value="11) processGetFileBase64()">
+          <mxGeometry relative="1" x="-0.5789" y="-66" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="105" y="207" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7VRETilZOHFnB1T0Wc80-43" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-15" value="replaces the attachment">
-          <mxGeometry relative="1" x="0.734" as="geometry">
+        <mxCell id="7VRETilZOHFnB1T0Wc80-43" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-15" value="12) replaces the attachment">
+          <mxGeometry relative="1" x="0.6777" y="64" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
