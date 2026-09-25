@@ -677,154 +677,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="context" id="oBH2VibJyhFFlMwR06VC">
-    <mxGraphModel dx="1053" dy="697" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="yAMU9oWsXEgsgrF7OLYH-0" />
-        <mxCell id="yAMU9oWsXEgsgrF7OLYH-1" parent="yAMU9oWsXEgsgrF7OLYH-0" />
-        <mxCell id="xctbcC7DyAllS1oK6kkn-1" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0;fontSize=12;gradientColor=none;shadow=0;" value="dmn_demand" vertex="1">
-          <mxGeometry height="50" width="125" x="248" y="357" as="geometry" />
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-2" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0;gradientColor=none;shadow=0;fontSize=12;" value="pm_program_task" vertex="1">
-          <mxGeometry height="41" width="121" x="114" y="110" as="geometry" />
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-3" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0;gradientColor=none;shadow=0;fontSize=12;" value="&lt;span&gt;pm_portfolio&lt;/span&gt;" vertex="1">
-          <mxGeometry height="41" width="113" x="323" y="42" as="geometry" />
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-4" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="xctbcC7DyAllS1oK6kkn-3" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-2" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="910" y="735" as="sourcePoint" />
-            <mxPoint x="865" y="735" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-7" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0;gradientColor=none;shadow=0;fontSize=12;" value="pm_project_task" vertex="1">
-          <mxGeometry height="50" width="114" x="431" y="270" as="geometry" />
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-10" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0;fontSize=12;gradientColor=none;shadow=0;" value="pm_program" vertex="1">
-          <mxGeometry height="50" width="116" x="97" y="220" as="geometry" />
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-11" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="xctbcC7DyAllS1oK6kkn-3" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-10" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="740" y="1566" as="sourcePoint" />
-            <mxPoint x="629" y="1650" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-14" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="xctbcC7DyAllS1oK6kkn-10" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-1" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="908" y="932" as="sourcePoint" />
-            <mxPoint x="821" y="933" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-15" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="xctbcC7DyAllS1oK6kkn-3" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-1" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="918" y="942" as="sourcePoint" />
-            <mxPoint x="831" y="943" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-16" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="xctbcC7DyAllS1oK6kkn-3" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-7" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="1316" y="721" as="sourcePoint" />
-            <mxPoint x="1339" y="947" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-17" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="xctbcC7DyAllS1oK6kkn-10" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-7" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="1326" y="731" as="sourcePoint" />
-            <mxPoint x="1349" y="957" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-19" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="xctbcC7DyAllS1oK6kkn-10" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-2" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="1335" y="721" as="sourcePoint" />
-            <mxPoint x="1416" y="813" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-20" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;fontStyle=0;shadow=0;fontSize=12;" value="cost_plan" vertex="1">
-          <mxGeometry height="50" width="126" x="576" y="188" as="geometry" />
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-21" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-20" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="431.9931506849314" y="92" as="sourcePoint" />
-            <mxPoint x="875" y="539" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-23" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="xctbcC7DyAllS1oK6kkn-10" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-20" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="1337" y="693" as="sourcePoint" />
-            <mxPoint x="1381" y="591" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-24" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0;gradientColor=none;shadow=0;fontSize=12;" value="fm_expense_line" vertex="1">
-          <mxGeometry height="50" width="124" x="586" y="282" as="geometry" />
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-25" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;shadow=0;fontStyle=0;fontSize=12;" value="cost_plan_breakdown&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;requirement rows (detail)&lt;/div&gt;&lt;div&gt;task rows (summary)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="67" width="160" x="842" y="286" as="geometry" />
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-26" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="xctbcC7DyAllS1oK6kkn-20" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-24" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="1065" y="523" as="sourcePoint" />
-            <mxPoint x="1127" y="176" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-27" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="xctbcC7DyAllS1oK6kkn-20" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-25" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="1075" y="533" as="sourcePoint" />
-            <mxPoint x="1137" y="186" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2deOG3LLWI3k1rhQun3f-0" connectable="0" parent="xctbcC7DyAllS1oK6kkn-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="MUST for requirement row" vertex="1">
-          <mxGeometry relative="1" x="0.0419" y="-1" as="geometry">
-            <mxPoint x="35" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-31" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;fontStyle=0;gradientColor=none;shadow=0;fontSize=12;" value="resource_plan" vertex="1">
-          <mxGeometry height="50" width="97" x="534" y="74" as="geometry" />
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-32" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="xctbcC7DyAllS1oK6kkn-31" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-20" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="869" y="681" as="sourcePoint" />
-            <mxPoint x="1227" y="342" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-33" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="xctbcC7DyAllS1oK6kkn-10" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-31" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="1246" y="716" as="sourcePoint" />
-            <mxPoint x="961" y="708" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xctbcC7DyAllS1oK6kkn-34" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="xctbcC7DyAllS1oK6kkn-3" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-31" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="1256" y="726" as="sourcePoint" />
-            <mxPoint x="971" y="718" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fUe4Jhk42j7Et_Nfb_zF-0" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#d5e8d4;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#82b366;shadow=0;fontStyle=0;fontSize=12;" value="sn_invst_pln_invst_investment&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;funding_entity_id&lt;/code&gt; → its demand/projec&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="263" x="775" y="112" as="geometry" />
-        </mxCell>
-        <mxCell id="fUe4Jhk42j7Et_Nfb_zF-1" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="fUe4Jhk42j7Et_Nfb_zF-0" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-25" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="784" y="252" as="sourcePoint" />
-            <mxPoint x="854" y="285" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fUe4Jhk42j7Et_Nfb_zF-2" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="fUe4Jhk42j7Et_Nfb_zF-0" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-20" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="933" y="229" as="sourcePoint" />
-            <mxPoint x="894" y="299" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fUe4Jhk42j7Et_Nfb_zF-3" edge="1" parent="yAMU9oWsXEgsgrF7OLYH-1" source="fUe4Jhk42j7Et_Nfb_zF-0" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;fontStyle=0" target="xctbcC7DyAllS1oK6kkn-24" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="916" y="412" as="sourcePoint" />
-            <mxPoint x="877" y="482" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2deOG3LLWI3k1rhQun3f-1" parent="yAMU9oWsXEgsgrF7OLYH-1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#dae8fc;shape=mxgraph.archimate3.businessObject;overflow=fill;strokeColor=#6c8ebf;gradientColor=none;shadow=0;fontStyle=0;fontSize=12;" value="sn_align_core_planning_item&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;planned_cost&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="175" x="914" y="26" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram name="investment" id="TewVg1G6zgGYQrNou0n8">
     <mxGraphModel dx="1421" dy="965" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1865,7 +1717,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KzrGvUgD-kop3u9-z9k8" name="ScanERD">
-    <mxGraphModel dx="1712" dy="1158" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2205,6 +2057,208 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LL8MbLpirMpm-mxnPJuL-46" edge="1" parent="1" source="LL8MbLpirMpm-mxnPJuL-29" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LL8MbLpirMpm-mxnPJuL-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="M_j6xzSJ0nOxi7YDlxP0" name="MIDimport">
+    <mxGraphModel dx="2793" dy="1558" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7VRETilZOHFnB1T0Wc80-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=6;fontStyle=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="SAP report and MID server host" vertex="1">
+          <mxGeometry height="720" width="360" x="-552" y="-23" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=6;fontStyle=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Transport, monthly day 5 (WACKER build, same pattern as the sfinx imports)" vertex="1">
+          <mxGeometry height="720" width="500" x="-152" y="-23" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=6;fontStyle=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Import and mapping (WACKER build)" vertex="1">
+          <mxGeometry height="720" width="560" x="388" y="-23" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=6;fontStyle=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Target and OOTB rollup" vertex="1">
+          <mxGeometry height="720" width="400" x="988" y="-23" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-5" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=actor;fillColor=#fff2cc;strokeColor=#d6b656;" value="Controlling&lt;br&gt;exports the SAP CO actuals report&lt;br&gt;(one file per month, amounts unformatted or 0.00)" vertex="1">
+          <mxGeometry height="65" width="320" x="-532" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-6" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#fff2cc;strokeColor=#d6b656;" value="SAP CO actuals report (xlsx)&lt;br&gt;order, cost element, order text, WBS, Alfabet PRJ number,&lt;br&gt;cost center, requester, period 001.2026, amount" vertex="1">
+          <mxGeometry height="82" width="320" x="-532" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-7" parent="1" style="shape=mxgraph.archimate3.tech;techType=node;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Import folder on the MID server host&lt;br&gt;c:\Downloads\import\sapactuals\&lt;br&gt;(property wacker.spm.sap_actuals_import.mid_path)" vertex="1">
+          <mxGeometry height="90" width="320" x="-532" y="417" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-8" parent="1" style="shape=mxgraph.archimate3.tech;techType=node;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="MID server (platform)&lt;br&gt;property wacker.import.midserver.name&lt;br&gt;runs the PowerShell&amp;nbsp;&lt;div&gt;commands in the folder&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="118" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-9" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=event;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Scheduled job&lt;br&gt;Wacker: SPM - Trigger File import&lt;br&gt;SAP Actual Costs (monthly, day 5, 04:15)" vertex="1">
+          <mxGeometry height="69" width="220" x="-132" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-10" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=comp;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Script Include&lt;br&gt;WackerSapActualsMidImport&lt;br&gt;listing command, base64 read per file,&lt;br&gt;attachment replace on the data source" vertex="1">
+          <mxGeometry height="74" width="220" x="-132" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-11" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="ecc_queue output&lt;br&gt;Command probes&lt;br&gt;source Wacker SAP Actuals Import" vertex="1">
+          <mxGeometry height="64" width="160" x="169" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-12" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="ecc_queue input&lt;br&gt;answers (stdout: listing, base64 file)" vertex="1">
+          <mxGeometry height="60" width="165" x="166" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-13" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Business rule (ecc_queue, after insert)&lt;br&gt;WAC SAP Actuals - getFiles&lt;br&gt;listing answer: request every xlsx" vertex="1">
+          <mxGeometry height="67" width="220" x="-132" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-14" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Business rule (ecc_queue, after insert)&lt;br&gt;WAC SAP Actuals - processFiles&lt;br&gt;file answer: decode, attach" vertex="1">
+          <mxGeometry height="59" width="220" x="-5" y="267" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-15" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=comp;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Data source&lt;br&gt;Wacker - SAP Actual Costs Import&lt;br&gt;File, Excel, sheet 1, header row 1, retrieval Attachment&lt;br&gt;(the file is the attachment of this record)" vertex="1">
+          <mxGeometry height="66" width="460" x="-132" y="517" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-16" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=actor;fillColor=#fff2cc;strokeColor=#d6b656;" value="Manual fallback and test path:&lt;br&gt;SPM admin attaches the file, Load All Records, Transform" vertex="1">
+          <mxGeometry height="50" width="460" x="-132" y="627" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-17" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=event;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Scheduled import&lt;br&gt;Wacker: SPM - Trigger File processing&lt;br&gt;SAP Actual Costs (monthly, day 5, 05:16)&lt;br&gt;load + transform" vertex="1">
+          <mxGeometry height="90" width="250" x="408" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-18" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Properties&lt;br&gt;wacker.spm.sap_actuals_import.cost_elements&lt;br&gt;6883200=extern,9625714=intern&lt;br&gt;(dry_run optional, absent = real run)" vertex="1">
+          <mxGeometry height="90" width="240" x="688" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-19" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#fff2cc;strokeColor=#d6b656;" value="Import set table&lt;br&gt;u_wacker_sap_actual_cost&lt;br&gt;one row per SAP report row&lt;br&gt;(14 columns as generated from the header)" vertex="1">
+          <mxGeometry height="100" width="250" x="408" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-20" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Transform map&lt;br&gt;Wacker - SAP Actual Costs to Expense Lines&lt;br&gt;coalesce on scripted key u_sap_key&lt;br&gt;onStart aggregate, onBefore apply, onComplete summary" vertex="1">
+          <mxGeometry height="110" width="250" x="408" y="297" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-21" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=comp;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Script Include WackerSapActualsImport&lt;br&gt;key = order|cost element|period&lt;br&gt;project: A Alfabet PRJ, B order = demand.u_sap_order,&lt;br&gt;C PRJ/DMND in order text, D WBS = demand.u_sap_id&lt;br&gt;cost source by cost element, sum per key,&lt;br&gt;unchanged check, closed project warning" vertex="1">
+          <mxGeometry height="250" width="240" x="688" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-22" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#fff2cc;strokeColor=#d6b656;" value="Import set rows after the run&lt;br&gt;inserted / updated / ignored (aggregated, unchanged)&lt;br&gt;error = unmapped with the reason" vertex="1">
+          <mxGeometry height="80" width="250" x="408" y="437" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-23" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Lookups (read only)&lt;br&gt;pm_project.number, active&lt;br&gt;dmn_demand.u_sap_order, u_sap_id, project" vertex="1">
+          <mxGeometry height="80" width="240" x="688" y="437" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-24" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="System log&lt;br&gt;&amp;gt;&amp;gt;&amp;gt;WackerSapActualsImport.&amp;lt;import set&amp;gt;&amp;gt;&amp;gt;&amp;gt;START | INSERT | UPDATE | UNMAPPED | DONE" vertex="1">
+          <mxGeometry height="60" width="520" x="408" y="537" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-25" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Expense line (fm_expense_line, OOTB table)&lt;br&gt;task = project, amount EUR, date = period end,&lt;br&gt;short_description = order text, u_cost_source,&lt;br&gt;state processed, &lt;b&gt;u_sap_key&lt;/b&gt; (new field, indexed)" vertex="1">
+          <mxGeometry height="110" width="360" x="1008" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-26" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="OOTB rule DefaultMiscCostPlanOnUnAccExp&lt;br&gt;line without cost plan -&amp;gt; System generated OpEx costplan&lt;br&gt;per project (decision D2: internal / external cost plan later)" vertex="1">
+          <mxGeometry height="80" width="360" x="1008" y="177" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-27" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="OOTB rule Update Planned Task Actual Cost&lt;br&gt;sum of processed lines -&amp;gt; project" vertex="1">
+          <mxGeometry height="60" width="360" x="1008" y="297" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-28" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#b5d8a8;strokeColor=#4d7a3a;fontStyle=1;" value="pm_project.work_cost = Actual cost&lt;br&gt;visible on the project, Financials, workspace, reports" vertex="1">
+          <mxGeometry height="60" width="360" x="1008" y="387" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-29" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="OOTB rule Update actuals for task&lt;br&gt;task_rollup, cost plan breakdown actuals per fiscal period" vertex="1">
+          <mxGeometry height="60" width="360" x="1008" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-30" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f8cecc;strokeColor=#b85450;" value="Not built (customer decision 2026-09-24): run summary notification,&lt;br&gt;dry-run property; the DONE log line and the import set rows are the report" vertex="1">
+          <mxGeometry height="50" width="360" x="1008" y="557" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-31" parent="1" style="shape=note;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=8;fontSize=11;fillColor=#ffffff;strokeColor=#666666;size=18;" value="&lt;b&gt;STRY0181133 - SAP actual costs into project expense lines (concept v2, DEV state 2026-09-24)&lt;/b&gt;&lt;br&gt;&lt;b&gt;Question:&lt;/b&gt; actual costs from SAP in ServiceNow, mapped to the correct projects, monthly, the same way as the cost center file import.&lt;br&gt;&lt;b&gt;Answer:&lt;/b&gt; the monthly SAP report is fetched from the MID server folder (transport, orange left), loaded into a staging table and transformed into one expense line per SAP order, cost element and period on the resolved project (mapping, orange middle); the OOTB rules roll the lines up to the project&#39;s Actual cost (green). Grey = platform records used as they are, yellow = data, orange = records of this story, red = not built.&lt;br&gt;&lt;b&gt;Findings:&lt;/b&gt; the same load was done by hand in 2023 and 2024 (lines without key); the report carries the PRJ number in the Alfabet column and the SAP order resolves through the demand; the Excel loader reads displayed values (cents lost with a #,##0 column); re-runs update by key, unchanged lines are skipped, a changed amount updates the line and the project total at once (tested on DEV with the sample file: 17 rows, 11 lines, 3 runs).&lt;br&gt;&lt;b&gt;To do / decisions:&lt;/b&gt; D1 key order A-D, D2 cost plan assignment, D3 cost center granularity, D4 file scope and amount format rule, D5 historic loads (adopt the 2023/2024 lines by key, or start 2025), D6 folder on the MID server and the sender; end-to-end MID test; TEST, PROD." vertex="1">
+          <mxGeometry height="150" width="1940" x="-552" y="717" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-32" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-6" value="writes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-33" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-7" value="placed in the folder">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-34" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="7VRETilZOHFnB1T0Wc80-8" value="read by">
+          <mxGeometry relative="1" x="0.3137" y="11" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-172" y="462" />
+              <mxPoint x="-172" y="-64" />
+              <mxPoint x="223" y="-64" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-35" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-10" value="midCommandGetFiles()">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-36" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-11" value="creates command probe">
+          <mxGeometry relative="1" x="-0.1111" y="35" as="geometry">
+            <mxPoint x="-14" y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-37" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-8" value="executed on">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-38" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-12" value="answer">
+          <mxGeometry relative="1" x="0.6" y="-10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-39" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0;exitY=0.3;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-13" value="listing answer fires">
+          <mxGeometry relative="1" x="1" y="-44" as="geometry">
+            <mxPoint x="-12" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-40" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0.3;exitY=0;exitDx=0;exitDy=0;entryX=0.3;entryY=1;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-10" value="processGetFiles()">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-41" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-14" value="file answer fires">
+          <mxGeometry relative="1" x="-0.482" y="-9" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-42" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-10" value="processGetFileBase64()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="105" y="207" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-43" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-15" value="replaces the attachment">
+          <mxGeometry relative="1" x="0.734" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-44" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;dashed=1;" target="7VRETilZOHFnB1T0Wc80-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-45" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-15" value="loads the attachment">
+          <mxGeometry relative="1" x="0.6738" y="-7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-46" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-19" value="rows">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-47" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-20" value="transform">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-48" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-21" value="one instance per run">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-49" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-21" value="read at run start">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-50" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-23" value="resolve project">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-51" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-22" value="row states">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-52" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-24" value="log lines">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-53" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-25" value="insert / update by u_sap_key">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-54" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-26" value="insert without cost plan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-55" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0.9;exitY=1;exitDx=0;exitDy=0;entryX=0.9;entryY=0;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-27" value="state processed">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-56" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VRETilZOHFnB1T0Wc80-57" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-29" value="state changes to processed">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
