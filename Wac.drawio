@@ -2077,7 +2077,7 @@
           <mxGeometry height="720" width="560" x="344" y="-96" as="geometry" />
         </mxCell>
         <mxCell id="7VRETilZOHFnB1T0Wc80-120" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=6;fontStyle=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Target and OOTB rollup" vertex="1">
-          <mxGeometry height="720" width="400" x="944" y="-96" as="geometry" />
+          <mxGeometry height="720" width="433" x="944" y="-96" as="geometry" />
         </mxCell>
         <mxCell id="7VRETilZOHFnB1T0Wc80-121" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=actor;fillColor=#fff2cc;strokeColor=#d6b656;" value="Controlling&lt;br&gt;exports the SAP CO actuals report&lt;br&gt;(one file per month, amounts unformatted or 0.00)" vertex="1">
           <mxGeometry height="90" width="247" x="-576" y="-16" as="geometry" />
@@ -2137,22 +2137,19 @@
           <mxGeometry height="59" width="204" x="688" y="465" as="geometry" />
         </mxCell>
         <mxCell id="7VRETilZOHFnB1T0Wc80-141" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Expense line (fm_expense_line, OOTB table)&lt;br&gt;task = project, amount EUR, date = period end,&lt;br&gt;short_description = order text, u_cost_source,&lt;br&gt;state processed, &lt;b&gt;u_sap_key&lt;/b&gt; (new field, indexed)" vertex="1">
-          <mxGeometry height="76" width="360" x="964" y="-46" as="geometry" />
+          <mxGeometry height="76" width="383" x="964" y="-46" as="geometry" />
         </mxCell>
-        <mxCell id="7VRETilZOHFnB1T0Wc80-142" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="OOTB rule DefaultMiscCostPlanOnUnAccExp&lt;br&gt;line without cost plan -&amp;gt; System generated OpEx costplan&lt;br&gt;per project (decision D2: internal / external cost plan later)" vertex="1">
-          <mxGeometry height="80" width="257" x="967" y="94" as="geometry" />
+        <mxCell id="7VRETilZOHFnB1T0Wc80-142" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="OOTB BR: DefaultMiscCostPlanOnUnAccExp&lt;br&gt;line without cost plan -&amp;gt;&amp;nbsp;&lt;div&gt;System generated OpEx costplan&lt;br&gt;per project&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="291" x="973" y="116" as="geometry" />
         </mxCell>
-        <mxCell id="7VRETilZOHFnB1T0Wc80-143" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="OOTB rule Update Planned Task Actual Cost&lt;br&gt;sum of processed lines -&amp;gt; project" vertex="1">
-          <mxGeometry height="60" width="192" x="1117" y="193" as="geometry" />
+        <mxCell id="7VRETilZOHFnB1T0Wc80-143" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="OOTB BR: &amp;lt;Update Planned Task Actual Cost&amp;gt;&lt;br&gt;sum of processed lines -&amp;gt; project" vertex="1">
+          <mxGeometry height="60" width="319" x="1021" y="286" as="geometry" />
         </mxCell>
         <mxCell id="7VRETilZOHFnB1T0Wc80-144" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#b5d8a8;strokeColor=#4d7a3a;fontStyle=1;" value="pm_project.work_cost = Actual cost&lt;br&gt;visible on the project, Financials, workspace, reports" vertex="1">
-          <mxGeometry height="60" width="360" x="964" y="314" as="geometry" />
+          <mxGeometry height="60" width="254" x="1071" y="403" as="geometry" />
         </mxCell>
         <mxCell id="7VRETilZOHFnB1T0Wc80-145" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="OOTB rule Update actuals for task&lt;br&gt;task_rollup, cost plan breakdown actuals per fiscal period" vertex="1">
-          <mxGeometry height="60" width="360" x="964" y="404" as="geometry" />
-        </mxCell>
-        <mxCell id="7VRETilZOHFnB1T0Wc80-146" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f8cecc;strokeColor=#b85450;" value="Not built (customer decision 2026-09-24): run summary notification,&lt;br&gt;dry-run property; the DONE log line and the import set rows are the report" vertex="1">
-          <mxGeometry height="50" width="360" x="964" y="484" as="geometry" />
+          <mxGeometry height="60" width="248" x="965" y="501" as="geometry" />
         </mxCell>
         <mxCell id="7VRETilZOHFnB1T0Wc80-148" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-122" value="1 writes">
           <mxGeometry relative="1" as="geometry" />
@@ -2256,10 +2253,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7VRETilZOHFnB1T0Wc80-170" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-142" value="23 insert without cost plan">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" x="0.2554" y="-35" as="geometry">
+            <mxPoint x="-32" y="19" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7VRETilZOHFnB1T0Wc80-171" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0.9;exitY=1;exitDx=0;exitDy=0;entryX=0.9;entryY=0;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-143" value="24 state processed">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" x="0.6467" y="-20" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7VRETilZOHFnB1T0Wc80-172" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="7VRETilZOHFnB1T0Wc80-144" value="25 sum of processed lines">
           <mxGeometry relative="1" x="0.5308" y="-28" as="geometry">
@@ -2267,7 +2268,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7VRETilZOHFnB1T0Wc80-173" edge="1" parent="1" source="7VRETilZOHFnB1T0Wc80-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7VRETilZOHFnB1T0Wc80-145" value="26 state changes to processed">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" x="-0.026" y="71" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
