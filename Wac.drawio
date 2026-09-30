@@ -2063,7 +2063,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="M_j6xzSJ0nOxi7YDlxP0" name="MIDimport">
-    <mxGraphModel dx="2793" dy="1558" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2758" dy="1619" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2136,7 +2136,7 @@
         <mxCell id="7VRETilZOHFnB1T0Wc80-139" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Lookups (read only)&lt;br&gt;pm_project.number, active&lt;br&gt;dmn_demand.u_sap_order, u_sap_id, project" vertex="1">
           <mxGeometry height="59" width="204" x="688" y="465" as="geometry" />
         </mxCell>
-        <mxCell id="7VRETilZOHFnB1T0Wc80-141" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Expense line (fm_expense_line, OOTB table)&lt;br&gt;task = project, amount EUR, date = period end,&lt;br&gt;short_description = order text, u_cost_source,&lt;br&gt;state processed, &lt;b&gt;u_sap_key&lt;/b&gt; (new field, indexed)" vertex="1">
+        <mxCell id="7VRETilZOHFnB1T0Wc80-141" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Expense line (&lt;b&gt;fm_expense_line&lt;/b&gt;, OOTB table)&lt;br&gt;task = project, amount EUR, date = period end,&lt;br&gt;short_description = order text, u_cost_source,&lt;br&gt;state processed, &lt;b&gt;u_sap_key&lt;/b&gt; (new field, indexed)" vertex="1">
           <mxGeometry height="76" width="383" x="964" y="-46" as="geometry" />
         </mxCell>
         <mxCell id="7VRETilZOHFnB1T0Wc80-142" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="OOTB BR: DefaultMiscCostPlanOnUnAccExp&lt;br&gt;line without cost plan -&amp;gt;&amp;nbsp;&lt;div&gt;System generated OpEx costplan&lt;br&gt;per project&lt;/div&gt;" vertex="1">
