@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="9beMuJ8rTLqDgQr592Rf">
-    <mxGraphModel dx="1632" dy="758" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="tables" id="9beMuJ8rTLqDgQr592Rf">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,6 +96,145 @@
         </mxCell>
         <mxCell id="DMvdaxm93GJgVWxEXb8H-43" parent="1" style="text;html=1;fontSize=10;align=left;verticalAlign=middle;" value="other scoped app (Budget)" vertex="1">
           <mxGeometry height="16" width="240" x="218" y="487" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gMEe2ToKPS8WVru0hwMF" name="Page-2">
+    <mxGraphModel dx="2200" dy="758" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vabRqZXuF9KGcR5PjotK-1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=14;" value="&lt;b&gt;A. Lifecycle - how a Demand / BPCR / Feature Request moves (legacy app, DEV 2026-10-07)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="24" width="1500" x="-196" y="494" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-2" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;dashed=1;dashPattern=8 4;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;" value="&lt;b&gt;Open states (1, 2, -3, -4, -5)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="190" width="1280" x="-216" y="582" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-3" parent="1" style="rounded=1;arcSize=35;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;spacing=4;" value="&lt;b&gt;1 New&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:10px&#39;&gt;D 71 | BPCR 93 | FR 63&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="-196" y="622" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-4" parent="1" style="rounded=1;arcSize=35;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;spacing=4;" value="&lt;b&gt;2 Initialization&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:10px&#39;&gt;D 87 | BPCR 78&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="74" y="622" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-5" parent="1" style="rounded=1;arcSize=35;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;spacing=4;" value="&lt;b&gt;-3 Planning &amp;amp; Design&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:10px&#39;&gt;D 126 | BPCR 78&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="344" y="622" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-6" parent="1" style="rounded=1;arcSize=35;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;spacing=4;" value="&lt;b&gt;-4 Authorization&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:10px&#39;&gt;D 11 | BPCR 7&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="614" y="622" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-7" parent="1" style="rounded=1;arcSize=35;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;spacing=4;" value="&lt;b&gt;-5 Execution&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:10px&#39;&gt;D 154 | BPCR 103&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="884" y="622" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-8" parent="1" style="rounded=1;arcSize=35;whiteSpace=wrap;html=1;fillColor=#b5d8a8;strokeColor=#4d7a3a;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;spacing=4;" value="&lt;b&gt;-6 Complete&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:10px&#39;&gt;D 1 468 | BPCR 1 288 | FR 18&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="190" x="1164" y="622" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-9" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=center;verticalAlign=middle;spacing=4;" value="&lt;b&gt;Feature Request&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:10px&#39;&gt;no own lifecycle: approval + Jira issue (EP), flow sets Complete or Rejected&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="700" x="84" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-10" parent="1" style="rounded=1;arcSize=35;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;spacing=4;" value="&lt;b&gt;-8 On Hold&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:10px&#39;&gt;D 178 | BPCR 93 | FR 8&lt;br&gt;dashed: Resume restores last_status&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="74" y="862" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-11" parent="1" style="rounded=1;arcSize=35;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;spacing=4;" value="&lt;b&gt;-7 Rejected&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:10px&#39;&gt;D 93 | BPCR 153 | FR 4&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="150" x="339" y="862" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-12" parent="1" style="rounded=1;arcSize=35;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;spacing=4;" value="&lt;b&gt;-9 Cancelled&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:10px&#39;&gt;D 956 | BPCR 553 | FR 32&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="150" x="609" y="862" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-13" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;align=center;verticalAlign=middle;spacing=4;" value="&lt;b&gt;Override buttons&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:10px&#39;&gt;role business_partner: 0 holders on DEV&lt;br&gt;Force Execution (2, -3, -4, -5, -7, -9 to -5)&lt;br&gt;Restart (to New)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="330" x="884" y="862" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-14" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;verticalAlign=middle;spacing=4;" value="&lt;b&gt;Path by type (demand_type)&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:10px&#39;&gt;&lt;b&gt;Normal Demand&lt;/b&gt;: Gate 1, Gate 2 only with strategic impact &#39;Yes - with Gate2&#39;, Authorization approvals (EA, Gate group)&lt;br&gt;&lt;b&gt;Small&lt;/b&gt;: Gate 1, Gate 2 skipped, Authorization skipped &amp;nbsp;|&amp;nbsp; &lt;b&gt;Fast-Track&lt;/b&gt;: Authorization skipped&lt;br&gt;&lt;b&gt;DSC Info only, Digital Accelerator&lt;/b&gt;: no Authorization branch (stuck, 3 records)&lt;br&gt;&lt;b&gt;BPCR&lt;/b&gt;: no approval until Authorization (group manager, impacted groups) &amp;nbsp;|&amp;nbsp; &lt;b&gt;Feature Request&lt;/b&gt;: Initialization approval, Jira, Complete&lt;/font&gt;" vertex="1">
+          <mxGeometry height="105" width="1010" x="-196" y="1042" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-15" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=11;" value="&lt;b&gt;Legend&lt;/b&gt;" vertex="1">
+          <mxGeometry height="18" width="200" x="854" y="1037" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-16" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="16" width="30" x="854" y="1062" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-17" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=10;" value="legacy state / mechanism" vertex="1">
+          <mxGeometry height="18" width="360" x="894" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-18" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#b5d8a8;strokeColor=#4d7a3a;fontSize=11;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="16" width="30" x="854" y="1088" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-19" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=10;" value="end state" vertex="1">
+          <mxGeometry height="18" width="360" x="894" y="1086" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-20" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="16" width="30" x="854" y="1114" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-21" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=10;" value="no way out or closes the record" vertex="1">
+          <mxGeometry height="18" width="360" x="894" y="1112" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-22" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="16" width="30" x="854" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-23" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=10;" value="dashed frame: open states" vertex="1">
+          <mxGeometry height="18" width="360" x="894" y="1138" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-24" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=10;" value="Counts: DEV records by type and state (D Demand, BPCR, FR Feature Request); 5 726 in total." vertex="1">
+          <mxGeometry height="18" width="520" x="854" y="1168" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-25" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacing=8;fontSize=10;" value="&lt;b&gt;Question:&lt;/b&gt; how does a record move from creation to completion, and who or what moves it?&lt;br&gt;&lt;b&gt;Answer:&lt;/b&gt; by buttons and request flags that start record-triggered flows; the flows (running as System) write the next state, so the read-only &lt;i&gt;state&lt;/i&gt; field is never edited by hand. One 9-state model is shared by three types.&lt;br&gt;&lt;b&gt;Findings:&lt;/b&gt; 14 UI actions, 2 request flags, 6 record triggers; Force Execution and Restart are role-gated overrides (role has 0 users on DEV); two demand types (DSC Info only, Digital Accelerator) have no Authorization branch; Feature Request is only a shortcut to Jira; 5 of 12 business rules are empty stubs. No real transition history exists on DEV or TEST (audit data not cloned).&lt;br&gt;&lt;b&gt;Decisions / to do:&lt;/b&gt; map 9 states and 2 flags to the OOTB demand stages; one mechanism for demand_type paths; keep or retire the overrides; keep or drop Feature Request; read real transition paths on PROD (open)." vertex="1">
+          <mxGeometry height="105" width="1570" x="-196" y="1202" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-26" edge="1" parent="1" source="vabRqZXuF9KGcR5PjotK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=9;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;" target="vabRqZXuF9KGcR5PjotK-4" value="button Initialize&lt;br&gt;+ Gate 1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-27" edge="1" parent="1" source="vabRqZXuF9KGcR5PjotK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=9;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;" target="vabRqZXuF9KGcR5PjotK-5" value="button Planning &amp;amp; Design&lt;br&gt;+ Gate 2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-28" edge="1" parent="1" source="vabRqZXuF9KGcR5PjotK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=9;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;" target="vabRqZXuF9KGcR5PjotK-6" value="button Request&lt;br&gt;Authorization">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-29" edge="1" parent="1" source="vabRqZXuF9KGcR5PjotK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=9;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;" target="vabRqZXuF9KGcR5PjotK-7" value="flow after&lt;br&gt;approvals">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-30" edge="1" parent="1" source="vabRqZXuF9KGcR5PjotK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=9;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;" target="vabRqZXuF9KGcR5PjotK-8" value="button Complete">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-31" edge="1" parent="1" source="vabRqZXuF9KGcR5PjotK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=9;labelBackgroundColor=#ffffff;strokeColor=#b85450;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="vabRqZXuF9KGcR5PjotK-5" value="approval refused (flow)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="684" y="737" />
+              <mxPoint x="414" y="737" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-32" edge="1" parent="1" source="vabRqZXuF9KGcR5PjotK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=9;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.0857;entryY=1;entryDx=0;entryDy=0;" target="vabRqZXuF9KGcR5PjotK-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-33" edge="1" parent="1" source="vabRqZXuF9KGcR5PjotK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=9;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vabRqZXuF9KGcR5PjotK-8" value="Initialization V2 flow">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1259" y="551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-34" edge="1" parent="1" source="vabRqZXuF9KGcR5PjotK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=9;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.2656;exitY=1;exitDx=0;exitDy=0;entryX=0.3333;entryY=0;entryDx=0;entryDy=0;" target="vabRqZXuF9KGcR5PjotK-10" value="On Hold (1, 2, -3, -5)&lt;br&gt;work note mandatory">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-35" edge="1" parent="1" source="vabRqZXuF9KGcR5PjotK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=9;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.4922;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vabRqZXuF9KGcR5PjotK-11" value="Reject (2, -3, -4, -5)&lt;br&gt;or Gate 1 refused">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-36" edge="1" parent="1" source="vabRqZXuF9KGcR5PjotK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=9;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.7031;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vabRqZXuF9KGcR5PjotK-12" value="Cancel (1, 2, -3, -5)&lt;br&gt;open approvals set to not required">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-37" edge="1" parent="1" source="vabRqZXuF9KGcR5PjotK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=9;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;dashed=1;exitX=0.8;exitY=0;exitDx=0;exitDy=0;entryX=0.3203;entryY=1;entryDx=0;entryDy=0;" target="vabRqZXuF9KGcR5PjotK-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-38" edge="1" parent="1" source="vabRqZXuF9KGcR5PjotK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=9;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;dashed=1;exitX=0.212;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="vabRqZXuF9KGcR5PjotK-7" value="Force Execution: skips Authorization">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vabRqZXuF9KGcR5PjotK-39" edge="1" parent="1" source="vabRqZXuF9KGcR5PjotK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=9;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="vabRqZXuF9KGcR5PjotK-3" value="Restart">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1049" y="1002" />
+              <mxPoint x="-126" y="1002" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
