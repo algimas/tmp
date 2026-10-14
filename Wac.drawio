@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" pages="16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" pages="17">
   <diagram name="allTables" id="fU0aDtS2RxrwcQl7vduN">
     <mxGraphModel dx="1900" dy="1158" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2544,6 +2544,152 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BkhTZmfii2fP8ByF6JrR-37" edge="1" parent="1" source="BkhTZmfii2fP8ByF6JrR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;fontSize=9;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BkhTZmfii2fP8ByF6JrR-21" value="fires">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rkHYqkYpyI4MmA-cDFAT" name="Page-17">
+    <mxGraphModel dx="1679" dy="962" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=6;fontStyle=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Trigger and rendering (classic program form)" vertex="1">
+          <mxGeometry height="980" width="380" x="10" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=6;fontStyle=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Script Include WackerProgramFyCosts.describe(programId) - the logic, top to bottom" vertex="1">
+          <mxGeometry height="980" width="640" x="430" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=6;fontStyle=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Data read (read only, nothing is written)" vertex="1">
+          <mxGeometry height="980" width="440" x="1110" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-4" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=actor;fillColor=#fff2cc;strokeColor=#d6b656;" value="DPO opens a program&lt;br&gt;(pm_program form, classic UI)" vertex="1">
+          <mxGeometry height="60" width="340" x="30" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-5" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=comp;fillColor=#ffe6cc;strokeColor=#d79b00;" value="UI formatter&lt;br&gt;Wacker Program FY costs&lt;br&gt;placed on the form layout like a field" vertex="1">
+          <mxGeometry height="70" width="340" x="30" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-6" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=comp;fillColor=#ffe6cc;strokeColor=#d79b00;" value="UI macro wacker_program_fy_costs (Jelly)&lt;br&gt;one g2:evaluate calls describe(current sys_id),&lt;br&gt;then j2:forEach loops build the HTML tables&lt;br&gt;(inline styles, no stylesheet, no client script)" vertex="1">
+          <mxGeometry height="100" width="340" x="30" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-7" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#b5d8a8;strokeColor=#4d7a3a;fontStyle=1;" value="Program form shows&lt;br&gt;planning fiscal year, key table (Budget vs Planned OPEX),&lt;br&gt;table OPEX intern / extern per year,&lt;br&gt;table Capex / Opex per year, the note,&lt;br&gt;link Show / Hide earlier years" vertex="1">
+          <mxGeometry height="110" width="340" x="30" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-8" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Same object from a background script:&lt;br&gt;var fy = new WackerProgramFyCosts().describe(sys_id);&lt;br&gt;gs.print(JSON.stringify(fy, null, 2));" vertex="1">
+          <mxGeometry height="80" width="340" x="30" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-9" parent="1" style="shape=note;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=8;fontSize=11;fillColor=#ffffff;strokeColor=#666666;size=18;" value="Where to adjust later&lt;br&gt;what is counted: constants at the top (DEMAND_STATES, OPEX,&lt;br&gt;COST_SOURCES, EXPENSE_TYPES), _members, _sums, column rule in describe&lt;br&gt;labels and texts: gs.getMessage keys (sys_ui_message for German)&lt;br&gt;look: _thStyle, _cellStyle and the macro; position on the form: form layout" vertex="1">
+          <mxGeometry height="130" width="340" x="30" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-10" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#ffe6cc;strokeColor=#d79b00;" value="1 Guards&lt;br&gt;program found by sys_id; fiscal calendar loaded (_loadYears);&lt;br&gt;planning fiscal year found (_currentFy)&lt;br&gt;else: available = false with a message, the macro shows the message" vertex="1">
+          <mxGeometry height="80" width="600" x="450" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-11" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#ffe6cc;strokeColor=#d79b00;" value="2 Members (_members): who counts&lt;br&gt;demands of the program (primary_program): counted when no parent demand&lt;br&gt;AND state Qualified or later (DEMAND_STATES); others = skipped&lt;br&gt;projects of the program: counted when no demand or the demand has no parent&lt;br&gt;result: ids (counted), skippedIds (for the note only)" vertex="1">
+          <mxGeometry height="100" width="600" x="450" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-12" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#ffe6cc;strokeColor=#d79b00;" value="3 Sums (_sums): ONE GlideAggregate on cost_plan_breakdown&lt;br&gt;breakdown_type = requirement, cost_plan.top_task IN ids&lt;br&gt;group by fiscal year, cost_plan.u_cost_source, expense_type&lt;br&gt;SUM(cost_default_currency) -&gt; rows { yearId, costSource, expenseType, sum }" vertex="1">
+          <mxGeometry height="90" width="600" x="450" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-13" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#ffe6cc;strokeColor=#d79b00;" value="4 Columns: previous, current and next fiscal year always;&lt;br&gt;any other year only with a non-zero sum; years before the previous one&lt;br&gt;are flagged early (rendered hidden, shown by the link)" vertex="1">
+          <mxGeometry height="70" width="600" x="450" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-14" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#ffe6cc;strokeColor=#d79b00;" value="5 Key table (planning fiscal year, EUR)&lt;br&gt;Budget = program fields Internal Budget + External Budget&lt;br&gt;Planned Costs OPEX = Opex rows of the fiscal year (_yearTotals)&lt;br&gt;rows Total / Internal / External" vertex="1">
+          <mxGeometry height="80" width="600" x="450" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-15" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#ffe6cc;strokeColor=#d79b00;" value="6 Tables (_table, kEUR one decimal, _keur)&lt;br&gt;table 1: Opex rows only, one row per cost source (internal, external, plus any other value found)&lt;br&gt;table 2: all rows, one row per expense type (capex, opex)&lt;br&gt;one cell per column of step 4, a Sum row per table; labels from the choice lists (session language)" vertex="1">
+          <mxGeometry height="90" width="600" x="450" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-16" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=proc;fillColor=#ffe6cc;strokeColor=#d79b00;" value="7 Note and texts: what was counted and skipped (with the skipped kEUR),&lt;br&gt;source of the fiscal year (program field or today); available = true" vertex="1">
+          <mxGeometry height="60" width="600" x="450" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-17" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#b5d8a8;strokeColor=#4d7a3a;fontStyle=1;" value="Returned object: available, fy, years, earlyCount, keyTable, tables, members, note, texts, hasCosts&lt;br&gt;data only, no HTML" vertex="1">
+          <mxGeometry height="60" width="600" x="450" y="1580" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-18" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="pm_program&lt;br&gt;u_current_fiscal_year (Planning Fiscal Year),&lt;br&gt;u_internal_budget_costs, u_external_budget_costs" vertex="1">
+          <mxGeometry height="70" width="400" x="1130" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-19" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="fiscal_period, fiscal_type = year&lt;br&gt;name, fiscal_start_date_time, fiscal_end_date_time&lt;br&gt;(the fiscal calendar of the instance)" vertex="1">
+          <mxGeometry height="70" width="400" x="1130" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-20" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="dmn_demand&lt;br&gt;primary_program, parent, state" vertex="1">
+          <mxGeometry height="50" width="400" x="1130" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-21" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="pm_project&lt;br&gt;primary_program, demand, demand.parent" vertex="1">
+          <mxGeometry height="50" width="400" x="1130" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-22" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="cost_plan -&gt; cost_plan_breakdown&lt;br&gt;cost_plan.top_task (the demand or project), cost_plan.u_cost_source&lt;br&gt;breakdown_type, fiscal_period.fiscal_year, expense_type, cost_default_currency" vertex="1">
+          <mxGeometry height="80" width="400" x="1130" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-23" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="sys_choice&lt;br&gt;labels of cost_plan.u_cost_source and cost_plan_breakdown.expense_type&lt;br&gt;in the session language, English as fallback" vertex="1">
+          <mxGeometry height="70" width="400" x="1130" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-24" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Formatting helpers (no data)&lt;br&gt;_keur: kEUR with one decimal in the user&#39;s number format&lt;br&gt;(a dummy decimal field display); _eur: EUR via a dummy currency field display" vertex="1">
+          <mxGeometry height="80" width="400" x="1130" y="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-25" parent="1" style="shape=mxgraph.archimate3.application;archiType=square;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;appType=passive;fillColor=#f8cecc;strokeColor=#b85450;" value="Not used on purpose&lt;br&gt;cost_plan_breakdown.program; demand or project totals (TPC fields);&lt;br&gt;stored values of any kind - everything is computed when the form opens" vertex="1">
+          <mxGeometry height="80" width="400" x="1130" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-27" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="rPKzjLvqyaol86-Ni4vb-5" value="opens">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-28" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="rPKzjLvqyaol86-Ni4vb-6" value="renders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-29" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="rPKzjLvqyaol86-Ni4vb-10" value="describe(programId)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-30" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.8;entryDx=0;entryDy=0;" target="rPKzjLvqyaol86-Ni4vb-6" value="object back to the macro">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-31" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="rPKzjLvqyaol86-Ni4vb-7" value="HTML tables">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-32" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;" target="rPKzjLvqyaol86-Ni4vb-10" value="describe(sys_id)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-33" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="rPKzjLvqyaol86-Ni4vb-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-34" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="rPKzjLvqyaol86-Ni4vb-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-35" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="rPKzjLvqyaol86-Ni4vb-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-36" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="rPKzjLvqyaol86-Ni4vb-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-37" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="rPKzjLvqyaol86-Ni4vb-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-38" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="rPKzjLvqyaol86-Ni4vb-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-39" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="rPKzjLvqyaol86-Ni4vb-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-40" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;" target="rPKzjLvqyaol86-Ni4vb-10" value="program, fiscal year field">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-41" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.7;entryDx=0;entryDy=0;" target="rPKzjLvqyaol86-Ni4vb-10" value="year list">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-42" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;" target="rPKzjLvqyaol86-Ni4vb-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-43" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.7;entryDx=0;entryDy=0;" target="rPKzjLvqyaol86-Ni4vb-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-44" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="rPKzjLvqyaol86-Ni4vb-12" value="one aggregate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-45" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;dashed=1;exitX=0;exitY=0.8;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;" target="rPKzjLvqyaol86-Ni4vb-14" value="budget fields">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-46" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;" target="rPKzjLvqyaol86-Ni4vb-15" value="row labels">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPKzjLvqyaol86-Ni4vb-47" edge="1" parent="1" source="rPKzjLvqyaol86-Ni4vb-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.7;entryDx=0;entryDy=0;" target="rPKzjLvqyaol86-Ni4vb-15" value="cell texts">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
