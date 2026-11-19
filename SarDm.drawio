@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="10">
+<mxfile host="app.diagrams.net" pages="12">
   <diagram name="tables" id="9beMuJ8rTLqDgQr592Rf">
     <mxGraphModel grid="0" page="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1696,6 +1696,217 @@
         </mxCell>
         <mxCell id="rWtj4DhLCcNw7WE8Fnvc-91" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#ffffff;strokeColor=#999999;fontSize=11;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;" value="&lt;b&gt;Rules for all Sartorius demand mails&lt;/b&gt;&lt;br&gt;- One save can fire several mails (for example a work note and a comment in the same save).&lt;br&gt;- The person who saved gets no copy (Send to event creator off); the approval mail is the exception.&lt;br&gt;- Every link in these mails opens the demand in the Portfolio Planning Workspace." vertex="1">
           <mxGeometry height="73" width="780" x="-491" y="1900" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="01j_pBa5T-lSohPeckKg" name="Page-11">
+    <mxGraphModel dx="3039" dy="1158" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="A demand is saved and &lt;b&gt;Work notes&lt;/b&gt; changes&lt;br&gt;(a note typed by a person and/or notes written by the demand process)" vertex="1">
+          <mxGeometry height="70" width="300" x="-496" y="383" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;arcSize=8;" value="Sartorius rule &lt;b&gt;SPM-MailEvents-dmn_demand&lt;/b&gt;&lt;br&gt;before insert and update, order 9000&lt;br&gt;SPMDemandNotes.queueMailEvents" vertex="1">
+          <mxGeometry height="70" width="300" x="-496" y="483" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Session muted (migration load) or save aborted?" vertex="1">
+          <mxGeometry height="100" width="260" x="-476" y="583" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Is it the insert of a new demand?" vertex="1">
+          <mxGeometry height="100" width="260" x="-476" y="713" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Is one of the new notes typed by a person (no #&amp;lt;Kind&amp;gt;: prefix)?" vertex="1">
+          <mxGeometry height="110" width="300" x="-496" y="843" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Is one of the notes of a kind in the property &lt;i&gt;work_note_mail.kinds&lt;/i&gt;?" vertex="1">
+          <mxGeometry height="110" width="300" x="-496" y="993" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=12;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="Event &lt;b&gt;sartorius.spm.demand.worknoted&lt;/b&gt;&lt;br&gt;parm1: the kind (&quot;&quot; for a typed note)&lt;br&gt;parm2: the text of the notes (cut to the length of the parameter)" vertex="1">
+          <mxGeometry height="80" width="300" x="-496" y="1143" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;" value="&lt;b&gt;SPM Demand Work Note&lt;/b&gt;&lt;br&gt;Subject: Update: &amp;lt;number&amp;gt; - &quot;&amp;lt;name&amp;gt;&quot;&lt;br&gt;Body: the notes (mail script spm_demand_work_note), Show Details opens the demand in the workspace" vertex="1">
+          <mxGeometry height="90" width="300" x="-496" y="1253" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="&lt;b&gt;Recipients:&lt;/b&gt; Demand manager, Work notes list, IT Solution Architect, Implementation Responsible, Additional Business Partner.&lt;br&gt;Not the writer (Send to event creator off)." vertex="1">
+          <mxGeometry height="90" width="300" x="-496" y="1373" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;dashed=1;fontSize=11;fontColor=#666666;arcSize=50;" value="&lt;b&gt;No work note mail&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="-56" y="863" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-11" edge="1" parent="1" source="vHTiLlwlTsDbfrwzfSRe-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="vHTiLlwlTsDbfrwzfSRe-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-12" edge="1" parent="1" source="vHTiLlwlTsDbfrwzfSRe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="vHTiLlwlTsDbfrwzfSRe-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-13" edge="1" parent="1" source="vHTiLlwlTsDbfrwzfSRe-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="vHTiLlwlTsDbfrwzfSRe-4" value="no">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-14" edge="1" parent="1" source="vHTiLlwlTsDbfrwzfSRe-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="vHTiLlwlTsDbfrwzfSRe-5" value="no">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-15" edge="1" parent="1" source="vHTiLlwlTsDbfrwzfSRe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="vHTiLlwlTsDbfrwzfSRe-6" value="no">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-16" edge="1" parent="1" source="vHTiLlwlTsDbfrwzfSRe-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="vHTiLlwlTsDbfrwzfSRe-7" value="yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-17" edge="1" parent="1" source="vHTiLlwlTsDbfrwzfSRe-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="vHTiLlwlTsDbfrwzfSRe-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-18" edge="1" parent="1" source="vHTiLlwlTsDbfrwzfSRe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="vHTiLlwlTsDbfrwzfSRe-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-19" edge="1" parent="1" source="vHTiLlwlTsDbfrwzfSRe-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="vHTiLlwlTsDbfrwzfSRe-10" value="yes">
+          <mxGeometry relative="1" x="0.1733" as="geometry">
+            <Array as="points">
+              <mxPoint x="79" y="633" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-20" edge="1" parent="1" source="vHTiLlwlTsDbfrwzfSRe-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vHTiLlwlTsDbfrwzfSRe-10" value="yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-21" edge="1" parent="1" source="vHTiLlwlTsDbfrwzfSRe-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="vHTiLlwlTsDbfrwzfSRe-10" value="no">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-22" edge="1" parent="1" source="vHTiLlwlTsDbfrwzfSRe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="vHTiLlwlTsDbfrwzfSRe-7" value="yes">
+          <mxGeometry relative="1" x="0.003" as="geometry">
+            <Array as="points">
+              <mxPoint x="-516" y="898" />
+              <mxPoint x="-516" y="1183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHTiLlwlTsDbfrwzfSRe-23" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#ffffff;strokeColor=#999999;fontSize=11;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;" value="&lt;b&gt;Kinds of notes written by the demand process&lt;/b&gt; (prefix #&amp;lt;Kind&amp;gt;:)&lt;br&gt;&lt;br&gt;&lt;b&gt;Send the mail&lt;/b&gt;&amp;nbsp;(property value Approved,Rejected,Approval ended):&lt;br&gt;Approved, Rejected, Approval ended&lt;br&gt;&lt;br&gt;&lt;b&gt;No mail:&lt;/b&gt;&lt;br&gt;Step approved, Approval skipped, PMO decision, Approval requested, Deferred, Reset to Draft, Cancelled, Execution, Project, Cost upload, Migration&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="500" x="-54" y="1126" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tRK5rSgiwAis9igqI_mA" name="Page-12">
+    <mxGraphModel dx="2639" dy="758" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="The demand asks for an approval:&lt;br&gt;&lt;b&gt;Screening Approval&lt;/b&gt; (Gate 1), or &lt;b&gt;Demand Approval&lt;/b&gt; (Gate 2): first the Enterprise Architects, then the second step" vertex="1">
+          <mxGeometry height="70" width="340" x="-107" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="The approval subflow creates the approval records:&lt;br&gt;a group request: one record per member; the second step: one record per user" vertex="1">
+          <mxGeometry height="60" width="340" x="-107" y="528" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;arcSize=8;fontColor=#333333;" value="Vendor rule &lt;b&gt;Approval Events (Task)&lt;/b&gt;: event &lt;b&gt;approval.inserted&lt;/b&gt; when an approval record gets the state Requested (normally at its insert); dmn_demand gets no event of its own" vertex="1">
+          <mxGeometry height="60" width="340" x="-107" y="618" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;dashed=1;fontSize=11;arcSize=8;fontColor=#666666;" value="&lt;b&gt;Approval Request&lt;/b&gt; (generic)&lt;br&gt;Condition: Source table is not Demand&lt;br&gt;&amp;rarr; not sent for a demand" vertex="1">
+          <mxGeometry height="90" width="160" x="-107" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;" value="&lt;b&gt;SPM Demand Approval Request&lt;/b&gt;&lt;br&gt;Condition: Source table = Demand&lt;br&gt;&amp;rarr; sent" vertex="1">
+          <mxGeometry height="90" width="160" x="73" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Mail script spm_demand_approval_intro: &lt;b&gt;which step?&lt;/b&gt;&lt;br&gt;told by the substate of the demand when the mail is built" vertex="1">
+          <mxGeometry height="140" width="340" x="-107" y="838" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Substate 210 (Screening Approval)&lt;br&gt;→ &lt;b&gt;Screening Approval&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="300" x="283" y="758" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Gate 2 substate (410)&lt;br&gt;&amp;rarr; &lt;b&gt;Demand Approval (Enterprise Architects)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="300" x="283" y="848" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Second step of Gate 2 (420)&lt;br&gt;→ &lt;b&gt;Demand Approval&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="300" x="283" y="908" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Any other substate &amp;rarr; &lt;b&gt;Approval&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="300" x="283" y="988" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;" value="&lt;b&gt;The mail&lt;/b&gt;&lt;br&gt;Subject: Action Required: &amp;lt;step&amp;gt; for &amp;lt;number&amp;gt; - &amp;lt;name&amp;gt;&lt;br&gt;Body: the step and its rule, State / Substate, Approve and Reject (reply mail), Show Details, then Name, Demand manager, Problem Statement, Requirement Specification, High Level Solution Design and the link to the workspace" vertex="1">
+          <mxGeometry height="120" width="340" x="-107" y="1048" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="&lt;b&gt;Recipient: the approver&lt;/b&gt; of the record (Send to event creator on)" vertex="1">
+          <mxGeometry height="50" width="340" x="-107" y="1198" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-13" edge="1" parent="1" source="9Kz8BLC9Po1c-tJ5RbAj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="9Kz8BLC9Po1c-tJ5RbAj-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-14" edge="1" parent="1" source="9Kz8BLC9Po1c-tJ5RbAj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="9Kz8BLC9Po1c-tJ5RbAj-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-15" edge="1" parent="1" source="9Kz8BLC9Po1c-tJ5RbAj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9Kz8BLC9Po1c-tJ5RbAj-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-16" edge="1" parent="1" source="9Kz8BLC9Po1c-tJ5RbAj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9Kz8BLC9Po1c-tJ5RbAj-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-17" edge="1" parent="1" source="9Kz8BLC9Po1c-tJ5RbAj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="9Kz8BLC9Po1c-tJ5RbAj-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-18" edge="1" parent="1" source="9Kz8BLC9Po1c-tJ5RbAj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9Kz8BLC9Po1c-tJ5RbAj-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-19" edge="1" parent="1" source="9Kz8BLC9Po1c-tJ5RbAj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9Kz8BLC9Po1c-tJ5RbAj-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-20" edge="1" parent="1" source="9Kz8BLC9Po1c-tJ5RbAj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9Kz8BLC9Po1c-tJ5RbAj-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-21" edge="1" parent="1" source="9Kz8BLC9Po1c-tJ5RbAj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9Kz8BLC9Po1c-tJ5RbAj-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-22" edge="1" parent="1" source="9Kz8BLC9Po1c-tJ5RbAj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="9Kz8BLC9Po1c-tJ5RbAj-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-23" edge="1" parent="1" source="9Kz8BLC9Po1c-tJ5RbAj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="9Kz8BLC9Po1c-tJ5RbAj-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-24" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontStyle=1;" value="After the decision" vertex="1">
+          <mxGeometry height="26" width="600" x="653" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="An approver of a group decides" vertex="1">
+          <mxGeometry height="60" width="230" x="653" y="468" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;dashed=1;fontSize=11;arcSize=8;fontColor=#666666;" value="The other approvals of the group: &lt;b&gt;No Longer Required&lt;/b&gt; &amp;rarr; no mail" vertex="1">
+          <mxGeometry height="60" width="340" x="933" y="468" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="An approver of the second step rejects" vertex="1">
+          <mxGeometry height="60" width="230" x="653" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;dashed=1;fontSize=11;arcSize=8;fontColor=#666666;" value="Vendor event approval.rejected.by.other for the other approvers &amp;rarr; &lt;b&gt;Approval Rejected By Other&lt;/b&gt; leaves out Demand &amp;rarr; no mail" vertex="1">
+          <mxGeometry height="60" width="340" x="933" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="The approval ends: approved, rejected, or ended" vertex="1">
+          <mxGeometry height="70" width="230" x="653" y="648" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;" value="Work note &lt;b&gt;#Approved&lt;/b&gt;, &lt;b&gt;#Rejected&lt;/b&gt; or &lt;b&gt;#Approval ended&lt;/b&gt; on the demand &amp;rarr; &lt;b&gt;SPM Demand Work Note&lt;/b&gt; to Demand manager, Work notes list, IT Solution Architect, Implementation Responsible, Additional Business Partner (page 2)" vertex="1">
+          <mxGeometry height="90" width="340" x="933" y="648" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="Defer or Reset to Draft while an approval waits" vertex="1">
+          <mxGeometry height="70" width="230" x="653" y="768" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;" value="The open approvals become &lt;b&gt;Cancelled&lt;/b&gt; &amp;rarr; vendor event approval.cancelled &amp;rarr; &lt;b&gt;Approval Cancelled&lt;/b&gt; (generic) to the approver of each cancelled approval" vertex="1">
+          <mxGeometry height="80" width="340" x="933" y="768" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="Nobody decides for a long time" vertex="1">
+          <mxGeometry height="60" width="230" x="653" y="878" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;dashed=1;fontSize=11;arcSize=8;fontColor=#666666;" value="No reminder: the Sartorius reminder event fires for request items only (DEV since 2026-10-20: 12 events, all request items)" vertex="1">
+          <mxGeometry height="60" width="340" x="933" y="878" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-35" edge="1" parent="1" source="9Kz8BLC9Po1c-tJ5RbAj-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="9Kz8BLC9Po1c-tJ5RbAj-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-36" edge="1" parent="1" source="9Kz8BLC9Po1c-tJ5RbAj-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="9Kz8BLC9Po1c-tJ5RbAj-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-37" edge="1" parent="1" source="9Kz8BLC9Po1c-tJ5RbAj-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="9Kz8BLC9Po1c-tJ5RbAj-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-38" edge="1" parent="1" source="9Kz8BLC9Po1c-tJ5RbAj-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="9Kz8BLC9Po1c-tJ5RbAj-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Kz8BLC9Po1c-tJ5RbAj-39" edge="1" parent="1" source="9Kz8BLC9Po1c-tJ5RbAj-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="9Kz8BLC9Po1c-tJ5RbAj-34" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
