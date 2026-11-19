@@ -1115,8 +1115,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="G6mzTkCR9qrCQs4TLL1o" name="Page-9">
-    <mxGraphModel grid="0" page="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="G6mzTkCR9qrCQs4TLL1o" name="gate2">
+    <mxGraphModel dx="2239" dy="758" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1419,8 +1419,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="DMyvrqyy_6vB8IGioV8k" name="Page-10">
-    <mxGraphModel dx="2266" dy="565" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="DMyvrqyy_6vB8IGioV8k" name="mails">
+    <mxGraphModel dx="2639" dy="758" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1589,7 +1589,7 @@
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="Problem Statement, Requirement Specification or High Level Solution Design changes." vertex="1">
           <mxGeometry height="96" width="230" x="-383" y="1219" as="geometry" />
         </mxCell>
-        <mxCell id="7S13sJhE8lmu1Y5MN5_U-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Insert or update;&amp;nbsp;&lt;div&gt;Changed: &quot;Problem Statement&quot; or &quot;Requirement Specification&quot; or &quot;High Level Solution Design.&quot;&lt;br&gt;&lt;div&gt;in the states:&amp;nbsp;&lt;div&gt;&lt;i&gt;sartorius.spm.demand.update_mail.states&lt;/i&gt;&amp;nbsp;&lt;div&gt;(-4 Qualified, 8 Approved, 10 Deferred).&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="&lt;div&gt;Insert or update;&lt;/div&gt;&lt;div&gt;one of these changes: &quot;Problem Statement&quot;, &quot;Requirement Specification&quot; or &quot;High Level Solution Design&quot;;&lt;/div&gt;&lt;div&gt;and after the save the demand is in one of the states of&lt;/div&gt;&lt;div&gt;sartorius.spm.demand.update_mail.states&lt;/div&gt;&lt;div&gt;(-4 Qualified, 8 Approved, 10 Deferred).&lt;/div&gt;" vertex="1">
           <mxGeometry height="96" width="280" x="117" y="1219" as="geometry" />
         </mxCell>
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-58" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=12;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="sartorius.spm.demand.updated&lt;br&gt;parm1 changed texts" vertex="1">
@@ -1694,38 +1694,35 @@
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-91" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.9167;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7S13sJhE8lmu1Y5MN5_U-57" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7S13sJhE8lmu1Y5MN5_U-92" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#ffffff;strokeColor=#999999;fontSize=11;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;" value="&lt;b&gt;Rules for all Sartorius demand mails&lt;/b&gt;&lt;br&gt;- Nothing is sent while the session is muted (migration load) or when the save is aborted.&lt;br&gt;- One save can fire several mails (for example a work note and a comment in the same save).&lt;br&gt;- The person who saved gets no copy (Send to event creator off); the approval mail is the exception.&lt;br&gt;- Every link in these mails opens the demand in the Portfolio Planning Workspace.&lt;br&gt;- DEV sends every mail to its test mailbox; TEST and PROD send to the real recipients." vertex="1">
-          <mxGeometry height="130" width="780" x="-383" y="1469" as="geometry" />
-        </mxCell>
-        <mxCell id="7S13sJhE8lmu1Y5MN5_U-93" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#ffffff;strokeColor=#999999;fontSize=11;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;" value="&lt;b&gt;Never sent for a demand&lt;/b&gt;&lt;br&gt;- &lt;i&gt;Approval Request&lt;/i&gt; (generic): condition Source table is not Demand.&lt;br&gt;- &lt;i&gt;Approval Rejected By Other&lt;/i&gt; (Approval and Group approval): conditions leave out Demand.&lt;br&gt;- &lt;i&gt;Sartorius sent out reminder for approval&lt;/i&gt;: no reminders for demands (DEV since 2026-10-20: 12 events, all request items).&lt;br&gt;- &lt;i&gt;Demand Approval Request&lt;/i&gt; of the legacy application: listens to the event of the old table only.&lt;br&gt;- An approver of a group decides: the other approvals of the group become No Longer Required, no mail." vertex="1">
-          <mxGeometry height="130" width="820" x="427" y="1469" as="geometry" />
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-92" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#ffffff;strokeColor=#999999;fontSize=11;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;" value="&lt;b&gt;Rules for all Sartorius demand mails&lt;/b&gt;&lt;br&gt;- One save can fire several mails (for example a work note and a comment in the same save).&lt;br&gt;- The person who saved gets no copy (Send to event creator off); the approval mail is the exception.&lt;br&gt;- Every link in these mails opens the demand in the Portfolio Planning Workspace." vertex="1">
+          <mxGeometry height="73" width="780" x="-383" y="1469" as="geometry" />
         </mxCell>
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-94" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#555555;" value="&lt;b&gt;Legend&lt;/b&gt;" vertex="1">
-          <mxGeometry height="20" width="120" x="-383" y="1619" as="geometry" />
+          <mxGeometry height="20" width="120" x="437" y="1460" as="geometry" />
         </mxCell>
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="What happens" vertex="1">
-          <mxGeometry height="28" width="165" x="-383" y="1643" as="geometry" />
+          <mxGeometry height="28" width="165" x="437" y="1484" as="geometry" />
         </mxCell>
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-96" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;arcSize=8;" value="Sartorius rule" vertex="1">
-          <mxGeometry height="28" width="165" x="-208" y="1643" as="geometry" />
+          <mxGeometry height="28" width="165" x="612" y="1484" as="geometry" />
         </mxCell>
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-97" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;arcSize=8;fontColor=#333333;" value="Vendor rule" vertex="1">
-          <mxGeometry height="28" width="165" x="-33" y="1643" as="geometry" />
+          <mxGeometry height="28" width="165" x="787" y="1484" as="geometry" />
         </mxCell>
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-98" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Sends only when" vertex="1">
-          <mxGeometry height="28" width="165" x="142" y="1643" as="geometry" />
+          <mxGeometry height="28" width="165" x="962" y="1484" as="geometry" />
         </mxCell>
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-99" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=12;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="Event" vertex="1">
-          <mxGeometry height="28" width="165" x="-383" y="1677" as="geometry" />
+          <mxGeometry height="28" width="165" x="437" y="1518" as="geometry" />
         </mxCell>
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-100" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;" value="Notification (sent)" vertex="1">
-          <mxGeometry height="28" width="165" x="-208" y="1677" as="geometry" />
+          <mxGeometry height="28" width="165" x="612" y="1518" as="geometry" />
         </mxCell>
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-101" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;dashed=1;fontSize=11;arcSize=8;fontColor=#666666;" value="Notification (never sent for a demand)" vertex="1">
-          <mxGeometry height="28" width="165" x="-33" y="1677" as="geometry" />
+          <mxGeometry height="28" width="165" x="787" y="1518" as="geometry" />
         </mxCell>
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-102" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Recipients" vertex="1">
-          <mxGeometry height="28" width="165" x="142" y="1677" as="geometry" />
+          <mxGeometry height="28" width="165" x="962" y="1518" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
