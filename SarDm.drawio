@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="9">
+<mxfile host="app.diagrams.net" pages="10">
   <diagram name="tables" id="9beMuJ8rTLqDgQr592Rf">
     <mxGraphModel grid="0" page="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1116,7 +1116,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="G6mzTkCR9qrCQs4TLL1o" name="Page-9">
-    <mxGraphModel dx="1797" dy="758" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1237,11 +1237,8 @@
         <mxCell id="9FNF7zbciwz_bhTLOo51-39" parent="1" style="rounded=1;arcSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Business rule SPM-StateActionNotes-dmn_demand&lt;/b&gt;&lt;br&gt;Before update, order 970: State changes. noteStateActions cancels the open requests (state Cancelled), sets Approval back to Not Yet Requested and writes a work note." vertex="1">
           <mxGeometry height="99" width="260" x="1560" y="2120" as="geometry" />
         </mxCell>
-        <mxCell id="9FNF7zbciwz_bhTLOo51-40" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;" value="Demand Approval of a demand: how it is implemented (STRY0014520)" vertex="1">
-          <mxGeometry height="30" width="1300" x="260" y="740" as="geometry" />
-        </mxCell>
-        <mxCell id="9FNF7zbciwz_bhTLOo51-41" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#555555;" value="Components and working logic as built. Solid arrow: what happens next. Dashed arrow: a call, or data that is read or written." vertex="1">
-          <mxGeometry height="22" width="1560" x="260" y="772" as="geometry" />
+        <mxCell id="9FNF7zbciwz_bhTLOo51-40" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;" value="STRY0014520" vertex="1">
+          <mxGeometry height="30" width="145" x="261" y="752" as="geometry" />
         </mxCell>
         <mxCell id="9FNF7zbciwz_bhTLOo51-42" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-7" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1418,6 +1415,320 @@
         </mxCell>
         <mxCell id="9FNF7zbciwz_bhTLOo51-88" parent="1" style="rounded=1;arcSize=10;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="Result: refused, rejected" vertex="1">
           <mxGeometry height="28" width="200" x="1532" y="2393" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DMyvrqyy_6vB8IGioV8k" name="Page-10">
+    <mxGraphModel dx="2436" dy="758" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#555555;" value="Read on DEV (sartoriusdev) on 2026-11-19: notifications, events, business rules, Script Includes SPMDemandNotes and SPMDemandApprovalMail. Property values are those of DEV; TEST and PROD can differ." vertex="1">
+          <mxGeometry height="20" width="1500" x="-383" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontStyle=1;" value="What happens" vertex="1">
+          <mxGeometry height="26" width="230" x="-383" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontStyle=1;" value="Rule that reacts" vertex="1">
+          <mxGeometry height="26" width="210" x="-123" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontStyle=1;" value="Sends only when" vertex="1">
+          <mxGeometry height="26" width="280" x="117" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontStyle=1;" value="Event" vertex="1">
+          <mxGeometry height="26" width="220" x="427" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontStyle=1;" value="Notification" vertex="1">
+          <mxGeometry height="26" width="240" x="677" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontStyle=1;" value="Recipients" vertex="1">
+          <mxGeometry height="26" width="300" x="947" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="Demand asks for an approval: Screening Approval, or Demand Approval (Enterprise Architects, then the second step). The approval subflow creates one approval record per approver." vertex="1">
+          <mxGeometry height="96" width="230" x="-383" y="499" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Source table = Demand [dmn_demand].&lt;br&gt;The generic &lt;i&gt;Approval Request&lt;/i&gt; has &lt;i&gt;Source table is not Demand&lt;/i&gt;, so it never sends for a demand." vertex="1">
+          <mxGeometry height="96" width="280" x="117" y="499" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=12;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="approval.inserted" vertex="1">
+          <mxGeometry height="60" width="220" x="427" y="517" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;" value="&lt;b&gt;SPM Demand Approval Request&lt;/b&gt;&lt;br&gt;Subject set by script:&lt;br&gt;Action Required: &amp;lt;step&amp;gt; for &amp;lt;number&amp;gt; - &amp;lt;name&amp;gt;" vertex="1">
+          <mxGeometry height="96" width="240" x="677" y="499" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="&lt;b&gt;The approver&lt;/b&gt; of the approval record: one mail per approval (a group request: one per member). Send to event creator: on.  &amp;rarr; page 3" vertex="1">
+          <mxGeometry height="96" width="300" x="947" y="499" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-13" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-14" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-15" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="Open approvals of a demand end as Cancelled (for example Defer or Reset to Draft while an approval waits)." vertex="1">
+          <mxGeometry height="96" width="230" x="-383" y="619" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="The approval state changes to Cancelled. No condition on the source table: it also sends for demands." vertex="1">
+          <mxGeometry height="96" width="280" x="117" y="619" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-18" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=12;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="approval.cancelled" vertex="1">
+          <mxGeometry height="60" width="220" x="427" y="637" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;" value="&lt;b&gt;Approval Cancelled&lt;/b&gt;&lt;br&gt;(generic, vendor)&lt;br&gt;Approval Cancelled: Approval for - &amp;lt;name&amp;gt;" vertex="1">
+          <mxGeometry height="96" width="240" x="677" y="619" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="&lt;b&gt;The approver&lt;/b&gt; of the cancelled approval." vertex="1">
+          <mxGeometry height="96" width="300" x="947" y="619" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-21" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-22" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-23" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="A work note is added to a demand: typed by a person, or written by the demand process as #&amp;lt;Kind&amp;gt;: ..." vertex="1">
+          <mxGeometry height="96" width="230" x="-383" y="739" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Update only (not when the demand is created).&lt;br&gt;A typed note always; a note of the process only when its kind is in the property &lt;i&gt;sartorius.spm.demand.work_note_mail.kinds&lt;/i&gt; (DEV: Approved, Rejected, Approval ended).  &amp;rarr; page 2" vertex="1">
+          <mxGeometry height="96" width="280" x="117" y="739" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-26" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=12;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="sartorius.spm.demand.worknoted&lt;br&gt;parm1 kind, parm2 text" vertex="1">
+          <mxGeometry height="60" width="220" x="427" y="757" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;" value="&lt;b&gt;SPM Demand Work Note&lt;/b&gt;&lt;br&gt;Update: &amp;lt;number&amp;gt; - &quot;&amp;lt;name&amp;gt;&quot;" vertex="1">
+          <mxGeometry height="96" width="240" x="677" y="739" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="&lt;b&gt;Demand manager, Work notes list, IT Solution Architect, Implementation Responsible, Additional Business Partner.&lt;/b&gt; Not the writer." vertex="1">
+          <mxGeometry height="96" width="300" x="947" y="739" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-29" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-30" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-31" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="An additional comment is added to a demand (form, workspace or IT Portal)." vertex="1">
+          <mxGeometry height="96" width="230" x="-383" y="859" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Update only; the comment is not empty." vertex="1">
+          <mxGeometry height="96" width="280" x="117" y="859" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-34" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=12;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="sartorius.spm.demand.commented&lt;br&gt;parm2 text" vertex="1">
+          <mxGeometry height="60" width="220" x="427" y="877" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;" value="&lt;b&gt;SPM Demand Commented&lt;/b&gt;&lt;br&gt;New Comment: &amp;lt;number&amp;gt; - &quot;&amp;lt;name&amp;gt;&quot;" vertex="1">
+          <mxGeometry height="96" width="240" x="677" y="859" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="&lt;b&gt;Requester, Additional Business Contact, Demand manager.&lt;/b&gt; Not the writer." vertex="1">
+          <mxGeometry height="96" width="300" x="947" y="859" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-37" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-38" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-39" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="Users are added to Implementation Responsible." vertex="1">
+          <mxGeometry height="96" width="230" x="-383" y="979" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Insert or update; only the users added in this save." vertex="1">
+          <mxGeometry height="96" width="280" x="117" y="979" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-42" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=12;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="sartorius.spm.demand.ir.assigned&lt;br&gt;parm1 added users" vertex="1">
+          <mxGeometry height="60" width="220" x="427" y="997" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;" value="&lt;b&gt;SPM Demand Assigned (Impl. Responsible)&lt;/b&gt;&lt;br&gt;New Assignment: &amp;lt;number&amp;gt; - &amp;lt;name&amp;gt;" vertex="1">
+          <mxGeometry height="96" width="240" x="677" y="979" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="&lt;b&gt;The added users&lt;/b&gt; (parm1). Not the person who saved." vertex="1">
+          <mxGeometry height="96" width="300" x="947" y="979" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-45" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-46" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-47" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-44" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="Users are added to IT Solution Architect." vertex="1">
+          <mxGeometry height="96" width="230" x="-383" y="1099" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Insert or update; only the users added in this save." vertex="1">
+          <mxGeometry height="96" width="280" x="117" y="1099" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-50" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=12;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="sartorius.spm.demand.sa.assigned&lt;br&gt;parm1 added users" vertex="1">
+          <mxGeometry height="60" width="220" x="427" y="1117" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;" value="&lt;b&gt;SPM Demand Assigned (Sol. Architect)&lt;/b&gt;&lt;br&gt;New Assignment: &amp;lt;number&amp;gt; - &amp;lt;name&amp;gt;" vertex="1">
+          <mxGeometry height="96" width="240" x="677" y="1099" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="&lt;b&gt;The added users&lt;/b&gt; (parm1) &lt;b&gt;and the Demand manager.&lt;/b&gt; Not the person who saved." vertex="1">
+          <mxGeometry height="96" width="300" x="947" y="1099" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-53" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-50" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-54" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-51" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-55" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-52" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="Problem Statement, Requirement Specification or High Level Solution Design changes." vertex="1">
+          <mxGeometry height="96" width="230" x="-383" y="1219" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Insert or update; the state the save writes is in the property &lt;i&gt;sartorius.spm.demand.update_mail.states&lt;/i&gt; (DEV: -4 Qualified, 8 Approved, 10 Deferred)." vertex="1">
+          <mxGeometry height="96" width="280" x="117" y="1219" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-58" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=12;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="sartorius.spm.demand.updated&lt;br&gt;parm1 changed texts" vertex="1">
+          <mxGeometry height="60" width="220" x="427" y="1237" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;" value="&lt;b&gt;SPM Demand Updated&lt;/b&gt;&lt;br&gt;Update on &amp;lt;Demand Type&amp;gt; - &amp;lt;number&amp;gt; - &quot;&amp;lt;name&amp;gt;&quot;" vertex="1">
+          <mxGeometry height="96" width="240" x="677" y="1219" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="&lt;b&gt;Implementation Responsible, Demand manager.&lt;/b&gt; Not the person who saved." vertex="1">
+          <mxGeometry height="96" width="300" x="947" y="1219" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-61" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-58" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-62" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-59" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-63" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-60" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="A demand task gets an assignee, or a group while it has no assignee." vertex="1">
+          <mxGeometry height="96" width="230" x="-383" y="1339" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Assigned to changes and is filled; otherwise Assignment group changes while Assigned to is empty." vertex="1">
+          <mxGeometry height="96" width="280" x="117" y="1339" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-66" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=12;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="sartorius.spm.demand.task.assigned&lt;br&gt;parm1 user or group" vertex="1">
+          <mxGeometry height="60" width="220" x="427" y="1357" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;" value="&lt;b&gt;SPM Demand Task Assigned&lt;/b&gt;&lt;br&gt;Demand task assigned: &amp;lt;number&amp;gt; - &amp;lt;name&amp;gt;" vertex="1">
+          <mxGeometry height="96" width="240" x="677" y="1339" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="&lt;b&gt;The assignee&lt;/b&gt;, or with none &lt;b&gt;the group&lt;/b&gt; (parm1). Not the person who saved." vertex="1">
+          <mxGeometry height="96" width="300" x="947" y="1339" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-69" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-66" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-70" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-67" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-71" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-68" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-72" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;arcSize=8;fontColor=#333333;" value="Vendor rule &lt;b&gt;Approval Events (Task)&lt;/b&gt;&lt;br&gt;Approval [sysapproval_approver], after insert" vertex="1">
+          <mxGeometry height="96" width="210" x="-123" y="499" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-73" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;arcSize=8;fontColor=#333333;" value="Vendor rule &lt;b&gt;Approval Events (Task)&lt;/b&gt;&lt;br&gt;Approval [sysapproval_approver], after update" vertex="1">
+          <mxGeometry height="96" width="210" x="-123" y="619" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-74" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;arcSize=8;" value="Sartorius business rule&lt;br&gt;&lt;b&gt;SPM-MailEvents-dmn_demand&lt;/b&gt;&lt;br&gt;Demand [dmn_demand]&lt;br&gt;before insert and update, order 9000 (the last rule before the save)&lt;br&gt;&lt;br&gt;Runs when Work notes, Additional comments, Implementation Responsible, IT Solution Architect or one of the three texts changes.&lt;br&gt;&lt;br&gt;Calls SPMDemandNotes.queueMailEvents: every check on the right is made independently, so one save can queue several events." vertex="1">
+          <mxGeometry height="576" width="210" x="-123" y="739" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-75" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;arcSize=8;" value="Sartorius business rule&lt;br&gt;&lt;b&gt;SPM-MailEvents-dmn_demand_task&lt;/b&gt;&lt;br&gt;Demand task, before insert and update, order 9000&lt;br&gt;SPMDemandNotes.queueTaskMailEvents" vertex="1">
+          <mxGeometry height="96" width="210" x="-123" y="1339" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-76" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-72" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-77" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-78" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-73" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-79" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-80" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-75" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-81" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-65" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-82" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.0833;entryDx=0;entryDy=0;" target="7S13sJhE8lmu1Y5MN5_U-74" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-83" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.0833;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7S13sJhE8lmu1Y5MN5_U-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-84" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.2917;entryDx=0;entryDy=0;" target="7S13sJhE8lmu1Y5MN5_U-74" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-85" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.2917;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7S13sJhE8lmu1Y5MN5_U-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-86" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5000;entryDx=0;entryDy=0;" target="7S13sJhE8lmu1Y5MN5_U-74" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-87" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.5000;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7S13sJhE8lmu1Y5MN5_U-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-88" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.7083;entryDx=0;entryDy=0;" target="7S13sJhE8lmu1Y5MN5_U-74" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-89" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.7083;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7S13sJhE8lmu1Y5MN5_U-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-90" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.9167;entryDx=0;entryDy=0;" target="7S13sJhE8lmu1Y5MN5_U-74" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-91" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;exitX=1;exitY=0.9167;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7S13sJhE8lmu1Y5MN5_U-57" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-92" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#ffffff;strokeColor=#999999;fontSize=11;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;" value="&lt;b&gt;Rules for all Sartorius demand mails&lt;/b&gt;&lt;br&gt;- Nothing is sent while the session is muted (migration load) or when the save is aborted.&lt;br&gt;- One save can fire several mails (for example a work note and a comment in the same save).&lt;br&gt;- The person who saved gets no copy (Send to event creator off); the approval mail is the exception.&lt;br&gt;- Every link in these mails opens the demand in the Portfolio Planning Workspace.&lt;br&gt;- DEV sends every mail to its test mailbox; TEST and PROD send to the real recipients." vertex="1">
+          <mxGeometry height="130" width="780" x="-383" y="1469" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-93" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#ffffff;strokeColor=#999999;fontSize=11;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;" value="&lt;b&gt;Never sent for a demand&lt;/b&gt;&lt;br&gt;- &lt;i&gt;Approval Request&lt;/i&gt; (generic): condition Source table is not Demand.&lt;br&gt;- &lt;i&gt;Approval Rejected By Other&lt;/i&gt; (Approval and Group approval): conditions leave out Demand.&lt;br&gt;- &lt;i&gt;Sartorius sent out reminder for approval&lt;/i&gt;: no reminders for demands (DEV since 2026-10-20: 12 events, all request items).&lt;br&gt;- &lt;i&gt;Demand Approval Request&lt;/i&gt; of the legacy application: listens to the event of the old table only.&lt;br&gt;- An approver of a group decides: the other approvals of the group become No Longer Required, no mail." vertex="1">
+          <mxGeometry height="130" width="820" x="427" y="1469" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-94" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontColor=#555555;" value="&lt;b&gt;Legend&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="-383" y="1619" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="What happens" vertex="1">
+          <mxGeometry height="28" width="165" x="-383" y="1643" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-96" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;arcSize=8;" value="Sartorius rule" vertex="1">
+          <mxGeometry height="28" width="165" x="-208" y="1643" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-97" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;arcSize=8;fontColor=#333333;" value="Vendor rule" vertex="1">
+          <mxGeometry height="28" width="165" x="-33" y="1643" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-98" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Sends only when" vertex="1">
+          <mxGeometry height="28" width="165" x="142" y="1643" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-99" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=12;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="Event" vertex="1">
+          <mxGeometry height="28" width="165" x="-383" y="1677" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-100" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;" value="Notification (sent)" vertex="1">
+          <mxGeometry height="28" width="165" x="-208" y="1677" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-101" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;dashed=1;fontSize=11;arcSize=8;fontColor=#666666;" value="Notification (never sent for a demand)" vertex="1">
+          <mxGeometry height="28" width="165" x="-33" y="1677" as="geometry" />
+        </mxCell>
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-102" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Recipients" vertex="1">
+          <mxGeometry height="28" width="165" x="142" y="1677" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
