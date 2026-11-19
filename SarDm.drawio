@@ -1420,7 +1420,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DMyvrqyy_6vB8IGioV8k" name="Page-10">
-    <mxGraphModel dx="2436" dy="758" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2266" dy="565" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1445,7 +1445,7 @@
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="Demand asks for an approval: Screening Approval, or Demand Approval (Enterprise Architects, then the second step). The approval subflow creates one approval record per approver." vertex="1">
           <mxGeometry height="96" width="230" x="-383" y="499" as="geometry" />
         </mxCell>
-        <mxCell id="7S13sJhE8lmu1Y5MN5_U-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Source table = Demand [dmn_demand].&lt;br&gt;The generic &lt;i&gt;Approval Request&lt;/i&gt; has &lt;i&gt;Source table is not Demand&lt;/i&gt;, so it never sends for a demand." vertex="1">
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=center;spacingLeft=6;" value="Condition of notification:&amp;nbsp;&lt;div&gt;&lt;b&gt;SPM Demand Approval Request&lt;/b&gt;:&amp;nbsp;&lt;div&gt;Source table = Demand [dmn_demand].&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;OOTB notification has NOT&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;dmn_demand&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="96" width="280" x="117" y="499" as="geometry" />
         </mxCell>
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=12;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="approval.inserted" vertex="1">
@@ -1454,7 +1454,7 @@
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;" value="&lt;b&gt;SPM Demand Approval Request&lt;/b&gt;&lt;br&gt;Subject set by script:&lt;br&gt;Action Required: &amp;lt;step&amp;gt; for &amp;lt;number&amp;gt; - &amp;lt;name&amp;gt;" vertex="1">
           <mxGeometry height="96" width="240" x="677" y="499" as="geometry" />
         </mxCell>
-        <mxCell id="7S13sJhE8lmu1Y5MN5_U-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="&lt;b&gt;The approver&lt;/b&gt; of the approval record: one mail per approval (a group request: one per member). Send to event creator: on.  &amp;rarr; page 3" vertex="1">
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="&lt;b&gt;The approver&lt;/b&gt; of the approval record: one mail per approval (a group request: one per member). Send to event creator: on." vertex="1">
           <mxGeometry height="96" width="300" x="947" y="499" as="geometry" />
         </mxCell>
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-13" edge="1" parent="1" source="7S13sJhE8lmu1Y5MN5_U-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=#555555;" target="7S13sJhE8lmu1Y5MN5_U-10" value="">
@@ -1493,7 +1493,7 @@
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="A work note is added to a demand: typed by a person, or written by the demand process as #&amp;lt;Kind&amp;gt;: ..." vertex="1">
           <mxGeometry height="96" width="230" x="-383" y="739" as="geometry" />
         </mxCell>
-        <mxCell id="7S13sJhE8lmu1Y5MN5_U-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Update only (not when the demand is created).&lt;br&gt;A typed note always; a note of the process only when its kind is in the property &lt;i&gt;sartorius.spm.demand.work_note_mail.kinds&lt;/i&gt; (DEV: Approved, Rejected, Approval ended).  &amp;rarr; page 2" vertex="1">
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Update only (not when the demand is created).&lt;br&gt;A typed work note always;&amp;nbsp;&lt;div&gt;Also sends: a work note of the process only when its kind is in the property &lt;i&gt;sartorius.spm.demand.work_note_mail.kinds&lt;/i&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;(Approved, Rejected, Approval ended).&lt;/div&gt;" vertex="1">
           <mxGeometry height="96" width="280" x="117" y="739" as="geometry" />
         </mxCell>
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-26" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=12;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="sartorius.spm.demand.worknoted&lt;br&gt;parm1 kind, parm2 text" vertex="1">
@@ -1589,7 +1589,7 @@
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;" value="Problem Statement, Requirement Specification or High Level Solution Design changes." vertex="1">
           <mxGeometry height="96" width="230" x="-383" y="1219" as="geometry" />
         </mxCell>
-        <mxCell id="7S13sJhE8lmu1Y5MN5_U-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Insert or update; the state the save writes is in the property &lt;i&gt;sartorius.spm.demand.update_mail.states&lt;/i&gt; (DEV: -4 Qualified, 8 Approved, 10 Deferred)." vertex="1">
+        <mxCell id="7S13sJhE8lmu1Y5MN5_U-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;arcSize=8;align=left;spacingLeft=6;" value="Insert or update;&amp;nbsp;&lt;div&gt;Changed: &quot;Problem Statement&quot; or &quot;Requirement Specification&quot; or &quot;High Level Solution Design.&quot;&lt;br&gt;&lt;div&gt;in the states:&amp;nbsp;&lt;div&gt;&lt;i&gt;sartorius.spm.demand.update_mail.states&lt;/i&gt;&amp;nbsp;&lt;div&gt;(-4 Qualified, 8 Approved, 10 Deferred).&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="96" width="280" x="117" y="1219" as="geometry" />
         </mxCell>
         <mxCell id="7S13sJhE8lmu1Y5MN5_U-58" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=12;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="sartorius.spm.demand.updated&lt;br&gt;parm1 changed texts" vertex="1">
