@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" pages="8">
+<mxfile host="app.diagrams.net" pages="9">
   <diagram name="tables" id="9beMuJ8rTLqDgQr592Rf">
-    <mxGraphModel dx="1797" dy="758" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1111,6 +1111,313 @@
         </mxCell>
         <mxCell id="ENDFGwjwfb_bG4pcuwDO-35" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=center;verticalAlign=middle;spacing=4;" value="&lt;b&gt;Notifications&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:10px&#39;&gt;0 in OOTB&lt;/font&gt;" vertex="1">
           <mxGeometry height="72" width="360" x="1041" y="1161" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="G6mzTkCR9qrCQs4TLL1o" name="Page-9">
+    <mxGraphModel dx="1797" dy="758" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9FNF7zbciwz_bhTLOo51-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=44;horizontal=1;collapsible=0;fillColor=#eeeeee;strokeColor=#bbbbbb;swimlaneFillColor=#fbfbfb;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" value="Approvals, configuration,&lt;br&gt;business rules" vertex="1">
+          <mxGeometry height="1439" width="300" x="1550" y="804" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=44;horizontal=1;collapsible=0;fillColor=#eeeeee;strokeColor=#bbbbbb;swimlaneFillColor=#fbfbfb;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" value="Script Include SPMDemandApproval&lt;br&gt;(who approves, what a decision does)" vertex="1">
+          <mxGeometry height="1439" width="330" x="1200" y="804" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=44;horizontal=1;collapsible=0;fillColor=#eeeeee;strokeColor=#bbbbbb;swimlaneFillColor=#fbfbfb;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" value="Subflow SPM Demand Approval&lt;br&gt;(Flow Designer, runs as System User)" vertex="1">
+          <mxGeometry height="1439" width="330" x="850" y="804" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-4" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=44;horizontal=1;collapsible=0;fillColor=#eeeeee;strokeColor=#bbbbbb;swimlaneFillColor=#fbfbfb;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" value="Script Include SPMDemandStateModel&lt;br&gt;(the request)" vertex="1">
+          <mxGeometry height="1439" width="300" x="530" y="804" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-5" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=44;horizontal=1;collapsible=0;fillColor=#eeeeee;strokeColor=#bbbbbb;swimlaneFillColor=#fbfbfb;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" value="Demand form&lt;br&gt;(classic form and workspace)" vertex="1">
+          <mxGeometry height="1439" width="250" x="260" y="804" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-6" parent="1" style="rounded=1;arcSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;UI action Ask for Demand Approval&lt;/b&gt;&lt;br&gt;Form button. Shown when canAskGate2(current): the demand is Qualified and the user may ask. Not offered for a Feature Request." vertex="1">
+          <mxGeometry height="86" width="230" x="270" y="864" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-7" parent="1" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#999999;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Confirmation dialog&lt;/b&gt;&lt;br&gt;OK runs the server script of the UI action." vertex="1">
+          <mxGeometry height="59" width="230" x="270" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-8" parent="1" style="rounded=1;arcSize=10;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;askGate2(demand): the checks&lt;/b&gt;&lt;br&gt;1. Allowed (canAskGate2)?&lt;br&gt;2. Required fields of the state filled?&lt;br&gt;3. Small Demand? Approved at once.&lt;br&gt;4. Impacted Groups filled?&lt;br&gt;5. Approvers? checkRequest(&#39;gate2&#39;, demand)" vertex="1">
+          <mxGeometry height="115" width="280" x="540" y="964" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-9" parent="1" style="rounded=1;arcSize=10;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;6. The demand waits&lt;/b&gt;&lt;br&gt;Substate = Waiting for EA Approval (410), Approval = Requested; the demand is saved." vertex="1">
+          <mxGeometry height="59" width="280" x="540" y="1117" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-10" parent="1" style="rounded=1;arcSize=10;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Request refused&lt;/b&gt;&lt;br&gt;A check fails: error message with the reason, the demand stays as it is. Reasons: not allowed, a required field is empty, Impacted Groups empty, no approval rule, or no approvers." vertex="1">
+          <mxGeometry height="99" width="230" x="270" y="1095" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-11" parent="1" style="rounded=1;arcSize=10;fillColor=#b5d8a8;strokeColor=#4d7a3a;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Small Demand: approved at once&lt;/b&gt;&lt;br&gt;State Approved, Approval Approved, work note. No subflow, no approvers." vertex="1">
+          <mxGeometry height="59" width="230" x="270" y="1216" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-12" parent="1" style="rounded=1;arcSize=10;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;7. _runGate(&#39;gate2&#39;)&lt;/b&gt;&lt;br&gt;sn_fd.FlowAPI.executeSubflow( &#39;global.spm_demand_approval&#39;, { demand })&lt;br&gt;The subflow runs up to its first approval step before the form reloads." vertex="1">
+          <mxGeometry height="86" width="280" x="540" y="1235" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-13" parent="1" style="rounded=1;arcSize=10;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;8. Result of the request&lt;/b&gt;&lt;br&gt;A requested approval of the demand exists: message that the approval was requested. None: error message, not started (the work note says why)." vertex="1">
+          <mxGeometry height="72" width="280" x="540" y="1351" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-14" parent="1" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#999999;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Form reloads&lt;/b&gt;&lt;br&gt;Message, the approvals of the demand and the work note that names the group; the button is gone." vertex="1">
+          <mxGeometry height="72" width="230" x="270" y="1351" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-15" parent="1" style="rounded=1;arcSize=10;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;checkRequest(&#39;gate2&#39;, demand)&lt;/b&gt;&lt;br&gt;Is an approval rule configured for the portfolio category and the demand type of the demand? Does the second step find approvers? If not: the message for the form." vertex="1">
+          <mxGeometry height="72" width="310" x="1210" y="964" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-16" parent="1" style="rounded=1;arcSize=10;fillColor=#f5f5f5;strokeColor=#666666;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;System property&lt;/b&gt;&lt;br&gt;sartorius.spm.demand.demand_approval.rules&lt;br&gt;Per portfolio category (segment of the demand) and demand type: the group of the first step (eaGroup) and the approver sources of the second step. Today, IT:&lt;br&gt;Normal Demand: IT Enterprise Architects; then the manager of the Requester, IT N-2 Approver, the managers of the Impacted Groups, the Additional approvers.&lt;br&gt;BPCR: IT Enterprise Architects; then the managers of the Impacted Groups, the Additional approvers." vertex="1">
+          <mxGeometry height="193" width="260" x="1560" y="954" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-17" parent="1" style="rounded=1;arcSize=10;fillColor=#f5f5f5;strokeColor=#666666;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Subflow, published&lt;/b&gt;&lt;br&gt;Internal name: spm_demand_approval&lt;br&gt;Input: demand (reference to Demand)&lt;br&gt;Flow variables: approver_group, approval_rules, approval_state, outcome&lt;br&gt;No custom action: the scripts of the Set Flow Variables steps call the Script Include." vertex="1">
+          <mxGeometry height="112" width="310" x="860" y="864" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-18" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=11;fontColor=#333333;" value="&lt;b&gt;First step&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="860" y="1209" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-19" parent="1" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;1. Set Flow Variables: Prepare the first step&lt;/b&gt;&lt;br&gt;approver_group = prepareGroup(demand, &#39;ea&#39;)" vertex="1">
+          <mxGeometry height="60" width="276" x="860" y="1235" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-20" parent="1" style="rounded=1;arcSize=10;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;prepareGroup(demand, &#39;ea&#39;)&lt;/b&gt;&lt;br&gt;The group of the first step (eaGroup of the rule: IT Enterprise Architects). Empty when the type has no first step or the demand waits for the second step already (substate 420). Writes the work note that names the group." vertex="1">
+          <mxGeometry height="86" width="310" x="1210" y="1235" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-21" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=center;verticalAlign=middle;spacing=2;" value="&lt;b&gt;2. If&lt;/b&gt;&lt;br&gt;approver_group&lt;br&gt;is not empty" vertex="1">
+          <mxGeometry height="84" width="180" x="890" y="1319" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-22" parent="1" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;3. Ask For Approval&lt;/b&gt;&lt;br&gt;Record: the demand. Rule: anyone of the group approves or rejects. The subflow waits here." vertex="1">
+          <mxGeometry height="78" width="276" x="860" y="1431" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-23" parent="1" style="rounded=1;arcSize=10;fillColor=#f5f5f5;strokeColor=#666666;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Approval records, first step&lt;/b&gt;&lt;br&gt;Table sysapproval_approver: one request per active member of the group. The first decision decides; the other requests become No Longer Required." vertex="1">
+          <mxGeometry height="86" width="260" x="1560" y="1431" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-24" parent="1" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;4. Set Flow Variables: Decision (first step)&lt;/b&gt;&lt;br&gt;approval_state = Approval State of step 3" vertex="1">
+          <mxGeometry height="45" width="276" x="860" y="1539" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-25" parent="1" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;5. Set Flow Variables: Apply the decision (first step)&lt;/b&gt;&lt;br&gt;outcome = applyResult(demand, &#39;ea&#39;, approval_state)" vertex="1">
+          <mxGeometry height="72" width="276" x="860" y="1614" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-26" parent="1" style="rounded=1;arcSize=10;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;applyResult(demand, &#39;ea&#39;, approval_state)&lt;/b&gt;&lt;br&gt;Approved: Substate = Waiting for Demand Approval (420), work note &#39;Demand approved by IT Enterprise Architects (...). Now waiting for Demand Approval.&#39;&lt;br&gt;Rejected: back to Qualified (see Rejected below); step 6 then asks nothing." vertex="1">
+          <mxGeometry height="99" width="310" x="1210" y="1584" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-27" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=11;fontColor=#333333;" value="&lt;b&gt;Second step&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="860" y="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-28" parent="1" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;6. Set Flow Variables: Prepare the second step&lt;/b&gt;&lt;br&gt;approval_rules = prepareRules(demand)" vertex="1">
+          <mxGeometry height="60" width="276" x="860" y="1746" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-29" parent="1" style="rounded=1;arcSize=10;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;prepareRules(demand)&lt;/b&gt;&lt;br&gt;Only while the demand waits for the second step (420). Collects the approvers the rule names: the manager of the Requester, the active members of the member groups, the managers of the Impacted Groups, the Additional approvers. Active users only, each once. Writes the work note that names them. Returns ApprovesAllU[users]OrRejectsAnyU[users], or empty." vertex="1">
+          <mxGeometry height="126" width="310" x="1210" y="1746" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-30" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=center;verticalAlign=middle;spacing=2;" value="&lt;b&gt;7. If&lt;/b&gt;&lt;br&gt;approval_rules&lt;br&gt;is not empty" vertex="1">
+          <mxGeometry height="84" width="180" x="890" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-31" parent="1" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;align=center;verticalAlign=middle;spacing=4;" value="End" vertex="1">
+          <mxGeometry height="40" width="56" x="1114" y="1852" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-32" parent="1" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;8. Ask For Approval&lt;/b&gt;&lt;br&gt;Record: the demand. Rules = approval_rules (script): all approvers approve, one rejection decides. The subflow waits here." vertex="1">
+          <mxGeometry height="78" width="276" x="860" y="1942" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-33" parent="1" style="rounded=1;arcSize=10;fillColor=#f5f5f5;strokeColor=#666666;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Approval records, second step&lt;/b&gt;&lt;br&gt;Table sysapproval_approver: one request per approver. All of them approve, or one rejection decides." vertex="1">
+          <mxGeometry height="78" width="260" x="1560" y="1942" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-34" parent="1" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;9. Set Flow Variables: Decision (second step)&lt;/b&gt;&lt;br&gt;approval_state = Approval State of step 8" vertex="1">
+          <mxGeometry height="45" width="276" x="860" y="2050" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-35" parent="1" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;10. Set Flow Variables: Apply the decision (second step)&lt;/b&gt;&lt;br&gt;outcome = applyResult(demand, &#39;demand&#39;, approval_state)" vertex="1">
+          <mxGeometry height="72" width="276" x="860" y="2125" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-36" parent="1" style="rounded=1;arcSize=10;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;applyResult(demand, &#39;demand&#39;, approval_state)&lt;/b&gt;&lt;br&gt;Reloads the demand and applies the decision only while the demand still waits for this approval (substate 420). Returns approved, rejected or ended." vertex="1">
+          <mxGeometry height="72" width="310" x="1210" y="2111" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-37" parent="1" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#999999;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Approvers&lt;/b&gt;&lt;br&gt;Approval request email, My Approvals or the portal: Approve or Reject, with a comment. No reminders and no automatic rejection (dmn_demand is in sartorius.approval.exclude_tables)." vertex="1">
+          <mxGeometry height="86" width="260" x="1560" y="1687" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-38" parent="1" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#999999;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Defer or Reset to Draft while an approval waits&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="1560" y="2060" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-39" parent="1" style="rounded=1;arcSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Business rule SPM-StateActionNotes-dmn_demand&lt;/b&gt;&lt;br&gt;Before update, order 970: State changes. noteStateActions cancels the open requests (state Cancelled), sets Approval back to Not Yet Requested and writes a work note." vertex="1">
+          <mxGeometry height="99" width="260" x="1560" y="2120" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-40" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;" value="Demand Approval of a demand: how it is implemented (STRY0014520)" vertex="1">
+          <mxGeometry height="30" width="1300" x="260" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-41" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#555555;" value="Components and working logic as built. Solid arrow: what happens next. Dashed arrow: a call, or data that is read or written." vertex="1">
+          <mxGeometry height="22" width="1560" x="260" y="772" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-42" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-43" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3957;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-8" value="OK">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-44" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0;exitY=0.7043;exitDx=0;exitDy=0;entryX=1;entryY=0.2222;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="516" y="1045" />
+              <mxPoint x="516" y="1117" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-45" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0;exitY=0.8957;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="524" y="1067" />
+              <mxPoint x="524" y="1245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-46" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#666666;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0.3478;exitDx=0;exitDy=0;entryX=0;entryY=0.5556;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-15" value="5. calls">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-47" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#666666;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0.5556;exitDx=0;exitDy=0;entryX=0;entryY=0.2591;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-16" value="reads">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-48" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-9" value="all good">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-49" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-50" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=1;exitY=0.3256;exitDx=0;exitDy=0;entryX=0;entryY=0.4667;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-19" value="starts">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-51" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-52" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-53" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#666666;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0.4667;exitDx=0;exitDy=0;entryX=0;entryY=0.3256;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-20" value="calls">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-54" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.4348;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-55" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4348;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-22" value="yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-56" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#666666;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0.2821;exitDx=0;exitDy=0;entryX=0;entryY=0.2558;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-23" value="creates the requests">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-57" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#666666;dashed=1;endArrow=open;endFill=0;exitX=0;exitY=0.6744;exitDx=0;exitDy=0;entryX=1;entryY=0.7436;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-22" value="decision: the subflow goes on">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-58" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.4348;exitY=1;exitDx=0;exitDy=0;entryX=0.4348;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-59" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.4348;exitY=1;exitDx=0;exitDy=0;entryX=0.4348;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-60" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#666666;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0.4167;exitDx=0;exitDy=0;entryX=0;entryY=0.6061;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-26" value="calls">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-61" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.4348;exitY=1;exitDx=0;exitDy=0;entryX=0.4348;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-62" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.35;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-28" value="empty">
+          <mxGeometry relative="1" x="-0.92" as="geometry">
+            <Array as="points">
+              <mxPoint x="1154" y="1361" />
+              <mxPoint x="1154" y="1767" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-63" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#666666;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0.4667;exitDx=0;exitDy=0;entryX=0;entryY=0.2222;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-29" value="calls">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-64" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.4348;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-65" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4348;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-32" value="yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-66" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-31" value="empty">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-67" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#666666;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0.2821;exitDx=0;exitDy=0;entryX=0;entryY=0.2821;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-33" value="creates the requests">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-68" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#666666;dashed=1;endArrow=open;endFill=0;exitX=0;exitY=0.7436;exitDx=0;exitDy=0;entryX=1;entryY=0.7436;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-32" value="decision: the subflow goes on">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-69" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.4348;exitY=1;exitDx=0;exitDy=0;entryX=0.4348;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-70" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.4348;exitY=1;exitDx=0;exitDy=0;entryX=0.4348;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-71" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#666666;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0.4167;exitDx=0;exitDy=0;entryX=0;entryY=0.6111;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-36" value="calls">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-72" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-37" value="request, decision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-73" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-33" value="request, decision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-74" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-75" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#666666;dashed=1;endArrow=open;endFill=0;horizontal=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-33" value="cancels">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1833" y="2169" />
+              <mxPoint x="1833" y="1981" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-76" parent="1" style="rounded=1;arcSize=10;fillColor=#b5d8a8;strokeColor=#4d7a3a;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Approved&lt;/b&gt;&lt;br&gt;State Approved, Substate Approved, Approval Approved.&lt;br&gt;Work note: &#39;Demand approved (all approvers approved). Next: Create Project, or Close.&#39;" vertex="1">
+          <mxGeometry height="80" width="430" x="530" y="2287" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-77" parent="1" style="rounded=1;arcSize=10;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Rejected (first or second step)&lt;/b&gt;&lt;br&gt;State Qualified, Substate Qualified, Approval Rejected.&lt;br&gt;Work note with the approver, the comment and what comes next: rework, then Ask for Demand Approval again (it starts with the first step), or Defer." vertex="1">
+          <mxGeometry height="80" width="430" x="980" y="2287" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-78" parent="1" style="rounded=1;arcSize=10;fillColor=#f5f5f5;strokeColor=#666666;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Ended without a decision&lt;/b&gt;&lt;br&gt;The demand was deferred or reset to Draft: the requests are cancelled, the subflow ends and changes nothing (outcome ended). A decision that arrives later is not applied." vertex="1">
+          <mxGeometry height="80" width="420" x="1430" y="2287" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-79" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.2;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-76" value="approved">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1272" y="2263" />
+              <mxPoint x="745" y="2263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-80" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-77" value="rejected">
+          <mxGeometry relative="1" x="0.2" as="geometry">
+            <Array as="points">
+              <mxPoint x="1365" y="2273" />
+              <mxPoint x="1302" y="2273" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-81" edge="1" parent="1" source="9FNF7zbciwz_bhTLOo51-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;labelBackgroundColor=#ffffff;strokeColor=#333333;endArrow=block;endFill=1;exitX=0.8;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9FNF7zbciwz_bhTLOo51-78" value="ended">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1458" y="2263" />
+              <mxPoint x="1640" y="2263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-82" parent="1" style="rounded=1;arcSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="UI action, business rule" vertex="1">
+          <mxGeometry height="28" width="200" x="260" y="2393" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-83" parent="1" style="rounded=1;arcSize=10;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="Script Include (method)" vertex="1">
+          <mxGeometry height="28" width="200" x="472" y="2393" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-84" parent="1" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="Subflow step" vertex="1">
+          <mxGeometry height="28" width="200" x="684" y="2393" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-85" parent="1" style="rounded=1;arcSize=10;fillColor=#f5f5f5;strokeColor=#666666;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="Data, configuration" vertex="1">
+          <mxGeometry height="28" width="200" x="896" y="2393" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-86" parent="1" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#999999;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="People, form" vertex="1">
+          <mxGeometry height="28" width="200" x="1108" y="2393" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-87" parent="1" style="rounded=1;arcSize=10;fillColor=#b5d8a8;strokeColor=#4d7a3a;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="Result: approved" vertex="1">
+          <mxGeometry height="28" width="200" x="1320" y="2393" as="geometry" />
+        </mxCell>
+        <mxCell id="9FNF7zbciwz_bhTLOo51-88" parent="1" style="rounded=1;arcSize=10;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;spacing=6;" value="Result: refused, rejected" vertex="1">
+          <mxGeometry height="28" width="200" x="1532" y="2393" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
